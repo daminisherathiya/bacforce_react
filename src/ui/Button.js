@@ -1,6 +1,6 @@
 const Button = ({ additionalClasses, type = "button", children }) => {
   const allClasses =
-    "3xl:px-10 2xl:px-9 xl:px-8 md:px-5 px-4 3xl:py-5 2xl:py-4 xl:py-3 py-2 uppercase text-white " +
+    "px-[max(15px,2.083vw)] py-[max(15px,0.938vw)] uppercase text-white text-[max(15px,0.833vw)] " +
     additionalClasses;
   return (
     <div>
