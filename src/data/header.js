@@ -3,6 +3,7 @@ import call_icon from "../../public/images/header/call-yellow-icon.png";
 import wp_icon from "../../public/images/header/wp-icon.png";
 import sales_1 from "../../public/images/header/sales-1.jpeg";
 import sales_2 from "../../public/images/header/sales-2.jpeg";
+import sales_3 from "../../public/images/header/sales-3.jpeg";
 
 export const contacts = [
   {
@@ -28,38 +29,62 @@ export const contacts = [
   },
 ];
 
-export const salesforce_services = {
-  title: "Salesforce Services",
-  links: [
-    [
-      { name: "Salesforce Consulting", url: "" },
-      { name: "Salesforce Customization", url: "" },
-      { name: "Salesforce Implementation", url: "" },
-      { name: "Salesforce Integration", url: "" },
-      { name: "Salesforce Data Migration", url: "" },
+export const services = [
+  {
+    id: 1,
+    title: "About Us",
+    href: "https://bacforce.com/about-us",
+  },
+  {
+    id: 2,
+    title: "Salesforce Services",
+    links: [
+      [
+        { name: "Salesforce Consulting", url: "" },
+        { name: "Salesforce Customization", url: "" },
+        { name: "Salesforce Implementation", url: "" },
+        { name: "Salesforce Integration", url: "" },
+        { name: "Salesforce Data Migration", url: "" },
+      ],
+      [
+        { name: "Salesforce Managed", url: "" },
+        { name: "Salesforce Support", url: "" },
+        { name: "Salesforce CPQ", url: "" },
+      ],
     ],
-    [
-      { name: "Salesforce Managed", url: "" },
-      { name: "Salesforce Support", url: "" },
-      { name: "Salesforce CPQ", url: "" },
+    img: sales_1,
+  },
+  {
+    id: 3,
+    title: "Salesforce Cloud",
+    links: [
+      [
+        { name: "Service Cloud", url: "" },
+        { name: "Marketing Cloud", url: "" },
+        { name: "Sales Cloud", url: "" },
+      ],
+      [
+        { name: "Vaccine Cloud ", url: "" },
+        { name: "Commerce Cloud", url: "" },
+        { name: "Financial Cloud", url: "" },
+      ],
     ],
-  ],
-  img: sales_1,
-};
-
-export const salesforce_cloud = {
-  title: "Salesforce Cloud",
-  links: [
-    [
-      { name: "Service Cloud", url: "" },
-      { name: "Marketing Cloud", url: "" },
-      { name: "Sales Cloud", url: "" },
+    img: sales_2,
+  },
+  {
+    id: 4,
+    title: "Expertise",
+    links: [
+      [
+        { name: "Salesforce Development", url: "" },
+        { name: "Marketing Cloud", url: "" },
+        { name: "Hire Mulesoft Developer", url: "" },
+      ],
+      [
+        { name: "Salesforce AppExchange ", url: "" },
+        { name: "Salesforce App Developer", url: "" },
+      ],
     ],
-    [
-      { name: "Vaccine Cloud ", url: "" },
-      { name: "Commerce Cloud", url: "" },
-      { name: "Financial Cloud", url: "" },
-    ],
-  ],
-  img: sales_2,
-};
+    img: sales_3,
+  },
+];
