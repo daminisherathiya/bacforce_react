@@ -1,10 +1,11 @@
 import Image from "next/image";
 import HeaderFooter from "./HeaderFooter";
-const SubHeader = ({ services, open }) => {
-  const { title, links, img } = services;
+
+const SubHeader = ({ open, service }) => {
+  const { title, links, img } = service;
   return (
     <div
-      className={`absolute left-0 top-full bg-white px-[max(15px,2.917vw)]${
+      className={`absolute left-0 top-full bg-white px-[max(15px,2.917vw)] ${
         open ? "" : "hidden"
       }`}
     >

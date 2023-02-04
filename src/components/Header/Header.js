@@ -9,6 +9,7 @@ import MobileSubHeader from "./MobileSubHeader";
 const Header = () => {
   const [openIndex, setopenIndex] = useState(-1);
   const [menuToggle, setmenuToggle] = useState(false);
+
   const openHandler = (i) => {
     if (openIndex === i) {
       return setopenIndex(-1);
@@ -42,7 +43,7 @@ const Header = () => {
                 ) : (
                   <>
                     <button>{service.title}</button>
-                    <SubHeader open={i === openIndex} services={service} />
+                    <SubHeader open={i === openIndex} service={service} />
                   </>
                 )}
               </li>
