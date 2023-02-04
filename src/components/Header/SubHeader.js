@@ -5,7 +5,7 @@ const SubHeader = ({ services, open }) => {
   return (
     <div
       className={`absolute left-0 top-full bg-white px-[max(15px,2.917vw)]${
-        !open ? " hidden" : ""
+        open ? "" : "hidden"
       }`}
     >
       <div className="text-charcoal grid grid-cols-2 p-[max(10px,1.042vw)]">
