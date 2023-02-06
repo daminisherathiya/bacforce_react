@@ -5,8 +5,8 @@ const SubHeader = ({ open, service }) => {
   const { title, links, img } = service;
   return (
     <div
-      className={`absolute left-0 top-full bg-white px-[max(15px,2.917vw)] ${
-        open ? "" : "hidden"
+      className={`subheader-animation absolute left-0 top-full bg-white px-[max(15px,2.917vw)] ${
+        open ? "visible" : "invisible"
       }`}
     >
       <div className="text-charcoal grid grid-cols-2 p-[max(10px,1.042vw)]">

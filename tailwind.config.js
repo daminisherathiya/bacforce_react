@@ -31,7 +31,11 @@ module.exports = {
       "primary": "#161616",
       "secondary": "#454545",
     },
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '359px',
+      }
+    },
   },
   plugins: [],
 }

@@ -1,5 +1,5 @@
-const MobileSubHeader = ({ services, open }) => {
-  const { links, title } = services;
+const MobileSubHeader = ({ service, open }) => {
+  const { links, title } = service;
   return (
     <>
       <button className={`submenu w-full text-left ${open ? "open" : ""}`}>{title}</button>

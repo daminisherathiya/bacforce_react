@@ -10,7 +10,7 @@ const Header = () => {
   const [openIndex, setopenIndex] = useState(-1);
   const [menuToggle, setmenuToggle] = useState(false);
 
-  const openHandler = (i) => {
+  const openHandler = (event, i) => {
     if (openIndex === i) {
       return setopenIndex(-1);
     }
@@ -26,7 +26,7 @@ const Header = () => {
           <Image
             src={logo}
             alt="Bacforce"
-            className="w-[max(100px,10.417vw)]"
+            className="w-[max(100px,10.417vw)] z-10 relative"
             priority
           />
         </a>
@@ -35,7 +35,7 @@ const Header = () => {
             {services.map((service, i) => (
               <li
                 key={service.id}
-                onClick={openHandler.bind(null, i)}
+                onClick={(event) => openHandler(event, i)}
                 className="text-charcoal"
               >
                 {service.href ? (
@@ -64,31 +64,46 @@ const Header = () => {
               menuToggle ? "open" : ""
             }`}
           >
-            <span className="hamburger-top"></span>
-            <span className="hamburger-middle"></span>
-            <span className="hamburger-bottom"></span>
+            <span className={`hamburger-top bg-black ${menuToggle ? "xs:bg-white" : ""}`}></span>
+            <span className={`hamburger-middle bg-black ${menuToggle ? "xs:bg-white" : ""}`}></span>
+            <span className={`hamburger-bottom bg-black ${menuToggle ? "xs:bg-white" : ""}`}></span>
           </button>
         </div>
       </div>
+      <div
+        className={`sidebar-backdrop lg:opacity-0 ${
+          menuToggle ? "block opacity-50" : "hidden"
+        }`}
+      ></div>
       {/* mobile menu */}
-      <div className="fixed top-0 left-0 h-screen w-[min(max(274px,73.067vw),500px)] bg-white px-5 pt-28 text-[max(18px,2.344vw)] text-secondary lg:hidden">
-        <ul className="space-y-3">
+      <div
+        className={`fixed top-0 h-screen w-screen xs:w-[min(max(274px,73.067vw),500px)] bg-white px-5 pt-28 text-[max(18px,2.344vw)] text-secondary transition-all duration-500 lg:hidden ${
+          menuToggle ? "left-0" : "-left-full xs:-left-[73.067vw]"
+        }`}
+      >
+        <ul className="space-y-3 h-full overflow-y-auto no-scrollbar">
           {services.map((service, i) => (
             <li
               className="space-y-3"
               key={service.id}
-              onClick={openHandler.bind(null, i)}
+              onClick={(event) => openHandler(event, i)}
             >
               {service.href ? (
                 <a href={service.href} className="block">
                   {service.title}
                 </a>
               ) : (
-                  <MobileSubHeader open={i === openIndex} services={service} />
+                <MobileSubHeader open={i === openIndex} service={service} />
               )}
             </li>
           ))}
         </ul>
+        <ButtonLink
+          additionalClasses="bg-green-blue mt-6"
+          href="https://bacforce.com/contactus"
+        >
+          Get Quote
+        </ButtonLink>
       </div>
     </div>
   );
