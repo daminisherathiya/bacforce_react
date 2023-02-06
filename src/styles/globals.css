@@ -132,14 +132,14 @@
 }
 
 /* https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working */
-.subheader-animation.invisible {
+/* .subheader-animation.invisible {
   opacity: 0;
   transition: visibility 0.5s linear, opacity 0.5s linear;
 }
 .subheader-animation.visible {
   opacity: 1;
   transition: opacity 0.5s linear;
-}
+} */
 
 /*  */
 .sidebar-backdrop {

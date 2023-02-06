@@ -10,7 +10,7 @@ const Header = () => {
   const [openIndex, setopenIndex] = useState(-1);
   const [menuToggle, setmenuToggle] = useState(false);
 
-  const openHandler = (event, i) => {
+  const openHandler = (i) => {
     if (openIndex === i) {
       return setopenIndex(-1);
     }
@@ -35,14 +35,13 @@ const Header = () => {
             {services.map((service, i) => (
               <li
                 key={service.id}
-                onClick={(event) => openHandler(event, i)}
                 className="text-charcoal"
               >
                 {service.href ? (
                   <a href={service.href}>{service.title}</a>
                 ) : (
                   <>
-                    <button>{service.title}</button>
+                    <button onClick={() => openHandler(i)}>{service.title}</button>
                     <SubHeader open={i === openIndex} service={service} />
                   </>
                 )}
@@ -98,7 +97,7 @@ const Header = () => {
             {services.map((service, i) => (
               <li
                 key={service.id}
-                onClick={(event) => openHandler(event, i)}
+                onClick={() => openHandler(i)}
               >
                 {service.href ? (
                   <a href={service.href} className="block">
@@ -111,7 +110,7 @@ const Header = () => {
             ))}
           </ul>
           <ButtonLink
-            additionalClasses="bg-green-blue mt-6"
+            additionalClasses="bg-green-blue mt-6 text-[max(18px,2.344vw)]"
             href="https://bacforce.com/contactus"
           >
             Get Quote

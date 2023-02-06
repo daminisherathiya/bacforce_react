@@ -1,13 +1,15 @@
 import Image from "next/image";
 import HeaderFooter from "./HeaderFooter";
+import { useRef } from "react";
 
 const SubHeader = ({ open, service }) => {
+  const toogleHeight = useRef();
   const { title, links, img } = service;
   return (
     <div
-      className={`subheader-animation absolute left-0 top-full bg-white px-[max(15px,2.917vw)] ${
-        open ? "visible" : "invisible"
-      }`}
+      ref={toogleHeight}
+      className="absolute left-0 top-full overflow-hidden bg-white px-[max(15px,2.917vw)] transition-all duration-300"
+      style={{ maxHeight: open ? toogleHeight.current.scrollHeight : "0" }}
     >
       <div className="text-charcoal grid grid-cols-2 p-[max(10px,1.042vw)]">
         <div className="space-y-[max(10px,1.042vw)]">
