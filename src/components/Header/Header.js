@@ -26,7 +26,7 @@ const Header = () => {
           <Image
             src={logo}
             alt="Bacforce"
-            className="w-[max(100px,10.417vw)] z-10 relative"
+            className="relative z-10 w-[max(100px,10.417vw)]"
             priority
           />
         </a>
@@ -60,13 +60,25 @@ const Header = () => {
           <button
             type="button"
             onClick={toggleMenuHandler}
-            className={`hamburger z-40 block focus:outline-none lg:hidden ${
+            className={`hamburger z-40 block outline-none focus:outline-none lg:hidden ${
               menuToggle ? "open" : ""
             }`}
           >
-            <span className={`hamburger-top bg-black ${menuToggle ? "xs:bg-white" : ""}`}></span>
-            <span className={`hamburger-middle bg-black ${menuToggle ? "xs:bg-white" : ""}`}></span>
-            <span className={`hamburger-bottom bg-black ${menuToggle ? "xs:bg-white" : ""}`}></span>
+            <span
+              className={`hamburger-top bg-black ${
+                menuToggle ? "xs:bg-white" : ""
+              }`}
+            ></span>
+            <span
+              className={`hamburger-middle bg-black ${
+                menuToggle ? "xs:bg-white" : ""
+              }`}
+            ></span>
+            <span
+              className={`hamburger-bottom bg-black ${
+                menuToggle ? "xs:bg-white" : ""
+              }`}
+            ></span>
           </button>
         </div>
       </div>
@@ -77,33 +89,34 @@ const Header = () => {
       ></div>
       {/* mobile menu */}
       <div
-        className={`fixed top-0 h-screen w-screen xs:w-[min(max(274px,73.067vw),500px)] bg-white px-5 pt-28 text-[max(18px,2.344vw)] text-secondary transition-all duration-500 lg:hidden ${
+        className={`fixed top-0 h-screen w-screen bg-white px-5 pb-5 pt-28 text-[max(18px,2.344vw)] text-secondary transition-all duration-500 xs:w-[min(max(274px,73.067vw),500px)] lg:hidden ${
           menuToggle ? "left-0" : "-left-full xs:-left-[73.067vw]"
         }`}
       >
-        <ul className="space-y-3 h-full overflow-y-auto no-scrollbar">
-          {services.map((service, i) => (
-            <li
-              className="space-y-3"
-              key={service.id}
-              onClick={(event) => openHandler(event, i)}
-            >
-              {service.href ? (
-                <a href={service.href} className="block">
-                  {service.title}
-                </a>
-              ) : (
-                <MobileSubHeader open={i === openIndex} service={service} />
-              )}
-            </li>
-          ))}
-        </ul>
-        <ButtonLink
-          additionalClasses="bg-green-blue mt-6"
-          href="https://bacforce.com/contactus"
-        >
-          Get Quote
-        </ButtonLink>
+        <div className="no-scrollbar h-full overflow-y-auto">
+          <ul className="space-y-3">
+            {services.map((service, i) => (
+              <li
+                key={service.id}
+                onClick={(event) => openHandler(event, i)}
+              >
+                {service.href ? (
+                  <a href={service.href} className="block">
+                    {service.title}
+                  </a>
+                ) : (
+                  <MobileSubHeader open={i === openIndex} service={service} />
+                )}
+              </li>
+            ))}
+          </ul>
+          <ButtonLink
+            additionalClasses="bg-green-blue mt-6"
+            href="https://bacforce.com/contactus"
+          >
+            Get Quote
+          </ButtonLink>
+        </div>
       </div>
     </div>
   );
