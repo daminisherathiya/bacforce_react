@@ -33,6 +33,7 @@ module.exports = {
     },
     borderColor: {
       gray: "#D0D0D0",
+      white: "#D0D0D0",
     },
     boxShadow: {
       DEFAULT: "0px 50px 60px #0000000D",

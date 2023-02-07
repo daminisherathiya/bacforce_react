@@ -11,7 +11,7 @@ const WeOffer = () => {
             We Offer
           </h2>
           <div className="space-y-[max(35px,2.500vw)]">
-            <p>
+            <p className="text-[max(16px,0.938vw)]">
               We offer a comprehensive range of Salesforce development services
               at pocket-friendly prices.
             </p>

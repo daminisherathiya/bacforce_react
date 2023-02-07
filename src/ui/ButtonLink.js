@@ -1,4 +1,4 @@
-const Button = ({ additionalClasses, href = "#", children }) => {
+const ButtonLink = ({ additionalClasses, href = "#", children }) => {
   const allClasses =
     "px-[max(15px,2.083vw)] py-[max(12px,0.938vw)] uppercase text-white text-[max(12px,0.833vw)] inline-block text-center " +
     additionalClasses;
@@ -10,4 +10,4 @@ const Button = ({ additionalClasses, href = "#", children }) => {
     </div>
   );
 };
-export default Button;
+export default ButtonLink;
