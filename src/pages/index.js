@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner/Banner";
 import Challenges from "@/components/Challenges";
+import Faq from "@/components/Faq";
 import Header from "@/components/Header/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import ProcessofHiring from "@/components/ProcessofHiring";
@@ -22,6 +23,7 @@ const index = () => {
   <TechnicalExpertise/>
   <SuccessStories/>
   <ProcessofHiring/>
+  <Faq/>
   </>
 };
 
