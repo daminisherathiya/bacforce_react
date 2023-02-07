@@ -1,5 +1,5 @@
-const { default: Input } = require("@/ui/Input")
-const { default: Textarea } = require("@/ui/Textarea")
+import Input from "@/ui/Input";
+import Textarea from "@/ui/Textarea";
 
 const WeHelp = () => {
   return (
@@ -11,12 +11,12 @@ const WeHelp = () => {
         <div className="col-span-7">
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
-              <Input type="text" placeholder="Full Name"/>
-              <Input type="email" placeholder="Email"/>
-              <Input type="tel" placeholder="Phone Number"/>
+              <Input type="text" placeholder="Full Name" />
+              <Input type="email" placeholder="Email" />
+              <Input type="tel" placeholder="Phone Number" />
             </div>
             <div>
-              <Textarea placeholder="Message"/>
+              <Textarea placeholder="Message" />
             </div>
           </div>
         </div>
