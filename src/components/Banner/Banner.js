@@ -17,7 +17,6 @@ const Banner = () => {
                 {feature}
               </li>
             ))}
-            <li className="relative pl-7">Flexible engagement models</li>
           </ul>
         </div>
         <BannerForm />

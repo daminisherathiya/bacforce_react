@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner/Banner";
+import Challenges from "@/components/Challenges";
 import Header from "@/components/Header/Header";
 import TrustedCompany from "@/components/TrustedCompany";
 import React from "react";
@@ -8,6 +9,7 @@ const index = () => {
   <Header></Header>
   <Banner/>
   <TrustedCompany/>
+  <Challenges/>
   </>
 };
 
