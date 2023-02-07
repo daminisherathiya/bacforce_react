@@ -36,6 +36,7 @@ module.exports = {
     },
     boxShadow: {
       DEFAULT: "0px 50px 60px #0000000D",
+      sm: "0px 10px 60px #DDE7FBCC",
     },
     extend: {
       screens: {
