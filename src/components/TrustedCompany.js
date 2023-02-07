@@ -14,11 +14,11 @@ const TrustedCompany = () => {
           improve their Salesforce and accelerate revenue.
         </p>
         <div className="grid grid-cols-5">
-          <div className="mx-auto"><Image src={logo1} /></div>
-          <div className="mx-auto"><Image src={logo2} /></div>
-          <div className="mx-auto"><Image src={logo3} /></div>
-          <div className="mx-auto"><Image src={logo4} /></div>
-          <div className="mx-auto"><Image src={logo5} /></div>
+          <div className="mx-auto"><Image src={logo1} alt="Mercedes" /></div>
+          <div className="mx-auto"><Image src={logo2} alt="Warnar Bros" /></div>
+          <div className="mx-auto"><Image src={logo3} alt="Disney" /></div>
+          <div className="mx-auto"><Image src={logo4} alt="Dubai Bazar" /></div>
+          <div className="mx-auto"><Image src={logo5} alt="Red Bull" /></div>
         </div>
       </div>
     </section>
