@@ -2,6 +2,7 @@ import Banner from "@/components/Banner/Banner";
 import Challenges from "@/components/Challenges";
 import Header from "@/components/Header/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
+import ProcessofHiring from "@/components/ProcessofHiring";
 import Success from "@/components/Success";
 import SuccessStories from "@/components/SuccessStories";
 import TechnicalExpertise from "@/components/TechnicalExpertise";
@@ -20,6 +21,7 @@ const index = () => {
   <Success/>
   <TechnicalExpertise/>
   <SuccessStories/>
+  <ProcessofHiring/>
   </>
 };
 
