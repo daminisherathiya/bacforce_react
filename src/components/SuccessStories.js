@@ -6,7 +6,7 @@ import case_study_3 from "../../public/images/case-study/case-study-3.jpg";
 const SuccessStories = () => {
   return (
     <section className="bg-gradient-to-r from-white to-water px-[max(20px,13.542vw)] py-[max(50px,5.208vw)] text-center">
-      <h2 className="mb-[max(15px,1.250vw)] text-[max(30px,2.396vw)] font-bold text-dark ">
+      <h2 className="mb-[max(15px,1.250vw)] font-bold text-dark">
         <span className="font-light">Our Salesforce </span>
         Success Stories
       </h2>

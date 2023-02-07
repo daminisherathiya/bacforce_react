@@ -4,7 +4,7 @@ import { salesforce_developers } from "@/data/TechnicalExpertise";
 const TechnicalExpertise = () => {
   return (
     <section className="px-[max(20px,13.542vw)] pb-[max(50px,5.208vw)] text-center">
-      <h2 className="mb-[max(35px,3.125vw)] text-[max(30px,2.396vw)] font-bold text-dark">
+      <h2 className="mb-[max(35px,3.125vw)] font-bold text-dark">
         <span className="font-light">Technical Expertise of </span>
         Our Salesforce Developers
       </h2>

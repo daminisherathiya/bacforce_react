@@ -1,7 +1,7 @@
 const ProcessofHiring = () => {
   return (
     <section className="px-[max(20px,13.542vw)] py-[max(50px,5.208vw)] text-center">
-      <h2 className="mb-[max(15px,1.250vw)] text-[max(30px,2.396vw)] font-bold text-dark ">
+      <h2 className="mb-[max(15px,1.250vw)] font-bold text-dark ">
         Process of Hiring
         <span className="font-light"> Salesforce Developer</span>
       </h2>

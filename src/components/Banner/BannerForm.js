@@ -5,7 +5,7 @@ import Textarea from "@/ui/Textarea";
 const BannerForm = () => {
   return (
     <div className="col-span-6 bg-white p-[max(20px,2.500vw)] text-center shadow 2xl:col-span-5">
-      <h3 className="mb-[max(35px,2.500vw)] text-[max(18px,1.250vw)] font-bold">
+      <h3 className="mb-[max(35px,2.500vw)] font-bold">
         Schedule A Developer Interview and Get 15 Days Risk-Free Trial
       </h3>
       <div className="space-y-3">

@@ -34,10 +34,10 @@ const SubHeader = ({ open, service }) => {
               className="w-[max(500px,45.313vw)]"
             />
             <div className="absolute top-1/2 -translate-y-2/4 p-[max(18px,1.250vw)]">
-              <h2 className="text-[max(28px,1.875vw)] leading-normal">
+              <h3>
                 Let’s grow together
                 <b className="block">Partner with us</b>
-              </h2>
+              </h3>
               <a className="uppercase">get quote</a>
             </div>
           </div>

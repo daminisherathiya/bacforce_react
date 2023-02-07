@@ -4,7 +4,7 @@ import challanges from "../../public/images/trusted-company-logo/challanges.jpg"
 const Challenges = () => {
   return (
     <section className="px-[max(20px,13.542vw)] py-[max(50px,5.208vw)]">
-      <h2 className="mb-[max(40px,4.427vw)] text-[max(30px,2.396vw)] font-bold text-dark">
+      <h2 className="mb-[max(40px,4.427vw)] font-bold text-dark">
         <span className="font-light">Challenges Re-Solved by</span> Our
         Professional Salesforce Developer
       </h2>

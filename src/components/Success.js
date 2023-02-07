@@ -4,17 +4,17 @@ const Success = () => {
       <div className="bg-primary grid grid-cols-12 p-[max(35px,3.646vw)] text-center text-white shadow">
         <div className="col-span-8 col-start-3 space-y-[max(25px,2.083vw)]">
           <div>
-            <a
+            <h2><a
               href="mailto:solutions@bacforce.com"
-              className="text-[max(30px,2.396vw)] underline"
+              className="underline"
             >
               solutions@bacforce.com
-            </a>
-            <p className="text-[max(18px,1.563vw)] font-light">
+            </a></h2>
+            <h3 className="font-light">
               Your Success Is Guaranteed !
-            </p>
+            </h3>
           </div>
-          <p className="text-[max(16px,1.042vw)]">
+          <p>
             We accelerate the release of digital products and guarantee your
             success We Use <span className="font-bold">Slack </span>,
             <span className="font-bold">Jira </span> &

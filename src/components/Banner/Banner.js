@@ -8,11 +8,11 @@ const Banner = () => {
           <h1 className=" text-6xl font-black text-dark">
             Hire Certified Salesforce Developers
           </h1>
-          <p className="text-[max(18px,1.250vw)]">
+          <h4>
             Our certified Salesforce consultants are backed by 11+ years of
             experience in SFDC consulting, integration, customization, and
             support.
-          </p>
+          </h4>
           <ul className="style-hyphen space-y-[max(10px,1.250vw)]">
             {salesforce_developers.banner.map((feature) => (
               <li key={feature} className="relative pl-7">

@@ -31,7 +31,7 @@ const Header = () => {
           />
         </a>
         <div className="hidden items-center space-x-[max(25px,2.500vw)] lg:flex">
-          <ul className="flex space-x-[max(25px,2.500vw)] text-[max(15px,0.833vw)]">
+          <ul className="flex space-x-[max(25px,2.500vw)] text-base">
             {services.map((service, i) => (
               <li key={service.id} className="text-secondary">
                 {service.href ? (
@@ -87,7 +87,7 @@ const Header = () => {
       ></div>
       {/* mobile menu */}
       <div
-        className={`fixed top-0 h-screen w-screen bg-white px-5 pb-5 pt-28 text-[max(18px,2.344vw)] text-secondary transition-all duration-500 xs:w-[min(max(274px,73.067vw),500px)] lg:hidden ${
+        className={`fixed top-0 h-screen w-screen bg-white px-5 pb-5 pt-28 text-xl text-secondary transition-all duration-500 xs:w-[min(max(274px,73.067vw),500px)] lg:hidden ${
           menuToggle ? "left-0" : "-left-full xs:-left-[73.067vw]"
         }`}
       >
@@ -106,7 +106,7 @@ const Header = () => {
             ))}
           </ul>
           <ButtonLink
-            additionalClasses="bg-primary mt-6 text-[max(18px,2.344vw)]"
+            additionalClasses="bg-primary mt-6 text-xl"
             href="https://bacforce.com/contactus"
           >
             Get Quote

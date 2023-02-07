@@ -10,16 +10,16 @@ const Accordion = ({salesforce_developers}) => {
           tabIndex="1"
         >
           <div className="text-gray-500 ease group flex cursor-pointer items-center justify-between transition duration-500">
-            <div className="ease text-[max(18px,1.250vw)] font-bold transition duration-500">
+            <h4 className="ease font-bold transition duration-500">
               {faq.question}
-            </div>
+            </h4>
             <div className="ease group-focus:text-red-500 transition duration-500 group-focus:-rotate-180">
               <Image src={arrow_circle_down} alt="arrow-circle-down" />
             </div>
           </div>
 
           <div className="ease max-h-0 overflow-hidden transition duration-500 group-focus:max-h-screen">
-            <p className="text-gray-400 pt-[max(15px,1.042vw)] text-justify text-[max(15px,0.938vw)]">
+            <p className="text-gray-400 pt-[max(15px,1.042vw)] text-justify">
               {faq.answer}
             </p>
           </div>
