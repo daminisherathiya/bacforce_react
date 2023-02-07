@@ -8,6 +8,7 @@ import Success from "@/components/Success";
 import SuccessStories from "@/components/SuccessStories";
 import TechnicalExpertise from "@/components/TechnicalExpertise";
 import TrustedCompany from "@/components/TrustedCompany";
+import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
 import React from "react";
 
@@ -24,6 +25,7 @@ const index = () => {
   <SuccessStories/>
   <ProcessofHiring/>
   <Faq/>
+  <WeHelp/>
   </>
 };
 
