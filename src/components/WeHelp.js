@@ -3,7 +3,7 @@ import Textarea from "@/ui/Textarea";
 
 const WeHelp = () => {
   return (
-    <section className="bg-green-blue px-[max(20px,13.542vw)] py-[max(50px,5.208vw)] text-center text-white">
+    <section className="bg-secondary px-[max(20px,13.542vw)] py-[max(50px,5.208vw)] text-center text-white">
       <div className="grid grid-cols-12">
         <div className="col-span-5">
           <h4>How Can We Help?</h4>

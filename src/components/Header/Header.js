@@ -33,15 +33,14 @@ const Header = () => {
         <div className="hidden items-center space-x-[max(25px,2.500vw)] lg:flex">
           <ul className="flex space-x-[max(25px,2.500vw)] text-[max(15px,0.833vw)]">
             {services.map((service, i) => (
-              <li
-                key={service.id}
-                className="text-charcoal"
-              >
+              <li key={service.id} className="text-secondary">
                 {service.href ? (
                   <a href={service.href}>{service.title}</a>
                 ) : (
                   <>
-                    <button onClick={() => openHandler(i)}>{service.title}</button>
+                    <button onClick={() => openHandler(i)}>
+                      {service.title}
+                    </button>
                     <SubHeader open={i === openIndex} service={service} />
                   </>
                 )}
@@ -49,7 +48,7 @@ const Header = () => {
             ))}
           </ul>
           <ButtonLink
-            additionalClasses="bg-green-blue"
+            additionalClasses="bg-primary"
             href="https://bacforce.com/contactus"
           >
             Get Quote
@@ -64,17 +63,17 @@ const Header = () => {
             }`}
           >
             <span
-              className={`hamburger-top bg-black ${
+              className={`hamburger-top bg-dark ${
                 menuToggle ? "xs:bg-white" : ""
               }`}
             ></span>
             <span
-              className={`hamburger-middle bg-black ${
+              className={`hamburger-middle bg-dark ${
                 menuToggle ? "xs:bg-white" : ""
               }`}
             ></span>
             <span
-              className={`hamburger-bottom bg-black ${
+              className={`hamburger-bottom bg-dark ${
                 menuToggle ? "xs:bg-white" : ""
               }`}
             ></span>
@@ -95,10 +94,7 @@ const Header = () => {
         <div className="no-scrollbar h-full overflow-y-auto">
           <ul className="space-y-3">
             {services.map((service, i) => (
-              <li
-                key={service.id}
-                onClick={() => openHandler(i)}
-              >
+              <li key={service.id} onClick={() => openHandler(i)}>
                 {service.href ? (
                   <a href={service.href} className="block">
                     {service.title}
@@ -110,7 +106,7 @@ const Header = () => {
             ))}
           </ul>
           <ButtonLink
-            additionalClasses="bg-green-blue mt-6 text-[max(18px,2.344vw)]"
+            additionalClasses="bg-primary mt-6 text-[max(18px,2.344vw)]"
             href="https://bacforce.com/contactus"
           >
             Get Quote

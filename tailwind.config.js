@@ -6,14 +6,19 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      // https://www.color-name.com/
       white: "#FFFFFF",
-      "ghost-white": "#F9F9F9",
-      "green-blue": "#0B5CAB",
-      charcoal: "#31384E",
-      black: "#000000",
       water: "#DEEFFF",
-      green: "#1EDB4A",
+    },
+    backgroundColor: {
+      white: "#FFFFFF",
+      primary: "#2063F0",
+      "primary-hover": "#1A4FC0",
+      "primary-click": "#4D82F3",
+      secondary: "#1EDB4A",
+      "secondary-hover": "#18AF3B",
+      "secondary-click": "#4BE26E",
+      light: "#F9F9F9", // todo
+      dark: "#103278",
     },
     fontFamily: {
       HarmoniaSans: ["HarmoniaSans", ...defaultTheme.fontFamily.sans],
@@ -29,16 +34,16 @@ module.exports = {
       white: "#FFFFFF",
       primary: "#161616",
       secondary: "#454545",
-      "dark-blue": "#103278",
+      dark: "#103278",
     },
     borderColor: {
       gray: "#D0D0D0",
-      white: "#D0D0D0",
+      white: "#FFFFFF",
     },
     boxShadow: {
       DEFAULT: "0px 50px 60px #0000000D",
       sm: "0px 10px 60px #DDE7FBCC",
-      md: "0px 50px 60px #3B4F781A"
+      md: "0px 50px 60px #3B4F781A",
     },
     extend: {
       screens: {
