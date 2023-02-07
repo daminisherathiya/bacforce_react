@@ -161,3 +161,16 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+/*  */
+.style-hyphen li:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top:50%;
+  transform: translateY(-50%);
+  background: url(../../public/images/right-arrow.png) no-repeat center;
+  height: 0.8125rem;
+  width: 0.875rem;
+  -webkit-filter: brightness(.5);
+  filter: brightness(.5);
+}

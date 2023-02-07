@@ -8,7 +8,7 @@ const SubHeader = ({ open, service }) => {
   return (
     <div
       ref={toogleHeight}
-      className="absolute left-0 top-full overflow-hidden bg-white px-[max(15px,2.917vw)] transition-all duration-300"
+      className="absolute left-0 top-full overflow-hidden bg-white px-[max(15px,2.917vw)] transition-all duration-300 z-30"
       style={{ maxHeight: open ? toogleHeight.current.scrollHeight : "0" }}
     >
       <div className="text-charcoal grid grid-cols-2 p-[max(10px,1.042vw)]">
