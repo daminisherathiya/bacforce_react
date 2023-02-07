@@ -5,7 +5,7 @@ const Banner = () => {
     <section className="bg-gradient-to-r from-white to-water px-[max(20px,13.542vw)] py-[max(50px,8.594vw)]">
       <div className="grid grid-cols-12 gap-10">
         <div className="col-span-6 space-y-[max(10px,1.250vw)]">
-          <h1 className="text-[max(40px,3.125vw)] font-black text-dark">
+          <h1 className=" text-6xl font-black text-dark">
             Hire Certified Salesforce Developers
           </h1>
           <p className="text-[max(18px,1.250vw)]">

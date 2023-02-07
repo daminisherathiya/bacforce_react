@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply text-lg;
+  }
+  h1 {
+    @apply text-6xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+}
+
 @font-face {
   font-family: "HarmoniaSans";
   src: url("../../public/fonts/HarmoniaSans/HarmoniaSans-Light.otf");
@@ -131,17 +149,6 @@
   transform: rotate(0);
 }
 
-/* https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working */
-/* .subheader-animation.invisible {
-  opacity: 0;
-  transition: visibility 0.5s linear, opacity 0.5s linear;
-}
-.subheader-animation.visible {
-  opacity: 1;
-  transition: opacity 0.5s linear;
-} */
-
-/*  */
 .sidebar-backdrop {
   position: fixed;
   top: 0;
@@ -151,12 +158,11 @@
   background-color: #131313;
   transition: 0.3s;
 }
-/*  */
+/* noscroll */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */

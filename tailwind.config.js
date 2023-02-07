@@ -23,6 +23,14 @@ module.exports = {
     fontFamily: {
       HarmoniaSans: ["HarmoniaSans", ...defaultTheme.fontFamily.sans],
     },
+    fontSize: {
+      base: ['max(16px,0.833vw)', { lineHeight: 'max(18px,1.042vw)' }], // 16px/20px
+      lg: ['max(16px,0.938vw)', { lineHeight: 'max(20px,1.458vw)' }], // 18px/28px
+      xl: ['max(18px,1.042vw)', { lineHeight: 'max(28px,1.667vw)' }], // 20px/32px
+      '3xl': ['max(20px,1.458vw)', { lineHeight: 'max(32px,1.875vw)' }], // 28px/36px
+      '4xl': ['max(28px,1.875vw)', { lineHeight: 'max(36px,2.292vw)' }], // 36px/44px
+      '6xl': ['max(36px,3.333vw)', { lineHeight: 'max(44px,3.958vw)' }], // 64px/76px
+    },
     fontWeight: {
       light: "300",
       normal: "400",
@@ -41,9 +49,7 @@ module.exports = {
       white: "#FFFFFF",
     },
     boxShadow: {
-      DEFAULT: "0px 50px 60px #0000000D",
-      sm: "0px 10px 60px #DDE7FBCC",
-      md: "0px 50px 60px #3B4F781A",
+      DEFAULT: "0px 16px 32px #1616161A",
     },
     extend: {
       screens: {

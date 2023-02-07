@@ -7,7 +7,7 @@ import logo5 from "../../public/images/trusted-company-logo/logo-5.png";
 const TrustedCompany = () => {
   return (
     <section className="-mt-[max(-35px,3.125vw)] px-[max(20px,13.542vw)] pb-[max(50px,5.208vw)]">
-      <div className="bg-white px-[max(35px,3.385vw)] py-[max(35px,3.125vw)] text-center shadow-sm">
+      <div className="bg-white px-[max(35px,3.385vw)] py-[max(35px,3.125vw)] text-center shadow">
         <h3 className="mb-[max(8px,0.729vw)] text-[max(24px,1.875vw)] font-black text-dark">
           Join The Team of Customers Who Trust Us
         </h3>
