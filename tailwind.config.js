@@ -24,7 +24,7 @@ module.exports = {
       HarmoniaSans: ["HarmoniaSans", ...defaultTheme.fontFamily.sans],
     },
     fontSize: {
-      base: ["max(14px,0.833vw)", { lineHeight: "max(16px,1.042vw)" }], // 16px/20px
+      base: ["max(14px,0.833vw)", { lineHeight: "max(20px,1.042vw)" }], // 16px/20px
       lg: ["max(16px,0.938vw)", { lineHeight: "max(20px,1.458vw)" }], // 18px/28px
       xl: ["max(16px,1.042vw)", { lineHeight: "max(20px,1.667vw)" }], // 20px/32px
       "3xl": ["max(18px,1.458vw)", { lineHeight: "max(28px,1.875vw)" }], // 28px/36px
@@ -66,11 +66,11 @@ module.exports = {
       5: "max(10px,1.042vw)", // 20px
       6: "max(14px,1.25vw)", // 24px
       7: "max(24px,1.458vw)", // 28px
-      8: "max(28px,1.667vw)", // 32px
+      8: "max(20px,1.667vw)", // 32px
       9: "max(20px,1.875vw)", // 36px
       10: "max(20px,2.083vw)", // 40px
       11: "max(40px,2.292vw)", // 44px
-      12: "max(24px,2.5vw)", // 48px
+      12: "max(20px,2.5vw)", // 48px
       14: "max(20px,2.917vw)", // 56px
       16: "max(20px,3.333vw)", // 64px
       20: "max(64px,4.167vw)", // 80px

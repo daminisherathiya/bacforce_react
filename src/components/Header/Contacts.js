@@ -7,7 +7,7 @@ const Contacts = ({ contacts }) => {
         <Image
           src={contact.src}
           alt={contact.alt}
-          className="h-[max(20px,1.250vw)] w-[max(20px,1.250vw)]"
+          className="h-6 w-6"
         />
       </div>
       <div>

@@ -6,7 +6,7 @@ import logo4 from "../../public/images/trusted-company-logo/logo-4.png";
 import logo5 from "../../public/images/trusted-company-logo/logo-5.png";
 const TrustedCompany = () => {
   return (
-    <section className="-mt-14 pt-0">
+    <section className="-mt-14 py-0">
       <div className="bg-white px-16 py-14 text-center shadow">
         <h3 className="mb-3.5 font-black text-dark">
           Join The Team of Customers Who Trust Us

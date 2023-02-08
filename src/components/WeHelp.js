@@ -3,14 +3,16 @@ import Textarea from "@/ui/Textarea";
 
 const WeHelp = () => {
   return (
-    <section className="bg-dark px-[max(20px,13.542vw)] py-[max(50px,5.208vw)] text-center text-white">
+    <section className="bg-dark text-white">
       <div className="grid grid-cols-12">
-        <div className="col-span-5">
-          <h4>How Can We Help?</h4>
+        <div className="col-span-4 flex items-center">
+          <h2 className="text-6xl">
+            <span className="font-light">How Can <br/> We</span> Help?
+          </h2>
         </div>
-        <div className="col-span-7">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="space-y-4">
+        <div className="col-span-8">
+          <div className="grid grid-cols-2 gap-9">
+            <div className="space-y-9">
               <Input type="text" placeholder="Full Name" />
               <Input type="email" placeholder="Email" />
               <Input type="tel" placeholder="Phone Number" />
