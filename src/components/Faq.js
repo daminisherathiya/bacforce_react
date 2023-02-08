@@ -6,13 +6,15 @@ const Faq = () => {
     <section className="bg-gradient-to-r from-white to-water px-[max(20px,13.542vw)] py-[max(50px,5.208vw)]">
       <div className="grid grid-cols-2 gap-10">
         <div>
-          <h2 className="mb-[max(15px,1.250vw)] font-bold text-dark">
-            <span className="font-light">Frequently Asked </span>
-            Questions
-          </h2>
-          <div className="space-y-[max(35px,2.500vw)]">
-            <p>Still have questions?</p>
-            <ButtonLink additionalClasses="bg-primary">LET'S TALK</ButtonLink>
+          <div className="sticky top-16">
+            <h2 className="mb-[max(15px,1.250vw)] font-bold text-dark">
+              <span className="font-light">Frequently Asked </span>
+              Questions
+            </h2>
+            <div className="space-y-[max(35px,2.500vw)]">
+              <p>Still have questions?</p>
+              <ButtonLink additionalClasses="bg-primary">LET'S TALK</ButtonLink>
+            </div>
           </div>
         </div>
         <Accordion salesforce_developers={salesforce_developers} />

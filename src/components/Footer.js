@@ -7,8 +7,8 @@ import uae_flag from "../../public/images/footer/footer-flag/uae-flag.jpg";
 import sweden_flag from "../../public/images/footer/footer-flag/sweden-flag.jpg";
 const Footer = () => {
   return (
-    <section className="bg-gradient-to-b from-white to-water px-[max(20px,13.542vw)] py-[max(50px,5.208vw)]">
-      <div className="grid grid-cols-6 gap-20">
+    <section className="bg-gradient-to-b from-water to-white px-[max(20px,13.542vw)] py-[max(50px,5.208vw)]">
+      <div className="grid grid-cols-6 gap-20 bg-footer bg-no-repeat bg-top bg-cover">
         <div>
           <h4 className="mb-4 font-black">
             <Image
@@ -80,8 +80,7 @@ const Footer = () => {
         <div>
           <h4>A Bacancy Company</h4>
         </div>
-        <div>
-        </div>
+        <div></div>
       </div>
     </section>
   );

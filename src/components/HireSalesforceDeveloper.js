@@ -2,7 +2,7 @@ import ButtonLink from "@/ui/ButtonLink";
 // todo background
 const HireSalesforceDeveloper = () => {
   return (
-    <section className="bg-dark px-[max(20px,13.542vw)] pt-[max(50px,5.208vw)] pb-[max(50px,10.417vw)] text-center text-white">
+    <section className="bg-blue bg-top bg-cover px-[max(20px,13.542vw)] pt-[max(50px,5.208vw)] pb-[max(50px,10.417vw)] text-center text-white">
       <h2 className="mb-[max(15px,1.250vw)] font-bold">
         Hire Salesforce Developer
         <span className="font-light"> as Per Your Need</span>

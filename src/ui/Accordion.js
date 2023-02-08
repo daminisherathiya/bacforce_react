@@ -1,6 +1,7 @@
 import Image from "next/image";
 import arrow_circle_down from "../../public/images/arrow-circle-down.jpg";
 const Accordion = ({salesforce_developers}) => {
+  // https://stackoverflow.com/questions/36104302/how-do-i-convert-a-string-to-jsx
   return (
     <div className="space-y-[max(10px,0.833vw)]">
       {salesforce_developers.map((faq) => (
@@ -10,8 +11,7 @@ const Accordion = ({salesforce_developers}) => {
           tabIndex="1"
         >
           <div className="text-gray-500 ease group flex cursor-pointer items-center justify-between transition duration-500">
-            <h4 className="ease font-bold transition duration-500">
-              {faq.question}
+            <h4 className="ease font-bold transition duration-500" dangerouslySetInnerHTML={{__html: faq.question}}>
             </h4>
             <div className="ease group-focus:text-red-500 transition duration-500 group-focus:-rotate-180">
               <Image src={arrow_circle_down} alt="arrow-circle-down" />
@@ -19,8 +19,7 @@ const Accordion = ({salesforce_developers}) => {
           </div>
 
           <div className="ease max-h-0 overflow-hidden transition duration-500 group-focus:max-h-screen">
-            <p className="text-gray-400 pt-[max(15px,1.042vw)] text-justify">
-              {faq.answer}
+            <p className="text-gray-400 pt-[max(15px,1.042vw)] text-justify" dangerouslySetInnerHTML={{__html: faq.answer}}>
             </p>
           </div>
         </div>
