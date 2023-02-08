@@ -16,7 +16,7 @@ const SuccessStories = () => {
         real-life problems and help them to overcome start-up challenges.
       </p>
       <div className="grid grid-cols-3 gap-5 text-left">
-        <div className="col-span-2 space-y-5">
+        <div className="col-span-2">
           <div className="grid grid-cols-12">
             <div className="col-span-7 bg-white p-[max(30px,2.604vw)]">
               <p>HEALTH CARE</p>

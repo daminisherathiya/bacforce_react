@@ -4,10 +4,10 @@
 
 @layer base {
   body {
-    @apply text-lg;
+    @apply text-lg text-primary;
   }
   h1 {
-    @apply text-6xl;
+    @apply text-6xl text-dark;
   }
   h2 {
     @apply text-4xl;
@@ -17,6 +17,9 @@
   }
   h4 {
     @apply text-xl;
+  }
+  section {
+    @apply py-28 px-14 xl:px-64;
   }
 }
 

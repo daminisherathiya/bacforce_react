@@ -1,6 +1,6 @@
 const ButtonLink = ({ additionalClasses, href = "#", children }) => {
   const allClasses =
-    "px-[max(15px,2.083vw)] py-[max(12px,0.938vw)] uppercase text-white text-base inline-block text-center " +
+    "px-10 py-5 uppercase text-white text-base inline-block text-center " +
     additionalClasses;
   return (
     <div>

@@ -8,15 +8,15 @@ const SubHeader = ({ open, service }) => {
   return (
     <div
       ref={toogleHeight}
-      className="absolute left-0 top-full z-30 overflow-hidden bg-white px-[max(15px,2.917vw)] transition-all duration-300"
+      className="absolute left-0 top-full z-30 overflow-hidden bg-white px-14 transition-all duration-300"
       style={{ maxHeight: open ? toogleHeight.current.scrollHeight : "0" }}
     >
-      <div className="grid grid-cols-2 p-[max(10px,1.042vw)] text-secondary">
-        <div className="space-y-[max(10px,1.042vw)]">
-          <p className="text-black font-semibold">{title}</p>
+      <div className="grid grid-cols-2 p-5">
+        <div className="space-y-5">
+          <p className="font-semibold text-primary">{title}</p>
           <div className="grid grid-cols-2">
             {links.map((link, i) => (
-              <div key={i} className="space-y-[max(10px,1.042vw)]">
+              <div key={i} className="space-y-5">
                 {link.map((link) => (
                   <a href={link.url} className="block" key={link.name}>
                     {link.name}
@@ -33,12 +33,12 @@ const SubHeader = ({ open, service }) => {
               alt="Bacforce"
               className="w-[max(500px,45.313vw)]"
             />
-            <div className="absolute top-1/2 -translate-y-2/4 p-[max(18px,1.250vw)]">
-              <h3>
+            <div className="absolute top-1/2 -translate-y-2/4 p-6 space-y-2">
+              <h2 className="text-primary">
                 Let’s grow together
                 <b className="block">Partner with us</b>
-              </h3>
-              <a className="uppercase">get quote</a>
+              </h2>
+              <a className="uppercase text-light-blue block">get quote</a>
             </div>
           </div>
         </div>

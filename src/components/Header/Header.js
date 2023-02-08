@@ -20,7 +20,7 @@ const Header = () => {
     setmenuToggle(!menuToggle);
   };
   return (
-    <div className="relative w-full bg-gradient-to-r from-white to-water px-[max(20px,2.917vw)] py-[max(20px,1.771vw)] ">
+    <div className="fixed w-full bg-gradient-to-r from-white to-water px-14 py-10 z-10 ">
       <div className="flex items-center justify-between">
         <a href="https://bacforce.com/">
           <Image
@@ -30,8 +30,8 @@ const Header = () => {
             priority
           />
         </a>
-        <div className="hidden items-center space-x-[max(25px,2.500vw)] lg:flex">
-          <ul className="flex space-x-[max(25px,2.500vw)] text-base">
+        <div className="hidden items-center space-x-12 lg:flex">
+          <ul className="flex space-x-12 text-base">
             {services.map((service, i) => (
               <li key={service.id} className="text-secondary">
                 {service.href ? (
