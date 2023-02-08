@@ -20,13 +20,13 @@ const SuccessStories = () => {
       </div>
       <div className="grid gap-5 text-left md:grid-cols-3">
         <div className="md:col-span-2">
-          <div className="grid md:grid-cols-12">
-            <div className="bg-white p-12 text-base md:col-span-7">
+          <div className="grid md:grid-cols-12 h-full">
+            <div className="bg-white p-12 text-base md:col-span-8">
               <p className="mb-2 font-bold text-light-blue">HEALTH CARE</p>
               <h3 className="mb-5 font-semibold text-secondary">
                 Healthcare Solution
               </h3>
-              <p>
+              <p className="leading-7">
                 Healthcare group of companies with issues that substantially
                 lacked basic insights on lead conversion. Our SF developers made
                 standard sales dashboards, the ability to view customized
@@ -34,22 +34,22 @@ const SuccessStories = () => {
                 online leads to scan it easily.
               </p>
             </div>
-            <div className="md:col-span-5">
+            <div className="md:col-span-4">
               <Image
                 src={case_study_1}
                 alt="Healthcare Solution"
-                className="w-full"
+                className="w-full h-full"
               />
             </div>
           </div>
         </div>
-        <div className="row-span-2">
+        <div className="row-span-2 flex flex-col bg-white justify-between">
           <div className="bg-white p-12 text-base">
             <p className="mb-2 font-bold text-light-blue">REALESTATE</p>
             <h3 className="mb-5 font-semibold text-secondary">
               Real Estate Solution
             </h3>
-            <p>
+            <p className="leading-7">
               A Reputed Real Estate Service Provider in San Francisco chose
               Bacancy for their Salesforce project. Our SF developers provided
               solutions like a unique set of integrations and custom development
@@ -67,24 +67,24 @@ const SuccessStories = () => {
           </div>
         </div>
         <div className="md:col-span-2">
-          <div className="grid md:grid-cols-12">
-            <div className="bg-white p-12 text-base md:col-span-7">
+          <div className="grid md:grid-cols-12 h-full">
+            <div className="bg-white p-12 text-base md:col-span-8">
               <p className="mb-2 font-bold text-light-blue">FINANCE</p>
               <h3 className="mb-5 font-semibold text-secondary">
                 Salesforce Lighting
               </h3>
-              <p>
+              <p className="leading-7">
                 Our Canada-based client, peer-to-peer lending & alternative
                 investment marketplace provides an opportunity to lend money to
                 businesses. We successfully advanced the existing underwriting
                 process by implementing the Salesforce Lightning console.
               </p>
             </div>
-            <div className="md:col-span-5">
+            <div className="md:col-span-4">
               <Image
                 src={case_study_3}
                 alt="Salesforce Lighting"
-                className="w-full"
+                className="w-full h-full"
               />
             </div>
           </div>
