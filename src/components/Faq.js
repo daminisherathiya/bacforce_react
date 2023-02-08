@@ -4,8 +4,8 @@ import Accordion from "@/ui/Accordion";
 const Faq = () => {
   return (
     <section className="bg-gradient-to-r from-white to-water">
-      <div className="grid grid-cols-2 gap-20">
-        <div className="order-2">
+      <div className="grid md:grid-cols-2 gap-20">
+        <div className="md:order-2">
           <div className="sticky top-48">
             <h2 className="mb-6 font-bold text-dark">
               <span className="font-light block">Frequently Asked </span>

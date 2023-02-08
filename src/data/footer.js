@@ -8,6 +8,7 @@ export const contacts = [
     alt: "Phone",
     name: "Contact Number",
     connect: "+1 347 441 4161",
+    bgColor: "dark",
   },
   {
     id: 3,
@@ -15,5 +16,6 @@ export const contacts = [
     alt: "Mail",
     name: "Email Us",
     connect: "solutions@bacforce.com",
+    bgColor: "dark",
   },
 ];

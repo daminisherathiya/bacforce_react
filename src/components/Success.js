@@ -1,8 +1,8 @@
 const Success = () => {
   return (
-    <section className="-mt-[max(-35px,9.219vw)] py-0">
-      <div className="grid grid-cols-12 bg-primary p-16 text-center text-white shadow">
-        <div className="col-span-8 col-start-3">
+    <section className="-mt-40 py-0">
+      <div className="grid md:grid-cols-12 bg-primary p-16 text-center text-white shadow">
+        <div className="md:col-span-8 col-start-3">
           <h2>
             <a href="mailto:solutions@bacforce.com" className="underline">
               solutions@bacforce.com

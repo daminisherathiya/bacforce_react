@@ -8,15 +8,15 @@ import sweden_flag from "../../public/images/footer/footer-flag/sweden-flag.jpg"
 import facebook from "../../public/images/footer/facebook.png";
 import twitter from "../../public/images/footer/twitter.png";
 import linkedin from "../../public/images/footer/linkedin.png";
-import Contacts from "@/components/Header/Contacts";
-import {contacts} from "@/data/footer";
+import Contacts from "@/components/Contacts";
+import { contacts } from "@/data/footer";
 const Footer = () => {
   return (
     <section className="bg-gradient-to-b from-water to-white">
       <div className="space-y-14 bg-footer bg-contain bg-top bg-no-repeat">
-        <div className="grid grid-cols-6 gap-20">
+        <div className="grid gap-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
           <div>
-            <h4 className="flex items-center mb-4 font-black">
+            <h4 className="mb-4 flex items-center font-black">
               <Image
                 className="mr-3 inline-block"
                 src={india_flag}
@@ -29,7 +29,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h4 className="flex items-center mb-4 font-black">
+            <h4 className="mb-4 flex items-center font-black">
               <Image
                 className="mr-3 inline-block"
                 src={usa_flag}
@@ -40,7 +40,7 @@ const Footer = () => {
             <p>4995 NW 72nd Ave, Suite 307 Miami, FL 33166</p>
           </div>
           <div>
-            <h4 className="flex items-center mb-4 font-black">
+            <h4 className="mb-4 flex items-center font-black">
               <Image
                 className="mr-3 inline-block"
                 src={canada_flag}
@@ -51,7 +51,7 @@ const Footer = () => {
             <p>71 Dawes Road, Brampton, On L6X 5N9, Toronto</p>
           </div>
           <div>
-            <h4 className="flex items-center mb-4 font-black">
+            <h4 className="mb-4 flex items-center font-black">
               <Image
                 className="mr-3 inline-block"
                 src={australia_flag}
@@ -62,7 +62,7 @@ const Footer = () => {
             <p>351A Hampstead Rd, Northfield SA 5085</p>
           </div>
           <div>
-            <h4 className="flex items-center mb-4 font-black">
+            <h4 className="mb-4 flex items-center font-black">
               <Image
                 className="mr-3 inline-block"
                 src={uae_flag}
@@ -73,7 +73,7 @@ const Footer = () => {
             <p>1608 Clover Bay, Business Bay, Dubai, UAE. PO Box 62049</p>
           </div>
           <div>
-            <h4 className="flex items-center mb-4 font-black">
+            <h4 className="mb-4 flex items-center font-black">
               <Image
                 className="mr-3 inline-block"
                 src={sweden_flag}
@@ -84,27 +84,55 @@ const Footer = () => {
             <p>Junkergatan 4, 126 53 Hagersten</p>
           </div>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid gap-10 md:grid-cols-2">
           <div className="flex items-center">
-            <h3 className="text-dark font-light">A <span className="font-black">Bacancy</span> Company</h3>
+            <h3 className="font-light text-dark">
+              A <span className="font-black">Bacancy</span> Company
+            </h3>
           </div>
-          <div className="grid grid-cols-2"><Contacts contacts={contacts} /></div>
+          <div className="grid grid-cols-2">
+            <Contacts contacts={contacts} />
+          </div>
         </div>
-        <div className="flex justify-between items-center border-b border-gray pb-6">
-          <ul className="flex text-base space-x-12">
-            <li><a>About Us</a></li>
-            <li><a>Contact Us</a></li>
-            <li><a>Sitemap</a></li>
-            <li><a>Terms of Services</a></li>
-            <li><a>Privacy Policy</a></li>
+        <div className="items-center justify-between border-b border-gray pb-6 md:flex md:flex-row-reverse space-y-14 md:space-y-0">
+          <ul className="flex justify-center">
+            <li>
+              <a>
+                <Image src={facebook} alt="Facebook" />
+              </a>
+            </li>
+            <li>
+              <a>
+                <Image src={twitter} alt="Twitter" />
+              </a>
+            </li>
+            <li>
+              <a>
+                <Image src={linkedin} alt="Linkedin" />
+              </a>
+            </li>
           </ul>
-          <ul className="flex">
-            <li><a><Image src={facebook} alt="Facebook"/></a></li>
-            <li><a><Image src={twitter} alt="Twitter"/></a></li>
-            <li><a><Image src={linkedin} alt="Linkedin"/></a></li>
+          <ul className="flex space-x-12 text-base justify-center">
+            <li>
+              <a>About Us</a>
+            </li>
+            <li>
+              <a>Contact Us</a>
+            </li>
+            <li>
+              <a>Sitemap</a>
+            </li>
+            <li>
+              <a>Terms of Services</a>
+            </li>
+            <li>
+              <a>Privacy Policy</a>
+            </li>
           </ul>
         </div>
-        <div className="text-center"><a>© Bacforce, 2022. All rights reserved.</a></div>
+        <div className="text-center">
+          <a>© Bacforce, 2022. All rights reserved.</a>
+        </div>
       </div>
     </section>
   );

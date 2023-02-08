@@ -4,10 +4,10 @@ import Accordion from "@/ui/Accordion";
 const WeOffer = () => {
   return (
     <section className="bg-gradient-to-r from-white to-water">
-      <div className="grid md:grid-cols-2 gap-20">
+      <div className="grid gap-20 md:grid-cols-2">
         <div>
-          <div className="sticky top-16">
-            <h2 className="font-bold text-dark mb-6">
+          <div className="sticky top-48">
+            <h2 className="mb-6 font-bold text-dark">
               <span className="font-light">
                 Salesforce Development Services{" "}
               </span>
@@ -32,7 +32,9 @@ const WeOffer = () => {
                   <p className="text-primary">Technical Support</p>
                 </div>
               </div>
-              <ButtonLink additionalClasses="bg-secondary">BOOK FREE CONSULTATION</ButtonLink>
+              <ButtonLink additionalClasses="bg-secondary">
+                BOOK FREE CONSULTATION
+              </ButtonLink>
             </div>
           </div>
         </div>

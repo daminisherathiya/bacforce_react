@@ -11,7 +11,7 @@ const TechnicalExpertise = () => {
       <div className="space-y-4">
         {salesforce_developers.map((data) => (
           <div key={data.key} className="grid md:grid-cols-12">
-            <div className="md:col-span-3 flex items-center justify-center bg-primary">
+            <div className="md:col-span-3 flex items-center justify-center bg-primary p-5">
               <h3 className="text-white">{data.key}</h3>
             </div>
             <div className="md:col-span-9 border border-gray p-12 text-left">

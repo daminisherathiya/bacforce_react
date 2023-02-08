@@ -12,6 +12,7 @@ export const contacts = [
     alt: "Gmail",
     name: "Email Us",
     connect: "solutions@bacforce.com",
+    bgColor: "light",
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ export const contacts = [
     alt: "Phone",
     name: "USA",
     connect: "+1 347 441 4161",
+    bgColor: "light",
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ export const contacts = [
     alt: "Phone",
     name: "Canada",
     connect: "+1 416 907 6738",
+    bgColor: "light",
   },
 ];
 

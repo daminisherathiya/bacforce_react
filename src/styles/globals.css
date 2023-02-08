@@ -178,7 +178,7 @@
   top:50%;
   transform: translateY(-50%);
   background: url(../../public/images/right-arrow.png) no-repeat center;
-  height: 0.849vw;
+  height: max(13px,0.849vw);
   width: max(15px,0.833vw);
   -webkit-filter: brightness(.5);
   filter: brightness(.5);
