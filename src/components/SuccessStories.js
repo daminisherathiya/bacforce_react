@@ -67,6 +67,13 @@ const SuccessStories = () => {
         </div>
         <div className="md:col-span-2">
           <div className="grid h-full md:grid-cols-12">
+            <div className="md:col-span-4">
+              <Image
+                src={case_study_3}
+                alt="Salesforce Lighting"
+                className="h-full w-full"
+              />
+            </div>
             <div className="bg-white p-12 text-base md:col-span-8">
               <p className="mb-2 font-bold text-light-blue">FINANCE</p>
               <h3 className="mb-5 font-semibold text-secondary">
@@ -78,13 +85,6 @@ const SuccessStories = () => {
                 businesses. We successfully advanced the existing underwriting
                 process by implementing the Salesforce Lightning console.
               </p>
-            </div>
-            <div className="md:col-span-4">
-              <Image
-                src={case_study_3}
-                alt="Salesforce Lighting"
-                className="h-full w-full"
-              />
             </div>
           </div>
         </div>

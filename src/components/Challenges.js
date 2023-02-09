@@ -9,8 +9,9 @@ const Challenges = () => {
         Professional Salesforce Developer
       </h2>
       <div className="grid md:grid-cols-2 gap-20">
-        <div>
+        <div className="mx-auto">
           <Image
+            className="w-full h-full"
             src={challanges}
             alt="Challenges Re-Solved by Our Professional Salesforce Developer"
           />

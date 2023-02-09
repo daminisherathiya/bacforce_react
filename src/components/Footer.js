@@ -18,7 +18,7 @@ const Footer = () => {
           <div>
             <h4 className="mb-4 flex items-center font-black">
               <Image
-                className="mr-3 inline-block"
+                className="mr-3 inline-block w-[max(28px,1.667vw)] h-[max(16px,1.042vw)]"
                 src={india_flag}
                 alt="Bacforce India"
               />
@@ -31,7 +31,7 @@ const Footer = () => {
           <div>
             <h4 className="mb-4 flex items-center font-black">
               <Image
-                className="mr-3 inline-block"
+                className="mr-3 inline-block w-[max(28px,1.667vw)] h-[max(16px,1.042vw)]"
                 src={usa_flag}
                 alt="Bacforce USA"
               />
@@ -42,7 +42,7 @@ const Footer = () => {
           <div>
             <h4 className="mb-4 flex items-center font-black">
               <Image
-                className="mr-3 inline-block"
+                className="mr-3 inline-block w-[max(28px,1.667vw)] h-[max(16px,1.042vw)]"
                 src={canada_flag}
                 alt="Bacforce Canada"
               />
@@ -53,7 +53,7 @@ const Footer = () => {
           <div>
             <h4 className="mb-4 flex items-center font-black">
               <Image
-                className="mr-3 inline-block"
+                className="mr-3 inline-block w-[max(28px,1.667vw)] h-[max(16px,1.042vw)]"
                 src={australia_flag}
                 alt="Bacforce Australia"
               />
@@ -64,7 +64,7 @@ const Footer = () => {
           <div>
             <h4 className="mb-4 flex items-center font-black">
               <Image
-                className="mr-3 inline-block"
+                className="mr-3 inline-block w-[max(28px,1.667vw)] h-[max(16px,1.042vw)]"
                 src={uae_flag}
                 alt="Bacforce UAE"
               />
@@ -75,7 +75,7 @@ const Footer = () => {
           <div>
             <h4 className="mb-4 flex items-center font-black">
               <Image
-                className="mr-3 inline-block"
+                className="mr-3 inline-block w-[max(28px,1.667vw)] h-[max(16px,1.042vw)]"
                 src={sweden_flag}
                 alt="Bacforce Sweden"
               />

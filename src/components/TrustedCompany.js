@@ -16,20 +16,20 @@ const TrustedCompany = () => {
           improve their Salesforce and accelerate revenue.
         </p>
         <div className="flex flex-wrap justify-center">
-          <div className="w-1/3 md:w-1/5">
-            <Image className="mx-auto" src={logo1} alt="Mercedes" />
+          <div className="w-1/3 md:w-1/5 px-3 md:my-0 my-3">
+            <Image className="mx-auto w-44" src={logo1} alt="Mercedes" /> {/*todo*/}
           </div>
-          <div className="w-1/3 md:w-1/5">
-            <Image className="mx-auto" src={logo2} alt="Warnar Bros" />
+          <div className="w-1/3 md:w-1/5 px-3 md:my-0 my-3">
+            <Image className="mx-auto w-44" src={logo2} alt="Warnar Bros" />
           </div>
-          <div className="w-1/3 md:w-1/5">
-            <Image className="mx-auto" src={logo3} alt="Disney" />
+          <div className="w-1/3 md:w-1/5 px-3 md:my-0 my-3">
+            <Image className="mx-auto w-44" src={logo3} alt="Disney" />
           </div>
-          <div className="w-1/3 md:w-1/5">
-            <Image className="mx-auto" src={logo4} alt="Dubai Bazar" />
+          <div className="w-1/3 md:w-1/5 px-3 md:my-0 my-3">
+            <Image className="mx-auto w-44" src={logo4} alt="Dubai Bazar" />
           </div>
-          <div className="w-1/3 md:w-1/5">
-            <Image className="mx-auto" src={logo5} alt="Red Bull" />
+          <div className="w-1/3 md:w-1/5 px-3 md:my-0 my-3">
+            <Image className="mx-auto w-44" src={logo5} alt="Red Bull" />
           </div>
         </div>
       </div>

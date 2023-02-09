@@ -29,7 +29,7 @@ const index = () => {
           name="description"
           content="Hire Salesforce Developer and Certified Professionals from us and get a one-stop solution for your salesforce project. Schedule a Developer Interview Now"
         />
-        <link rel="profile" href="http://gmpg.org/xfn/11" /> // todo
+        <link rel="profile" href="http://gmpg.org/xfn/11" /> {/*todo*/}
         <link rel="pingback" href="https://bacforce.com/xmlrpc.php" />
         <meta name="msvalidate.01" content="C214C31FCA7F9C451D032045FAEAA622" />
         <meta name="copyright" content="Bacforce" />
@@ -54,8 +54,8 @@ const index = () => {
           property="og:image"
           content="/images/OG-images/salesforce-developmentcompany.png"
         />
-        <meta property="og:url" content="https://bacforce.com/" /> // todo
-        <link rel="canonical" href="https://bacforce.com/" /> // todo
+        <meta property="og:url" content="https://bacforce.com/" /> {/*todo*/}
+        <link rel="canonical" href="https://bacforce.com/" /> {/*todo*/}
         <link rel="icon" type="image/x-icon" href="/images/favicon-icon.png"></link>
       </Head>
 

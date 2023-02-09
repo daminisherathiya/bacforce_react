@@ -7,7 +7,7 @@ const Accordion = ({ salesforce_developers, additionalClasses }) => {
       {salesforce_developers.map((faq) => (
         <div
           key={faq.question}
-          className="group bg-white p-8 text-primary outline-none"
+          className="group bg-white p-8 text-primary outline-none shadow"
           tabIndex="1"
         >
           <div className="text-gray-500 ease group flex cursor-pointer items-center justify-between transition duration-500">
