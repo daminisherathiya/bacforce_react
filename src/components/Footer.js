@@ -128,7 +128,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="text-center">
-          <a>© Bacforce, 2022. All rights reserved.</a>
+          © Bacforce, 2022. All rights reserved.
         </div>
       </div>
     </section>
