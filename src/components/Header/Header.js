@@ -57,6 +57,7 @@ const Header = () => {
         <div className="lg:hidden">
           <button
             type="button"
+            aria-label="Toggle collapsible navigation"
             onClick={toggleMenuHandler}
             className={`hamburger z-40 block outline-none focus:outline-none lg:hidden ${
               menuToggle ? "open" : ""
