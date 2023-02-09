@@ -11,7 +11,7 @@ const Challenges = () => {
       <div className="grid md:grid-cols-2 gap-16 md:gap-20">
         <div className="mx-auto">
           <Image
-            className="w-full h-full"
+            className="w-[max(280px,34.167vw)] h-[max(198px,24.167vw)]"
             src={challanges}
             alt="Challenges Re-Solved by Our Professional Salesforce Developer"
           />
