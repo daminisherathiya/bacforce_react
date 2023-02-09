@@ -16,7 +16,7 @@ const Accordion = ({ salesforce_developers, additionalClasses }) => {
               dangerouslySetInnerHTML={{ __html: faq.question }}
             ></h4>
             <div className="ease group-focus:text-red-500 transition duration-500 group-focus:-rotate-180">
-              <Image src={arrow_circle_down} alt="arrow-circle-down" className="w-8 h-8" />
+              <Image src={arrow_circle_down} alt="arrow-circle-down" className="w-8 h-8 max-w-none" />
             </div>
           </div>
 

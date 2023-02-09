@@ -177,7 +177,7 @@
   left: 0;
   top:50%;
   transform: translateY(-50%);
-  background: url(../../public/images/right-arrow.png) no-repeat center;
+  background: url(../../public/images/right-arrow.png) center/contain no-repeat;
   height: max(13px,0.849vw);
   width: max(15px,0.833vw);
   -webkit-filter: brightness(.5);

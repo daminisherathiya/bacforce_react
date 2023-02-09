@@ -112,17 +112,17 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <ul className="flex space-x-12 text-base justify-center">
-            <li>
+          <ul className="flex flex-wrap space-x-12 text-base justify-center">
+            <li className="sm:mb-0 mb-2">
               <a href="https://bacforce.com/about-us">About Us</a>
             </li>
-            <li>
+            <li className="sm:mb-0 mb-2">
               <a href="https://bacforce.com/contactus">Contact Us</a>
             </li>
-            <li>
+            <li className="sm:mb-0 mb-2">
               <a href="#">Sitemap</a>
             </li>
-            <li>
+            <li className="sm:mb-0 mb-2">
               <a href="https://bacforce.com/privacy-policy">Privacy Policy</a>
             </li>
           </ul>
