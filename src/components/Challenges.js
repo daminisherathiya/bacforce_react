@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { salesforce_developers } from "@/data/features";
-import challanges from "../../public/images/trusted-company-logo/challanges.jpg";
+import challanges from "../../public/images/salesforce-developmentcompany/challanges.jpg";
 const Challenges = () => {
   return (
     <section>

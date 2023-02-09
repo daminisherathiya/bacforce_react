@@ -65,7 +65,7 @@ module.exports = {
       4: "max(10px,0.833vw)", // 16px
       5: "max(10px,1.042vw)", // 20px
       6: "max(14px,1.25vw)", // 24px
-      7: "max(24px,1.458vw)", // 28px
+      7: "max(26px,1.458vw)", // 28px
       8: "max(20px,1.667vw)", // 32px
       9: "max(20px,1.875vw)", // 36px
       10: "max(20px,2.083vw)", // 40px
@@ -78,13 +78,13 @@ module.exports = {
       28: "max(40px,5.833vw)", // 112px
       32: "max(112px,6.667vw)", // 128px
       36: "max(128px,7.5vw)", // 144px
-      40: "max(75px,8.333vw)", // 160px
+      40: "max(60px,8.333vw)", // 160px
       44: "max(160px,9.167vw)", // 176px
       48: "max(176px,10vw)", // 192px
       52: "max(192px,10.833vw)", // 208px
       56: "max(208px,11.667vw)", // 224px
       60: "max(104px,12.5vw)", // 240px
-      64: "max(170px,13.333vw)", // 256px
+      64: "max(100px,13.333vw)", // 256px
       72: "max(256px,15vw)", // 288px
       80: "max(288px,16.667vw)", // 320px
       96: "max(320px,20vw)", // 384px
@@ -94,8 +94,9 @@ module.exports = {
         xs: "359px",
       },
       backgroundImage: {
-        "footer": "url('../../public/images/footer/bg.png')",
-        "blue": "url('../../public/images/blue-bg.jpg')"
+        footer: "url('../../public/images/footer/bg.png')",
+        blue: "url('../../public/images/blue-bg.jpg')",
+        faq: "linear-gradient(to bottom,#DEEFFF 50%,#FFFFFF 50%)",
       },
     },
   },

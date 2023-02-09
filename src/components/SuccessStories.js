@@ -12,15 +12,14 @@ const SuccessStories = () => {
           Success Stories
         </h2>
         <p className="lg:w-3/4">
-          Over the past 10+ years, check out these awesome case studies for
-          Salesforce applications we have built for our valuable clients to
-          solve real-life problems and help them to overcome start-up
-          challenges.
+          Over the past 11+ years, our dedicated Salesforce Developers have
+          helped numbers of clients to get the customization done right to
+          improve their sales process and streamline production.
         </p>
       </div>
       <div className="grid gap-5 text-left md:grid-cols-3">
         <div className="md:col-span-2">
-          <div className="grid md:grid-cols-12 h-full">
+          <div className="grid h-full md:grid-cols-12">
             <div className="bg-white p-12 text-base md:col-span-8">
               <p className="mb-2 font-bold text-light-blue">HEALTH CARE</p>
               <h3 className="mb-5 font-semibold text-secondary">
@@ -38,12 +37,12 @@ const SuccessStories = () => {
               <Image
                 src={case_study_1}
                 alt="Healthcare Solution"
-                className="w-full h-full"
+                className="h-full w-full"
               />
             </div>
           </div>
         </div>
-        <div className="row-span-2 flex flex-col bg-white justify-between">
+        <div className="row-span-2 flex flex-col justify-between bg-white">
           <div className="bg-white p-12 text-base">
             <p className="mb-2 font-bold text-light-blue">REALESTATE</p>
             <h3 className="mb-5 font-semibold text-secondary">
@@ -67,7 +66,7 @@ const SuccessStories = () => {
           </div>
         </div>
         <div className="md:col-span-2">
-          <div className="grid md:grid-cols-12 h-full">
+          <div className="grid h-full md:grid-cols-12">
             <div className="bg-white p-12 text-base md:col-span-8">
               <p className="mb-2 font-bold text-light-blue">FINANCE</p>
               <h3 className="mb-5 font-semibold text-secondary">
@@ -84,13 +83,16 @@ const SuccessStories = () => {
               <Image
                 src={case_study_3}
                 alt="Salesforce Lighting"
-                className="w-full h-full"
+                className="h-full w-full"
               />
             </div>
           </div>
         </div>
       </div>
-      <ButtonLink additionalClasses="bg-secondary mt-12" href="#contactForm">
+      <ButtonLink
+        additionalClasses="bg-secondary mt-12 hover:bg-secondary-hover"
+        href="#contactForm"
+      >
         REQUEST FOR QUOTATION
       </ButtonLink>
     </section>

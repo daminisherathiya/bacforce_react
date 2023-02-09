@@ -40,7 +40,7 @@ const HireSalesforceDeveloper = () => {
           Simple & Transparent Pricing | Fully Signed NDA | Code Security | Easy
           Exit Policy
         </p>
-        <ButtonLink additionalClasses="bg-primary" href="#contactForm">
+        <ButtonLink additionalClasses="bg-primary hover:bg-primary-hover" href="#contactForm">
           SCHEDULE A DEVELOPER INTERVIEW
         </ButtonLink>
       </div>

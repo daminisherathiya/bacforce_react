@@ -20,7 +20,7 @@ const Header = () => {
     setmenuToggle(!menuToggle);
   };
   return (
-    <div className="fixed w-full bg-gradient-to-r from-white to-water px-14 py-10 z-10 ">
+    <div className="fixed z-10 w-full bg-gradient-to-r from-white to-water px-14 py-10 ">
       <div className="flex items-center justify-between">
         <a href="https://bacforce.com/">
           <Image
@@ -48,7 +48,7 @@ const Header = () => {
             ))}
           </ul>
           <ButtonLink
-            additionalClasses="bg-primary"
+            additionalClasses="bg-primary hover:bg-primary-hover"
             href="https://bacforce.com/contactus"
           >
             Get Quote
@@ -91,8 +91,8 @@ const Header = () => {
           menuToggle ? "left-0" : "-left-full xs:-left-[73.067vw]"
         }`}
       >
-        <div className="no-scrollbar h-full overflow-y-auto">
-          <ul className="space-y-3">
+        <div className="no-scrollbar h-full overflow-y-auto pt-28">
+          <ul className="space-y-[12px]">
             {services.map((service, i) => (
               <li key={service.id} onClick={() => openHandler(i)}>
                 {service.href ? (
@@ -106,7 +106,7 @@ const Header = () => {
             ))}
           </ul>
           <ButtonLink
-            additionalClasses="bg-primary mt-6 text-xl"
+            additionalClasses="bg-primary hover:bg-primary-hover mt-6 text-xl"
             href="https://bacforce.com/contactus"
           >
             Get Quote

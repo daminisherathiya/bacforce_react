@@ -32,7 +32,7 @@ const WeOffer = () => {
                   <p className="text-primary">Technical Support</p>
                 </div>
               </div>
-              <ButtonLink additionalClasses="bg-secondary" href="#contactForm">
+              <ButtonLink additionalClasses="bg-secondary hover:bg-secondary-hover" href="#contactForm">
                 BOOK FREE CONSULTATION
               </ButtonLink>
             </div>

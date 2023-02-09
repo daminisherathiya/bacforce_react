@@ -3,7 +3,7 @@ import ButtonLink from "@/ui/ButtonLink";
 import Accordion from "@/ui/Accordion";
 const Faq = () => {
   return (
-    <section className="bg-gradient-to-r from-white to-water">
+    <section className="bg-gradient-to-r from-white to-water bg-faq">
       <div className="grid md:grid-cols-11 gap-20">
         <div className="md:col-span-4 md:order-2">
           <div className="sticky top-48">
@@ -13,7 +13,7 @@ const Faq = () => {
             </h2>
             <div className="space-y-6">
               <p>Still have questions?</p>
-              <ButtonLink additionalClasses="bg-primary" href="#contactForm">LET&apos;S TALK</ButtonLink>
+              <ButtonLink additionalClasses="bg-primary hover:bg-primary-hover" href="#contactForm">LET&apos;S TALK</ButtonLink>
             </div>
           </div>
         </div>

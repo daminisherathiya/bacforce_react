@@ -14,22 +14,22 @@ import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
 import React from "react";
 
+// todo: add context variables
 const index = () => {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* <meta http-equiv="X-UA-Compatible" content="ie=edge"> */} //todo
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Hire Salesforce Developer in 48 Hours</title>
         <meta
           name="description"
           content="Hire Salesforce Developer and Certified Professionals from us and get a one-stop solution for your salesforce project. Schedule a Developer Interview Now"
         />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" /> // todo
         <link rel="pingback" href="https://bacforce.com/xmlrpc.php" />
         <meta name="msvalidate.01" content="C214C31FCA7F9C451D032045FAEAA622" />
         <meta name="copyright" content="Bacforce" />
@@ -52,10 +52,11 @@ const index = () => {
         />
         <meta
           property="og:image"
-          content="https://bacforce.com/main-boot-5/images/og/home-og.png" // todo
+          content="/images/OG-images/salesforce-developmentcompany.png"
         />
-        <meta property="og:url" content="https://bacforce.com/" />
-        <link rel="canonical" href="https://bacforce.com/" />
+        <meta property="og:url" content="https://bacforce.com/" /> // todo
+        <link rel="canonical" href="https://bacforce.com/" /> // todo
+        <link rel="icon" type="image/x-icon" href="/images/favicon-icon.png"></link>
       </Head>
 
       <Header></Header>

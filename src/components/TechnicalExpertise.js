@@ -4,23 +4,26 @@ import { salesforce_developers } from "@/data/TechnicalExpertise";
 const TechnicalExpertise = () => {
   return (
     <section className="text-center">
-      <h2 className="font-bold text-dark text-center mb-16">
+      <h2 className="mb-16 text-center font-bold text-dark">
         <span className="font-light">Technical Expertise of </span>
         Our Salesforce Developers
       </h2>
       <div className="space-y-4">
         {salesforce_developers.map((data) => (
           <div key={data.key} className="grid md:grid-cols-12">
-            <div className="md:col-span-3 flex items-center justify-center bg-primary p-5">
+            <div className="flex items-center justify-center bg-primary py-5 px-7 md:col-span-3">
               <h3 className="text-white">{data.key}</h3>
             </div>
-            <div className="md:col-span-9 border border-gray p-12 text-left">
+            <div className="border border-gray p-12 text-left md:col-span-9">
               <p>{data.value}</p>
             </div>
           </div>
         ))}
       </div>
-      <ButtonLink additionalClasses="bg-secondary mt-12" href="#contactForm">
+      <ButtonLink
+        additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
+        href="#contactForm"
+      >
         SCHEDULE A DEVELOPER INTERVIEW
       </ButtonLink>
     </section>

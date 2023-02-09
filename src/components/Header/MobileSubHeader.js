@@ -12,7 +12,7 @@ const MobileSubHeader = ({ service, open }) => {
       <div className="overflow-hidden transition-all duration-500" style={{ maxHeight: open ? toogleHeight.current.scrollHeight : "0" }}>
         <ul
           ref={toogleHeight}
-          className="ml-4 pt-3 space-y-3"
+          className="ml-4 pt-3 space-y-[12px]"
         >
           {links.map((link) =>
             link.map((link) => (

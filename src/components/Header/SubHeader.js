@@ -38,7 +38,7 @@ const SubHeader = ({ open, service }) => {
                 Let’s grow together
                 <b className="block">Partner with us</b>
               </h2>
-              <a href="https://bacforce.com/contactus" className="uppercase text-light-blue block">get quote</a>
+              <a href="https://bacforce.com/contactus" className="uppercase text-light-blue block">get quote <span className="long-arrow-icon-css ml-2"></span></a>
             </div>
           </div>
         </div>
