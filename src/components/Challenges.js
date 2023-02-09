@@ -8,7 +8,7 @@ const Challenges = () => {
         <span className="font-light">Challenges Re-Solved by</span> Our
         Professional Salesforce Developer
       </h2>
-      <div className="grid md:grid-cols-2 gap-20">
+      <div className="grid md:grid-cols-2 gap-16 md:gap-20">
         <div className="mx-auto">
           <Image
             className="w-full h-full"

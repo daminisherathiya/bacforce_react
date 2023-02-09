@@ -4,9 +4,9 @@ import Accordion from "@/ui/Accordion";
 const WeOffer = () => {
   return (
     <section className="bg-gradient-to-r from-white to-water">
-      <div className="grid gap-20 md:grid-cols-2">
+      <div className="grid gap-16 md:gap-20 md:grid-cols-2">
         <div>
-          <div className="sticky top-48">
+          <div className="sticky top-48 text-center md:text-left">
             <h2 className="mb-6 font-bold text-dark">
               <span className="font-light">
                 Salesforce Development Services{" "}
@@ -18,16 +18,16 @@ const WeOffer = () => {
                 We offer a comprehensive range of Salesforce development
                 services at pocket-friendly prices.
               </p>
-              <div className="flex flex-wrap">
-                <div className="w-1/4 border-r border-gray pr-12">
+              <div className="flex md:justify-start justify-center">
+                <div className="border-r border-gray pr-12">
                   <h3 className="font-bold text-dark">11+</h3>
                   <p className="text-primary">Years of CRM Experience</p>
                 </div>
-                <div className="w-2/5 border-r border-gray px-12">
+                <div className="border-r border-gray px-12">
                   <h3 className="font-bold text-dark">100+</h3>
                   <p className="text-primary">Salesforce Project Delivered</p>
                 </div>
-                <div className="w-1/4 pl-12">
+                <div className="pl-12">
                   <h3 className="font-bold text-dark">24*7</h3>
                   <p className="text-primary">Technical Support</p>
                 </div>

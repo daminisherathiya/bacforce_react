@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <section className="bg-gradient-to-b from-water to-white">
       <div className="space-y-14 bg-footer bg-contain bg-top bg-no-repeat">
-        <div className="grid gap-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+        <div className="grid gap-16 lg:gap-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 border-b border-gray pb-14">
           <div>
             <h4 className="mb-4 flex items-center font-black">
               <Image
@@ -84,13 +84,13 @@ const Footer = () => {
             <p>Junkergatan 4, 126 53 Hagersten</p>
           </div>
         </div>
-        <div className="grid gap-10 md:grid-cols-2">
+        <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex items-center">
             <h3 className="font-light text-dark">
               A <span className="font-black">Bacancy</span> Company
             </h3>
           </div>
-          <div className="grid grid-cols-2">
+          <div className="grid sm:grid-cols-2 gap-14">
             <Contacts contacts={contacts} />
           </div>
         </div>
@@ -98,17 +98,17 @@ const Footer = () => {
           <ul className="flex justify-center">
             <li>
               <a href="https://www.facebook.com/people/Bacforce/100087627767991/">
-                <Image src={facebook} alt="Facebook" />
+                <Image src={facebook} alt="Facebook" className="w-11 h-11" />
               </a>
             </li>
             <li>
               <a href="https://twitter.com/bacforce">
-                <Image src={twitter} alt="Twitter" />
+                <Image src={twitter} alt="Twitter" className="w-11 h-11" />
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/company/bacforce/">
-                <Image src={linkedin} alt="Linkedin" />
+                <Image src={linkedin} alt="Linkedin" className="w-11 h-11" />
               </a>
             </li>
           </ul>

@@ -87,12 +87,12 @@ const Header = () => {
       ></div>
       {/* mobile menu */}
       <div
-        className={`fixed top-0 h-screen w-screen bg-white px-5 pb-5 pt-28 text-xl text-secondary transition-all duration-500 xs:w-[min(max(274px,73.067vw),500px)] lg:hidden ${
-          menuToggle ? "left-0" : "-left-full xs:-left-[73.067vw]"
+        className={`fixed top-0 h-screen w-screen bg-white px-14 pb-6 py-28 text-xl text-secondary transition-all duration-500 xs:w-96 lg:hidden ${
+          menuToggle ? "left-0" : "-left-full xs:-left-96"
         }`}
       >
-        <div className="no-scrollbar h-full overflow-y-auto pt-28">
-          <ul className="space-y-[12px]">
+        <div className="no-scrollbar h-full overflow-y-auto mt-28">
+          <ul className="space-y-[18px]">
             {services.map((service, i) => (
               <li key={service.id} onClick={() => openHandler(i)}>
                 {service.href ? (

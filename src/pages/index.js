@@ -23,7 +23,7 @@ const index = () => {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <title>Hire Salesforce Developer in 48 Hours</title>
         <meta
           name="description"

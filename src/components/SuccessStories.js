@@ -25,7 +25,7 @@ const SuccessStories = () => {
               <h3 className="mb-5 font-semibold text-secondary">
                 Healthcare Solution
               </h3>
-              <p className="leading-7">
+              <p className="leading-[max(23px,1.458vw)]">
                 Healthcare group of companies with issues that substantially
                 lacked basic insights on lead conversion. Our SF developers made
                 standard sales dashboards, the ability to view customized
@@ -48,7 +48,7 @@ const SuccessStories = () => {
             <h3 className="mb-5 font-semibold text-secondary">
               Real Estate Solution
             </h3>
-            <p className="leading-7">
+            <p className="leading-[max(23px,1.458vw)]">
               A Reputed Real Estate Service Provider in San Francisco chose
               Bacancy for their Salesforce project. Our SF developers provided
               solutions like a unique set of integrations and custom development
@@ -65,7 +65,7 @@ const SuccessStories = () => {
             />
           </div>
         </div>
-        <div className="md:col-span-2">
+        <div className="hidden md:col-span-2 md:block">
           <div className="grid h-full md:grid-cols-12">
             <div className="md:col-span-4">
               <Image
@@ -79,12 +79,35 @@ const SuccessStories = () => {
               <h3 className="mb-5 font-semibold text-secondary">
                 Salesforce Lighting
               </h3>
-              <p className="leading-7">
+              <p className="leading-[max(23px,1.458vw)]">
                 Our Canada-based client, peer-to-peer lending & alternative
                 investment marketplace provides an opportunity to lend money to
                 businesses. We successfully advanced the existing underwriting
                 process by implementing the Salesforce Lightning console.
               </p>
+            </div>
+          </div>
+        </div>
+        <div className="md:col-span-2 md:hidden">
+          <div className="grid h-full md:grid-cols-12">
+            <div className="bg-white p-12 text-base md:col-span-8">
+              <p className="mb-2 font-bold text-light-blue">FINANCE</p>
+              <h3 className="mb-5 font-semibold text-secondary">
+                Salesforce Lighting
+              </h3>
+              <p className="leading-[max(23px,1.458vw)]">
+                Our Canada-based client, peer-to-peer lending & alternative
+                investment marketplace provides an opportunity to lend money to
+                businesses. We successfully advanced the existing underwriting
+                process by implementing the Salesforce Lightning console.
+              </p>
+            </div>
+            <div className="md:col-span-4">
+              <Image
+                src={case_study_3}
+                alt="Salesforce Lighting"
+                className="h-full w-full"
+              />
             </div>
           </div>
         </div>
