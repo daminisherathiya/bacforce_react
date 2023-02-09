@@ -1,4 +1,4 @@
-import ButtonLink from "@/ui/ButtonLink";
+import Button from "@/ui/Button";
 import Input from "@/ui/Input";
 import Textarea from "@/ui/Textarea";
 
@@ -8,15 +8,15 @@ const BannerForm = () => {
       <h3 className="mb-12 font-bold">
         Schedule A Developer Interview and Get 15 Days Risk-Free Trial
       </h3>
-      <div className="space-y-4">
+      <form className="space-y-4 scroll-mt-96" id="contactForm">
         <Input type="name" placeholder="Your Name" />
         <Input type="email" placeholder="Email Address" />
         <Input type="tel" placeholder="Phone Number" />
         <Textarea placeholder="Your Message" />
-        <ButtonLink additionalClasses="bg-secondary inline-block">
+        <Button additionalClasses="bg-secondary inline-block" href="#contactForm">
           INQUIRE NOW
-        </ButtonLink>
-      </div>
+        </Button>
+      </form>
     </div>
   );
 };

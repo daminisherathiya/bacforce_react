@@ -90,7 +90,7 @@ const SuccessStories = () => {
           </div>
         </div>
       </div>
-      <ButtonLink additionalClasses="bg-secondary mt-12">
+      <ButtonLink additionalClasses="bg-secondary mt-12" href="#contactForm">
         REQUEST FOR QUOTATION
       </ButtonLink>
     </section>

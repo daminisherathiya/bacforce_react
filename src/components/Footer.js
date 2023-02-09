@@ -97,36 +97,33 @@ const Footer = () => {
         <div className="items-center justify-between border-b border-gray pb-6 md:flex md:flex-row-reverse space-y-14 md:space-y-0">
           <ul className="flex justify-center">
             <li>
-              <a>
+              <a href="https://www.facebook.com/people/Bacforce/100087627767991/">
                 <Image src={facebook} alt="Facebook" />
               </a>
             </li>
             <li>
-              <a>
+              <a href="https://twitter.com/bacforce">
                 <Image src={twitter} alt="Twitter" />
               </a>
             </li>
             <li>
-              <a>
+              <a href="https://www.linkedin.com/company/bacforce/">
                 <Image src={linkedin} alt="Linkedin" />
               </a>
             </li>
           </ul>
           <ul className="flex space-x-12 text-base justify-center">
             <li>
-              <a>About Us</a>
+              <a href="https://bacforce.com/about-us">About Us</a>
             </li>
             <li>
-              <a>Contact Us</a>
+              <a href="https://bacforce.com/contactus">Contact Us</a>
             </li>
             <li>
-              <a>Sitemap</a>
+              <a href="#">Sitemap</a>
             </li>
             <li>
-              <a>Terms of Services</a>
-            </li>
-            <li>
-              <a>Privacy Policy</a>
+              <a href="https://bacforce.com/privacy-policy">Privacy Policy</a>
             </li>
           </ul>
         </div>

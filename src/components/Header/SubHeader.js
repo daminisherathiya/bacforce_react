@@ -8,7 +8,7 @@ const SubHeader = ({ open, service }) => {
   return (
     <div
       ref={toogleHeight}
-      className="absolute left-0 top-full z-30 overflow-hidden bg-white px-14 transition-all duration-300"
+      className="absolute left-0 right-0 top-full z-30 overflow-hidden bg-white px-14 transition-all duration-300"
       style={{ maxHeight: open ? toogleHeight.current.scrollHeight : "0" }}
     >
       <div className="grid grid-cols-2 p-5">
@@ -18,7 +18,7 @@ const SubHeader = ({ open, service }) => {
             {links.map((link, i) => (
               <div key={i} className="space-y-5">
                 {link.map((link) => (
-                  <a href={link.url} className="block" key={link.name}>
+                  <a href={link.href} className="block" key={link.name}>
                     {link.name}
                   </a>
                 ))}
@@ -38,7 +38,7 @@ const SubHeader = ({ open, service }) => {
                 Let’s grow together
                 <b className="block">Partner with us</b>
               </h2>
-              <a className="uppercase text-light-blue block">get quote</a>
+              <a href="https://bacforce.com/contactus" className="uppercase text-light-blue block">get quote</a>
             </div>
           </div>
         </div>

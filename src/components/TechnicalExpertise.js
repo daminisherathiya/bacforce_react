@@ -20,7 +20,7 @@ const TechnicalExpertise = () => {
           </div>
         ))}
       </div>
-      <ButtonLink additionalClasses="bg-secondary mt-12">
+      <ButtonLink additionalClasses="bg-secondary mt-12" href="#contactForm">
         SCHEDULE A DEVELOPER INTERVIEW
       </ButtonLink>
     </section>

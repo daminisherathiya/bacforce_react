@@ -13,6 +13,7 @@ export const contacts = [
     name: "Email Us",
     connect: "solutions@bacforce.com",
     bgColor: "light",
+    href: "mailto:solutions@bacforce.com"
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ export const contacts = [
     name: "USA",
     connect: "+1 347 441 4161",
     bgColor: "light",
+    href: "tel:+13474414161"
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ export const contacts = [
     name: "Canada",
     connect: "+1 416 907 6738",
     bgColor: "light",
+    href: "tel:+14169076738"
   },
 ];
 
@@ -43,16 +46,16 @@ export const services = [
     title: "Salesforce Services",
     links: [
       [
-        { name: "Salesforce Consulting", url: "" },
-        { name: "Salesforce Customization", url: "" },
-        { name: "Salesforce Implementation", url: "" },
-        { name: "Salesforce Integration", url: "" },
-        { name: "Salesforce Data Migration", url: "" },
+        { name: "Salesforce Consulting", href: "https://bacforce.com/salesforce-consulting-services" },
+        { name: "Salesforce Customization", href: "https://bacforce.com/salesforce-customization" },
+        { name: "Salesforce Implementation", href: "https://bacforce.com/salesforce-implementation-services" },
+        { name: "Salesforce Integration", href: "https://bacforce.com/salesforce-integration-services" },
+        { name: "Salesforce Data Migration", href: "https://bacforce.com/salesforce-migration-services" },
       ],
       [
-        { name: "Salesforce Managed", url: "" },
-        { name: "Salesforce Support", url: "" },
-        { name: "Salesforce CPQ", url: "" },
+        { name: "Salesforce Managed", href: "https://bacforce.com/salesforce-managed-services" },
+        { name: "Salesforce Support", href: "https://bacforce.com/salesforce-support-services" },
+        { name: "Salesforce CPQ", href: "https://bacforce.com/salesforce-cpq" },
       ],
     ],
     img: sales_1,
@@ -62,14 +65,14 @@ export const services = [
     title: "Salesforce Cloud",
     links: [
       [
-        { name: "Service Cloud", url: "" },
-        { name: "Marketing Cloud", url: "" },
-        { name: "Sales Cloud", url: "" },
+        { name: "Service Cloud", href: "https://bacforce.com/salesforce-service-cloud" },
+        { name: "Marketing Cloud", href: "https://bacforce.com/salesforce-marketing-cloud" },
+        { name: "Sales Cloud", href: "https://bacforce.com/salesforce-sales-cloud" },
       ],
       [
-        { name: "Vaccine Cloud ", url: "" },
-        { name: "Commerce Cloud", url: "" },
-        { name: "Financial Cloud", url: "" },
+        { name: "Vaccine Cloud ", href: "https://bacforce.com/salesforce-vaccine-cloud" },
+        { name: "Commerce Cloud", href: "https://bacforce.com/salesforce-commerce-cloud" },
+        { name: "Financial Cloud", href: "https://bacforce.com/salesforce-financial-services-cloud" },
       ],
     ],
     img: sales_2,
@@ -79,13 +82,13 @@ export const services = [
     title: "Expertise",
     links: [
       [
-        { name: "Salesforce Development", url: "" },
-        { name: "Marketing Cloud", url: "" },
-        { name: "Hire Mulesoft Developer", url: "" },
+        { name: "Salesforce Development", href: "https://bacforce.com/salesforce-development-services" },
+        { name: "Marketing Cloud", href: "https://bacforce.com/hire-salesforce-developer" },
+        { name: "Hire Mulesoft Developer", href: "https://bacforce.com/hire-mulesoft-developer" },
       ],
       [
-        { name: "Salesforce AppExchange ", url: "" },
-        { name: "Salesforce App Developer", url: "" },
+        { name: "Salesforce AppExchange ", href: "https://bacforce.com/salesforce-appexchange-development-services" },
+        { name: "Salesforce App Developer", href: "https://bacforce.com/salesforce-app-development" },
       ],
     ],
     img: sales_3,

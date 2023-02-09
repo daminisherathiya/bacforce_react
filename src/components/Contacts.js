@@ -12,7 +12,7 @@ const Contacts = ({ contacts }) => {
       </div>
       <div>
         <p>{contact.name}</p>
-        <a>{contact.connect}</a>
+        <a href={contact.href}>{contact.connect}</a>
       </div>
     </div>
   ));

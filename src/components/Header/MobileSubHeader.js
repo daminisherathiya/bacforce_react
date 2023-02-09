@@ -17,7 +17,7 @@ const MobileSubHeader = ({ service, open }) => {
           {links.map((link) =>
             link.map((link) => (
               <li key={link.name} className="text-lg">
-                <a href={link.url} className="block">
+                <a href={link.href} className="block">
                   {link.name}
                 </a>
               </li>

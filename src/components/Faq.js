@@ -13,7 +13,7 @@ const Faq = () => {
             </h2>
             <div className="space-y-6">
               <p>Still have questions?</p>
-              <ButtonLink additionalClasses="bg-primary">LET&apos;S TALK</ButtonLink>
+              <ButtonLink additionalClasses="bg-primary" href="#contactForm">LET&apos;S TALK</ButtonLink>
             </div>
           </div>
         </div>
