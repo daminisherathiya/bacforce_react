@@ -23,7 +23,7 @@ const Header = () => {
         <div className="hidden items-center space-x-12 lg:flex">
           <ul className="flex space-x-12 text-base">
             {services.map((service, i) => (
-              <li key={service.id} className="text-secondary">
+              <li key={service.id} className="text-secondary hover:text-primary">
                 <a href={service.href}>{service.title}</a>
               </li>
             ))}
