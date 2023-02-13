@@ -5,7 +5,10 @@ import case_study_2 from "../../public/images/case-study/case-study-2.jpg";
 import case_study_3 from "../../public/images/case-study/case-study-3.jpg";
 const SuccessStories = () => {
   return (
-    <section className="bg-gradient-to-r from-white to-water text-center">
+    <section
+      id="CaseStudy"
+      className="bg-gradient-to-r from-white to-water text-center"
+    >
       <div className="mb-16 flex-wrap justify-center lg:flex">
         <h2 className="mb-6 font-bold text-dark lg:w-3/4">
           <span className="font-light">Our Salesforce </span>
@@ -114,7 +117,7 @@ const SuccessStories = () => {
       </div>
       <ButtonLink
         additionalClasses="bg-secondary mt-12 hover:bg-secondary-hover"
-        href="#contactForm"
+        href="#Form"
       >
         Request For Quotation
       </ButtonLink>

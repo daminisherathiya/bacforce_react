@@ -225,8 +225,8 @@
   position: absolute;
   font-size: max(80px,7.813vw);
   color: rgba(105,105,105,.05);
-  bottom: -18px;
+  bottom: 0;
   right: 0;
-  line-height: 6.875rem;
+  line-height: max(50px,5.104vw);
   font-weight: 700;
 }

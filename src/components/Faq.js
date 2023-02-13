@@ -15,7 +15,7 @@ const Faq = () => {
               <p>Still have questions?</p>
               <ButtonLink
                 additionalClasses="bg-primary hover:bg-primary-hover"
-                href="#contactForm"
+                href="#Form"
               >
                 Let&apos;s Talk
               </ButtonLink>

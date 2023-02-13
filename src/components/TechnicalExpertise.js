@@ -3,7 +3,7 @@ import { salesforce_developers } from "@/data/TechnicalExpertise";
 
 const TechnicalExpertise = () => {
   return (
-    <section className="text-center">
+    <section className="text-center" id="TechnicalStack">
       <h2 className="mb-16 text-center font-bold text-dark">
         <span className="font-light">Technical Expertise of </span>
         Our Salesforce Developers
@@ -22,7 +22,7 @@ const TechnicalExpertise = () => {
       </div>
       <ButtonLink
         additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
-        href="#contactForm"
+        href="#Form"
       >
         Schedule A Developer Interview
       </ButtonLink>

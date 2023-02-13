@@ -2,7 +2,7 @@ import ButtonLink from "@/ui/ButtonLink";
 // todo background
 const HireSalesforceDeveloper = () => {
   return (
-    <section className="bg-blue bg-cover bg-top pb-64 text-center text-white">
+    <section className="bg-blue bg-cover bg-top pb-64 text-center text-white" id="PlanandPricing">
       <h2 className="mb-6 font-bold">
         Hire Salesforce Developer
         <span className="font-light"> as Per Your Need</span>
@@ -35,16 +35,16 @@ const HireSalesforceDeveloper = () => {
               </div>
             </div>
             <p className="mt-12">
-              Share your business requirements and the results you&apos;d want to
-              achieve. Our Salesforce consulting experts helps you maximize your
-              investment with the right Salesforce solution that perfectly fits
-              your business needs.
+              Share your business requirements and the results you&apos;d want
+              to achieve. Our Salesforce consulting experts helps you maximize
+              your investment with the right Salesforce solution that perfectly
+              fits your business needs.
             </p>
           </div>
         </div>
         <ButtonLink
           additionalClasses="bg-primary hover:bg-primary-hover"
-          href="#contactForm"
+          href="#Form"
         >
           Schedule A Developer Interview
         </ButtonLink>

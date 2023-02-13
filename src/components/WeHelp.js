@@ -15,19 +15,21 @@ const WeHelp = () => {
           </h2>
         </div>
         <div className="md:col-span-8">
-          <div className="grid gap-9">
-            <div className="space-y-9 md:flex md:space-x-9 md:space-y-0">
-              <Input type="text" placeholder="Full Name" />
-              <Input type="email" placeholder="Email" />
-              <Input type="tel" placeholder="Phone Number" />
+          <form>
+            <div className="grid gap-9">
+              <div className="space-y-9 md:flex md:space-x-9 md:space-y-0">
+                <Input type="text" placeholder="Full Name" />
+                <Input type="email" placeholder="Email" />
+                <Input type="tel" placeholder="Phone Number" />
+              </div>
+              <div className="space-y-9 text-right">
+                <Textarea placeholder="Message" />
+                <Button additionalClasses="bg-secondary hover:bg-secondary-hover">
+                  Inquire Now
+                </Button>
+              </div>
             </div>
-            <div className="space-y-9 text-right">
-              <Textarea placeholder="Message" />
-              <Button additionalClasses="bg-secondary hover:bg-secondary-hover">
-                Inquire Now
-              </Button>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </section>

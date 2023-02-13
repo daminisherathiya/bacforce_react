@@ -4,7 +4,7 @@ const Button = ({ additionalClasses, type = "button", children }) => {
     additionalClasses;
   return (
     <div>
-      <button className={allClasses}>
+      <button className={allClasses} type={type}>
         {children}
       </button>
     </div>

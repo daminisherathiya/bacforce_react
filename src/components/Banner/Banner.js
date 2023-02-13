@@ -2,7 +2,7 @@ import { salesforce_developers } from "@/data/features";
 import BannerForm from "@/components/Banner/BannerForm";
 const Banner = () => {
   return (
-    <section className="bg-light-blue pt-60 pb-40">
+    <section className="bg-light-blue pt-60 pb-40" id="Form">
       <div className="grid gap-16 md:grid-cols-9 md:gap-5">
         <div className="flex flex-col justify-center space-y-6 md:col-span-5 lg:pr-24">
           <h1 className="text-6xl font-black text-dark">
