@@ -2,11 +2,12 @@ import { salesforce_developers } from "@/data/features";
 import BannerForm from "@/components/Banner/BannerForm";
 const Banner = () => {
   return (
-    <section className="bg-gradient-to-r from-white to-water pt-60 pb-40">
-      <div className="grid md:grid-cols-9 gap-16 md:gap-5">
-        <div className="md:col-span-5 space-y-6 lg:pr-24 flex flex-col justify-center">
+    <section className="bg-light-blue pt-60 pb-40">
+      <div className="grid gap-16 md:grid-cols-9 md:gap-5">
+        <div className="flex flex-col justify-center space-y-6 md:col-span-5 lg:pr-24">
           <h1 className="text-6xl font-black text-dark">
-            Hire Certified Salesforce Developers
+            <span className="font-light">Hire Certified </span>
+            Salesforce Developers
           </h1>
           <h4>
             Our certified Salesforce consultants are backed by 11+ years of

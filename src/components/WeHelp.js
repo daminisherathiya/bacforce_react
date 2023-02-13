@@ -24,7 +24,7 @@ const WeHelp = () => {
             <div className="space-y-9 text-right">
               <Textarea placeholder="Message" />
               <Button additionalClasses="bg-secondary hover:bg-secondary-hover">
-                INQUIRE NOW
+                Inquire Now
               </Button>
             </div>
           </div>

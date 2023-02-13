@@ -46,7 +46,7 @@ const HireSalesforceDeveloper = () => {
           additionalClasses="bg-primary hover:bg-primary-hover"
           href="#contactForm"
         >
-          SCHEDULE A DEVELOPER INTERVIEW
+          Schedule A Developer Interview
         </ButtonLink>
       </div>
     </section>

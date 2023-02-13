@@ -177,11 +177,10 @@
   left: 0;
   top:50%;
   transform: translateY(-50%);
-  background: url(../../public/images/right-arrow.png) center/contain no-repeat;
-  height: max(13px,0.849vw);
-  width: max(15px,0.833vw);
-  -webkit-filter: brightness(.5);
-  filter: brightness(.5);
+  background: #2063F0 center/contain no-repeat;
+  height: max(8px,0.521vw);
+  width: max(8px,0.521vw);
+  border-radius: 9999px;
 }
 
 /* arrow */
@@ -224,7 +223,7 @@
   counter-increment: my-sec-counter;
   content: "0" counter(my-sec-counter);
   position: absolute;
-  font-size: 6rem;
+  font-size: max(80px,7.813vw);
   color: rgba(105,105,105,.05);
   bottom: -18px;
   right: 0;

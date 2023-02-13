@@ -24,7 +24,7 @@ const TechnicalExpertise = () => {
         additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
         href="#contactForm"
       >
-        SCHEDULE A DEVELOPER INTERVIEW
+        Schedule A Developer Interview
       </ButtonLink>
     </section>
   );

@@ -116,7 +116,7 @@ const SuccessStories = () => {
         additionalClasses="bg-secondary mt-12 hover:bg-secondary-hover"
         href="#contactForm"
       >
-        REQUEST FOR QUOTATION
+        Request For Quotation
       </ButtonLink>
     </section>
   );

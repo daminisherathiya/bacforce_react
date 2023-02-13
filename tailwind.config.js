@@ -14,11 +14,12 @@ module.exports = {
       primary: "#2063F0",
       "primary-hover": "#1A4FC0",
       "primary-click": "#4D82F3",
-      secondary: "#1EDB4A",
-      "secondary-hover": "#18AF3B",
-      "secondary-click": "#4BE26E",
+      secondary: "#09BC8A",
+      "secondary-hover": "#07966e",
+      "secondary-click": "#3ac9a1",
       light: "#F9F9F9", // todo
       dark: "#103278",
+      "light-blue": "#F1F5FE",
     },
     fontFamily: {
       HarmoniaSans: ["HarmoniaSans", ...defaultTheme.fontFamily.sans],
@@ -51,6 +52,7 @@ module.exports = {
     },
     boxShadow: {
       DEFAULT: "0px 16px 32px #1616161A",
+      blue: "0px 16px 32px #2063F01A",
     },
     spacing: {
       px: "1px", // 1px

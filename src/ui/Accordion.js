@@ -17,19 +17,25 @@ const Accordion = ({ salesforce_developers, additionalClasses }) => {
       {salesforce_developers.map((faq, i) => (
         <div
           key={faq.question}
-          className="group bg-white p-8 text-primary shadow outline-none"
+          className={`bg-white p-8 text-primary outline-none ${
+            i === openIndex ? "shadow-blue" : ""
+          }`}
         >
           <div
-            className="text-gray-500 ease group flex cursor-pointer items-center justify-between transition duration-500"
+            className="text-gray-500 flex cursor-pointer items-center justify-between"
             onClick={() => {
               openHandler(i);
             }}
           >
             <h4
-              className="ease font-bold transition duration-500"
+              className="font-bold"
               dangerouslySetInnerHTML={{ __html: faq.question }}
             ></h4>
-            <div className="ease group-focus:text-red-500 transition duration-500 group-focus:-rotate-180">
+            <div
+              className={`ease transition-all duration-500 ${
+                i === openIndex ? "-rotate-180" : ""
+              }`}
+            >
               <Image
                 src={arrow_circle_down}
                 alt="arrow-circle-down"

@@ -12,7 +12,7 @@ const ProcessofHiring = () => {
         </p>
       </div>
       <div className="grid gap-4 text-left md:grid-cols-2">
-        <div className="border border-gray p-10 services-cell relative">
+        <div className="border border-gray p-10 services-cell relative overflow-hidden">
           <h3 className="mb-6 font-bold text-light-blue">
             Let us know your Business Requirements
           </h3>
@@ -22,7 +22,7 @@ const ProcessofHiring = () => {
             you achieve your business goals in a quick turnaround time.
           </p>
         </div>
-        <div className="border border-gray p-10 services-cell relative">
+        <div className="border border-gray p-10 services-cell relative overflow-hidden">
           <h3 className="mb-6 font-bold text-light-blue">
             Get a call from our experts
           </h3>
@@ -32,7 +32,7 @@ const ProcessofHiring = () => {
             Salesforce ecosystem and double-check its accuracy.
           </p>
         </div>
-        <div className="border border-gray p-10 services-cell relative">
+        <div className="border border-gray p-10 services-cell relative overflow-hidden">
           <h3 className="mb-6 font-bold text-light-blue">
             Choose Your Hiring Model
           </h3>
@@ -44,7 +44,7 @@ const ProcessofHiring = () => {
             from us.
           </p>
         </div>
-        <div className="border border-gray p-10 services-cell relative">
+        <div className="border border-gray p-10 services-cell relative overflow-hidden">
           <h3 className="mb-6 font-bold text-light-blue">
             Select, Pay and Let’s Start
           </h3>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo.svg";
 import ButtonLink from "../../ui/ButtonLink";
 import { services } from "@/data/header";
 import { useState } from "react";
@@ -20,7 +20,7 @@ const Header = () => {
     setmenuToggle(!menuToggle);
   };
   return (
-    <div className="fixed z-10 w-full bg-gradient-to-r from-white to-water px-14 py-10 ">
+    <div className="fixed z-10 w-full bg-light-blue px-14 py-8 ">
       <div className="flex items-center justify-between">
         <a href="https://bacforce.com/">
           <Image

@@ -3,8 +3,8 @@ import ButtonLink from "@/ui/ButtonLink";
 import Accordion from "@/ui/Accordion";
 const WeOffer = () => {
   return (
-    <section className="bg-gradient-to-r from-white to-water">
-      <div className="grid gap-16 md:gap-20 md:grid-cols-2">
+    <section className="bg-light-blue">
+      <div className="grid gap-16 md:grid-cols-2 md:gap-20">
         <div>
           <div className="sticky top-48 text-center md:text-left">
             <h2 className="mb-6 font-bold text-dark">
@@ -18,7 +18,7 @@ const WeOffer = () => {
                 We offer a comprehensive range of Salesforce development
                 services at pocket-friendly prices.
               </p>
-              <div className="flex md:justify-start justify-center">
+              <div className="flex justify-center md:justify-start">
                 <div className="border-r border-gray pr-12">
                   <h3 className="font-bold text-dark">11+</h3>
                   <p className="text-primary">Years of CRM Experience</p>
@@ -32,8 +32,11 @@ const WeOffer = () => {
                   <p className="text-primary">Technical Support</p>
                 </div>
               </div>
-              <ButtonLink additionalClasses="bg-secondary hover:bg-secondary-hover" href="#contactForm">
-                BOOK FREE CONSULTATION
+              <ButtonLink
+                additionalClasses="bg-secondary hover:bg-secondary-hover"
+                href="#contactForm"
+              >
+                Book A Free Consultation
               </ButtonLink>
             </div>
           </div>
