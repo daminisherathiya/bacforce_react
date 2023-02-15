@@ -4,10 +4,10 @@ const Banner = () => {
   return (
     <section className="bg-light-blue pt-60 pb-40" id="Form">
       <div className="grid gap-16 md:grid-cols-9 md:gap-5">
-        <div className="flex flex-col justify-center space-y-6 md:col-span-5 lg:pr-24">
-          <h1 className="text-6xl font-black text-dark">
-            <span className="font-light">Hire Certified </span>
-            Salesforce Developers
+        <div className="flex flex-col justify-center space-y-8 md:col-span-5 lg:pr-24">
+          <h1 className="text-6xl text-dark">
+            Hire Certified
+            <span className="font-bold"> Salesforce Developers</span>
           </h1>
           <h4>
             Our certified Salesforce consultants are backed by 11+ years of

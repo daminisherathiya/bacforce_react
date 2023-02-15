@@ -13,7 +13,7 @@ const Accordion = ({ salesforce_developers, additionalClasses }) => {
   };
   // https://stackoverflow.com/questions/36104302/how-do-i-convert-a-string-to-jsx
   return (
-    <div className={`space-y-4 ${additionalClasses ? additionalClasses : ""}`}>
+    <div className={`space-y-3 ${additionalClasses ? additionalClasses : ""}`}>
       {salesforce_developers.map((faq, i) => (
         <div
           key={faq.question}

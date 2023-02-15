@@ -1,10 +1,12 @@
+const { default: ButtonLink } = require("@/ui/ButtonLink");
+
 const ProcessofHiring = () => {
   return (
-    <section className="text-center step-col-1">
-      <div className="mb-16">
-        <h2 className="mb-6 font-bold text-dark ">
-          Process of Hiring
-          <span className="font-light"> Salesforce Developer</span>
+    <section className="step-col-1 space-y-16 text-center">
+      <div>
+        <h2 className="mb-8 text-dark ">
+          Process of
+          <span className="font-bold"> Hiring Salesforce Developer</span>
         </h2>
         <p>
           We always aim to offer the best Salesforce services for that, we make
@@ -12,8 +14,8 @@ const ProcessofHiring = () => {
         </p>
       </div>
       <div className="grid gap-4 text-left md:grid-cols-2">
-        <div className="border border-gray p-10 services-cell relative overflow-hidden">
-          <h3 className="mb-6 font-bold text-light-blue">
+        <div className="services-cell relative overflow-hidden border border-gray p-10">
+          <h3 className="mb-6 font-semibold text-light-blue">
             Let us know your Business Requirements
           </h3>
           <p>
@@ -22,8 +24,8 @@ const ProcessofHiring = () => {
             you achieve your business goals in a quick turnaround time.
           </p>
         </div>
-        <div className="border border-gray p-10 services-cell relative overflow-hidden">
-          <h3 className="mb-6 font-bold text-light-blue">
+        <div className="services-cell relative overflow-hidden border border-gray p-10">
+          <h3 className="mb-6 font-semibold text-light-blue">
             Get a call from our experts
           </h3>
           <p>
@@ -32,8 +34,8 @@ const ProcessofHiring = () => {
             Salesforce ecosystem and double-check its accuracy.
           </p>
         </div>
-        <div className="border border-gray p-10 services-cell relative overflow-hidden">
-          <h3 className="mb-6 font-bold text-light-blue">
+        <div className="services-cell relative overflow-hidden border border-gray p-10">
+          <h3 className="mb-6 font-semibold text-light-blue">
             Choose Your Hiring Model
           </h3>
           <p>
@@ -44,8 +46,8 @@ const ProcessofHiring = () => {
             from us.
           </p>
         </div>
-        <div className="border border-gray p-10 services-cell relative overflow-hidden">
-          <h3 className="mb-6 font-bold text-light-blue">
+        <div className="services-cell relative overflow-hidden border border-gray p-10">
+          <h3 className="mb-6 font-semibold text-light-blue">
             Select, Pay and Let’s Start
           </h3>
           <p>
@@ -55,6 +57,9 @@ const ProcessofHiring = () => {
           </p>
         </div>
       </div>
+      <ButtonLink additionalClasses="bg-secondary hover:bg-secondary-hover">
+        Share Your Requirements
+      </ButtonLink>
     </section>
   );
 };

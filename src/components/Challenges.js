@@ -4,14 +4,17 @@ import challanges from "../../public/images/salesforce-developmentcompany/challa
 const Challenges = () => {
   return (
     <section>
-      <h2 className="mb-16 font-bold text-dark text-center">
-        <span className="font-light">Challenges Re-Solved by</span> Our
-        Professional Salesforce Developer
+      <h2 className="mb-16 text-center text-dark">
+        Challenges Re-Solved by
+        <span className="font-bold">
+          {" "}
+          Our Professional Salesforce Developer
+        </span>
       </h2>
-      <div className="grid md:grid-cols-2 gap-16 md:gap-20">
+      <div className="grid gap-16 md:grid-cols-2 md:gap-20">
         <div className="mx-auto">
           <Image
-            className="w-[max(280px,34.167vw)] h-[max(198px,24.167vw)]"
+            className="h-[max(198px,24.167vw)] w-[max(280px,34.167vw)]"
             src={challanges}
             alt="Challenges Re-Solved by Our Professional Salesforce Developer"
           />

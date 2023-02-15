@@ -17,7 +17,7 @@ module.exports = {
       secondary: "#09BC8A",
       "secondary-hover": "#07966e",
       "secondary-click": "#3ac9a1",
-      light: "#F9F9F9", // todo
+      light: "#F1F5FE",
       dark: "#103278",
       "light-blue": "#F1F5FE",
     },
@@ -25,9 +25,9 @@ module.exports = {
       HarmoniaSans: ["HarmoniaSans", ...defaultTheme.fontFamily.sans],
     },
     fontSize: {
-      base: ["max(14px,0.833vw)", { lineHeight: "max(20px,1.042vw)" }], // 16px/20px
-      lg: ["max(16px,0.938vw)", { lineHeight: "max(20px,1.458vw)" }], // 18px/28px
-      xl: ["max(16px,1.042vw)", { lineHeight: "max(20px,1.667vw)" }], // 20px/32px
+      base: ["max(14px,0.833vw)", { lineHeight: "max(24px,1.250vw)" }], // 16px/24px
+      lg: ["max(16px,0.938vw)", { lineHeight: "max(24px,1.458vw)" }], // 18px/28px
+      xl: ["max(16px,1.042vw)", { lineHeight: "max(24px,1.667vw)" }], // 20px/32px
       "3xl": ["max(18px,1.458vw)", { lineHeight: "max(28px,1.875vw)" }], // 28px/36px
       "4xl": ["max(20px,1.875vw)", { lineHeight: "max(32px,2.292vw)" }], // 36px/44px
       "6xl": ["max(28px,3.333vw)", { lineHeight: "max(36px,3.958vw)" }], // 64px/76px
@@ -76,7 +76,7 @@ module.exports = {
       14: "max(20px,2.917vw)", // 56px
       16: "max(20px,3.333vw)", // 64px
       20: "max(64px,4.167vw)", // 80px
-      24: "max(80px,5vw)", // 96px
+      24: "max(20px,5vw)", // 96px
       28: "max(40px,5.833vw)", // 112px
       32: "max(112px,6.667vw)", // 128px
       36: "max(128px,7.5vw)", // 144px
@@ -97,7 +97,7 @@ module.exports = {
       },
       backgroundImage: {
         footer: "url('../../public/images/footer/bg.png')",
-        blue: "url('../../public/images/blue-bg.jpg')",
+        black: "url('../../public/images/black-bg.jpg')",
         faq: "linear-gradient(to bottom,#DEEFFF 50%,#FFFFFF 50%)",
       },
     },

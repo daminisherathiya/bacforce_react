@@ -10,9 +10,9 @@ const SuccessStories = () => {
       className="bg-gradient-to-r from-white to-water text-center"
     >
       <div className="mb-16 flex-wrap justify-center lg:flex">
-        <h2 className="mb-6 font-bold text-dark lg:w-3/4">
-          <span className="font-light">Our Salesforce </span>
-          Success Stories
+        <h2 className="mb-8 text-dark lg:w-3/4">
+          Our Salesforce
+          <span className="font-bold"> Success Stories</span>
         </h2>
         <p className="lg:w-3/4">
           Over the past 11+ years, our dedicated Salesforce Developers have
@@ -25,7 +25,7 @@ const SuccessStories = () => {
           <div className="grid h-full md:grid-cols-12">
             <div className="bg-white p-12 text-base md:col-span-8">
               <p className="mb-2 font-bold text-light-blue">HEALTH CARE</p>
-              <h3 className="mb-5 font-semibold text-secondary">
+              <h3 className="mb-5 text-secondary">
                 Healthcare Solution
               </h3>
               <p className="leading-[max(23px,1.458vw)]">
@@ -48,7 +48,7 @@ const SuccessStories = () => {
         <div className="row-span-2 flex flex-col justify-between bg-white">
           <div className="bg-white p-12 text-base">
             <p className="mb-2 font-bold text-light-blue">REALESTATE</p>
-            <h3 className="mb-5 font-semibold text-secondary">
+            <h3 className="mb-5 text-secondary">
               Real Estate Solution
             </h3>
             <p className="leading-[max(23px,1.458vw)]">
@@ -79,7 +79,7 @@ const SuccessStories = () => {
             </div>
             <div className="bg-white p-12 text-base md:col-span-8">
               <p className="mb-2 font-bold text-light-blue">FINANCE</p>
-              <h3 className="mb-5 font-semibold text-secondary">
+              <h3 className="mb-5 text-secondary">
                 Salesforce Lighting
               </h3>
               <p className="leading-[max(23px,1.458vw)]">
