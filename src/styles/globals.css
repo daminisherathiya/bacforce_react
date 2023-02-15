@@ -152,15 +152,7 @@
   transform: rotate(0);
 }
 
-.sidebar-backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #131313;
-  transition: 0.5s;
-}
+
 /* noscroll */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -169,18 +161,6 @@
 .no-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-}
-/*  */
-.style-hyphen li:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top:50%;
-  transform: translateY(-50%);
-  background: #2063F0 center/contain no-repeat;
-  height: max(8px,0.521vw);
-  width: max(8px,0.521vw);
-  border-radius: 9999px;
 }
 
 /* arrow */

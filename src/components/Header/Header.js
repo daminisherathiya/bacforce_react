@@ -82,7 +82,7 @@ const Header = () => {
         </div>
       </div>
       <div
-        className={`sidebar-backdrop lg:opacity-0 ${
+        className={`fixed top-0 left-0 w-full h-screen bg-[#131313] duration-500 lg:opacity-0 ${
           menuToggle ? "block opacity-50" : "hidden"
         }`}
       ></div>
