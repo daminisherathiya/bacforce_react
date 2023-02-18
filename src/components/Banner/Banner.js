@@ -9,7 +9,7 @@ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args
 3) Start the Gulp server
 4) Start the React server
 */
-const MAIL_API_URL = "http://localhost:3001/mindforce/mail.php";
+const MAIL_API_URL = "http://localhost:3000/mindforce/mail.php";
 
 const Banner = () => {
   const addContactInformationHandler = async (contectInformation) => {
