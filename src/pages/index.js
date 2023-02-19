@@ -48,14 +48,14 @@ const index = () => {
         />
         <meta
           property="og:image"
-          content="/images/OG-images/salesforce-developmentcompany.png"
+          content="/mindforce/bacforce_react_build/images/OG-images/salesforce-developmentcompany.png"
         />
         <meta property="og:url" content="https://bacforce.com/" /> {/*todo*/}
         <link rel="canonical" href="https://bacforce.com/" /> {/*todo*/}
         <link
           rel="icon"
           type="image/x-icon"
-          href="/images/favicon-icon.png"
+          href="/mindforce/bacforce_react_build/images/favicon-icon.png"
         ></link>
       </Head>
 
