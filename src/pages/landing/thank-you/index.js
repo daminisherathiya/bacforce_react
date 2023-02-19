@@ -50,8 +50,8 @@ const index = () => {
         ></link>
       </Head>
 
-      <Header/>
-      <ThankYou/>
+      <Header />
+      <ThankYou />
       <WeHelp />
       <Footer />
     </>

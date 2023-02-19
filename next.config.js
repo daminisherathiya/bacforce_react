@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: "/mindforce/bacforce_react_build",
+  // assetPrefix: "/mindforce/bacforce_react_build",
 };
 
 module.exports = nextConfig;
