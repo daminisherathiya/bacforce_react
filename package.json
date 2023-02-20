@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_ENV=production next build && node build_test.js && next export -o bacforce_react_build",
+    "build": "NODE_ENV=production next build && node build_test.js && next export -o landing && node build_copy_files.js",
     "start": "next start",
     "lint": "next lint"
   },
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "fs-extra": "^11.1.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
     "prettier-plugin-tailwindcss": "^0.2.1",

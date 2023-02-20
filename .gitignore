@@ -11,7 +11,7 @@
 # next.js
 /.next/
 /out/
-/bacforce_react_build/
+/landing/
 
 # production
 /build

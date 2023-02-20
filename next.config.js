@@ -7,7 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: isProd ? "/mindforce/bacforce_react_build" : undefined,
+  assetPrefix: isProd ? "/landing" : undefined,
 };
 
 module.exports = nextConfig;
