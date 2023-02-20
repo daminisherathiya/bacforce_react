@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_ENV=production next build && node build_test.js && next export -o landing && node build_copy_files.js",
+    "build": "next build",
+    "build_static_html": "NODE_ENV=prod next build && node build_test.js && next export -o landing && node build_copy_files.js",
     "start": "next start",
     "lint": "next lint"
   },
