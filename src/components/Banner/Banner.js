@@ -22,9 +22,12 @@ const Banner = () => {
       method: "POST",
       body: form_data,
     });
-    const data = await response.text();
+    if(response.ok) {
+      window.location.href = "/thank-you";
+    }
+    // const data = await response.text();
     
-    console.log(data);
+    // console.log(data);
   };
 
   return (

@@ -1,26 +1,9 @@
 import Button from "@/ui/Button";
 import Input from "@/ui/Input";
 import Textarea from "@/ui/Textarea";
-import { useRef, useReducer } from "react";
-const emailReducer = (state, action) => {
-  if (action.type === "USER_INPUT") {
-    return { value: action.val, isValid: action.val.includes("@") };
-  } else if (action.type === "INPUT_BLUR") {
-    return { value: state.value, isValid: state.value.includes("@") };
-  }
-  return { value: "", isValid: false };
-};
+import { useRef } from "react";
+
 const BannerForm = (props) => {
-  const [emailState, dispatchEmail] = useReducer(emailReducer, {
-    value: "",
-    isValid: null,
-  });
-  const emailChangeHandler = (event) => {
-    dispatchEmail({ type: "USER_INPUT", val: event.target.value });
-  };
-  const validateEmailHandler = () => {
-    dispatchEmail({ type: "INPUT_BLUR" });
-  };
   // Todo: Background color of inputs changes when auto filled
   const nameRef = useRef("");
   const emailRef = useRef("");
@@ -38,7 +21,7 @@ const BannerForm = (props) => {
       type: "contactUs",
       page: window.location.href,
       leadingPage: "http://bacforce.com/",
-    };
+    }
 
     props.onAddContactInformation(contactInformation);
   };
@@ -52,15 +35,7 @@ const BannerForm = (props) => {
       </h3>
       <form className="space-y-3" onSubmit={submitHandler}>
         <Input type="name" placeholder="Your Name" innerRef={nameRef} />
-        <Input
-          type="email"
-          placeholder="Email Address"
-          innerRef={emailRef}
-          value ={emailState.value}
-          isValid ={emailState.isValid}
-          onChange={emailChangeHandler}
-          onBlure={validateEmailHandler}
-        />
+        <Input type="email" placeholder="Email Address" innerRef={emailRef} />
         <Input type="tel" placeholder="Phone Number" innerRef={phoneRef} />
         <Textarea placeholder="Your Message" innerRef={messageRef} />
         <Button
