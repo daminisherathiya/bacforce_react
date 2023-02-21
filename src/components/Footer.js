@@ -1,10 +1,5 @@
 import Image from "next/image";
-import india_flag from "../../public/images/footer/footer-flag/india-flag.jpg";
 import usa_flag from "../../public/images/footer/footer-flag/usa-flag.jpg";
-import canada_flag from "../../public/images/footer/footer-flag/canada-flag.jpg";
-import australia_flag from "../../public/images/footer/footer-flag/australia-flag.jpg";
-import uae_flag from "../../public/images/footer/footer-flag/uae-flag.jpg";
-import sweden_flag from "../../public/images/footer/footer-flag/sweden-flag.jpg";
 import facebook from "../../public/images/footer/facebook.png";
 import twitter from "../../public/images/footer/twitter.png";
 import linkedin from "../../public/images/footer/linkedin.png";
@@ -14,25 +9,12 @@ const Footer = () => {
   return (
     <section className="bg-light-blue">
       <div className="space-y-28 bg-footer bg-contain bg-top bg-no-repeat">
-        <div className="flex space-x-6 justify-between">
-          <h3 className="font-light text-dark">
-            A <span className="font-black">Bacancy</span> Company
-          </h3>
-          <div className="flex space-x-12">
-            <div className="flex items-center">
-              <h4 className="mr-6 flex shrink-0 items-center font-black">
-                <Image
-                  className="mr-3 inline-block h-[max(16px,1.042vw)] w-[max(28px,1.667vw)]"
-                  src={usa_flag}
-                  alt="Bacforce USA"
-                />
-                <span>USA</span>
-              </h4>
-              <p>4995 NW 72nd Ave,<br/>Suite 307 Miami, FL 33166</p>
-            </div>
-            <div className="grid gap-2 sm:grid-cols-2">
-              <Contacts contacts={contacts} />
-            </div>
+        <div className="flex flex-col items-center justify-center space-y-6 lg:flex-row lg:justify-between lg:space-x-6 lg:space-y-0">
+          <h2 className="font-light text-primary">
+            A <span className="font-bold">Bacancy</span><br className="hidden lg:block"/> Company
+          </h2>
+          <div className="flex flex-col md:flex-row md:space-x-12 space-y-12 md:space-y-0">
+            <Contacts contacts={contacts} />
           </div>
         </div>
 

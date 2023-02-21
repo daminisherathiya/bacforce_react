@@ -3,7 +3,7 @@ const Success = () => {
     <section className="-mt-40 py-0">
       <div className="grid bg-primary p-14 text-center text-white shadow md:grid-cols-12">
         <div className="md:col-span-8 md:col-start-3">
-          <h1 className="mb-10 font-bold">
+          <h1 className="mb-10 font-bold break-all">
             <a href="mailto:solutions@bacforce.com" className="underline">
               solutions@bacforce.com
             </a>
