@@ -3,7 +3,7 @@ import Input from "@/ui/Input";
 import Textarea from "@/ui/Textarea";
 import { useRef, useState } from "react";
 
-// const MAIL_API_URL = "/mail.php";
+const MAIL_API_URL = "/mail.php";
 /*
 1) Run the below command on terminal:
 open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
@@ -11,7 +11,7 @@ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args
 3) Start the Gulp server
 4) Start the React server
 */
-const MAIL_API_URL = "http://localhost:3000/mindforce/mail.php";
+// const MAIL_API_URL = "http://localhost:3000/mindforce/mail.php";
 
 const BannerForm = () => {
   // Todo: Background color of inputs changes when auto filled
@@ -22,6 +22,9 @@ const BannerForm = () => {
 
   const addContactInformationHandler = async (contectInformation) => {
     setsubmitting(true);
+    setsuccess(false);
+    setfailed(false);
+
     var form_data = new FormData();
     for (var key in contectInformation) {
       form_data.append(key, contectInformation[key]);

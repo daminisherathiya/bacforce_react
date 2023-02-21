@@ -28,7 +28,7 @@ const index = () => {
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="object" />
         <meta property="og:site_name" content="Bacforce" />
-        <meta name="robots" content="index,follow" />
+        <meta name="robots" content="noindex,nofollow" />
         <meta
           property="og:title"
           content="Hire Salesforce Developer in 48 Hours"
@@ -39,7 +39,7 @@ const index = () => {
         />
         <meta
           property="og:image"
-          content="/landing/images/OG-images/salesforce-developmentcompany.png"
+          content="https://bacforce.com/landing/images/OG-images/salesforce-developmentcompany.png"
         />
         <meta property="og:url" content="https://bacforce.com/" /> {/*todo*/}
         <link rel="canonical" href="https://bacforce.com/" /> {/*todo*/}
