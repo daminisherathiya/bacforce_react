@@ -11,4 +11,3 @@ const Button = ({ additionalClasses, type = "button", children }) => {
   );
 };
 export default Button;
-

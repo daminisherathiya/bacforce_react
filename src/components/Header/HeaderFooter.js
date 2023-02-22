@@ -1,5 +1,5 @@
+import { contacts } from "@/data/header.js";
 import Contacts from "../Contacts";
-import {contacts} from "@/data/header.js";
 
 const HeaderFooter = () => {
   return (

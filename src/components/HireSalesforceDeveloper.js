@@ -33,8 +33,7 @@ const HireSalesforceDeveloper = () => {
                   <span className="text-4xl">$4000 </span>Monthly (USD)
                 </h4>
                 <p className="mt-5 pt-5">
-                  4+ Years of Exp. Salesforce Developer - 160 hours per
-                  month
+                  4+ Years of Exp. Salesforce Developer - 160 hours per month
                 </p>
               </div>
             </div>

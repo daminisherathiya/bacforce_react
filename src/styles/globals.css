@@ -152,15 +152,14 @@
   transform: rotate(0);
 }
 
-
 /* noscroll */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* arrow */
@@ -174,7 +173,8 @@
   z-index: 0;
   transition: all ease-in-out 0.25s;
 }
-.long-arrow-icon-css:after, .long-arrow-icon-css:before {
+.long-arrow-icon-css:after,
+.long-arrow-icon-css:before {
   transition: all ease-in-out 0.25s;
   content: "";
   display: block;
@@ -203,10 +203,10 @@
   counter-increment: my-sec-counter;
   content: "0" counter(my-sec-counter);
   position: absolute;
-  font-size: max(80px,7.813vw);
-  color: rgba(105,105,105,.05);
+  font-size: max(80px, 7.813vw);
+  color: rgba(105, 105, 105, 0.05);
   bottom: 0;
   right: 0;
-  line-height: max(50px,5.104vw);
+  line-height: max(50px, 5.104vw);
   font-weight: 700;
 }

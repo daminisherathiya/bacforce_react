@@ -1,8 +1,8 @@
+import { services } from "@/data/PPC/header";
 import Image from "next/image";
+import { useState } from "react";
 import logo from "../../../../public/images/logo.svg";
 import ButtonLink from "../../../ui/ButtonLink";
-import { services } from "@/data/PPC/header";
-import { useState } from "react";
 
 const Header = () => {
   const [menuToggle, setmenuToggle] = useState(false);
@@ -23,7 +23,10 @@ const Header = () => {
         <div className="hidden items-center space-x-12 lg:flex">
           <ul className="flex space-x-12 text-base">
             {services.map((service, i) => (
-              <li key={service.id} className="text-secondary hover:text-primary">
+              <li
+                key={service.id}
+                className="text-secondary hover:text-primary"
+              >
                 <a href={service.href}>{service.title}</a>
               </li>
             ))}
@@ -63,7 +66,7 @@ const Header = () => {
         </div>
       </div>
       <div
-        className={`fixed top-0 left-0 w-full h-screen bg-[#131313] lg:opacity-0 ${
+        className={`fixed top-0 left-0 h-screen w-full bg-[#131313] lg:opacity-0 ${
           menuToggle ? "block opacity-50" : "hidden"
         }`}
       ></div>

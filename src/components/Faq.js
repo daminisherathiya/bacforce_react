@@ -1,8 +1,8 @@
-import ButtonLink from "@/ui/ButtonLink";
 import Accordion from "@/ui/Accordion";
-import SectionHeading from "@/ui/SectionHeading";
+import ButtonLink from "@/ui/ButtonLink";
 import SectionDescription from "@/ui/SectionDescription";
-const Faq = ({data}) => {
+import SectionHeading from "@/ui/SectionHeading";
+const Faq = ({ data }) => {
   return (
     <section className="bg-light-blue">
       <div className="grid gap-16 md:grid-cols-11 md:gap-20">

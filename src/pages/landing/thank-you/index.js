@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Footer from "@/components/Footer";
-import WeHelp from "@/components/WeHelp";
 import ThankYou from "@/components/Banner/ThankYou";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header/Header";
+import WeHelp from "@/components/WeHelp";
+import Head from "next/head";
 
 // todo: add context variables
 const index = () => {

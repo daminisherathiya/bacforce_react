@@ -23,7 +23,7 @@ const WeHelp = () => {
     setsubmitting(true);
     setsuccess(false);
     setfailed(false);
-    
+
     var form_data = new FormData();
     for (var key in contectInformation) {
       form_data.append(key, contectInformation[key]);

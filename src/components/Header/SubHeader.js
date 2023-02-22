@@ -1,6 +1,6 @@
 import Image from "next/image";
-import HeaderFooter from "./HeaderFooter";
 import { useRef } from "react";
+import HeaderFooter from "./HeaderFooter";
 
 const SubHeader = ({ open, service }) => {
   const toogleHeight = useRef();
@@ -33,12 +33,17 @@ const SubHeader = ({ open, service }) => {
               alt="Bacforce"
               className="w-[max(500px,45.313vw)]"
             />
-            <div className="absolute top-1/2 -translate-y-2/4 p-6 space-y-2">
+            <div className="absolute top-1/2 -translate-y-2/4 space-y-2 p-6">
               <h2 className="text-primary">
                 Let’s grow together
                 <b className="block">Partner with us</b>
               </h2>
-              <a href="https://bacforce.com/contactus" className="uppercase text-light-blue block">get quote <span className="long-arrow-icon-css ml-2"></span></a>
+              <a
+                href="https://bacforce.com/contactus"
+                className="block uppercase text-light-blue"
+              >
+                get quote <span className="long-arrow-icon-css ml-2"></span>
+              </a>
             </div>
           </div>
         </div>

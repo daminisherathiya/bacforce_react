@@ -1,18 +1,19 @@
-import Image from "next/image";
-import facebook from "../../public/images/footer/facebook.png";
-import twitter from "../../public/images/footer/twitter.png";
-import linkedin from "../../public/images/footer/linkedin.png";
 import Contacts from "@/components/Contacts";
 import { contacts } from "@/data/footer";
+import Image from "next/image";
+import facebook from "../../public/images/footer/facebook.png";
+import linkedin from "../../public/images/footer/linkedin.png";
+import twitter from "../../public/images/footer/twitter.png";
 const Footer = () => {
   return (
     <section className="bg-light-blue">
       <div className="space-y-28 bg-footer bg-contain bg-top bg-no-repeat">
         <div className="flex flex-col items-center justify-center space-y-6 lg:flex-row lg:justify-between lg:space-x-6 lg:space-y-0">
           <h2 className="font-light text-primary">
-            A <span className="font-bold">Bacancy</span><br className="hidden lg:block"/> Company
+            A <span className="font-bold">Bacancy</span>
+            <br className="hidden lg:block" /> Company
           </h2>
-          <div className="flex flex-col md:flex-row md:space-x-12 space-y-12 md:space-y-0">
+          <div className="flex flex-col space-y-12 md:flex-row md:space-x-12 md:space-y-0">
             <Contacts contacts={contacts} />
           </div>
         </div>

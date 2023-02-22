@@ -14,4 +14,4 @@ export const services = [
     title: "Plan and Pricing",
     href: "#PlanandPricing",
   },
-]
+];

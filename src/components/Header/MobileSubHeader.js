@@ -9,11 +9,11 @@ const MobileSubHeader = ({ service, open }) => {
         {title}
       </button>
       {/* https://stackoverflow.com/questions/73833316/add-transition-to-accordion-with-react-tailwind */}
-      <div className="overflow-hidden transition-all duration-500 text-base" style={{ maxHeight: open ? toogleHeight.current.scrollHeight : "0" }}>
-        <ul
-          ref={toogleHeight}
-          className="ml-4 pt-3 space-y-[12px]"
-        >
+      <div
+        className="overflow-hidden text-base transition-all duration-500"
+        style={{ maxHeight: open ? toogleHeight.current.scrollHeight : "0" }}
+      >
+        <ul ref={toogleHeight} className="ml-4 space-y-[12px] pt-3">
           {links.map((link) =>
             link.map((item) => (
               <li key={item.name}>

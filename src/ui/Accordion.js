@@ -1,5 +1,5 @@
-import AccordionItem from "./AccordionItem";
 import { useState } from "react";
+import AccordionItem from "./AccordionItem";
 
 const Accordion = ({ accordionItemsData, additionalClasses }) => {
   const [openIndex, setopenIndex] = useState(-1);
