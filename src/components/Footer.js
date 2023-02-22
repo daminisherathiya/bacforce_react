@@ -45,15 +45,12 @@ const Footer = () => {
                 <a href="https://bacforce.com/contactus">Contact Us</a>
               </li>
               <li className="mb-2 sm:mb-0">
-                <a href="#">Sitemap</a>
-              </li>
-              <li className="mb-2 sm:mb-0">
                 <a href="https://bacforce.com/privacy-policy">Privacy Policy</a>
               </li>
             </ul>
           </div>
           <div className="pt-6 text-center">
-            © Bacforce, 2022. All rights reserved.
+            © Bacforce, 2023. All rights reserved.
           </div>
         </div>
       </div>

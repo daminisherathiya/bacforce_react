@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Banner from "@/components/Banner/Banner";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
@@ -31,9 +30,7 @@ import ButtonLink from "@/ui/ButtonLink";
 const index = () => {
   return (
     <>
-      <Head>
-        <Meta data={salesforce1Meta} />
-      </Head>
+      <Meta data={salesforce1Meta} />
 
       <Header></Header>
 
