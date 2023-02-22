@@ -1,7 +1,7 @@
 const Button = ({ additionalClasses, type = "button", children }) => {
-  const allClasses =
-    "px-10 py-4 capitalize text-white text-base inline-block text-center " +
-    additionalClasses;
+  const allClasses = `px-10 py-4 capitalize text-white text-base inline-block text-center${
+    additionalClasses ? " " + additionalClasses : ""
+  }`;
   return (
     <div>
       <button className={allClasses} type={type}>
