@@ -4,6 +4,7 @@ import Image from "next/image";
 import facebook from "../../public/images/footer/facebook.png";
 import linkedin from "../../public/images/footer/linkedin.png";
 import twitter from "../../public/images/footer/twitter.png";
+
 const Footer = () => {
   return (
     <section className="bg-light-blue">

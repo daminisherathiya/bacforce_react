@@ -1,4 +1,6 @@
 import ButtonLink from "@/ui/ButtonLink";
+import SectionHeading from "@/ui/SectionHeading";
+
 // todo background
 const HireSalesforceDeveloper = () => {
   return (
@@ -6,10 +8,10 @@ const HireSalesforceDeveloper = () => {
       className="bg-black bg-cover bg-top pb-64 text-center text-white"
       id="PlanandPricing"
     >
-      <h1 className="mb-6">
+      <SectionHeading additionalClasses="mb-6 text-6xl">
         <span className="font-bold">Hire Salesforce Developer </span>
         as Per Your Need
-      </h1>
+      </SectionHeading>
       <div className="space-y-12">
         <h4>
           Simple & Transparent Pricing | Fully Signed NDA | Code Security | Easy

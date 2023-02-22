@@ -1,6 +1,7 @@
 import Accordion from "@/ui/Accordion";
 import ButtonLink from "@/ui/ButtonLink";
 import SectionHeading from "@/ui/SectionHeading";
+
 const WeOffer = ({ data, children }) => {
   return (
     <section className="bg-light-blue">

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRef } from "react";
 import arrow_circle_down from "../../public/images/arrow-circle-down.jpg";
+
 const AccordionItem = ({ faq, index, openHandler, openIndex }) => {
   // https://stackoverflow.com/questions/36104302/how-do-i-convert-a-string-to-jsx
 

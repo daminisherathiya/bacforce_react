@@ -1,4 +1,5 @@
 import TrustedCompany from "@/components/TrustedCompany";
+
 const Banner = ({ id, children }) => {
   return (
     <>

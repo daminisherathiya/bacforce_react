@@ -2,6 +2,7 @@ import Accordion from "@/ui/Accordion";
 import ButtonLink from "@/ui/ButtonLink";
 import SectionDescription from "@/ui/SectionDescription";
 import SectionHeading from "@/ui/SectionHeading";
+
 const Faq = ({ data }) => {
   return (
     <section className="bg-light-blue">

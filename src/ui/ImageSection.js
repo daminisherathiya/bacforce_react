@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 const ImageSection = ({ divClasses, imageClasses, imageSrc, imageAlt }) => {
   return (
     <div className={divClasses}>

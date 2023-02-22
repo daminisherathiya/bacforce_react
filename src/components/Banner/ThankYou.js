@@ -1,6 +1,7 @@
 import ButtonLink from "@/ui/ButtonLink";
 import Image from "next/image";
 import thank_you from "../../../public/images/thank-you/thank-you.svg";
+
 const ThankYou = () => {
   return (
     <section className="bg-light-blue pt-60 text-center">
