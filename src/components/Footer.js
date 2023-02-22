@@ -1,5 +1,4 @@
 import Image from "next/image";
-import usa_flag from "../../public/images/footer/footer-flag/usa-flag.jpg";
 import facebook from "../../public/images/footer/facebook.png";
 import twitter from "../../public/images/footer/twitter.png";
 import linkedin from "../../public/images/footer/linkedin.png";

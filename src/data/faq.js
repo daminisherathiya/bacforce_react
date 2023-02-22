@@ -1,4 +1,4 @@
-export const salesforce_developers = [
+export const salesforce1Faq = [
   {
     question: "How much does it cost to Hire Salesforce developer?",
     answer:

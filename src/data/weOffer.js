@@ -1,4 +1,4 @@
-export const salesforce_developers = {
+export const salesforce1WeOffer = {
   description:
     "We offer a comprehensive range of Salesforce development services at pocket-friendly prices.",
   weOffer: [

@@ -1,17 +1,20 @@
-import { salesforce_developers } from "@/data/faq";
 import ButtonLink from "@/ui/ButtonLink";
 import Accordion from "@/ui/Accordion";
-const Faq = () => {
+import SectionHeading from "@/ui/SectionHeading";
+import SectionDescription from "@/ui/SectionDescription";
+const Faq = ({data}) => {
   return (
     <section className="bg-light-blue">
       <div className="grid gap-16 md:grid-cols-11 md:gap-20">
         <div className="text-center md:col-span-4 md:text-left">
           <div className="sticky top-48 space-y-6">
-            <h2 className=" text-dark">
+            <SectionHeading>
               Frequently Asked
               <span className="font-bold md:block"> Questions</span>
-            </h2>
-            <p>Still have questions?</p>
+            </SectionHeading>
+            <SectionDescription>
+              <p>Still have questions?</p>
+            </SectionDescription>
             <ButtonLink
               additionalClasses="bg-secondary hover:bg-secondary-hover"
               href="#Form"
@@ -21,7 +24,7 @@ const Faq = () => {
           </div>
         </div>
         <Accordion
-          salesforce_developers={salesforce_developers}
+          salesforce_developers={data}
           additionalClasses="md:col-span-7"
         />
       </div>

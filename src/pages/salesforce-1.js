@@ -19,12 +19,13 @@ import challanges from "../../public/images/salesforce-developmentcompany/challa
 import SectionHeading from "@/ui/SectionHeading";
 import ImageSection from "@/ui/ImageSection";
 import WeOfferAdditionlComponent from "@/components/WeOfferAdditionlComponent";
-import { salesforce_developers } from "@/data/weOffer";
+import { salesforce1WeOffer } from "@/data/weOffer";
 import { salesforce1TechnicalExpertise } from "@/data/TechnicalExpertise";
 import { salesforce1NumberBackground } from "@/data/numberBackground";
 import SectionDescription from "@/ui/SectionDescription";
 import NumberBackgroundBox from "@/ui/NumberBackgroundBox";
 import ButtonLink from "@/ui/ButtonLink";
+import { salesforce1Faq } from "@/data/faq";
 
 // todo: add context variables
 const index = () => {
@@ -60,7 +61,7 @@ const index = () => {
         </div>
       </section>
 
-      <WeOffer data={salesforce_developers}>
+      <WeOffer data={salesforce1WeOffer}>
         <WeOfferAdditionlComponent />
       </WeOffer>
 
@@ -97,7 +98,7 @@ const index = () => {
         </ButtonLink>
       </section>
 
-      <Faq />
+      <Faq data={salesforce1Faq} />
       <WeHelp />
       <Footer />
     </>

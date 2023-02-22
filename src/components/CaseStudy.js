@@ -2,7 +2,6 @@ import ButtonLink from "@/ui/ButtonLink";
 import ImageSection from "@/ui/ImageSection";
 import SectionDescription from "@/ui/SectionDescription";
 import SectionHeading from "@/ui/SectionHeading";
-import Image from "next/image";
 import case_study_1 from "../../public/images/case-study/case-study-1.jpg";
 import case_study_2 from "../../public/images/case-study/case-study-2.jpg";
 import case_study_3 from "../../public/images/case-study/case-study-3.jpg";
