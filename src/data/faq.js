@@ -12,7 +12,7 @@ export const salesforce_developers = [
   {
     question: "What is your payment method after the engagement?",
     answer:
-      "We are a registered entity in the United States with the name Bacforce Technology LLC, so you can choose to pay us in a Bank of America account via ACH or wire transfer. We can also help you save tax with help of a W9 form, here is our TIN number 83-4332237. Regardless of your physical location, we accept wire transfer from all across the globe.",
+      "We are a registered entity in the United States with the name Bacancy Technology LLC, so you can choose to pay us in a Bank of America account via ACH or wire transfer. We can also help you save tax with help of a W9 form, here is our TIN number 83-4332237. Regardless of your physical location, we accept wire transfer from all across the globe.",
   },
   {
     question:
@@ -23,11 +23,14 @@ export const salesforce_developers = [
   {
     question:
       "If  I want to be involved in the development process, is it okay?",
-    answer: 'Absolutely yes. The BacForce is incepted based on Agile principles. With this Agile software development iterative approach, the "client – product owner" is always involved in the software development process. <br/><br/> The development process is not one-size-fits for all. With that consideration, from the ideation to deployment on each stage and on a daily basis, you will have an update from the team about project progress through Sprint. We let you have one to one interaction with the developer. Our daily scrum includes adaptive planning, continuous improvement, implementation, and rapid response to the changes.',
+    answer:
+      'Absolutely yes. The BacForce is incepted based on Agile principles. With this Agile software development iterative approach, the "client – product owner" is always involved in the software development process. <br/><br/> The development process is not one-size-fits for all. With that consideration, from the ideation to deployment on each stage and on a daily basis, you will have an update from the team about project progress through Sprint. We let you have one to one interaction with the developer. Our daily scrum includes adaptive planning, continuous improvement, implementation, and rapid response to the changes.',
   },
   {
-    question: 'Will you assign a dedicated "Project Manager – Scrum Master" as a point of contact?',
-    answer: "Yes. Dedicated project manager – Scrum master will be assigned throughout our engagement. With whom you can get in touch for any sort of assistance, query, or resolution.",
+    question:
+      'Will you assign a dedicated "Project Manager – Scrum Master" as a point of contact?',
+    answer:
+      "Yes. Dedicated project manager – Scrum master will be assigned throughout our engagement. With whom you can get in touch for any sort of assistance, query, or resolution.",
   },
   {
     question:
