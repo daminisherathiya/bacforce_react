@@ -1,4 +1,4 @@
-export const salesforce_developers = [
+export const salesforce1TechnicalExpertise = [
   {
     key: "Salesforce UI/UX Solutions",
     value:

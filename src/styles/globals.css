@@ -196,10 +196,10 @@
   border-bottom: none;
 }
 /*  */
-.step-col-1 {
+.counter-reset {
   counter-reset: my-sec-counter;
 }
-.services-cell::before {
+.bg-number::before {
   counter-increment: my-sec-counter;
   content: "0" counter(my-sec-counter);
   position: absolute;

@@ -1,15 +1,10 @@
 import ButtonLink from "@/ui/ButtonLink";
-import { salesforce_developers } from "@/data/TechnicalExpertise";
 
-const TechnicalExpertise = () => {
+const TechnicalExpertise = ({ data }) => {
   return (
-    <section className="text-center" id="TechnicalStack">
-      <h2 className="mb-16 font-bold text-dark">
-        <span className="font-light">Technical Expertise of </span>
-        Our Salesforce Developers
-      </h2>
+    <>
       <div className="space-y-4">
-        {salesforce_developers.map((data) => (
+        {data.map((data) => (
           <div
             key={data.key}
             className="group grid border border-gray md:grid-cols-12"
@@ -31,7 +26,7 @@ const TechnicalExpertise = () => {
       >
         Schedule A Developer Interview
       </ButtonLink>
-    </section>
+    </>
   );
 };
 

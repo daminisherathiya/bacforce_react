@@ -1,4 +1,4 @@
-export const salesforce_developers = {
+export const salesforce1Features = {
   banner: [
     "Flexible engagement models",
     "Skilled and experienced Consultants",
