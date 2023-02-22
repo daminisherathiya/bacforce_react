@@ -1,31 +1,31 @@
 import Banner from "@/components/Banner/Banner";
+import BannerForm from "@/components/Banner/BannerForm";
+import { BannerHeading } from "@/components/Banner/BannerHeading";
+import CaseStudy from "@/components/CaseStudy";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
+import Meta from "@/components/Meta";
 import Success from "@/components/Success";
-import CaseStudy from "@/components/CaseStudy";
 import TechnicalExpertise from "@/components/TechnicalExpertise";
 import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
-import Meta from "@/components/Meta";
-import { salesforce1Meta } from "@/data/meta";
-import BannerForm from "@/components/Banner/BannerForm";
-import BulletPointList from "@/ui/BulletPointList";
-import { BannerHeading } from "@/components/Banner/BannerHeading";
-import { salesforce1Features } from "@/data/features";
-import { salesforce1BannerHeading } from "@/data/bannerHeading";
-import challanges from "../../public/images/salesforce-developmentcompany/challanges.jpg";
-import SectionHeading from "@/ui/SectionHeading";
-import ImageSection from "@/ui/ImageSection";
 import WeOfferAdditionlComponent from "@/components/WeOfferAdditionlComponent";
-import { salesforce1WeOffer } from "@/data/weOffer";
-import { salesforce1TechnicalExpertise } from "@/data/TechnicalExpertise";
-import { salesforce1NumberBackground } from "@/data/numberBackground";
-import SectionDescription from "@/ui/SectionDescription";
-import NumberBackgroundBox from "@/ui/NumberBackgroundBox";
-import ButtonLink from "@/ui/ButtonLink";
+import { salesforce1BannerHeading } from "@/data/bannerHeading";
 import { salesforce1Faq } from "@/data/faq";
+import { salesforce1Features } from "@/data/features";
+import { salesforce1Meta } from "@/data/meta";
+import { salesforce1NumberBackground } from "@/data/numberBackground";
+import { salesforce1TechnicalExpertise } from "@/data/TechnicalExpertise";
+import { salesforce1WeOffer } from "@/data/weOffer";
+import BulletPointList from "@/ui/BulletPointList";
+import ButtonLink from "@/ui/ButtonLink";
+import ImageSection from "@/ui/ImageSection";
+import NumberBackgroundBox from "@/ui/NumberBackgroundBox";
+import SectionDescription from "@/ui/SectionDescription";
+import SectionHeading from "@/ui/SectionHeading";
+import challanges from "../../public/images/salesforce-developmentcompany/challanges.jpg";
 
 // todo: add context variables
 const index = () => {

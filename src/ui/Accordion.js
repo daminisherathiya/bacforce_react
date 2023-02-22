@@ -1,7 +1,7 @@
 import AccordionItem from "./AccordionItem";
 import { useState } from "react";
 
-const Accordion = ({ salesforce_developers, additionalClasses }) => {
+const Accordion = ({ accordionItemsData, additionalClasses }) => {
   const [openIndex, setopenIndex] = useState(-1);
   const openHandler = (index) => {
     if (openIndex === index) {
@@ -11,7 +11,7 @@ const Accordion = ({ salesforce_developers, additionalClasses }) => {
   };
   return (
     <div className={`space-y-3 ${additionalClasses ? additionalClasses : ""}`}>
-      {salesforce_developers.map((faq, index) => (
+      {accordionItemsData.map((faq, index) => (
         <AccordionItem
           faq={faq}
           index={index}

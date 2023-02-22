@@ -24,7 +24,7 @@ const Faq = ({data}) => {
           </div>
         </div>
         <Accordion
-          salesforce_developers={data}
+          accordionItemsData={data}
           additionalClasses="md:col-span-7"
         />
       </div>

@@ -6,7 +6,7 @@ import logo3 from "../../public/images/trusted-company-logo/logo-3.png";
 import logo4 from "../../public/images/trusted-company-logo/logo-4.png";
 import logo5 from "../../public/images/trusted-company-logo/logo-5.png";
 
-const TrustedCompanyList = [
+const trustedCompanyList = [
   {
     src: logo1,
     alt: "Mercedes",
@@ -42,12 +42,12 @@ const TrustedCompany = () => {
         </h4>
         <div className="flex flex-wrap justify-center">
           {/*todo*/}
-          {TrustedCompanyList.map((TrustedCompany, i) => (
+          {trustedCompanyList.map((trustedCompany, i) => (
             <ImageSection
               key={i}
               divClasses="my-3 w-1/3 px-3 md:my-0 md:w-1/5"
-              imageAlt={TrustedCompany.alt}
-              imageSrc={TrustedCompany.src}
+              imageAlt={trustedCompany.alt}
+              imageSrc={trustedCompany.src}
               imageClasses="mx-auto w-44"
             />
           ))}

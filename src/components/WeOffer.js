@@ -21,7 +21,7 @@ const WeOffer = ({ data, children }) => {
             </ButtonLink>
           </div>
         </div>
-        <Accordion salesforce_developers={data.weOffer} />
+        <Accordion accordionItemsData={data.weOffer} />
       </div>
     </section>
   );

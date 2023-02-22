@@ -17,9 +17,9 @@ const SubHeader = ({ open, service }) => {
           <div className="grid grid-cols-2">
             {links.map((link, i) => (
               <div key={i} className="space-y-5">
-                {link.map((link) => (
-                  <a href={link.href} className="block" key={link.name}>
-                    {link.name}
+                {link.map((item) => (
+                  <a href={item.href} className="block" key={item.name}>
+                    {item.name}
                   </a>
                 ))}
               </div>
