@@ -40,7 +40,7 @@ const salesforce1 = () => {
           data={salesforce1BannerHeading}
           additionalClasses="md:col-span-6 md:pr-28"
         >
-          <BulletPointList data={salesforce1Features.banner} />
+          <BulletPointList additionalClasses="after:top-1/2 after:-translate-y-2/4" data={salesforce1Features.banner} />
         </BannerHeading>
         <BannerForm />
       </Banner>
@@ -60,7 +60,7 @@ const salesforce1 = () => {
             imageSrc={challanges}
             imageClasses="h-[max(198px,24.167vw)] w-[max(280px,34.167vw)]"
           />
-          <BulletPointList data={salesforce1Features.challenges_re_solved} />
+          <BulletPointList additionalClasses="after:top-1/2 after:-translate-y-2/4" data={salesforce1Features.challenges_re_solved} />
         </div>
       </section>
 

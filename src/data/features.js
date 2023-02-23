@@ -18,3 +18,19 @@ export const salesforce1Features = {
     "Poor customer service due to huge query volume and long case resolution process.",
   ],
 };
+export const salesforce2Features = [
+  {
+    title: "Custom Apps for Internal Needs",
+    description: [
+      "Сomplex apps that add substantial functionality to Salesforce. They cover the needs in improving or transforming internal business processes that can’t be addressed with regular CRM functionality. For example, applications for property management or delivery planning.",
+      "Small apps to solve a set of specific tasks within Salesforce, like document generation, lead assignment.",
+    ],
+  },
+  {
+    title: "Apps for AppExchange",
+    description: [
+      "Applications to be listed on AppExchange and become an independent source of revenue.",
+      "Applications to be listed on AppExchange for integrating a company’s product (a cloud platform, a web application, etc.) with Salesforce.",
+    ],
+  },
+];

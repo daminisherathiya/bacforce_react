@@ -43,19 +43,17 @@ const CaseStudyDescription = ({ data }) => {
 const CaseStudy = () => {
   return (
     <section id="CaseStudy" className="scroll-mt-28 bg-light-blue text-center">
-      <div className="mb-16 flex-wrap justify-center lg:flex">
-        <SectionHeading additionalClasses="mb-8">
-          Our Salesforce
-          <span className="font-bold"> Success Stories</span>
-        </SectionHeading>
-        <SectionDescription>
-          <p className="lg:w-3/4">
-            Over the past 11+ years, our dedicated Salesforce Developers have
-            helped numbers of clients to get the customization done right to
-            improve their sales process and streamline production.
-          </p>
-        </SectionDescription>
-      </div>
+      <SectionHeading additionalClasses="mb-8">
+        Our Salesforce
+        <span className="font-bold"> Success Stories</span>
+      </SectionHeading>
+      <SectionDescription>
+        <p className="mx-auto mb-16 lg:w-3/4">
+          Over the past 11+ years, our dedicated Salesforce Developers have
+          helped numbers of clients to get the customization done right to
+          improve their sales process and streamline production.
+        </p>
+      </SectionDescription>
       <div className="grid grid-flow-dense gap-5 text-left md:grid-cols-3">
         <div className="md:col-span-2">
           <div className="grid h-full sm:grid-cols-12">
