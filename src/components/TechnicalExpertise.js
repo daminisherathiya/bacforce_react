@@ -9,7 +9,7 @@ const TechnicalExpertise = ({ data }) => {
             key={item.key}
             className="group grid border border-gray md:grid-cols-12"
           >
-            <div className="flex items-center bg-light py-5 px-24 group-hover:bg-primary md:col-span-3">
+            <div className="flex items-center bg-light py-5 px-12 group-hover:bg-primary md:col-span-3">
               <h3 className="text-left font-semibold text-dark group-hover:text-white">
                 {item.key}
               </h3>

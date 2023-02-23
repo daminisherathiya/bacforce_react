@@ -42,10 +42,7 @@ const CaseStudyDescription = ({ data }) => {
 
 const CaseStudy = () => {
   return (
-    <section
-      id="CaseStudy"
-      className="bg-gradient-to-r from-white to-water text-center"
-    >
+    <section id="CaseStudy" className="scroll-mt-28 bg-light-blue text-center">
       <div className="mb-16 flex-wrap justify-center lg:flex">
         <SectionHeading additionalClasses="mb-8">
           Our Salesforce

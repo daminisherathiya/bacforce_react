@@ -68,7 +68,7 @@ const index = () => {
       <HireSalesforceDeveloper />
       <Success />
 
-      <section className="text-center" id="TechnicalStack">
+      <section className="scroll-mt-28 text-center" id="TechnicalStack">
         <SectionHeading additionalClasses="mb-16">
           Technical Expertise of
           <span className="font-bold"> Our Salesforce Developers</span>

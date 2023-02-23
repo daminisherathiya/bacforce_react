@@ -19,7 +19,9 @@ const AccordionItem = ({ faq, index, openHandler, openIndex }) => {
         }}
       >
         <h4
-          className="font-bold"
+          className={`font-bold ${
+            index === openIndex ? "text-light-blue" : ""
+          }`}
           dangerouslySetInnerHTML={{ __html: faq.question }}
         ></h4>
         <div

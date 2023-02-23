@@ -114,7 +114,7 @@ const WeHelp = () => {
           )}
           <form className="space-y-5" onSubmit={submitHandler}>
             <Input type="text" placeholder="Full Name" innerRef={nameRef} />
-            <div className="flex space-x-5">
+            <div className="sm:flex sm:space-x-5 space-y-5 sm:space-y-0">
               <Input type="email" placeholder="Email" innerRef={emailRef} />
               <Input
                 type="tel"
