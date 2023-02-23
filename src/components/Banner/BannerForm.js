@@ -94,7 +94,7 @@ const BannerForm = () => {
   };
 
   return (
-    <div className="bg-white p-9 text-center shadow-blue md:col-span-4">
+    <div className="bg-white p-9 text-center shadow-blue md:col-span-5">
       <h3 className="mb-10">
         Schedule A Developer Interview and
         <span className="block font-bold text-light-blue">

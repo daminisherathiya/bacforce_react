@@ -28,7 +28,7 @@ import SectionHeading from "@/ui/SectionHeading";
 import challanges from "../../public/images/salesforce-developmentcompany/challanges.jpg";
 
 // todo: add context variables
-const index = () => {
+const salesforce1 = () => {
   return (
     <>
       <Meta data={salesforce1Meta} />
@@ -36,7 +36,10 @@ const index = () => {
       <Header></Header>
 
       <Banner id="Form">
-        <BannerHeading data={salesforce1BannerHeading}>
+        <BannerHeading
+          data={salesforce1BannerHeading}
+          additionalClasses="md:col-span-6 md:pr-28"
+        >
           <BulletPointList data={salesforce1Features.banner} />
         </BannerHeading>
         <BannerForm />
@@ -93,7 +96,10 @@ const index = () => {
           </SectionDescription>
         </div>
         <NumberBackgroundBox data={salesforce1NumberBackground} />
-        <ButtonLink additionalClasses="bg-secondary hover:bg-secondary-hover">
+        <ButtonLink
+          additionalClasses="bg-secondary hover:bg-secondary-hover"
+          href="#Form"
+        >
           Share Your Requirements
         </ButtonLink>
       </section>
@@ -105,4 +111,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default salesforce1;
