@@ -15,7 +15,7 @@ const TechnicalExpertise = ({ data }) => {
               </h3>
             </div>
             <div className="p-12 text-left md:col-span-9">
-              <p>{item.value}</p>
+              <p className="leading-[max(25px,2.083vw)]">{item.value}</p>
             </div>
           </div>
         ))}
