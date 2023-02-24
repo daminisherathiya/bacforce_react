@@ -45,3 +45,36 @@ export const salesforce1Faq = [
       "We understand that every project requires different skills, so we can provide you with a free replacement to continue our business relationship, and even after that if you are not satisfied, we can terminate the contract with a 2-week notice. The Termination invoice shall specify all unpaid work and the remaining work done until the termination date. On termination, all work completed to time shall be delivered to the client in a usable electronic format.",
   },
 ];
+
+export const salesforce2Faq = [
+  {
+    question: "Which Salesforce Services do you provide?",
+    answer:
+      "As a Salesforce Partner, we offer integration, implementation, ISV development, custom development, and managed services to deliver the best-quality technical solutions to personalized clients’ business needs.",
+  },
+  {
+    question: "Which industries are you working in?",
+    answer:
+      "We tightly cooperate with products from Business Processing services, Healthcare Solutions, e-Commerce, Financial Services, and others across the Salesforce ecosystem.",
+  },
+  {
+    question: "What are the benefits of Salesforce?",
+    answer:
+      "The software allows you to:<br/>organize and track sales leads, quotes, and orders, as well as provide sales support to your team<br/>track all customer interactions, including email, phone calls, online chats, and text messages, and integrates all these interactions into a single interface.<br>Salesforce also provides sales management tools for small and medium-sized businesses and support documentation, which can help you familiarize yourself with the features and functionality, as well as some tips and tricks. The built-in analytics and forecasting tools enable you to better manage your customers and sales, which could increase profit.",
+  },
+  {
+    question: "What types of organizations can benefit from using Salesforce?",
+    answer:
+      "Organizations of all types and sizes can use Salesforce.  Salesforce can help you create and manage your Internet sales, leads, and customer information and track your sales pipeline. If you have brick-and-mortar stores, Salesforce enables you to track your inventory and customers. Salesforce is used by small, medium, and large organizations, including sales organizations, service providers, manufacturers, and nonprofit organizations.",
+  },
+  {
+    question: "Do you offer support after launching the product?",
+    answer:
+      "We customize the program's in-progress functions and ensure long-term support in documentation and reports. Our teams solve issues for our clients with any questions they may have because our collaboration does not end with the product's release.Our clients know they can rely on us to run and maintain applications for their customers.",
+  },
+  {
+    question: "What are the benefits of using Salesforce services?",
+    answer:
+      "You get your data organized in CRM platform for a better understanding of customers<br/></br>customer service is improved using CRM by more than 47%<br/></br>automated support services and Artificial intelligence for faster responding to clients<br/></br>integration tools and applications that make your workflow more efficient and simple<br/></br>established analytics tool for creating reports at any time<br/></br>single view on the customer journey in one platform<br/></br>",
+  },
+];

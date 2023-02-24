@@ -1,0 +1,7 @@
+<svg id="switch-horizontal" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Path_3550" data-name="Path 3550" d="M0,0H40V40H0Z" fill="none"/>
+  <path id="Path_3551" data-name="Path 3551" d="M16,3l6.667,6.667L16,16.333" transform="translate(10.667 2)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1593" data-name="Line 1593" x2="16.551" transform="translate(16.337 11.772)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3552" data-name="Path 3552" d="M10.667,13,4,19.667l6.667,6.667" transform="translate(2.667 8.666)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1594" data-name="Line 1594" x2="15.516" transform="translate(6.51 28.323)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

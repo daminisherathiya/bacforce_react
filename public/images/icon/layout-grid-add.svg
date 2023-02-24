@@ -1,0 +1,7 @@
+<svg id="layout-grid-add" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Path_2457" data-name="Path 2457" d="M0,0H40V40H0Z" fill="none"/>
+  <rect id="Rectangle_178" data-name="Rectangle 178" width="9.827" height="9.31" rx="1" transform="translate(6.575 6.947)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect id="Rectangle_179" data-name="Rectangle 179" width="9.31" height="9.31" rx="1" transform="translate(23.644 6.947)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect id="Rectangle_180" data-name="Rectangle 180" width="9.827" height="10.344" rx="1" transform="translate(6.575 23.498)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_2458" data-name="Path 2458" d="M14,19H24m-5-5V24" transform="translate(9.333 9.334)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

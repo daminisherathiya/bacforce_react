@@ -39,3 +39,4 @@ export const salesforce1WeOffer = {
     },
   ],
 };
+export const salesforce2WeOffer = salesforce1WeOffer;

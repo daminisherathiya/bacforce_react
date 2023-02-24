@@ -1,0 +1,7 @@
+<svg id="box" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Path_862" data-name="Path 862" d="M0,0H40V40H0Z" fill="none"/>
+  <path id="Path_863" data-name="Path 863" d="M17.333,3l13.333,7.5v15L17.333,33,4,25.5v-15L17.333,3" transform="translate(2.667 2)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_704" data-name="Line 704" y1="7.5" x2="13.333" transform="translate(20 12.5)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_705" data-name="Line 705" y2="14.999" transform="translate(20.288 20.031)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_706" data-name="Line 706" x1="13.333" y1="7.5" transform="translate(6.667 12.5)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>
