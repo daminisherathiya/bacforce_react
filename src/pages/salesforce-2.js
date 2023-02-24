@@ -11,12 +11,14 @@ import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
 import WeOfferAdditionlComponent from "@/components/WeOfferAdditionlComponent";
 import { salesforce2BannerHeading } from "@/data/bannerHeading";
+import { salesforce2Carousel } from "@/data/carousel";
 import { salesforce2DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce2Faq } from "@/data/faq";
 import { salesforce2Features } from "@/data/features";
 import { salesforce2Meta } from "@/data/meta";
 import { salesforce2WeOffer } from "@/data/weOffer";
 import BulletPointList from "@/ui/BulletPointList";
+import Carousel from "@/ui/Carousel";
 import DescriptionWithIcon from "@/ui/DescriptionWithIcon";
 import ImageSection from "@/ui/ImageSection";
 import SectionDescription from "@/ui/SectionDescription";
@@ -57,9 +59,9 @@ const salesforce2 = () => {
             build everlasting relationships with your customers.
           </p>
         </SectionDescription>
-        <div className="grid grid-cols-2 divide-x divide-gray">
+        <div className="grid gap-12 md:gap-0 md:grid-cols-2 md:divide-x md:divide-gray">
           {salesforce2Features.map((item, index) => (
-            <div key={index} className="first:pr-12 last:pl-12">
+            <div key={index} className="md:first:pr-12 md:last:pl-12">
               <h3 className="mb-8 font-bold text-light-blue">{item.title}</h3>
               <BulletPointList
                 additionalClasses="after:top-3"
@@ -86,6 +88,21 @@ const salesforce2 = () => {
       </section>
 
       <CaseStudy />
+
+      <section className="px-0">
+        <SectionHeading additionalClasses="text-center mb-8 px-14 xl:px-64">
+          What <span className="font-bold">Our Amazing Clients</span> Say About
+          Us
+        </SectionHeading>
+        <SectionDescription>
+          <p className="mb-16 text-center px-14 xl:px-64">
+            Leading companies have trusted us with staff augmentation for
+            fulfilling their IT needs.
+          </p>
+        </SectionDescription>
+        <Carousel data={salesforce2Carousel} />
+      </section>
+
       <Faq data={salesforce2Faq} />
       <WeHelp />
       <Footer />

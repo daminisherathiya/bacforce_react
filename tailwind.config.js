@@ -51,8 +51,8 @@ module.exports = {
       white: "#FFFFFF",
     },
     boxShadow: {
-      DEFAULT: "0px 16px 32px #1616161A",
-      blue: "0px 16px 32px #2063F01A",
+      DEFAULT: "0px max(16px,0.833vw) max(32px,1.667vw) #1616161A",
+      blue: "0px max(16px,0.833vw) max(32px,1.667vw) #2063F01A",
     },
     spacing: {
       px: "1px", // 1px
