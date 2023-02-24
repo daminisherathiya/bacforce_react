@@ -44,10 +44,10 @@ const AccordionItem = ({ faq, index, openHandler, openIndex }) => {
             index === openIndex ? toogleHeight.current.scrollHeight : "0",
         }}
       >
-        <p
+        <div
           className="text-gray-400 pt-5 text-justify"
           dangerouslySetInnerHTML={{ __html: faq.answer }}
-        ></p>
+        ></div>
       </div>
     </div>
   );

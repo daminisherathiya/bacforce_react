@@ -57,7 +57,7 @@ const Carousel = ({ data }) => {
                 />
                 <div className="space-y-2">
                   <h4 className="font-bold">{item.name}</h4>
-                  <p>{item.role}</p>
+                  <p className="text-light-gray">{item.role}</p>
                 </div>
               </div>
             </div>

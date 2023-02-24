@@ -45,6 +45,8 @@ module.exports = {
       secondary: "#454545",
       "light-blue": "#2063F0",
       dark: "#103278",
+      gray: "737373",
+      "light-gray": "A2A2A2"
     },
     borderColor: {
       gray: "#D0D0D0",

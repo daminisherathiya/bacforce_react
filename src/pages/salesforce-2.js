@@ -64,7 +64,7 @@ const salesforce2 = () => {
             <div key={index} className="md:first:pr-12 md:last:pl-12">
               <h3 className="mb-8 font-bold text-light-blue">{item.title}</h3>
               <BulletPointList
-                additionalClasses="after:top-3"
+                additionalClasses="after:top-3 text-secondary"
                 data={item.description}
               />
             </div>
