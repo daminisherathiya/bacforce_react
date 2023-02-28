@@ -25,7 +25,7 @@ const caseStudies = {
     subTitle: "REALESTATE",
     title: "Real Estate Solution",
     description:
-      "A Reputed Real Estate Service Provider in San Francisco chose Bacancy for their Salesforce project. Our SF developers provided solutions like a unique set of integrations and custom development addressed to varied requirements, maximized their CRM, and unlocked the full power of their investment from Salesforce features.",
+      "A Reputed Real Estate Service Provider in San Francisco chose Bacforce for their Salesforce project. Our SF developers provided solutions like a unique set of integrations and custom development addressed to varied requirements, maximized their CRM, and unlocked the full power of their investment from Salesforce features.",
     imageSrc: case_study_2,
   },
 };

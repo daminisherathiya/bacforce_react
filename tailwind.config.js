@@ -45,12 +45,13 @@ module.exports = {
       secondary: "#454545",
       "light-blue": "#2063F0",
       dark: "#103278",
-      gray: "737373",
+      gray: "#737373",
       "light-gray": "A2A2A2"
     },
     borderColor: {
       gray: "#D0D0D0",
       white: "#FFFFFF",
+      "light-blue": "#2063F0",
     },
     boxShadow: {
       DEFAULT: "0px max(16px,0.833vw) max(32px,1.667vw) #1616161A",

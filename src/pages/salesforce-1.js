@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
+import RateOfDevelopers from "@/components/RateOfDevelopers";
 import Success from "@/components/Success";
 import TechnicalExpertise from "@/components/TechnicalExpertise";
 import WeHelp from "@/components/WeHelp";
@@ -40,7 +41,10 @@ const salesforce1 = () => {
           data={salesforce1BannerHeading}
           additionalClasses="md:col-span-6 md:pr-28"
         >
-          <BulletPointList additionalClasses="after:top-1/2 after:-translate-y-2/4" data={salesforce1Features.banner} />
+          <BulletPointList
+            additionalClasses="after:top-1/2 after:-translate-y-2/4"
+            data={salesforce1Features.banner}
+          />
         </BannerHeading>
         <BannerForm />
       </Banner>
@@ -60,7 +64,10 @@ const salesforce1 = () => {
             imageSrc={challanges}
             imageClasses="h-[max(198px,24.167vw)] w-[max(280px,34.167vw)]"
           />
-          <BulletPointList additionalClasses="after:top-1/2 after:-translate-y-2/4" data={salesforce1Features.challenges_re_solved} />
+          <BulletPointList
+            additionalClasses="after:top-1/2 after:-translate-y-2/4"
+            data={salesforce1Features.challenges_re_solved}
+          />
         </div>
       </section>
 
@@ -68,7 +75,26 @@ const salesforce1 = () => {
         <WeOfferAdditionlComponent />
       </WeOffer>
 
-      <HireSalesforceDeveloper />
+      <HireSalesforceDeveloper id="PlanandPricing">
+        <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
+          <span className="font-bold">Hire Salesforce Developer </span>
+          as Per Your Need
+        </SectionHeading>
+        <RateOfDevelopers>
+          <p>
+            Share your business requirements and the results you&apos;d want to
+            achieve. Our Salesforce consulting experts helps you maximize your
+            investment with the right Salesforce solution that perfectly fits
+            your business needs.
+          </p>
+          <ButtonLink
+            additionalClasses="bg-secondary hover:bg-secondary-hover"
+            href="#Form"
+          >
+            Schedule A Developer Interview
+          </ButtonLink>
+        </RateOfDevelopers>
+      </HireSalesforceDeveloper>
       <Success />
 
       <section className="scroll-mt-28 text-center" id="TechnicalStack">

@@ -3,9 +3,11 @@ import { BannerHeading } from "@/components/Banner/BannerHeading";
 import CaseStudy from "@/components/CaseStudy";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
+import { FormCol3 } from "@/components/Form";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
+import RateOfDevelopers from "@/components/RateOfDevelopers";
 import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
@@ -18,6 +20,7 @@ import { salesforce2Features } from "@/data/features";
 import { salesforce2Meta } from "@/data/meta";
 import { salesforce2WeOffer } from "@/data/weOffer";
 import BulletPointList from "@/ui/BulletPointList";
+import ButtonLink from "@/ui/ButtonLink";
 import Carousel from "@/ui/Carousel";
 import DescriptionWithIcon from "@/ui/DescriptionWithIcon";
 import ImageSection from "@/ui/ImageSection";
@@ -59,7 +62,7 @@ const salesforce2 = () => {
             build everlasting relationships with your customers.
           </p>
         </SectionDescription>
-        <div className="grid gap-12 md:gap-0 md:grid-cols-2 md:divide-x md:divide-gray">
+        <div className="grid gap-12 md:grid-cols-2 md:gap-0 md:divide-x md:divide-gray">
           {salesforce2Features.map((item, index) => (
             <div key={index} className="md:first:pr-12 md:last:pl-12">
               <h3 className="mb-8 font-bold text-light-blue">{item.title}</h3>
@@ -76,10 +79,42 @@ const salesforce2 = () => {
         <WeOfferAdditionlComponent />
       </WeOffer>
 
-      <HireSalesforceDeveloper />
+      <section id="PlanandPricing" className="scroll-mt-28 text-center">
+        <SectionHeading additionalClasses="mb-6 text-6xl">
+          <span className="font-bold">Hire Salesforce Developer </span>
+          as Per Your Need
+        </SectionHeading>
+        <RateOfDevelopers theme="light-blue">
+          <ButtonLink
+            additionalClasses="bg-secondary hover:bg-secondary-hover"
+            href="#Form"
+          >
+            Schedule A Developer Interview
+          </ButtonLink>
+        </RateOfDevelopers>
+      </section>
+      <HireSalesforceDeveloper id="Form">
+        <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
+          Schedule A Developer Interview and Get 15 Days Risk-Free Trial
+        </SectionHeading>
+        <div className="grid grid-cols-10">
+          <div className="col-span-8 col-start-2 space-y-12">
+            <div>
+              <h2>Let&apos;s get to know each other with a Free call.</h2>
+              <p className="mt-8">
+                Share your business requirements and the results you&apos;d want
+                to achieve. Our Salesforce consulting experts helps you maximize
+                your investment with the right Salesforce solution that
+                perfectly fits your business needs.
+              </p>
+            </div>
+            <FormCol3 />
+          </div>
+        </div>
+      </HireSalesforceDeveloper>
       <Success />
 
-      <section>
+      <section id="TechnicalStack" className="scroll-mt-28">
         <SectionHeading additionalClasses="text-center mb-16">
           <span className="font-bold">Proven Experience</span> With Salesforce
           Technologies
@@ -95,7 +130,7 @@ const salesforce2 = () => {
           Us
         </SectionHeading>
         <SectionDescription>
-          <p className="mb-16 text-center px-14 xl:px-64">
+          <p className="mb-16 px-14 text-center xl:px-64">
             Leading companies have trusted us with staff augmentation for
             fulfilling their IT needs.
           </p>
