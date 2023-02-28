@@ -7,9 +7,13 @@ const Faq = ({ data }) => {
   return (
     <section className="bg-light-blue">
       <div className="grid gap-16 md:grid-cols-11 md:gap-20">
-        <div className="text-center md:col-span-4 md:text-left">
+        <Accordion
+          accordionItemsData={data}
+          additionalClasses="md:col-span-8"
+        />
+        <div className="text-center md:col-span-3 md:text-left">
           <div className="sticky top-48 space-y-6">
-            <SectionHeading>
+            <SectionHeading additionalClasses="text-6xl">
               Frequently Asked
               <span className="font-bold md:block"> Questions</span>
             </SectionHeading>
@@ -24,10 +28,6 @@ const Faq = ({ data }) => {
             </ButtonLink>
           </div>
         </div>
-        <Accordion
-          accordionItemsData={data}
-          additionalClasses="md:col-span-7"
-        />
       </div>
     </section>
   );

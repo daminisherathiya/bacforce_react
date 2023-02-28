@@ -11,7 +11,7 @@ const Header = () => {
   };
   return (
     <div className="fixed z-10 w-full bg-light-blue px-14 py-8 ">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between lg:justify-start">
         <a href="https://bacforce.com/">
           <Image
             src={logo}
@@ -20,7 +20,7 @@ const Header = () => {
             priority
           />
         </a>
-        <div className="hidden items-center space-x-12 lg:flex">
+        <div className="ml-12 hidden grow items-center justify-between space-x-12 lg:flex">
           <ul className="flex space-x-12 text-base">
             {services.map((service, i) => (
               <li
@@ -31,12 +31,20 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <ButtonLink
-            additionalClasses="bg-primary hover:bg-primary-hover"
-            href="#Form"
-          >
-            Start 15 Days Risk-Free Trial
-          </ButtonLink>
+          <div className="ml-auto flex space-x-3">
+            <ButtonLink
+              additionalClasses="bg-primary hover:bg-primary-hover"
+              href="https://calendly.com/americas-3/30-minute-meeting-bacforce-1"
+            >
+              Book A Call
+            </ButtonLink>
+            <ButtonLink
+              additionalClasses="bg-primary hover:bg-primary-hover"
+              href="#Form"
+            >
+              Start 15 Days Risk-Free Trial
+            </ButtonLink>
+          </div>
         </div>
         <div className="lg:hidden">
           <button
@@ -86,6 +94,12 @@ const Header = () => {
               </li>
             ))}
           </ul>
+          <ButtonLink
+            additionalClasses="bg-primary hover:bg-primary-hover mt-6 text-xl"
+            href="https://calendly.com/americas-3/30-minute-meeting-bacforce-1"
+          >
+            Book A Call
+          </ButtonLink>
           <ButtonLink
             additionalClasses="bg-primary hover:bg-primary-hover mt-6 text-xl"
             href="#Form"
