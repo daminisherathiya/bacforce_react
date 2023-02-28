@@ -6,7 +6,7 @@ export const salesforce2Carousel = [
   {
     title: "Interview Before Hiring Developers",
     description:
-      "“The team at BacForceis reliable and accommodating to my business needs. We had the option to Interview Before Hiring. Their account management is a pleasant experience and I highly recommend them.”",
+      "“The team at BacForce is reliable and accommodating to my business needs. We had the option to Interview Before Hiring. Their account management is a pleasant experience and I highly recommend them.”",
     imageSrc: user1,
     name: "Philip Gomez",
     role: "Co-Owner, Patty's Cakes and Desserts",
@@ -30,15 +30,7 @@ export const salesforce2Carousel = [
   {
     title: "Quick On-borading",
     description:
-      "“Bacancy has been doing an excellent job with the software and helping the client transform it into a SaaS platform. A responsive and organized team, their communication is awesome, with daily reports and regular calls for project updates. The team's availability has secured an ongoing partnership.”",
-    imageSrc: user4,
-    name: "Brett Williams",
-    role: "Founder of Aegis",
-  },
-  {
-    title: "Quick On-borading",
-    description:
-      "“Bacancy has been doing an excellent job with the software and helping the client transform it into a SaaS platform. A responsive and organized team, their communication is awesome, with daily reports and regular calls for project updates. The team's availability has secured an ongoing partnership.”",
+      "Bacforce has been doing an excellent job with the software and helping the client transform it into a SaaS platform. A responsive and organized team, their communication is awesome, with daily reports and regular calls for project updates. The team's availability has secured an ongoing partnership.”",
     imageSrc: user4,
     name: "Brett Williams",
     role: "Founder of Aegis",

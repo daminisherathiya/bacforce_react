@@ -16,12 +16,11 @@ const Carousel = ({ data }) => {
         slidesPerView={1.1}
         centeredSlides={true}
         initialSlide={0}
-        navigation={true}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="!pt-3"
         breakpoints={{
           640: {
             slidesPerView: 1.5,

@@ -6,7 +6,7 @@ const DescriptionWithIcon = ({ data }) => {
       {data.map((item, index) => (
         <div
           key={index}
-          className="group flex items-center border border-gray py-8 px-10 hover:bg-primary"
+          className="group flex items-center border border-gray py-8 px-10 hover:bg-primary cursor-pointer"
         >
           <ImageSection
             divClasses="pr-6"
