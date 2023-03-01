@@ -7,7 +7,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
-import RateOfDevelopers from "@/components/RateOfDevelopers";
 import Success from "@/components/Success";
 import TechnicalExpertise from "@/components/TechnicalExpertise";
 import WeHelp from "@/components/WeHelp";
@@ -24,6 +23,7 @@ import BulletPointList from "@/ui/BulletPointList";
 import ButtonLink from "@/ui/ButtonLink";
 import ImageSection from "@/ui/ImageSection";
 import NumberBackgroundBox from "@/ui/NumberBackgroundBox";
+import PricingBox from "@/ui/PricingBox";
 import SectionDescription from "@/ui/SectionDescription";
 import SectionHeading from "@/ui/SectionHeading";
 import challanges from "../../public/images/salesforce-developmentcompany/challanges.jpg";
@@ -80,20 +80,27 @@ const salesforce1 = () => {
           <span className="font-bold">Hire Salesforce Developer </span>
           as Per Your Need
         </SectionHeading>
-        <RateOfDevelopers>
-          <p>
-            Share your business requirements and the results you&apos;d want to
-            achieve. Our Salesforce consulting experts helps you maximize your
-            investment with the right Salesforce solution that perfectly fits
-            your business needs.
-          </p>
-          <ButtonLink
-            additionalClasses="bg-secondary hover:bg-secondary-hover"
-            href="#Form"
-          >
-            Schedule A Developer Interview
-          </ButtonLink>
-        </RateOfDevelopers>
+        <div className="lg:grid lg:grid-cols-10">
+          <div className="space-y-12 lg:col-span-8 lg:col-start-2">
+            <h4>
+              Simple & Transparent Pricing | Fully Signed NDA | Code Security |
+              Easy Exit Policy
+            </h4>
+            <PricingBox />
+            <p>
+              Share your business requirements and the results you&apos;d want
+              to achieve. Our Salesforce consulting experts helps you maximize
+              your investment with the right Salesforce solution that perfectly
+              fits your business needs.
+            </p>
+            <ButtonLink
+              additionalClasses="bg-secondary hover:bg-secondary-hover"
+              href="#Form"
+            >
+              Schedule A Developer Interview
+            </ButtonLink>
+          </div>
+        </div>
       </HireSalesforceDeveloper>
       <Success />
 

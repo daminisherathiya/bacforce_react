@@ -33,7 +33,7 @@ const Header = () => {
           </ul>
           <div className="ml-auto flex space-x-3">
             <ButtonLink
-              additionalClasses="bg-primary hover:bg-primary-hover"
+              additionalClasses="bg-secondary hover:bg-secondary-hover"
               href="https://calendly.com/americas-3/30-minute-meeting-bacforce-1"
             >
               Book A Call
@@ -95,7 +95,7 @@ const Header = () => {
             ))}
           </ul>
           <ButtonLink
-            additionalClasses="bg-primary hover:bg-primary-hover mt-6 text-xl"
+            additionalClasses="bg-secondary hover:bg-secondary-hover mt-6 text-xl"
             href="https://calendly.com/americas-3/30-minute-meeting-bacforce-1"
           >
             Book A Call

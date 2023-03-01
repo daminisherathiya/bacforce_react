@@ -7,7 +7,6 @@ import { FormCol3 } from "@/components/Form";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
-import RateOfDevelopers from "@/components/RateOfDevelopers";
 import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
@@ -24,6 +23,7 @@ import ButtonLink from "@/ui/ButtonLink";
 import Carousel from "@/ui/Carousel";
 import DescriptionWithIcon from "@/ui/DescriptionWithIcon";
 import ImageSection from "@/ui/ImageSection";
+import PricingBox from "@/ui/PricingBox";
 import SectionDescription from "@/ui/SectionDescription";
 import SectionHeading from "@/ui/SectionHeading";
 import banner from "../../public/images/salesforce-2/banner.png";
@@ -84,18 +84,26 @@ const salesforce2 = () => {
           <span className="font-bold">Hire Salesforce Developer </span>
           as Per Your Need
         </SectionHeading>
-        <RateOfDevelopers theme="light-blue">
-          <ButtonLink
-            additionalClasses="bg-secondary hover:bg-secondary-hover"
-            href="#Form"
-          >
-            Schedule A Developer Interview
-          </ButtonLink>
-        </RateOfDevelopers>
+        <div className="lg:grid lg:grid-cols-10">
+          <div className="space-y-12 lg:col-span-8 lg:col-start-2">
+            <h4>
+              Simple & Transparent Pricing | Fully Signed NDA | Code Security |
+              Easy Exit Policy
+            </h4>
+            <PricingBox theme="light-blue" />
+            <ButtonLink
+              additionalClasses="bg-secondary hover:bg-secondary-hover"
+              href="#Form"
+            >
+              Schedule A Developer Interview
+            </ButtonLink>
+          </div>
+        </div>
       </section>
       <HireSalesforceDeveloper id="Form">
         <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
-          Schedule A Developer Interview and Get 15 Days Risk-Free Trial
+          Schedule A Developer Interview and
+          <br className="hidden lg:block" /> Get 15 Days Risk-Free Trial
         </SectionHeading>
         <div className="grid grid-cols-10">
           <div className="col-span-8 col-start-2 space-y-12">
