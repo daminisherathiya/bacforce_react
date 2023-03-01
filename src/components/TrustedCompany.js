@@ -37,7 +37,7 @@ const TrustedCompany = () => {
           <span className="font-bold"> of Customers Who Trust Us</span>
         </SectionHeading>
         <h4 className="mb-7 text-secondary">
-          Trusted by hundreds of Start-ups, Scale-ups, & Enterprises helping
+          Trusted by hundreds of Start-ups, Scale-ups, &amp; Enterprises helping
           improve their Salesforce and accelerate revenue.
         </h4>
         <div className="flex flex-wrap justify-center">

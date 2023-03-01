@@ -12,7 +12,7 @@ const Success = () => {
           <p>
             We accelerate the release of digital products and guarantee your
             success We Use <span className="font-bold">Slack</span>,
-            <span className="font-bold"> Jira </span> &
+            <span className="font-bold"> Jira </span> &amp;
             <span className="font-bold"> GitHub</span> for Accurate Deployment
             and Effective Communication.
           </p>
