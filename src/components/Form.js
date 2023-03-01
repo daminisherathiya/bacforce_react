@@ -158,7 +158,7 @@ export const FormCol1 = () => {
         <div>
           <Input
             type="email"
-            additionalClasses={!formInputsValidity.name && "border-[#e42d3f]"}
+            additionalClasses={!formInputsValidity.email && "border-[#e42d3f]"}
             placeholder="Email Address"
             innerRef={emailRef}
           />
@@ -171,7 +171,7 @@ export const FormCol1 = () => {
         <div>
           <Input
             type="tel"
-            additionalClasses={!formInputsValidity.name && "border-[#e42d3f]"}
+            additionalClasses={!formInputsValidity.phone && "border-[#e42d3f]"}
             placeholder="Phone Number"
             innerRef={phoneRef}
           />
