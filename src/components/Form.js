@@ -3,6 +3,8 @@ import Input from "@/ui/Input";
 import Textarea from "@/ui/Textarea";
 import { useRef, useState } from "react";
 
+const isEmpty = (value) => value.trim() === "";
+
 const MAIL_API_URL = "/mail.php";
 /*
 1) Run the below command on terminal:
@@ -19,6 +21,31 @@ export const FormCol1 = () => {
   const [failed, setfailed] = useState(false);
   const [failedmsg, setfailedmsg] = useState("Failed");
   const [submitting, setsubmitting] = useState(false);
+
+  const [formInputsValidity, setformInputsValidity] = useState({
+    name: true,
+    email: true,
+    phone: true,
+  });
+  const validateForm = () => {
+    const enteredName = nameRef.current.value;
+    const enteredEmail = emailRef.current.value;
+    const enteredPhone = phoneRef.current.value;
+
+    const enteredNameIsValid = !isEmpty(enteredName);
+    const enteredEmailIsValid = !isEmpty(enteredEmail);
+    const enteredPhoneIsValid = !isEmpty(enteredPhone);
+
+    setformInputsValidity({
+      name: enteredNameIsValid,
+      email: enteredEmailIsValid,
+      phone: enteredPhoneIsValid,
+    });
+    return enteredNameIsValid && enteredEmailIsValid && enteredPhoneIsValid;
+  };
+  const onChangeHandler = () => {
+    validateForm();
+  };
 
   const addContactInformationHandler = async (contectInformation) => {
     setsubmitting(true);
@@ -79,6 +106,12 @@ export const FormCol1 = () => {
   const submitHandler = (event) => {
     event.preventDefault();
 
+    const formIsValid = validateForm();
+
+    if (!formIsValid) {
+      return;
+    }
+
     const contactInformation = {
       contactName: nameRef.current.value,
       contactEmail: emailRef.current.value,
@@ -95,19 +128,59 @@ export const FormCol1 = () => {
   return (
     <>
       {success && (
-        <div className="mb-3 bg-secondary p-4 font-bold text-white">
+        <div className="mb-3 bg-secondary p-4 text-center font-bold text-white">
           Success
         </div>
       )}
       {failed && (
-        <div className="mb-3 bg-[#f8d7da] p-4 font-bold text-[#721c24]">
+        <div className="mb-3 bg-[#f8d7da] p-4 text-center font-bold text-[#721c24]">
           {failedmsg}
         </div>
       )}
-      <form className="space-y-3" onSubmit={submitHandler}>
-        <Input type="name" placeholder="Your Name" innerRef={nameRef} />
-        <Input type="email" placeholder="Email Address" innerRef={emailRef} />
-        <Input type="tel" placeholder="Phone Number" innerRef={phoneRef} />
+      <form
+        className="space-y-3"
+        onSubmit={submitHandler}
+        onChange={onChangeHandler}
+      >
+        <div>
+          <Input
+            type="name"
+            additionalClasses={!formInputsValidity.name && "border-[#e42d3f]"}
+            placeholder="Your Name"
+            innerRef={nameRef}
+          />
+          {!formInputsValidity.name && (
+            <p className="pl-2 text-base text-[#e42d3f]">
+              Please enter a valid name!
+            </p>
+          )}
+        </div>
+        <div>
+          <Input
+            type="email"
+            additionalClasses={!formInputsValidity.name && "border-[#e42d3f]"}
+            placeholder="Email Address"
+            innerRef={emailRef}
+          />
+          {!formInputsValidity.email && (
+            <p className="pl-2 text-base text-[#e42d3f]">
+              Please enter a valid email!
+            </p>
+          )}
+        </div>
+        <div>
+          <Input
+            type="tel"
+            additionalClasses={!formInputsValidity.name && "border-[#e42d3f]"}
+            placeholder="Phone Number"
+            innerRef={phoneRef}
+          />
+          {!formInputsValidity.phone && (
+            <p className="pl-2 text-base text-[#e42d3f]">
+              Please enter a valid phone number!
+            </p>
+          )}
+        </div>
         <Textarea placeholder="Your Message" innerRef={messageRef} />
         <Button
           additionalClasses="bg-secondary hover:bg-secondary-hover w-full"
@@ -309,12 +382,12 @@ export const FormCol3 = () => {
   return (
     <>
       {success && (
-        <div className="mb-3 bg-secondary p-4 font-bold text-white">
+        <div className="mb-3 bg-secondary p-4 text-center font-bold text-white">
           Success
         </div>
       )}
       {failed && (
-        <div className="mb-3 bg-[#f8d7da] p-4 font-bold text-[#721c24]">
+        <div className="mb-3 bg-[#f8d7da] p-4 text-center font-bold text-[#721c24]">
           {failedmsg}
         </div>
       )}
