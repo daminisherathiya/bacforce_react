@@ -1,5 +1,10 @@
 import ButtonLink from "@/ui/ButtonLink";
-export const BannerHeading = ({ additionalClasses, data, children }) => {
+export const BannerHeading = ({
+  additionalClasses,
+  data,
+  children,
+  headingColor = "text-dark",
+}) => {
   const allClasses = `flex flex-col justify-center space-y-8${
     additionalClasses ? " " + additionalClasses : ""
   }`;
@@ -7,7 +12,7 @@ export const BannerHeading = ({ additionalClasses, data, children }) => {
   return (
     <div className={allClasses}>
       <h1
-        className="text-6xl text-dark"
+        className={headingColor}
         dangerouslySetInnerHTML={{ __html: data.heading }}
       ></h1>
       {data.descriptionList.map((description, index) => (

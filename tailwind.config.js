@@ -101,7 +101,6 @@ module.exports = {
       backgroundImage: {
         footer: "url('../../public/images/footer/bg.png')",
         black: "url('../../public/images/black-bg.jpg')",
-        faq: "linear-gradient(to bottom,#DEEFFF 50%,#FFFFFF 50%)",
       },
     },
   },

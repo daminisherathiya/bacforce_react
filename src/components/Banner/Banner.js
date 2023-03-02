@@ -1,10 +1,16 @@
 import TrustedCompany from "@/components/TrustedCompany";
 
-const Banner = ({ id, children }) => {
+const Banner = ({ additionalClasses, id, children, cols = "11" }) => {
+  const allClasses = `bg-light-blue pt-60 pb-40${
+    additionalClasses ? " " + additionalClasses : ""
+  }`;
+
   return (
     <>
-      <section className="bg-light-blue pt-60 pb-40" id={id}>
-        <div className="grid gap-16 md:grid-cols-11 md:gap-0">{children}</div>
+      <section className={allClasses} id={id}>
+        <div className={`grid gap-16 md:grid-cols-${cols} md:gap-0`}>
+          {children}
+        </div>
       </section>
       <TrustedCompany />
     </>
