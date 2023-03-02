@@ -20,8 +20,6 @@ export default function Document() {
         {/* End Google Tag Manager */}
       </Head>
       <body className="font-HarmoniaSans">
-        <Main />
-        <NextScript />
         {/* Google Tag Manager (noscript) */}
         <noscript
           dangerouslySetInnerHTML={{
@@ -30,6 +28,8 @@ export default function Document() {
           }}
         ></noscript>
         {/* End Google Tag Manager (noscript) */}
+        <Main />
+        <NextScript />
       </body>
     </Html>
   );

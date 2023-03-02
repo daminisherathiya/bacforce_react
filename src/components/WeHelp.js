@@ -1,4 +1,4 @@
-import { FormCol2 } from "@/components/Form";
+import Form from "@/components/Form";
 const WeHelp = () => {
   return (
     <section className="bg-dark text-center md:text-left">
@@ -10,7 +10,7 @@ const WeHelp = () => {
           </h2>
         </div>
         <div className="md:col-span-7">
-          <FormCol2 />
+          <Form column="column-2" />
         </div>
       </div>
     </section>

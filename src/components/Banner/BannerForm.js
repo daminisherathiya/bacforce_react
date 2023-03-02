@@ -1,4 +1,4 @@
-import { FormCol1 } from "@/components/Form"
+import Form from "@/components/Form"
 
 const BannerForm = () => {
   return (
@@ -9,7 +9,7 @@ const BannerForm = () => {
           Get 15 Days Risk-Free Trial
         </span>
       </h3>
-      <FormCol1/>
+      <Form column="column-1"/>
     </div>
   );
 };
