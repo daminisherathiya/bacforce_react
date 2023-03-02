@@ -3,7 +3,7 @@ import { BannerHeading } from "@/components/Banner/BannerHeading";
 import CaseStudy from "@/components/CaseStudy";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
-import Form from "@/components/Form";
+import Form from "@/components/Form/Form";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";

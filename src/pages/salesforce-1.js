@@ -26,7 +26,7 @@ import NumberBackgroundBox from "@/ui/NumberBackgroundBox";
 import PricingBox from "@/ui/PricingBox";
 import SectionDescription from "@/ui/SectionDescription";
 import SectionHeading from "@/ui/SectionHeading";
-import challanges from "../../public/images/salesforce-developmentcompany/challanges.jpg";
+import challanges from "../../public/images/salesforce-1/challanges.jpg";
 
 // todo: add context variables
 const salesforce1 = () => {

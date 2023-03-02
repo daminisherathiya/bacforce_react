@@ -10,3 +10,9 @@ export const salesforce2Meta = {
     "As a best Salesforce Development Company with 11+ years in CRM development. We offer end-to-end salesforce Development services from planning to implementation",
   ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-2.png",
 };
+export const salesforce3Meta = {
+  title: "Salesforce Support and Maintenance Services | 24/7 Support",
+  description:
+    "Leverage our Salesforce support services to keep your salesforce solution running smoothly and efficiently. Get continuous expert support from us.",
+  ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-3.png",
+};

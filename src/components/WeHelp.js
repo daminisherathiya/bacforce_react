@@ -1,4 +1,4 @@
-import Form from "@/components/Form";
+import Form from "@/components/Form/Form";
 const WeHelp = () => {
   return (
     <section className="bg-dark text-center md:text-left">

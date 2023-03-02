@@ -116,11 +116,9 @@ const Form = ({ column }) => {
                     message: "Please enter a valid name!",
                   },
                 })}
+                errorMessage={errors.fullName?.message}
                 placeholder="Your Name"
               />
-              <p className="pl-2 text-base text-[#e42d3f]">
-                {errors.fullName?.message}
-              </p>
             </div>
             <div>
               <Input
@@ -132,11 +130,9 @@ const Form = ({ column }) => {
                     message: "Please enter a valid email!",
                   },
                 })}
+                errorMessage={errors.email?.message}
                 placeholder="Email Address"
               />
-              <p className="pl-2 text-base text-[#e42d3f]">
-                {errors.email?.message}
-              </p>
             </div>
             <div>
               <Input
@@ -156,11 +152,9 @@ const Form = ({ column }) => {
                       "And now it's too damn long, make sure the number is right, would you?",
                   },
                 })}
+                errorMessage={errors.phoneNumber?.message}
                 placeholder="Phone Number"
               />
-              <p className="pl-2 text-base text-[#e42d3f]">
-                {errors.phoneNumber?.message}
-              </p>
             </div>
           </>
         )}
@@ -175,11 +169,9 @@ const Form = ({ column }) => {
                     message: "Please enter a valid name!",
                   },
                 })}
+                errorMessage={errors.fullName?.message}
                 placeholder="Your Name"
               />
-              <p className="pl-2 text-base text-[#e42d3f]">
-                {errors.fullName?.message}
-              </p>
             </div>
             <div className="space-y-5 sm:flex sm:space-x-5 sm:space-y-0">
               <div className="w-full">
@@ -192,11 +184,9 @@ const Form = ({ column }) => {
                       message: "Please enter a valid email!",
                     },
                   })}
+                  errorMessage={errors.email?.message}
                   placeholder="Email Address"
                 />
-                <p className="pl-2 text-base text-[#e42d3f]">
-                  {errors.email?.message}
-                </p>
               </div>
               <div className="w-full">
                 <Input
@@ -216,11 +206,9 @@ const Form = ({ column }) => {
                         "And now it's too damn long, make sure the number is right, would you?",
                     },
                   })}
+                  errorMessage={errors.phoneNumber?.message}
                   placeholder="Phone Number"
                 />
-                <p className="pl-2 text-base text-[#e42d3f]">
-                  {errors.phoneNumber?.message}
-                </p>
               </div>
             </div>
           </>
@@ -228,7 +216,7 @@ const Form = ({ column }) => {
         {column === "column-3" && (
           <>
             <div className="space-y-4 sm:flex sm:space-x-4 sm:space-y-0">
-              <div className="w-full">
+              <div className="w-full text-left">
                 <Input
                   registerProps={register("fullName", {
                     required: "Please enter a name!",
@@ -237,13 +225,11 @@ const Form = ({ column }) => {
                       message: "Please enter a valid name!",
                     },
                   })}
+                  errorMessage={errors.fullName?.message}
                   placeholder="Your Name"
                 />
-                <p className="pl-2 text-base text-[#e42d3f] text-left">
-                  {errors.fullName?.message}
-                </p>
               </div>
-              <div className="w-full">
+              <div className="w-full text-left">
                 <Input
                   registerProps={register("email", {
                     required: "Please enter a email!",
@@ -253,13 +239,11 @@ const Form = ({ column }) => {
                       message: "Please enter a valid email!",
                     },
                   })}
+                  errorMessage={errors.email?.message}
                   placeholder="Email Address"
                 />
-                <p className="pl-2 text-base text-[#e42d3f] text-left">
-                  {errors.email?.message}
-                </p>
               </div>
-              <div className="w-full">
+              <div className="w-full text-left">
                 <Input
                   registerProps={register("phoneNumber", {
                     required: "Please enter a phone number!",
@@ -277,11 +261,9 @@ const Form = ({ column }) => {
                         "And now it's too damn long, make sure the number is right, would you?",
                     },
                   })}
+                  errorMessage={errors.phoneNumber?.message}
                   placeholder="Phone Number"
                 />
-                <p className="pl-2 text-base text-[#e42d3f] text-left">
-                  {errors.phoneNumber?.message}
-                </p>
               </div>
             </div>
           </>
