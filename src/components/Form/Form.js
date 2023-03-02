@@ -14,7 +14,9 @@ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args
 */
 // const MAIL_API_URL = "http://localhost:3000/mindforce/mail.php";
 
-const Form = ({ column }) => {
+const Form = ({ additionalClasses, column }) => {
+  const allClasses = additionalClasses ? " " + additionalClasses : "";
+
   // Todo: Background color of inputs changes when auto filledconst [success, setsuccess] = useState(false);
   const [success, setsuccess] = useState(false);
   const [failed, setfailed] = useState(false);
@@ -104,7 +106,7 @@ const Form = ({ column }) => {
           {failedmsg}
         </div>
       )}
-      <form className="space-y-3" onSubmit={handleSubmit(submitHandler)}>
+      <form className={allClasses} onSubmit={handleSubmit(submitHandler)}>
         {column === "column-1" && (
           <>
             <div>

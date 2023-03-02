@@ -9,7 +9,7 @@ const BannerForm = () => {
           Get 15 Days Risk-Free Trial
         </span>
       </h3>
-      <Form column="column-1"/>
+      <Form additionalClasses="space-y-3" column="column-1"/>
     </div>
   );
 };

@@ -116,7 +116,7 @@ const salesforce2 = () => {
                 perfectly fits your business needs.
               </p>
             </div>
-            <Form column="column-3" />
+            <Form additionalClasses="space-y-4" column="column-3" />
           </div>
         </div>
       </HireSalesforceDeveloper>
