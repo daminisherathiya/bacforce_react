@@ -1,6 +1,5 @@
 import Accordion from "@/ui/Accordion";
 import ButtonLink from "@/ui/ButtonLink";
-import SectionHeading from "@/ui/SectionHeading";
 
 const WeOffer = ({ data, children }) => {
   return (
@@ -8,17 +7,17 @@ const WeOffer = ({ data, children }) => {
       <div className="grid gap-16 md:grid-cols-2 md:gap-20">
         <div>
           <div className="sticky top-48 space-y-8 text-center md:text-left">
-            <SectionHeading>
-              Salesforce Development Services
-              <span className="font-bold"> We Offer</span>
-            </SectionHeading>
+            <h2
+              className="text-dark"
+              dangerouslySetInnerHTML={{ __html: data.title }}
+            />
             <p>{data.description}</p>
             {children}
             <ButtonLink
               additionalClasses="bg-secondary hover:bg-secondary-hover"
               href="#Form"
             >
-              Book A Free Consultation
+              {data.button}
             </ButtonLink>
           </div>
         </div>

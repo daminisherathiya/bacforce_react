@@ -1,4 +1,6 @@
 export const salesforce1WeOffer = {
+  title:
+    'Salesforce Development Services <span class="font-bold"> We Offer</span>',
   description:
     "We offer a comprehensive range of Salesforce development services at pocket-friendly prices.",
   weOffer: [
@@ -38,9 +40,12 @@ export const salesforce1WeOffer = {
         "Streamline your business workflow and fulfill the functional business needs by developing custom applications on Force.com aligned to tailored versions of your Salesforce solution.",
     },
   ],
+  button: "Book A Free Consultation",
 };
 export const salesforce2WeOffer = salesforce1WeOffer;
 export const salesforce3WeOffer = {
+  title:
+    'How Can <span class="font-bold">Bacancy Help You</span> With Salesforce Support?',
   description:
     "Keep your CRM updated, efficient, and error-free with our tailored Salesforce support services. Leverage Salesforce to your benefit and leave the security, compliance, ranking, and performance to us.",
   weOffer: [
@@ -85,4 +90,5 @@ export const salesforce3WeOffer = {
         "Our work keeps on even after successful Salesforce integration and implementation services. We keep an eye on your solution and offer you support services like security management, making the solution bugs-free, demo and etc.",
     },
   ],
+  button: "Talk to Our Salesforce Experts",
 };
