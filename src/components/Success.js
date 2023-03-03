@@ -1,7 +1,7 @@
 const Success = () => {
   return (
     <section className="-mt-40 py-0">
-      <div className="grid bg-primary p-14 text-center text-white shadow md:grid-cols-12">
+      <div className="grid bg-primary p-14 text-white shadow md:grid-cols-12">
         <div className="md:col-span-8 md:col-start-3">
           <h2 className="mb-10 break-all text-6xl font-bold">
             <a href="mailto:solutions@bacforce.com" className="underline">

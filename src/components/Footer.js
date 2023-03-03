@@ -10,7 +10,7 @@ const Footer = () => {
     <section className="bg-light-blue">
       <div className="space-y-28 bg-footer bg-contain bg-top bg-no-repeat">
         <div className="flex flex-col items-center justify-center space-y-6 lg:flex-row lg:justify-between lg:space-x-6 lg:space-y-0">
-          <h2 className="font-light text-primary">
+          <h2 className="font-light text-primary lg:text-left">
             A <span className="font-bold">Bacancy</span>
             <br className="hidden lg:block" /> Company
           </h2>
@@ -50,7 +50,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="pt-6 text-center">
+          <div className="pt-6">
             © Bacforce, 2023. All rights reserved.
           </div>
         </div>

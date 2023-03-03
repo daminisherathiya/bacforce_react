@@ -1,7 +1,7 @@
 import Form from "@/components/Form/Form";
 const WeHelp = () => {
   return (
-    <section className="bg-dark text-center md:text-left">
+    <section className="bg-dark md:text-left">
       <div className="grid gap-10 md:grid-cols-12">
         <div className="md:col-span-5">
           <h2 className="text-6xl text-white">

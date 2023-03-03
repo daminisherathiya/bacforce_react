@@ -21,7 +21,7 @@ const TechnicalExpertise = ({ data }) => {
         ))}
       </div>
       <ButtonLink
-        additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
+        additionalClasses="bg-secondary hover:bg-secondary-hover"
         href="#Form"
       >
         Schedule A Developer Interview

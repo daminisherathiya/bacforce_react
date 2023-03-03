@@ -97,12 +97,12 @@ const Form = ({ additionalClasses, column }) => {
   return (
     <>
       {success && (
-        <div className="mb-3 bg-secondary p-4 text-center font-bold text-white">
+        <div className="mb-3 bg-secondary p-4 font-bold text-white">
           Success
         </div>
       )}
       {failed && (
-        <div className="mb-3 bg-[#f8d7da] p-4 text-center font-bold text-[#721c24]">
+        <div className="mb-3 bg-[#f8d7da] p-4 font-bold text-[#721c24]">
           {failedmsg}
         </div>
       )}

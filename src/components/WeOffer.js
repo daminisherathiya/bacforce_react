@@ -6,7 +6,7 @@ const WeOffer = ({ data, children }) => {
     <section className="bg-light-blue">
       <div className="grid gap-16 md:grid-cols-2 md:gap-20">
         <div>
-          <div className="sticky top-48 space-y-8 text-center md:text-left">
+          <div className="sticky top-48 space-y-8 md:text-left">
             <h2
               className="text-dark"
               dangerouslySetInnerHTML={{ __html: data.title }}

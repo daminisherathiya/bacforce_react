@@ -22,17 +22,17 @@ export const salesforce1NumberBackground = [
 ];
 export const salesforce3NumberBackground = [
   {
-    title: "1.Analyze and Transfer",
+    title: "1. Analyze and Transfer",
     description:
       "We analyze your current solution and help with responsibility transfer and create a support plan for your Salesforce solutions",
   },
   {
-    title: "2.Support and Reports",
+    title: "2. Support and Reports",
     description:
       "We provide support and regular reports on completed tasks.",
   },
   {
-    title: "3.Enhancements",
+    title: "3. Enhancements",
     description:
       "We suggest improving your business processes and provide proposals for possible improvements",
   },

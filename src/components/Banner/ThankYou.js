@@ -4,7 +4,7 @@ import thank_you from "../../../public/images/thank-you/thank-you.svg";
 
 const ThankYou = () => {
   return (
-    <section className="bg-light-blue pt-60 text-center">
+    <section className="bg-light-blue pt-60">
       <div className="grid md:grid-cols-8">
         <div className="space-y-6 md:col-span-6 md:col-start-2">
           <Image

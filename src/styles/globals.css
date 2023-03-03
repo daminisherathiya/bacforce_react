@@ -19,7 +19,7 @@
     @apply text-xl;
   }
   section {
-    @apply py-28 px-14 xl:px-64;
+    @apply py-28 px-14 xl:px-64 text-center;
   }
 }
 

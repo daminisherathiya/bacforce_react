@@ -11,7 +11,7 @@ const Faq = ({ data }) => {
           accordionItemsData={data}
           additionalClasses="md:col-span-8"
         />
-        <div className="text-center md:col-span-3 md:text-left">
+        <div className="md:col-span-3 md:text-left">
           <div className="sticky top-48 space-y-6">
             <SectionHeading additionalClasses="text-6xl">
               Frequently Asked

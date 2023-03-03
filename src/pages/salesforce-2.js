@@ -12,10 +12,10 @@ import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
 import WeOfferAdditionlComponent from "@/components/WeOfferAdditionlComponent";
 import { salesforce2BannerHeading } from "@/data/bannerHeading";
+import { salesforce2Features } from "@/data/bulletPointList";
 import { salesforce2Carousel } from "@/data/carousel";
 import { salesforce2DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce2Faq } from "@/data/faq";
-import { salesforce2Features } from "@/data/bulletPointList";
 import { salesforce2Meta } from "@/data/meta";
 import { salesforce2WeOffer } from "@/data/weOffer";
 import BulletPointList from "@/ui/BulletPointList";
@@ -48,24 +48,26 @@ const salesforce2 = () => {
         />
       </Banner>
 
-      <section>
-        <SectionHeading additionalClasses="mb-8 text-center">
-          Types of Salesforce
-          <span className="font-bold"> Applications We Build</span>
-        </SectionHeading>
-        <SectionDescription>
-          <p className="mx-auto mb-16 text-center lg:w-4/5 2xl:w-2/3">
-            As a leading Salesforce development company, our primary focus is
-            helping businesses around the world to augment their business
-            operations and sky-rocket their sales. Being a reliable Salesforce
-            Partner we can help you create customized Salesforce applications to
-            build everlasting relationships with your customers.
-          </p>
-        </SectionDescription>
+      <section className="space-y-16">
+        <div>
+          <SectionHeading additionalClasses="mb-8">
+            Types of Salesforce
+            <span className="font-bold"> Applications We Build</span>
+          </SectionHeading>
+          <SectionDescription>
+            <p className="mx-auto lg:w-4/5 2xl:w-2/3">
+              As a leading Salesforce development company, our primary focus is
+              helping businesses around the world to augment their business
+              operations and sky-rocket their sales. Being a reliable Salesforce
+              Partner we can help you create customized Salesforce applications
+              to build everlasting relationships with your customers.
+            </p>
+          </SectionDescription>
+        </div>
         <div className="grid gap-12 md:grid-cols-2 md:gap-0 md:divide-x md:divide-gray">
           {salesforce2Features.map((item, index) => (
             <div key={index} className="md:first:pr-12 md:last:pl-12">
-              <h3 className="mb-8 font-bold text-light-blue">{item.title}</h3>
+              <h3 className="mb-8 font-bold text-light-blue text-left">{item.title}</h3>
               <BulletPointList
                 additionalClasses="after:top-3 text-secondary"
                 data={item.description}
@@ -79,7 +81,7 @@ const salesforce2 = () => {
         <WeOfferAdditionlComponent />
       </WeOffer>
 
-      <section id="PlanandPricing" className="scroll-mt-28 text-center">
+      <section id="PlanandPricing" className="scroll-mt-28">
         <SectionHeading additionalClasses="mb-6 text-6xl">
           <span className="font-bold">Hire Salesforce Developer </span>
           as Per Your Need
@@ -122,27 +124,35 @@ const salesforce2 = () => {
       </HireSalesforceDeveloper>
       <Success />
 
-      <section id="TechnicalStack" className="scroll-mt-28">
-        <SectionHeading additionalClasses="text-center mb-16">
+      <section
+        id="TechnicalStack"
+        className="scroll-mt-28 space-y-16"
+      >
+        <SectionHeading>
           <span className="font-bold">Proven Experience</span> With Salesforce
           Technologies
         </SectionHeading>
-        <DescriptionWithIcon iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]" data={salesforce2DescriptionWithIcon} />
+        <DescriptionWithIcon
+          iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
+          data={salesforce2DescriptionWithIcon}
+        />
       </section>
 
       <CaseStudy />
 
-      <section className="px-0">
-        <SectionHeading additionalClasses="text-center mb-8 px-14 xl:px-64">
-          What <span className="font-bold">Our Amazing Clients</span> Say About
-          Us
-        </SectionHeading>
-        <SectionDescription>
-          <p className="mb-16 px-14 text-center xl:px-64">
-            Leading companies have trusted us with staff augmentation for
-            fulfilling their IT needs.
-          </p>
-        </SectionDescription>
+      <section className="space-y-16 px-0">
+        <div>
+          <SectionHeading additionalClasses="mb-8 px-14 xl:px-64">
+            What <span className="font-bold">Our Amazing Clients</span> Say
+            About Us
+          </SectionHeading>
+          <SectionDescription>
+            <p className="px-14 xl:px-64">
+              Leading companies have trusted us with staff augmentation for
+              fulfilling their IT needs.
+            </p>
+          </SectionDescription>
+        </div>
         <Carousel data={salesforce2Carousel} />
       </section>
 

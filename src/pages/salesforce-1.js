@@ -49,8 +49,8 @@ const salesforce1 = () => {
         <BannerForm />
       </Banner>
 
-      <section>
-        <SectionHeading additionalClasses="text-center mb-16">
+      <section className="space-y-16">
+        <SectionHeading>
           Challenges Re-Solved by
           <span className="font-bold">
             {" "}
@@ -104,8 +104,8 @@ const salesforce1 = () => {
       </HireSalesforceDeveloper>
       <Success />
 
-      <section className="scroll-mt-28 text-center" id="TechnicalStack">
-        <SectionHeading additionalClasses="mb-16">
+      <section className="scroll-mt-28 space-y-16" id="TechnicalStack">
+        <SectionHeading>
           Technical Expertise of
           <span className="font-bold"> Our Salesforce Developers</span>
         </SectionHeading>
@@ -114,7 +114,7 @@ const salesforce1 = () => {
 
       <CaseStudy />
 
-      <section className="space-y-16 text-center">
+      <section className="space-y-16">
         <div>
           <SectionHeading additionalClasses="mb-8">
             Process of

@@ -10,12 +10,12 @@ import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
 import { salesforce3BannerHeading } from "@/data/bannerHeading";
-import { salesforce3DescriptionWithIcon } from "@/data/descriptionWithIcon";
-import { salesforce3Faq } from "@/data/faq";
 import {
   salesforce3Features,
   supportAndMaintenanceServices,
 } from "@/data/bulletPointList";
+import { salesforce3DescriptionWithIcon } from "@/data/descriptionWithIcon";
+import { salesforce3Faq } from "@/data/faq";
 import { salesforce3Meta } from "@/data/meta";
 import { salesforce3NumberBackground } from "@/data/numberBackground";
 import { salesforce3WeOffer } from "@/data/weOffer";
@@ -68,23 +68,27 @@ const salesforce3 = () => {
         ></BannerHeading>
       </Banner>
 
-      <section className="text-center">
-        <SectionHeading additionalClasses="mb-10">
-          Leverage Our Salesforce
-          <span className="font-bold"> Support and Maintenance Services</span>
-        </SectionHeading>
-        <SectionDescription>
-          <p className="mb-6 lg:mx-auto lg:w-5/6">
-            How well your Salesforce solution is executed and implemented is
-            irrelevant, it always requires additional functionalities and timely
-            updates. Bacforce offers Salesforce Support Services to ensure your
-            Salesforce system is error-free, scalable, and equally productive.
-          </p>
-          <p className="mb-16">
-            We broke down our Salesforce support services into three categories,
-            making them easily accessible and affordable for all businesses.
-          </p>
-        </SectionDescription>
+      <section className="space-y-16">
+        <div>
+          <SectionHeading additionalClasses="mb-10">
+            Leverage Our Salesforce
+            <span className="font-bold"> Support and Maintenance Services</span>
+          </SectionHeading>
+          <SectionDescription>
+            <p className="mb-6 lg:mx-auto lg:w-5/6">
+              How well your Salesforce solution is executed and implemented is
+              irrelevant, it always requires additional functionalities and
+              timely updates. Bacforce offers Salesforce Support Services to
+              ensure your Salesforce system is error-free, scalable, and equally
+              productive.
+            </p>
+            <p>
+              We broke down our Salesforce support services into three
+              categories, making them easily accessible and affordable for all
+              businesses.
+            </p>
+          </SectionDescription>
+        </div>
         <div className="grid grid-cols-3 gap-4">
           {supportAndMaintenanceServices.map((item, index) => (
             <div
@@ -98,9 +102,9 @@ const salesforce3 = () => {
                   <span className="text-xl"> Hourly (USD)</span>
                 </h2>
                 <p className="text-gray">8 hrs/day and 160 hrs/mo.</p>
-                <div className="mt-14 text-left">
+                <div className="mt-14">
                   {item.servicesTitle && (
-                    <p className="mb-6 font-bold">{item.servicesTitle}</p>
+                    <p className="mb-6 font-bold text-left">{item.servicesTitle}</p>
                   )}
                   <BulletPointList
                     additionalClasses="after:top-3 after:!bg-secondary group-hover:after:!bg-primary"
@@ -120,24 +124,26 @@ const salesforce3 = () => {
       </section>
       <WeOffer data={salesforce3WeOffer}></WeOffer>
 
-      <section className="text-center">
-        <SectionHeading additionalClasses="mb-8">
-          Custom Salesforce
-          <span className="font-bold"> CRM Support Services</span>
-        </SectionHeading>
-        <SectionDescription>
-          <p className="mb-16">
-            Our certified Salesforce developers and administrators offer
-            cutting-edge support and maintenance services for all your
-            Salesforce products.
-          </p>
-        </SectionDescription>
+      <section className="space-y-16">
+        <div>
+          <SectionHeading additionalClasses="mb-8">
+            Custom Salesforce
+            <span className="font-bold"> CRM Support Services</span>
+          </SectionHeading>
+          <SectionDescription>
+            <p>
+              Our certified Salesforce developers and administrators offer
+              cutting-edge support and maintenance services for all your
+              Salesforce products.
+            </p>
+          </SectionDescription>
+        </div>
         <DescriptionWithIcon
           iconSize="w-[max(30px,2.500vw)] w-[max(30px,2.500vw)]"
           data={salesforce3DescriptionWithIcon}
         />
         <ButtonLink
-          additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
+          additionalClasses="bg-secondary hover:bg-secondary-hover"
           href="#Form"
         >
           Book A Free Consultation
@@ -166,7 +172,7 @@ const salesforce3 = () => {
           </div>
         </div>
       </HireSalesforceDeveloper>
-      <Success/>
+      <Success />
 
       <section>
         <div className="grid gap-16 md:grid-cols-2 md:gap-20">
@@ -176,8 +182,8 @@ const salesforce3 = () => {
             imageSrc={benefitsSideImg}
             imageClasses="h-[max(280px,33.333vw)] w-[max(280px,33.333vw)]"
           />
-          <div className="flex flex-col justify-center">
-            <SectionHeading additionalClasses="mb-16">
+          <div className="flex flex-col justify-center space-y-16 text-left">
+            <SectionHeading>
               <span className="font-bold">Benefits</span> With BacForce
             </SectionHeading>
             <BulletPointList
@@ -189,16 +195,16 @@ const salesforce3 = () => {
       </section>
 
       <section className="bg-light-blue">
-        <div className="bg-white py-16 px-16 text-center shadow-blue lg:px-36">
+        <div className="bg-white p-16 shadow-blue lg:px-36">
           <SectionHeading additionalClasses="mb-8 font-bold !text-light-blue">
             Want to Get the Health of Your Salesforce Checked?
           </SectionHeading>
-          <p>
+          <SectionDescription>
             Get your Salesforce CRM reviewed top-to-bottom with Salesforce audit
             from BacForce. We will check whether your Salesforce processes,
             records, and user roles are functioning properly and eliminate any
             deficiencies to help you make the most of your CRM.
-          </p>
+          </SectionDescription>
           <ButtonLink
             additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
             href="#Form"
@@ -207,8 +213,9 @@ const salesforce3 = () => {
           </ButtonLink>
         </div>
       </section>
-      <section className="text-center">
-        <SectionHeading additionalClasses="mb-16">
+
+      <section className="space-y-16">
+        <SectionHeading>
           Our <span className="font-bold">Process</span>
         </SectionHeading>
         <NumberBackgroundBox
@@ -216,7 +223,7 @@ const salesforce3 = () => {
           data={salesforce3NumberBackground}
         />
         <ButtonLink
-          additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
+          additionalClasses="bg-secondary hover:bg-secondary-hover"
           href="#Form"
         >
           Discuss Your Project with Us

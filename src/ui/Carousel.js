@@ -20,7 +20,7 @@ const Carousel = ({ data }) => {
           clickable: true,
         }}
         modules={[Pagination, Navigation]}
-        className="!pt-3"
+        className="!pt-3 text-left"
         breakpoints={{
           640: {
             slidesPerView: 1.5,

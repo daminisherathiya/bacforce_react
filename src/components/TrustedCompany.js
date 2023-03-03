@@ -31,7 +31,7 @@ const trustedCompanyList = [
 const TrustedCompany = () => {
   return (
     <section className="-mt-14 py-0">
-      <div className="bg-white px-16 py-14 text-center shadow">
+      <div className="bg-white px-16 py-14 shadow">
         <SectionHeading additionalClasses="mb-3">
           Join The Team
           <span className="font-bold"> of Customers Who Trust Us</span>

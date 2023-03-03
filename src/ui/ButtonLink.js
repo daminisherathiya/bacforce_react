@@ -1,5 +1,5 @@
 const ButtonLink = ({ additionalClasses, href = "#", children }) => {
-  const allClasses = `px-10 py-4 capitalize text-white text-lg inline-block text-center${
+  const allClasses = `px-10 py-4 capitalize text-white text-lg inline-block${
     additionalClasses ? " " + additionalClasses : ""
   }`;
   

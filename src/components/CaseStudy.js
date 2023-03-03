@@ -42,7 +42,7 @@ const CaseStudyDescription = ({ data }) => {
 
 const CaseStudy = () => {
   return (
-    <section id="CaseStudy" className="scroll-mt-28 bg-light-blue text-center">
+    <section id="CaseStudy" className="scroll-mt-28 bg-light-blue">
       <SectionHeading additionalClasses="mb-8">
         Our Salesforce
         <span className="font-bold"> Success Stories</span>
