@@ -127,7 +127,7 @@ const salesforce2 = () => {
           <span className="font-bold">Proven Experience</span> With Salesforce
           Technologies
         </SectionHeading>
-        <DescriptionWithIcon iconSize="[max(30px,2.083vw)]" data={salesforce2DescriptionWithIcon} />
+        <DescriptionWithIcon iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]" data={salesforce2DescriptionWithIcon} />
       </section>
 
       <CaseStudy />

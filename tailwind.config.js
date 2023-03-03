@@ -46,7 +46,14 @@ module.exports = {
       "light-blue": "#2063F0",
       dark: "#103278",
       gray: "#737373",
-      "light-gray": "A2A2A2"
+      "light-gray": "A2A2A2",
+    },
+    borderWidth: {
+      DEFAULT: "max(1px,0.052vw)",
+      0: "0px",
+      2: "max(2px,0.104vw)",
+      4: "max(4px,0.208vw)",
+      8: "max(8px,0.417vw)",
     },
     borderColor: {
       gray: "#D0D0D0",

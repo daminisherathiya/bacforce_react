@@ -11,7 +11,7 @@ const DescriptionWithIcon = ({ data, iconSize }) => {
                 divClasses="pr-4"
                 imageAlt={item.title}
                 imageSrc={item.icon}
-                imageClasses={`w-${iconSize} h-${iconSize}  group-hover:invert`}
+                imageClasses={`${iconSize} group-hover:invert`}
               />
               <h4 className="font-semibold group-hover:text-white">
                 {item.title}

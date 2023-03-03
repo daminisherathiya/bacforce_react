@@ -34,7 +34,7 @@ const salesforce3 = () => {
       <Meta data={salesforce3Meta} />
       <Header />
       <Banner
-        cols="10"
+        cols="md:grid-cols-10"
         additionalClasses="bg-[url('/images/salesforce-3/banner.jpg')] bg-no-repeat text-white bg-cover bg-[center_top_max(64px,6.458vw)]"
       >
         <div className="mx-auto md:col-span-5 md:mx-0 lg:pr-6 xl:col-span-5">
@@ -95,7 +95,7 @@ const salesforce3 = () => {
                 <h3 className="mb-8 font-bold">{item.title}</h3>
                 <h2 className="mb-2 font-bold">
                   {item.price}
-                  <span className="text-xl"> $25 Hourly (USD)</span>
+                  <span className="text-xl"> Hourly (USD)</span>
                 </h2>
                 <p className="text-gray">8 hrs/day and 160 hrs/mo.</p>
                 <div className="mt-14 text-left">
@@ -133,7 +133,7 @@ const salesforce3 = () => {
           </p>
         </SectionDescription>
         <DescriptionWithIcon
-          iconSize="[max(30px,2.500vw)]"
+          iconSize="w-[max(30px,2.500vw)] w-[max(30px,2.500vw)]"
           data={salesforce3DescriptionWithIcon}
         />
         <ButtonLink
