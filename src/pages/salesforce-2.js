@@ -126,7 +126,7 @@ const salesforce2 = () => {
 
       <section
         id="TechnicalStack"
-        className="scroll-mt-28 space-y-16"
+        className="scroll-mt-28"
       >
         <SectionHeading>
           <span className="font-bold">Proven Experience</span> With Salesforce

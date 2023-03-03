@@ -3,7 +3,7 @@ import ButtonLink from "@/ui/ButtonLink";
 const TechnicalExpertise = ({ data }) => {
   return (
     <>
-      <div className="space-y-4">
+      <div className="space-y-4 mt-16">
         {data.map((item) => (
           <div
             key={item.key}
@@ -21,7 +21,7 @@ const TechnicalExpertise = ({ data }) => {
         ))}
       </div>
       <ButtonLink
-        additionalClasses="bg-secondary hover:bg-secondary-hover"
+        additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
         href="#Form"
       >
         Schedule A Developer Interview

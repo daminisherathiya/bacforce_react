@@ -1,5 +1,5 @@
 const NumberBackgroundBox = ({ additionalClasses, data }) => {
-  const allClasses = `counter-reset grid text-left${
+  const allClasses = `counter-reset grid text-left mt-16${
     additionalClasses ? " " + additionalClasses : ""
   }`;
 

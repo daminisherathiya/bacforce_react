@@ -124,7 +124,7 @@ const salesforce3 = () => {
       </section>
       <WeOffer data={salesforce3WeOffer}></WeOffer>
 
-      <section className="space-y-16">
+      <section>
         <div>
           <SectionHeading additionalClasses="mb-8">
             Custom Salesforce
@@ -143,7 +143,7 @@ const salesforce3 = () => {
           data={salesforce3DescriptionWithIcon}
         />
         <ButtonLink
-          additionalClasses="bg-secondary hover:bg-secondary-hover"
+          additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#Form"
         >
           Book A Free Consultation
@@ -214,7 +214,7 @@ const salesforce3 = () => {
         </div>
       </section>
 
-      <section className="space-y-16">
+      <section>
         <SectionHeading>
           Our <span className="font-bold">Process</span>
         </SectionHeading>
@@ -223,7 +223,7 @@ const salesforce3 = () => {
           data={salesforce3NumberBackground}
         />
         <ButtonLink
-          additionalClasses="bg-secondary hover:bg-secondary-hover"
+          additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#Form"
         >
           Discuss Your Project with Us

@@ -104,7 +104,7 @@ const salesforce1 = () => {
       </HireSalesforceDeveloper>
       <Success />
 
-      <section className="scroll-mt-28 space-y-16" id="TechnicalStack">
+      <section className="scroll-mt-28" id="TechnicalStack">
         <SectionHeading>
           Technical Expertise of
           <span className="font-bold"> Our Salesforce Developers</span>
@@ -114,7 +114,7 @@ const salesforce1 = () => {
 
       <CaseStudy />
 
-      <section className="space-y-16">
+      <section>
         <div>
           <SectionHeading additionalClasses="mb-8">
             Process of
@@ -130,7 +130,7 @@ const salesforce1 = () => {
         </div>
         <NumberBackgroundBox additionalClasses="gap-4 md:grid-cols-2" data={salesforce1NumberBackground} />
         <ButtonLink
-          additionalClasses="bg-secondary hover:bg-secondary-hover"
+          additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#Form"
         >
           Share Your Requirements
