@@ -15,7 +15,7 @@ import { salesforce3Faq } from "@/data/faq";
 import {
   salesforce3Features,
   supportAndMaintenanceServices,
-} from "@/data/features";
+} from "@/data/bulletPointList";
 import { salesforce3Meta } from "@/data/meta";
 import { salesforce3NumberBackground } from "@/data/numberBackground";
 import { salesforce3WeOffer } from "@/data/weOffer";
@@ -103,7 +103,7 @@ const salesforce3 = () => {
                     <p className="mb-6 font-bold">{item.servicesTitle}</p>
                   )}
                   <BulletPointList
-                    additionalClasses="after:top-3 after:bg-secondary group-hover:after:bg-primary"
+                    additionalClasses="after:top-3 after:!bg-secondary group-hover:after:!bg-primary"
                     data={item.services}
                   />
                 </div>

@@ -5,19 +5,21 @@ export const BannerHeading = ({
   children,
   headingColor = "text-dark",
 }) => {
-  const allClasses = `flex flex-col justify-center space-y-8${
+  const allClasses = `flex flex-col justify-center space-y-10${
     additionalClasses ? " " + additionalClasses : ""
   }`;
 
   return (
     <div className={allClasses}>
-      <h1
-        className={headingColor}
-        dangerouslySetInnerHTML={{ __html: data.heading }}
-      ></h1>
-      {data.descriptionList.map((description, index) => (
-        <h4 key={index}>{description}</h4>
-      ))}
+      <div className="space-y-6">
+        <h1
+          className={headingColor}
+          dangerouslySetInnerHTML={{ __html: data.heading }}
+        ></h1>
+        {data.descriptionList.map((description, index) => (
+          <h4 key={index}>{description}</h4>
+        ))}
+      </div>
       {children}
       {data.buttonName && (
         <ButtonLink

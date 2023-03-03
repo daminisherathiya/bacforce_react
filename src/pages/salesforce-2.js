@@ -15,7 +15,7 @@ import { salesforce2BannerHeading } from "@/data/bannerHeading";
 import { salesforce2Carousel } from "@/data/carousel";
 import { salesforce2DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce2Faq } from "@/data/faq";
-import { salesforce2Features } from "@/data/features";
+import { salesforce2Features } from "@/data/bulletPointList";
 import { salesforce2Meta } from "@/data/meta";
 import { salesforce2WeOffer } from "@/data/weOffer";
 import BulletPointList from "@/ui/BulletPointList";

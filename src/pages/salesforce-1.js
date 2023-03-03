@@ -14,7 +14,7 @@ import WeOffer from "@/components/WeOffer";
 import WeOfferAdditionlComponent from "@/components/WeOfferAdditionlComponent";
 import { salesforce1BannerHeading } from "@/data/bannerHeading";
 import { salesforce1Faq } from "@/data/faq";
-import { salesforce1Features } from "@/data/features";
+import { salesforce1Features } from "@/data/bulletPointList";
 import { salesforce1Meta } from "@/data/meta";
 import { salesforce1NumberBackground } from "@/data/numberBackground";
 import { salesforce1TechnicalExpertise } from "@/data/TechnicalExpertise";
