@@ -47,3 +47,4 @@ export const salesforce1Faq = [
 ];
 
 export const salesforce2Faq = salesforce1Faq;
+export const salesforce3Faq = salesforce1Faq;

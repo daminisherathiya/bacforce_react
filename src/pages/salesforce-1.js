@@ -128,7 +128,7 @@ const salesforce1 = () => {
             </p>
           </SectionDescription>
         </div>
-        <NumberBackgroundBox data={salesforce1NumberBackground} />
+        <NumberBackgroundBox additionalClasses="gap-4 md:grid-cols-2" data={salesforce1NumberBackground} />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover"
           href="#Form"

@@ -1,0 +1,10 @@
+<svg id="report" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_3128" data-name="Path 3128" d="M0,0H48V48H0Z" fill="none"/>
+  <path id="Path_3129" data-name="Path 3129" d="M12,5H8A4,4,0,0,0,4,9V33a4,4,0,0,0,4,4H19.394" transform="translate(4 5)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3130" data-name="Path 3130" d="M18,14v8h8" transform="translate(18 14)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3131" data-name="Path 3131" d="M22,17V9a4,4,0,0,0-4-4H14" transform="translate(14 5)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect id="Rectangle_234" data-name="Rectangle 234" width="12.413" height="7.448" rx="2" transform="translate(15.745 6.393)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle id="Ellipse_462" data-name="Ellipse 462" cx="8.068" cy="8.068" r="8.068" transform="translate(28.158 28.115)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3132" data-name="Path 3132" d="M8,11h8" transform="translate(8 11)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3133" data-name="Path 3133" d="M8,15h6" transform="translate(8 15)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

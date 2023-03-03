@@ -1,0 +1,7 @@
+<svg id="replace" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_3114" data-name="Path 3114" d="M0,0H48V48H0Z" fill="none"/>
+  <rect id="Rectangle_229" data-name="Rectangle 229" width="11.172" height="11.792" rx="1" transform="translate(6.593 6.393)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect id="Rectangle_230" data-name="Rectangle 230" width="11.792" height="11.792" rx="1" transform="translate(30.177 29.977)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3115" data-name="Path 3115" d="M29,19V13a4,4,0,0,0-4-4H13l6,6M19,3,13,9" transform="translate(13 3)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3116" data-name="Path 3116" d="M3,13v6a4,4,0,0,0,4,4H19l-6-6m0,12,6-6" transform="translate(3 13)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

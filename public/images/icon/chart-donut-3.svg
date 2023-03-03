@@ -1,0 +1,7 @@
+<svg id="chart-donut-3" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_1300" data-name="Path 1300" d="M0,0H48V48H0Z" fill="none"/>
+  <path id="Path_1301" data-name="Path 1301" d="M12,3V13m8,8H30" transform="translate(12 3)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1302" data-name="Path 1302" d="M12.358,14.582,5.5,20.418" transform="translate(5.5 14.582)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <ellipse id="Ellipse_210" data-name="Ellipse 210" cx="8.068" cy="7.758" rx="8.068" ry="7.758" transform="translate(16.006 16.055)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle id="Ellipse_211" data-name="Ellipse 211" cx="17.999" cy="17.999" r="17.999" transform="translate(6.075 6.125)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

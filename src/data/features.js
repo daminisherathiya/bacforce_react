@@ -34,3 +34,15 @@ export const salesforce2Features = [
     ],
   },
 ];
+export const salesforce3Features = [
+  "Dedicated Developers",
+  "160 Working Hours/Month with Flexible Hiring Models",
+  "Simple & Transparent Pricing",
+  "Agile Methodology",
+  "15 Days Risk-Free Trial",
+  "Strict NDA Signed for Complete Privacy",
+  "Faster Resource Accessibility",
+  "Focus on Your Core Business",
+  "Large Technical Pool with wider Technology Stack",
+  "Client Satisfaction is Our Highest Priority",
+];

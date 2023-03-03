@@ -1,20 +1,31 @@
-const { default: ImageSection } = require("./ImageSection");
+import ImageSection from "@/ui/ImageSection";
 
-const DescriptionWithIcon = ({ data }) => {
+const DescriptionWithIcon = ({ data, iconSize }) => {
   return (
-    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="flex flex-wrap justify-center -mx-2">
       {data.map((item, index) => (
-        <div
-          key={index}
-          className="group flex items-center border border-gray py-8 px-10 hover:bg-primary cursor-pointer"
-        >
-          <ImageSection
-            divClasses="pr-6"
-            imageAlt={item.title}
-            imageSrc={item.icon}
-            imageClasses="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]  group-hover:invert"
-          />
-          <h4 className="font-semibold group-hover:text-white">{item.title}</h4>
+        <div className="sm:w-1/2 lg:w-1/3 p-2">
+          <div
+            key={index}
+            className="group cursor-pointer space-y-6 border border-gray p-8 hover:bg-primary h-full"
+          >
+            <div className="flex items-center">
+              <ImageSection
+                divClasses="pr-4"
+                imageAlt={item.title}
+                imageSrc={item.icon}
+                imageClasses={`w-${iconSize} h-${iconSize}  group-hover:invert`}
+              />
+              <h4 className="font-semibold group-hover:text-white">
+                {item.title}
+              </h4>
+            </div>
+            {item.description && (
+              <p className="text-left text-secondary group-hover:text-white">
+                {item.description}
+              </p>
+            )}
+          </div>
         </div>
       ))}
     </div>

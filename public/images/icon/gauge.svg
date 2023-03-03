@@ -1,0 +1,7 @@
+<svg id="gauge" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_2194" data-name="Path 2194" d="M0,0H48V48H0Z" fill="none"/>
+  <circle id="Ellipse_326" data-name="Ellipse 326" cx="17.999" cy="17.999" r="17.999" transform="translate(6.336 5.791)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle id="Ellipse_327" data-name="Ellipse 327" cx="2.796" cy="2.796" r="2.796" transform="translate(21.229 21.207)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1145" data-name="Line 1145" y1="5.18" x2="5.18" transform="translate(26.82 16)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_2195" data-name="Path 2195" d="M7,17A10,10,0,0,1,17,7" transform="translate(7 7)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

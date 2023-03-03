@@ -1,6 +1,10 @@
-const NumberBackgroundBox = ({ data }) => {
+const NumberBackgroundBox = ({ additionalClasses, data }) => {
+  const allClasses = `counter-reset grid text-left${
+    additionalClasses ? " " + additionalClasses : ""
+  }`;
+
   return (
-    <div className="counter-reset grid gap-4 text-left md:grid-cols-2">
+    <div className={allClasses}>
       {data.map((item, i) => (
         <div
           key={i}
