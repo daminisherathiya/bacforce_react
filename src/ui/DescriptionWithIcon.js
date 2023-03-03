@@ -2,13 +2,10 @@ import ImageSection from "@/ui/ImageSection";
 
 const DescriptionWithIcon = ({ data, iconSize }) => {
   return (
-    <div className="flex flex-wrap justify-center -mx-2">
+    <div className="-mx-2 flex flex-wrap justify-center">
       {data.map((item, index) => (
-        <div className="sm:w-1/2 lg:w-1/3 p-2">
-          <div
-            key={index}
-            className="group cursor-pointer space-y-6 border border-gray p-8 hover:bg-primary h-full"
-          >
+        <div key={index} className="p-2 sm:w-1/2 lg:w-1/3">
+          <div className="group h-full cursor-pointer space-y-6 border border-gray p-8 hover:bg-primary">
             <div className="flex items-center">
               <ImageSection
                 divClasses="pr-4"

@@ -46,3 +46,41 @@ export const salesforce3Features = [
   "Large Technical Pool with wider Technology Stack",
   "Client Satisfaction is Our Highest Priority",
 ];
+export const supportAndMaintenanceServices = [
+  {
+    title: "Basic Support",
+    price: "$25",
+    services: [
+      "Technical Support",
+      "Performance Analysis and Tuning",
+      "A Dedicated Salesforce Consultant",
+      "Follow-up, Close Open, Pending Tickets",
+      "All Time Salesforce Help Desk",
+    ],
+    button: "Choose Basic Support",
+  },
+  {
+    title: "Intermediate Support",
+    price: "$28 to $35",
+    servicesTitle: "Everything in basic, plus...",
+    services: [
+      "24x7 Developer Support",
+      "Continuous Health Checks & Monitoring",
+      "Data Management, Data Administration",
+      "Timely Updates & Testing",
+    ],
+    button: "Choose Intermediate Support",
+  },
+  {
+    title: "Advanced Support",
+    price: "$40",
+    servicesTitle: "Everything in intermediate, plus...",
+    services: [
+      "Salesforce Migration and Integration",
+      "Salesforce Cloud Product Delivery & Deployment",
+      "Interoperability, Configuration, Evolution, and Troubleshooting",
+      "Dedicated Team",
+    ],
+    button: "Choose Advance Support",
+  },
+];

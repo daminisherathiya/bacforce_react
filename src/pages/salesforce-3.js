@@ -6,12 +6,16 @@ import Form from "@/components/Form/Form";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
+import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
 import WeOffer from "@/components/WeOffer";
 import { salesforce3BannerHeading } from "@/data/bannerHeading";
 import { salesforce3DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce3Faq } from "@/data/faq";
-import { salesforce3Features } from "@/data/features";
+import {
+  salesforce3Features,
+  supportAndMaintenanceServices,
+} from "@/data/features";
 import { salesforce3Meta } from "@/data/meta";
 import { salesforce3NumberBackground } from "@/data/numberBackground";
 import { salesforce3WeOffer } from "@/data/weOffer";
@@ -64,6 +68,56 @@ const salesforce3 = () => {
         ></BannerHeading>
       </Banner>
 
+      <section className="text-center">
+        <SectionHeading additionalClasses="mb-10">
+          Leverage Our Salesforce
+          <span className="font-bold"> Support and Maintenance Services</span>
+        </SectionHeading>
+        <SectionDescription>
+          <p className="mb-6 lg:mx-auto lg:w-5/6">
+            How well your Salesforce solution is executed and implemented is
+            irrelevant, it always requires additional functionalities and timely
+            updates. Bacforce offers Salesforce Support Services to ensure your
+            Salesforce system is error-free, scalable, and equally productive.
+          </p>
+          <p className="mb-16">
+            We broke down our Salesforce support services into three categories,
+            making them easily accessible and affordable for all businesses.
+          </p>
+        </SectionDescription>
+        <div className="grid grid-cols-3 gap-4">
+          {supportAndMaintenanceServices.map((item, index) => (
+            <div
+              key={index}
+              className="group flex flex-col justify-between border border-t-8 border-gray border-t-secondary p-10 hover:border-primary"
+            >
+              <div>
+                <h3 className="mb-8 font-bold">{item.title}</h3>
+                <h2 className="mb-2 font-bold">
+                  {item.price}
+                  <span className="text-xl"> $25 Hourly (USD)</span>
+                </h2>
+                <p className="text-gray">8 hrs/day and 160 hrs/mo.</p>
+                <div className="mt-14 text-left">
+                  {item.servicesTitle && (
+                    <p className="mb-6 font-bold">{item.servicesTitle}</p>
+                  )}
+                  <BulletPointList
+                    additionalClasses="after:top-3 after:bg-secondary group-hover:after:bg-primary"
+                    data={item.services}
+                  />
+                </div>
+              </div>
+              <ButtonLink
+                additionalClasses="bg-secondary group-hover:bg-primary-hover mt-16"
+                href="#Form"
+              >
+                {item.button}
+              </ButtonLink>
+            </div>
+          ))}
+        </div>
+      </section>
       <WeOffer data={salesforce3WeOffer}></WeOffer>
 
       <section className="text-center">
@@ -78,7 +132,10 @@ const salesforce3 = () => {
             Salesforce products.
           </p>
         </SectionDescription>
-        <DescriptionWithIcon iconSize="[max(30px,2.500vw)]" data={salesforce3DescriptionWithIcon} />
+        <DescriptionWithIcon
+          iconSize="[max(30px,2.500vw)]"
+          data={salesforce3DescriptionWithIcon}
+        />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#Form"
@@ -109,6 +166,7 @@ const salesforce3 = () => {
           </div>
         </div>
       </HireSalesforceDeveloper>
+      <Success/>
 
       <section>
         <div className="grid gap-16 md:grid-cols-2 md:gap-20">
@@ -129,7 +187,6 @@ const salesforce3 = () => {
           </div>
         </div>
       </section>
-
 
       <section className="bg-light-blue">
         <div className="bg-white py-16 px-16 text-center shadow-blue lg:px-36">

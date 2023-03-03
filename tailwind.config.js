@@ -52,6 +52,8 @@ module.exports = {
       gray: "#D0D0D0",
       white: "#FFFFFF",
       "light-blue": "#2063F0",
+      secondary: "#09BC8A",
+      primary: "#2063F0",
     },
     boxShadow: {
       DEFAULT: "0px max(16px,0.833vw) max(32px,1.667vw) #1616161A",
