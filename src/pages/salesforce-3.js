@@ -35,7 +35,7 @@ const salesforce3 = () => {
       <Header />
       <Banner
         cols="md:grid-cols-10"
-        additionalClasses="bg-[url('/images/salesforce-3/banner.jpg')] bg-no-repeat text-white bg-cover bg-[center_top_max(64px,6.458vw)]"
+        additionalClasses="bg-[url('/landing/images/salesforce-3/banner.jpg')] bg-no-repeat text-white bg-cover bg-[center_top_max(64px,6.458vw)]"
       >
         <div className="mx-auto md:col-span-5 md:mx-0 lg:pr-6 xl:col-span-5">
           <div className="grid w-full gap-6 xs:grid-cols-2">

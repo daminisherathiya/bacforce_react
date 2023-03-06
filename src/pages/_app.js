@@ -1,7 +1,14 @@
 import "@/styles/globals.css";
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+  const canonicalUrl = (
+    `https://bacforce.com` + (router.asPath === "/" ? "" : router.asPath)
+  ).split("?")[0];
+  console.log(canonicalUrl);
+
   return (
     <>
       <Head>
@@ -20,11 +27,13 @@ export default function App({ Component, pageProps }) {
         <meta property="og:type" content="object" />
         <meta property="og:site_name" content="Bacforce" />
         <meta name="robots" content="noindex,nofollow" />
+        <meta property="og:url" content={canonicalUrl} />
         <link
           rel="icon"
           type="image/x-icon"
           href="/landing/images/favicon-icon.png"
         ></link>
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
       <Component {...pageProps} />
     </>
