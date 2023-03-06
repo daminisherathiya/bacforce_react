@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner/Banner";
 import { BannerHeading } from "@/components/Banner/BannerHeading";
+import CaseStudy from "@/components/CaseStudy";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 import Form from "@/components/Form/Form";
@@ -32,7 +33,7 @@ const salesforce3 = () => {
   return (
     <>
       <Meta data={salesforce3Meta} />
-      <Header />
+      <Header hiddenLinkIds={[1]} />
       <Banner
         cols="md:grid-cols-10"
         additionalClasses="bg-[url('/landing/images/salesforce-3/banner.jpg')] bg-no-repeat text-white bg-cover bg-[center_top_max(64px,6.458vw)]"
@@ -68,7 +69,7 @@ const salesforce3 = () => {
         ></BannerHeading>
       </Banner>
 
-      <section className="space-y-16">
+      <section id="PlanandPricing" className="scroll-mt-28 space-y-16">
         <div>
           <SectionHeading additionalClasses="mb-10">
             Leverage Our Salesforce
@@ -89,7 +90,7 @@ const salesforce3 = () => {
             </p>
           </SectionDescription>
         </div>
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className="grid gap-4 md:grid-cols-3">
           {supportAndMaintenanceServices.map((item, index) => (
             <div
               key={index}
@@ -104,7 +105,9 @@ const salesforce3 = () => {
                 <p className="text-gray">8 hrs/day and 160 hrs/mo.</p>
                 <div className="mt-14">
                   {item.servicesTitle && (
-                    <p className="mb-6 font-bold text-left">{item.servicesTitle}</p>
+                    <p className="mb-6 text-left font-bold">
+                      {item.servicesTitle}
+                    </p>
                   )}
                   <BulletPointList
                     additionalClasses="after:top-3 after:!bg-secondary group-hover:after:!bg-primary"
@@ -131,7 +134,7 @@ const salesforce3 = () => {
             <span className="font-bold"> CRM Support Services</span>
           </SectionHeading>
           <SectionDescription>
-            <p className="text-xl mx-auto lg:w-4/5 2xl:w-3/4">
+            <p className="mx-auto text-xl lg:w-4/5 2xl:w-3/4">
               Our certified Salesforce developers and administrators offer
               cutting-edge support and maintenance services for all your
               Salesforce products.
@@ -158,7 +161,7 @@ const salesforce3 = () => {
           With Our Salesforce Consultant
         </SectionHeading>
         <div className="grid md:grid-cols-10">
-          <div className="md:col-span-8 md:col-start-2 space-y-12">
+          <div className="space-y-12 md:col-span-8 md:col-start-2">
             <div>
               <h2>Let&apos;s get to know each other with a Free call.</h2>
               <p className="mt-8">
@@ -194,7 +197,7 @@ const salesforce3 = () => {
         </div>
       </section>
 
-      <section className="bg-light-blue">
+      {/* <section className="bg-light-blue">
         <div className="bg-white p-16 shadow-blue lg:px-36">
           <SectionHeading additionalClasses="mb-8 font-bold !text-light-blue">
             Want to Get the Health of Your Salesforce Checked?
@@ -212,8 +215,9 @@ const salesforce3 = () => {
             Request Salesforce Audit
           </ButtonLink>
         </div>
-      </section>
+      </section> */}
 
+      <CaseStudy />
       <section>
         <SectionHeading>
           Our <span className="font-bold">Process</span>

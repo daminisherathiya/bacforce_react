@@ -4,7 +4,7 @@ import { useState } from "react";
 import logo from "../../../../public/images/logo.svg";
 import ButtonLink from "../../../ui/ButtonLink";
 
-const Header = () => {
+const Header = ({ hiddenLinkIds = [] }) => {
   const [menuToggle, setmenuToggle] = useState(false);
   const toggleMenuHandler = () => {
     setmenuToggle(!menuToggle);
@@ -22,14 +22,17 @@ const Header = () => {
         </a>
         <div className="ml-12 hidden grow items-center justify-between space-x-12 lg:flex">
           <ul className="flex space-x-12 text-base">
-            {services.map((service, i) => (
-              <li
-                key={service.id}
-                className="text-secondary hover:text-primary"
-              >
-                <a href={service.href}>{service.title}</a>
-              </li>
-            ))}
+            {services.map(
+              (service) =>
+                !hiddenLinkIds.includes(service.id) && (
+                  <li
+                    key={service.id}
+                    className="text-secondary hover:text-primary"
+                  >
+                    <a href={service.href}>{service.title}</a>
+                  </li>
+                )
+            )}
           </ul>
           <div className="ml-auto flex space-x-3">
             <ButtonLink
