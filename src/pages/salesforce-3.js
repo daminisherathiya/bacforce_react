@@ -89,7 +89,7 @@ const salesforce3 = () => {
             </p>
           </SectionDescription>
         </div>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4">
           {supportAndMaintenanceServices.map((item, index) => (
             <div
               key={index}
@@ -131,7 +131,7 @@ const salesforce3 = () => {
             <span className="font-bold"> CRM Support Services</span>
           </SectionHeading>
           <SectionDescription>
-            <p>
+            <p className="text-xl mx-auto lg:w-4/5 2xl:w-3/4">
               Our certified Salesforce developers and administrators offer
               cutting-edge support and maintenance services for all your
               Salesforce products.
@@ -157,8 +157,8 @@ const salesforce3 = () => {
           </span>{" "}
           With Our Salesforce Consultant
         </SectionHeading>
-        <div className="grid grid-cols-10">
-          <div className="col-span-8 col-start-2 space-y-12">
+        <div className="grid md:grid-cols-10">
+          <div className="md:col-span-8 md:col-start-2 space-y-12">
             <div>
               <h2>Let&apos;s get to know each other with a Free call.</h2>
               <p className="mt-8">

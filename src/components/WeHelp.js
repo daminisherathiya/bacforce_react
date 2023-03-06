@@ -10,7 +10,7 @@ const WeHelp = () => {
           </h2>
         </div>
         <div className="md:col-span-7">
-          <Form additionalClasses="space-y-5" column="column-2" />
+          <Form additionalClasses="space-y-5" column="column-2" buttonWidth="w-full" />
         </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ const AccordionItem = ({ faq, index, openHandler, openIndex }) => {
   const toogleHeight = useRef();
   return (
     <div
-      className={`bg-white p-8 text-primary outline-none ${
+      className={`bg-white p-8 text-primary outline-none text-left ${
         index === openIndex ? "shadow-blue" : ""
       }`}
     >

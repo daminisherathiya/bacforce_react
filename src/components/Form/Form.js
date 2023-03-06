@@ -14,7 +14,7 @@ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args
 */
 // const MAIL_API_URL = "http://localhost:3000/mindforce/mail.php";
 
-const Form = ({ additionalClasses, column }) => {
+const Form = ({ additionalClasses, column, buttonWidth }) => {
   const allClasses = additionalClasses ? " " + additionalClasses : "";
 
   // Todo: Background color of inputs changes when auto filledconst [success, setsuccess] = useState(false);
@@ -43,7 +43,7 @@ const Form = ({ additionalClasses, column }) => {
       body: form_data,
     });
 
-    console.log(response.status);
+    // console.log(response.status);
 
     if (response.ok) {
       let data = await response.text();
@@ -272,7 +272,9 @@ const Form = ({ additionalClasses, column }) => {
         )}
         <Textarea placeholder="Your Message" />
         <Button
-          additionalClasses="bg-secondary hover:bg-secondary-hover w-full"
+          additionalClasses={`bg-secondary hover:bg-secondary-hover ${
+            buttonWidth ? buttonWidth : ""
+          }`}
           type="submit"
         >
           {submitting ? "Submitting..." : "Inquire Now"}

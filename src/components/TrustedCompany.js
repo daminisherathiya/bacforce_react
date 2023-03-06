@@ -45,10 +45,10 @@ const TrustedCompany = () => {
           {trustedCompanyList.map((trustedCompany, i) => (
             <ImageSection
               key={i}
-              divClasses="my-3 w-1/3 px-3 md:my-0 md:w-1/5"
+              divClasses="my-3 w-1/3 px-3 md:my-0 sm:w-1/5"
               imageAlt={trustedCompany.alt}
               imageSrc={trustedCompany.src}
-              imageClasses="mx-auto w-44"
+              imageClasses="mx-auto w-[max(127px,9.167vw)]"
             />
           ))}
         </div>

@@ -11,7 +11,7 @@ const WeOffer = ({ data, children }) => {
               className="text-dark"
               dangerouslySetInnerHTML={{ __html: data.title }}
             />
-            <p>{data.description}</p>
+            <p className="text-xl">{data.description}</p>
             {children}
             <ButtonLink
               additionalClasses="bg-secondary hover:bg-secondary-hover"

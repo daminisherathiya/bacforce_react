@@ -55,7 +55,7 @@ const salesforce2 = () => {
             <span className="font-bold"> Applications We Build</span>
           </SectionHeading>
           <SectionDescription>
-            <p className="mx-auto lg:w-4/5 2xl:w-2/3">
+            <p className="mx-auto lg:w-4/5 2xl:w-3/4 text-xl">
               As a leading Salesforce development company, our primary focus is
               helping businesses around the world to augment their business
               operations and sky-rocket their sales. Being a reliable Salesforce
@@ -107,8 +107,8 @@ const salesforce2 = () => {
           Schedule A Developer Interview and
           <br className="hidden lg:block" /> Get 15 Days Risk-Free Trial
         </SectionHeading>
-        <div className="grid grid-cols-10">
-          <div className="col-span-8 col-start-2 space-y-12">
+        <div className="grid md:grid-cols-10">
+          <div className="md:col-span-8 md:col-start-2 space-y-12">
             <div>
               <h2>Let&apos;s get to know each other with a Free call.</h2>
               <p className="mt-8">
@@ -147,7 +147,7 @@ const salesforce2 = () => {
             About Us
           </SectionHeading>
           <SectionDescription>
-            <p className="px-14 xl:px-64">
+            <p className="px-14 xl:px-64 text-xl">
               Leading companies have trusted us with staff augmentation for
               fulfilling their IT needs.
             </p>
