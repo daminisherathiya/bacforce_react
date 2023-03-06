@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useRef } from "react";
+import arrowNarrowRight from "../../../public/images/arrow-narrow-right.svg";
 import HeaderFooter from "./HeaderFooter";
 
 const SubHeader = ({ open, service }) => {
@@ -40,9 +41,14 @@ const SubHeader = ({ open, service }) => {
               </h2>
               <a
                 href="https://bacforce.com/contactus"
-                className="block uppercase text-light-blue"
+                className="flex items-center uppercase text-light-blue"
               >
-                get quote <span className="long-arrow-icon-css ml-2"></span>
+                get quote
+                <Image
+                  src={arrowNarrowRight}
+                  alt="arrowNarrowRight"
+                  className="ml-1 w-[max(30px,1.563vw)]"
+                />
               </a>
             </div>
           </div>
