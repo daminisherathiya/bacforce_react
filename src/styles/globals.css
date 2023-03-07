@@ -172,22 +172,6 @@
   scrollbar-width: none; /* Firefox */
 }
 
-/*  */
-.counter-reset {
-  counter-reset: my-sec-counter;
-}
-.bg-number::before {
-  counter-increment: my-sec-counter;
-  content: "0" counter(my-sec-counter);
-  position: absolute;
-  font-size: max(80px, 7.813vw);
-  color: rgba(105, 105, 105, 0.05);
-  bottom: 0;
-  right: 0;
-  line-height: max(50px, 5.104vw);
-  font-weight: 700;
-}
-
 /* swiper */
 .swiper-slide {
   height: auto !important;
