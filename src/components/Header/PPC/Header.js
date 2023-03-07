@@ -54,23 +54,25 @@ const Header = ({ hiddenLinkIds = [] }) => {
             type="button"
             aria-label="Toggle collapsible navigation"
             onClick={toggleMenuHandler}
-            className={`hamburger z-40 block outline-none focus:outline-none lg:hidden ${
-              menuToggle ? "open" : ""
+            className={`relative z-40 block h-[24px] w-[24px] cursor-pointer outline-none transition-all duration-[0.25s] focus:outline-none lg:hidden ${
+              menuToggle ? "rotate-90" : ""
             }`}
           >
             <span
-              className={`hamburger-top bg-dark ${
-                menuToggle ? "xs:bg-white" : ""
+              className={`absolute top-0 left-0 h-[2px] w-[24px] rotate-0 bg-dark transition-all duration-[0.5s] ${
+                menuToggle ? "translate-y-[6px] rotate-[45deg] xs:bg-white" : ""
               }`}
             ></span>
             <span
-              className={`hamburger-middle bg-dark ${
-                menuToggle ? "xs:bg-white" : ""
+              className={`absolute top-0 left-0 h-[2px] w-[24px] translate-y-[7px] rotate-0 bg-dark transition-all duration-[0.5s] ${
+                menuToggle ? "hidden xs:bg-white" : ""
               }`}
             ></span>
             <span
-              className={`hamburger-bottom bg-dark ${
-                menuToggle ? "xs:bg-white" : ""
+              className={`absolute top-0 left-0 h-[2px] w-[24px] translate-y-[14px] rotate-0 bg-dark transition-all duration-[0.5s] ${
+                menuToggle
+                  ? "!translate-y-[6px] -rotate-[45deg] xs:bg-white"
+                  : ""
               }`}
             ></span>
           </button>
