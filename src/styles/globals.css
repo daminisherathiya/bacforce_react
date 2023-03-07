@@ -94,34 +94,10 @@
   font-display: swap;
 }
 
-/* mobile submenu plus */
-.submenu {
-  position: relative;
-}
-.submenu:after,
-.submenu::before {
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 15px;
-  top: 50%;
-  transform: translatey(-50%);
-  background-color: black;
-  right: 0;
-  transition: all ease-in 0.3s;
-}
-.submenu::before {
-  transform: rotate(270deg);
-}
-.submenu.open::before {
-  transform: rotate(0);
-}
-
 /* noscroll */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
-
 .no-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
