@@ -11,7 +11,7 @@ export const contacts = [
     connect:
       "601 Brickell Key Drive, Suite 700,<br/> Miami, Florida, 33131, USA",
     bgColor: "dark",
-    href: "https://www.google.com/maps/place/601+Brickell+Key+Dr+%23700,+Miami,+FL+33131,+USA/data=!4m2!3m1!1s0x88d9b4286b844fdf:0x6217270840a053e3?sa=X&ved=2ahUKEwjLspXAnab9AhWHXGwGHaseAdoQ8gF6BAgJEAI",
+    href: "javascript:void(0);",
   },
   {
     id: 2,

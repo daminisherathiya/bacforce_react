@@ -16,3 +16,9 @@ export const salesforce3Meta = {
     "Leverage our Salesforce support services to keep your salesforce solution running smoothly and efficiently. Get continuous expert support from us.",
   ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-3.png",
 };
+export const cloud1Meta = {
+  title: "Salesforce Marketing Cloud Developer | 80+ SFMC Developers",
+  description:
+    "Leverage our salesforce marketing cloud services to increase your business and brand value with our 11+ years of salesforce experts.",
+  ogImage: "https://bacforce.com/landing/images/OG-images/cloud-1.png",
+};

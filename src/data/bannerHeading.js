@@ -1,9 +1,10 @@
 export const salesforce1BannerHeading = {
   heading:
     "Hire Certified <span class='font-bold xl:block'>Salesforce Developers</span>",
-  descriptionList: [
-    "Our certified Salesforce consultants are backed by 11+ years of experience in SFDC consulting, integration, customization, and support.",
-  ],
+  subHeading: {
+    description:
+      "Our certified Salesforce consultants are backed by 11+ years of experience in SFDC consulting, integration, customization, and support.",
+  },
 };
 export const salesforce2BannerHeading = {
   heading:
@@ -20,6 +21,19 @@ export const salesforce3BannerHeading = {
   descriptionList: [
     "Specialized and Technical Expertise You Need",
     "We connect your internal team with our Salesforce specialists based on the areas you need optimized the most. Whether it’s marketing, technical architects, integration experts, CPQ, data, or security, we can partner with your team to get it done.",
+  ],
+  buttonName: "Talk to Our Salesforce Experts",
+  buttonHref: "#Form",
+};
+export const cloud1BannerHeading = {
+  heading:
+    "Hire Salesforce <span class='font-bold xl:block'>Marketing Cloud Developer</span>",
+  subHeading: {
+    description: "11+ Years of CRM Experience",
+    additionalClasses: "font-semibold text-light-blue",
+  },
+  description: [
+    "Our SFMC developers are expert in building and managing personalised customer journeys with Marketing Cloud. We offer you marketing cloud services to help you overcome your integration challenges.",
   ],
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
