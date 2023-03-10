@@ -7,18 +7,19 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
+import SideSectionHeading from "@/components/SideSectionHeading";
 import Success from "@/components/Success";
 import TechnicalExpertise from "@/components/TechnicalExpertise";
 import WeHelp from "@/components/WeHelp";
-import WeOffer from "@/components/WeOffer";
 import WeOfferAdditionlComponent from "@/components/WeOfferAdditionlComponent";
 import { salesforce1BannerHeading } from "@/data/bannerHeading";
-import { salesforce1Faq } from "@/data/faq";
 import { salesforce1Features } from "@/data/bulletPointList";
+import { salesforce1Faq } from "@/data/faq";
 import { salesforce1Meta } from "@/data/meta";
 import { salesforce1NumberBackground } from "@/data/numberBackground";
 import { salesforce1TechnicalExpertise } from "@/data/TechnicalExpertise";
 import { salesforce1WeOffer } from "@/data/weOffer";
+import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
 import ButtonLink from "@/ui/ButtonLink";
 import ImageSection from "@/ui/ImageSection";
@@ -71,9 +72,14 @@ const salesforce1 = () => {
         </div>
       </section>
 
-      <WeOffer data={salesforce1WeOffer}>
-        <WeOfferAdditionlComponent />
-      </WeOffer>
+      <section className="bg-light-blue">
+        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+          <SideSectionHeading data={salesforce1WeOffer}>
+            <WeOfferAdditionlComponent />
+          </SideSectionHeading>
+          <Accordion accordionItemsData={salesforce1WeOffer.weOffer} />
+        </div>
+      </section>
 
       <HireSalesforceDeveloper id="PlanandPricing">
         <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
@@ -128,7 +134,10 @@ const salesforce1 = () => {
             </p>
           </SectionDescription>
         </div>
-        <NumberBackgroundBox additionalClasses="gap-4 md:grid-cols-2" data={salesforce1NumberBackground} />
+        <NumberBackgroundBox
+          additionalClasses="gap-4 md:grid-cols-2"
+          data={salesforce1NumberBackground}
+        />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#Form"

@@ -7,9 +7,9 @@ import Form from "@/components/Form/Form";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
+import SideSectionHeading from "@/components/SideSectionHeading";
 import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
-import WeOffer from "@/components/WeOffer";
 import WeOfferAdditionlComponent from "@/components/WeOfferAdditionlComponent";
 import { salesforce2BannerHeading } from "@/data/bannerHeading";
 import { salesforce2Features } from "@/data/bulletPointList";
@@ -18,6 +18,7 @@ import { salesforce2DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce2Faq } from "@/data/faq";
 import { salesforce2Meta } from "@/data/meta";
 import { salesforce2WeOffer } from "@/data/weOffer";
+import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
 import ButtonLink from "@/ui/ButtonLink";
 import Carousel from "@/ui/Carousel";
@@ -79,9 +80,14 @@ const salesforce2 = () => {
         </div>
       </section>
 
-      <WeOffer data={salesforce2WeOffer}>
-        <WeOfferAdditionlComponent />
-      </WeOffer>
+      <section className="bg-light-blue">
+        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+          <SideSectionHeading data={salesforce2WeOffer}>
+            <WeOfferAdditionlComponent />
+          </SideSectionHeading>
+          <Accordion accordionItemsData={salesforce2WeOffer.weOffer} />
+        </div>
+      </section>
 
       <section id="PlanandPricing" className="scroll-mt-28">
         <SectionHeading additionalClasses="mb-6 text-6xl">

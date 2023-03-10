@@ -181,3 +181,35 @@ export const cloud2DescriptionWithIcon = {
     },
   ],
 };
+export const cloud1DescriptionWithIcon = [
+  {
+    icon: replace,
+    description:
+      "11+ years of experience in CRM solutions",
+  },
+  {
+    icon: social,
+    description:
+      "80+ certified Salesforce developers",
+  },
+  {
+    icon: tool,
+    description:
+      "Expertise in various Salesforce products & industry verticals",
+  },
+  {
+    icon: report,
+    description:
+      "A dedicated team of certified Salesforce consultants & developers",
+  },
+  {
+    icon: chartDonut3,
+    description:
+      "Finest services with On-time deliveries",
+  },
+  {
+    icon: cloud,
+    description:
+      "Perfection in integrating Offshore models",
+  },
+];

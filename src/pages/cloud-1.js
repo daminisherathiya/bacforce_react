@@ -6,12 +6,17 @@ import Form from "@/components/Form/Form";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
+import SideSectionHeading from "@/components/SideSectionHeading";
 import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
 import { cloud1BannerHeading } from "@/data/bannerHeading";
 import { cloud1Features } from "@/data/bulletPointList";
-import { cloud2DescriptionWithIcon } from "@/data/descriptionWithIcon";
+import {
+  cloud1DescriptionWithIcon,
+  cloud2DescriptionWithIcon,
+} from "@/data/descriptionWithIcon";
 import { cloud1Meta } from "@/data/meta";
+import { cloud1SideSectionHeading } from "@/data/sideSectionHeading";
 import BulletPointList from "@/ui/BulletPointList";
 import ButtonLink from "@/ui/ButtonLink";
 import DescriptionWithIcon from "@/ui/DescriptionWithIcon";
@@ -148,6 +153,15 @@ const cloud1 = () => {
         </ButtonLink>
       </section>
       <CaseStudy />
+
+      <section>
+        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+          <SideSectionHeading
+            data={cloud1SideSectionHeading}
+          ></SideSectionHeading>
+          <DescriptionWithIcon boxSize="w-2/5" boxBgColor="bg-light-blue" data={cloud1DescriptionWithIcon} />
+        </div>
+      </section>
       <WeHelp />
       <Footer />
     </>

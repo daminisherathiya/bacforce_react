@@ -7,9 +7,9 @@ import Form from "@/components/Form/Form";
 import Header from "@/components/Header/PPC/Header";
 import HireSalesforceDeveloper from "@/components/HireSalesforceDeveloper";
 import Meta from "@/components/Meta";
+import SideSectionHeading from "@/components/SideSectionHeading";
 import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
-import WeOffer from "@/components/WeOffer";
 import { salesforce3BannerHeading } from "@/data/bannerHeading";
 import {
   salesforce3Features,
@@ -20,6 +20,7 @@ import { salesforce3Faq } from "@/data/faq";
 import { salesforce3Meta } from "@/data/meta";
 import { salesforce3NumberBackground } from "@/data/numberBackground";
 import { salesforce3WeOffer } from "@/data/weOffer";
+import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
 import ButtonLink from "@/ui/ButtonLink";
 import DescriptionWithIcon from "@/ui/DescriptionWithIcon";
@@ -125,7 +126,12 @@ const salesforce3 = () => {
           ))}
         </div>
       </section>
-      <WeOffer data={salesforce3WeOffer}></WeOffer>
+      <section className="bg-light-blue">
+        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+          <SideSectionHeading data={salesforce3WeOffer}></SideSectionHeading>
+          <Accordion accordionItemsData={salesforce3WeOffer.weOffer} />
+        </div>
+      </section>
 
       <section>
         <div>
