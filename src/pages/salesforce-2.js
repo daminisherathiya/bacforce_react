@@ -42,7 +42,7 @@ const salesforce2 = () => {
           divClasses="md:col-span-4 xl:col-span-5 mx-auto md:mx-0"
           imageAlt="Salesforce Development Company"
           imageSrc={banner}
-          imageClasses="w-[max(300px,31.250vw)] lg:h-[max(300px,31.250vw)]"
+          imageClasses="w-[max(280px,31.250vw)] h-[max(280px,31.250vw)]"
         />
         <BannerHeading
           data={salesforce2BannerHeading}

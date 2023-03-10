@@ -7,7 +7,6 @@ export default function App({ Component, pageProps }) {
   const canonicalUrl = (
     `https://bacforce.com` + (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
-  console.log(canonicalUrl);
 
   return (
     <>

@@ -39,7 +39,7 @@ const cloud1 = () => {
           divClasses="md:col-span-4 xl:col-span-5 mx-auto md:mx-0"
           imageAlt="Hire Salesforce Marketing Cloud Developer"
           imageSrc={banner}
-          imageClasses="w-[max(300px,31.250vw)] lg:h-[max(300px,31.250vw)]"
+          imageClasses="w-[max(280px,31.250vw)] h-[max(280px,31.250vw)]"
         />
         <BannerHeading
           additionalClasses="md:col-span-7 xl:col-span-6 md:pl-16"
@@ -68,7 +68,7 @@ const cloud1 = () => {
           />
         </div>
       </section>
-      <section id="TechnicalStack" className="scroll-mt-28">
+      <section id="TechnicalStack" className="scroll-mt-28 bg-light-blue">
         <SectionHeading additionalClasses="mb-8">
           Services Offered By
           <span className="font-bold"> Our Marketing Cloud Developers</span>
@@ -87,7 +87,7 @@ const cloud1 = () => {
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
           data={cloud2DescriptionWithIcon.challanges}
           boxSize="sm:w-1/2 lg:w-1/3"
-          boxAdditionalClasses="space-y-6 border border-gray"
+          boxAdditionalClasses="space-y-6 bg-white"
         />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
@@ -167,7 +167,8 @@ const cloud1 = () => {
           ></SideSectionHeading>
           <DescriptionWithIcon
             boxSize="md:w-[43%]"
-            boxAdditionalClasses="space-y-4 bg-light-blue min-h-[max(140px,11.042vw)]"
+            iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
+            boxAdditionalClasses="space-y-4 bg-light-blue min-h-[max(100px,11.042vw)]"
             data={cloud1DescriptionWithIcon}
           />
         </div>

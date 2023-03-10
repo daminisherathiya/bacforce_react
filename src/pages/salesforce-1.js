@@ -64,7 +64,7 @@ const salesforce1 = () => {
             divClasses="mx-auto"
             imageAlt="Challenges Re-Solved by Our Professional Salesforce Developer"
             imageSrc={challanges}
-            imageClasses="h-[max(198px,24.167vw)] w-[max(280px,34.167vw)]"
+            imageClasses="w-[max(280px,34.167vw)]"
           />
           <BulletPointList
             additionalClasses="after:top-1/2 after:-translate-y-2/4"
