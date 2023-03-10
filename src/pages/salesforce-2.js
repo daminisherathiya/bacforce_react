@@ -17,6 +17,7 @@ import { salesforce2Carousel } from "@/data/carousel";
 import { salesforce2DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce2Faq } from "@/data/faq";
 import { salesforce2Meta } from "@/data/meta";
+import { salesforce2SideSectionHeading } from "@/data/sideSectionHeading";
 import { salesforce2WeOffer } from "@/data/weOffer";
 import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
@@ -82,10 +83,10 @@ const salesforce2 = () => {
 
       <section className="bg-light-blue">
         <div className="grid gap-16 md:grid-cols-2 md:gap-20">
-          <SideSectionHeading data={salesforce2WeOffer}>
+          <SideSectionHeading data={salesforce2SideSectionHeading}>
             <WeOfferAdditionlComponent />
           </SideSectionHeading>
-          <Accordion accordionItemsData={salesforce2WeOffer.weOffer} />
+          <Accordion accordionItemsData={salesforce2WeOffer} />
         </div>
       </section>
 

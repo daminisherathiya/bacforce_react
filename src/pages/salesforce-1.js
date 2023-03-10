@@ -17,6 +17,7 @@ import { salesforce1Features } from "@/data/bulletPointList";
 import { salesforce1Faq } from "@/data/faq";
 import { salesforce1Meta } from "@/data/meta";
 import { salesforce1NumberBackground } from "@/data/numberBackground";
+import { salesforce1SideSectionHeading } from "@/data/sideSectionHeading";
 import { salesforce1TechnicalExpertise } from "@/data/TechnicalExpertise";
 import { salesforce1WeOffer } from "@/data/weOffer";
 import Accordion from "@/ui/Accordion";
@@ -74,10 +75,10 @@ const salesforce1 = () => {
 
       <section className="bg-light-blue">
         <div className="grid gap-16 md:grid-cols-2 md:gap-20">
-          <SideSectionHeading data={salesforce1WeOffer}>
+          <SideSectionHeading data={salesforce1SideSectionHeading}>
             <WeOfferAdditionlComponent />
           </SideSectionHeading>
-          <Accordion accordionItemsData={salesforce1WeOffer.weOffer} />
+          <Accordion accordionItemsData={salesforce1WeOffer} />
         </div>
       </section>
 

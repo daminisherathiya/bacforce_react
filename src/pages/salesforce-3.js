@@ -19,6 +19,7 @@ import { salesforce3DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce3Faq } from "@/data/faq";
 import { salesforce3Meta } from "@/data/meta";
 import { salesforce3NumberBackground } from "@/data/numberBackground";
+import { salesforce3SideSectionHeading } from "@/data/sideSectionHeading";
 import { salesforce3WeOffer } from "@/data/weOffer";
 import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
@@ -128,8 +129,10 @@ const salesforce3 = () => {
       </section>
       <section className="bg-light-blue">
         <div className="grid gap-16 md:grid-cols-2 md:gap-20">
-          <SideSectionHeading data={salesforce3WeOffer}></SideSectionHeading>
-          <Accordion accordionItemsData={salesforce3WeOffer.weOffer} />
+          <SideSectionHeading
+            data={salesforce3SideSectionHeading}
+          ></SideSectionHeading>
+          <Accordion accordionItemsData={salesforce3WeOffer} />
         </div>
       </section>
 
