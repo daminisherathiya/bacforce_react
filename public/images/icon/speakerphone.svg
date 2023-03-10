@@ -1,0 +1,6 @@
+<svg id="speakerphone" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_3404" data-name="Path 3404" d="M0,0H48V48H0Z" fill="none"/>
+  <path id="Path_3405" data-name="Path 3405" d="M18,8a6,6,0,0,1,0,12" transform="translate(18 8)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3406" data-name="Path 3406" d="M13,8V30a2,2,0,0,1-2,2H9a2,2,0,0,1-2-2V20" transform="translate(7 8)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3407" data-name="Path 3407" d="M21,11.978h0l9.048-7.54A1.8,1.8,0,0,1,33,5.822V30.134a1.8,1.8,0,0,1-2.952,1.384L21,23.978H5a2,2,0,0,1-2-2v-8a2,2,0,0,1,2-2H21" transform="translate(3 4.021)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

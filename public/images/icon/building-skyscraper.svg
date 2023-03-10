@@ -1,0 +1,10 @@
+<svg id="building-skyscraper" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_1157" data-name="Path 1157" d="M0,0H48V48H0Z" fill="none"/>
+  <line id="Line_815" data-name="Line 815" x2="36.618" transform="translate(5.522 41.706)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1158" data-name="Path 1158" d="M5,38.706V10.935L21,3V38.706" transform="translate(5 3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1159" data-name="Path 1159" d="M25,34.771V14.935L13,7" transform="translate(13 6.935)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_816" data-name="Line 816" transform="translate(17.936 18.121)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_817" data-name="Line 817" transform="translate(17.936 23.707)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_818" data-name="Line 818" transform="translate(17.936 29.913)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_819" data-name="Line 819" transform="translate(17.936 36.12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

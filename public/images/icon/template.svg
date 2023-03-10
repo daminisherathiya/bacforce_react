@@ -1,0 +1,8 @@
+<svg id="template" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_3588" data-name="Path 3588" d="M0,0H48V48H0Z" fill="none"/>
+  <rect id="Rectangle_275" data-name="Rectangle 275" width="32.274" height="8.068" rx="1" transform="translate(7.714 8.088)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect id="Rectangle_276" data-name="Rectangle 276" width="12.413" height="16.137" rx="1" transform="translate(7.714 24.225)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1626" data-name="Line 1626" x2="11.792" transform="translate(28.196 24.225)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1627" data-name="Line 1627" x2="11.792" transform="translate(28.196 32.293)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1628" data-name="Line 1628" x2="11.792" transform="translate(28.196 40.361)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

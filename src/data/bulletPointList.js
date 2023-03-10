@@ -84,3 +84,14 @@ export const supportAndMaintenanceServices = [
     button: "Choose Advance Support",
   },
 ];
+export const cloud1Features = {
+  challenges_re_solved: [
+    "Inefficient prediction of consumer's behavior",
+    "Difficulty & errors in connecting information from multiple sources",
+    "Poor customer experiences due to huge query volume and long case resolution process",
+    "Lack of personalization in marketing activities",
+    "Deficient alignment between sales, marketing, and support teams.",
+    "Complexity in delivering effective communication",
+    "Insufficient customer insights",
+  ],
+};

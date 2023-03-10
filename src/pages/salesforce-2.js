@@ -55,7 +55,7 @@ const salesforce2 = () => {
             <span className="font-bold"> Applications We Build</span>
           </SectionHeading>
           <SectionDescription>
-            <p className="mx-auto lg:w-4/5 2xl:w-3/4 text-xl">
+            <p className="mx-auto text-xl lg:w-4/5 2xl:w-3/4">
               As a leading Salesforce development company, our primary focus is
               helping businesses around the world to augment their business
               operations and sky-rocket their sales. Being a reliable Salesforce
@@ -67,7 +67,9 @@ const salesforce2 = () => {
         <div className="grid gap-12 md:grid-cols-2 md:gap-0 md:divide-x md:divide-gray">
           {salesforce2Features.map((item, index) => (
             <div key={index} className="md:first:pr-12 md:last:pl-12">
-              <h3 className="mb-8 font-bold text-light-blue text-left">{item.title}</h3>
+              <h3 className="mb-8 text-left font-bold text-light-blue">
+                {item.title}
+              </h3>
               <BulletPointList
                 additionalClasses="after:top-3 text-secondary"
                 data={item.description}
@@ -104,11 +106,11 @@ const salesforce2 = () => {
       </section>
       <HireSalesforceDeveloper id="Form">
         <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
-          Schedule A Developer Interview and
+          <span className="font-bold">Schedule A Developer Interview and</span>
           <br className="hidden lg:block" /> Get 15 Days Risk-Free Trial
         </SectionHeading>
         <div className="grid md:grid-cols-10">
-          <div className="md:col-span-8 md:col-start-2 space-y-12">
+          <div className="space-y-12 md:col-span-8 md:col-start-2">
             <div>
               <h2>Let&apos;s get to know each other with a Free call.</h2>
               <p className="mt-8">
@@ -124,10 +126,7 @@ const salesforce2 = () => {
       </HireSalesforceDeveloper>
       <Success />
 
-      <section
-        id="TechnicalStack"
-        className="scroll-mt-28"
-      >
+      <section id="TechnicalStack" className="scroll-mt-28">
         <SectionHeading>
           <span className="font-bold">Proven Experience</span> With Salesforce
           Technologies
@@ -147,7 +146,7 @@ const salesforce2 = () => {
             About Us
           </SectionHeading>
           <SectionDescription>
-            <p className="px-14 xl:px-64 text-xl">
+            <p className="px-14 text-xl xl:px-64">
               Leading companies have trusted us with staff augmentation for
               fulfilling their IT needs.
             </p>

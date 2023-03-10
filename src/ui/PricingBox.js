@@ -11,10 +11,14 @@ const PricingBox = ({ theme }) => {
                 theme === "light-blue"
                   ? `divide-light-blue border-light-blue`
                   : ""
+              }${
+                theme === "white"
+                  ? `border-white divide-gray shadow-blue bg-white`
+                  : ""
               }`}
             >
               <h4
-                className={`px-9 font-bold ${theme ? `text-${theme}` : ""}`}
+                className={`px-9 font-bold ${theme ? `text-light-blue` : ""}`}
                 dangerouslySetInnerHTML={{ __html: item.price }}
               ></h4>
               <div className="mt-5 px-9 pt-5">

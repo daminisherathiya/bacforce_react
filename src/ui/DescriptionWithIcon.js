@@ -1,10 +1,14 @@
 import ImageSection from "@/ui/ImageSection";
 
-const DescriptionWithIcon = ({ data, iconSize }) => {
+const DescriptionWithIcon = ({
+  additionalClassesForHeading,
+  data,
+  iconSize,
+}) => {
   return (
     <div className="-mx-2 mt-16 flex flex-wrap sm:justify-center">
       {data.map((item, index) => (
-        <div key={index} className="p-2 w-full sm:w-1/2 lg:w-1/3">
+        <div key={index} className="w-full p-2 sm:w-1/2 lg:w-1/3">
           <div className="group h-full cursor-pointer space-y-6 border border-gray p-8 text-left hover:bg-primary hover:shadow-blue">
             <div className="flex items-center">
               <ImageSection
@@ -13,7 +17,13 @@ const DescriptionWithIcon = ({ data, iconSize }) => {
                 imageSrc={item.icon}
                 imageClasses={`${iconSize} group-hover:invert`}
               />
-              <h4 className="font-semibold group-hover:text-white">
+              <h4
+                className={`font-semibold group-hover:text-white${
+                  additionalClassesForHeading
+                    ? " " + additionalClassesForHeading
+                    : ""
+                }`}
+              >
                 {item.title}
               </h4>
             </div>
