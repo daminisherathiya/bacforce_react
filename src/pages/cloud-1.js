@@ -72,7 +72,7 @@ const cloud1 = () => {
           <span className="font-bold"> Our Marketing Cloud Developers</span>
         </SectionHeading>
         <SectionDescription>
-          <p className="mx-auto text-xl lg:w-4/5 2xl:w-3/4">
+          <p className="mx-auto text-xl lg:w-4/5 2xl:w-3/4 mb-16">
             Hire SFMC developers with versatile skills aligning with your
             business requirements. Our Salesforce developers build secure,
             scalable, and dynamic enterprise-grade, cost-effective Salesforce
@@ -84,6 +84,8 @@ const cloud1 = () => {
           additionalClassesForHeading="text-lg"
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
           data={cloud2DescriptionWithIcon.challanges}
+          boxSize="sm:w-1/2 lg:w-1/3"
+          boxAdditionalClasses="space-y-6 border border-gray"
         />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
@@ -136,7 +138,7 @@ const cloud1 = () => {
       </HireSalesforceDeveloper>
       <Success />
       <section id="TechnicalStack" className="scroll-mt-28">
-        <SectionHeading>
+        <SectionHeading additionalClasses="mb-16">
           <span className="font-bold">Our Expertise</span>
           With Marketing Cloud Products
         </SectionHeading>
@@ -144,6 +146,8 @@ const cloud1 = () => {
           additionalClassesForHeading="text-lg"
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
           data={cloud2DescriptionWithIcon.ourExpertise}
+          boxSize="sm:w-1/2 lg:w-1/3"
+          boxAdditionalClasses="space-y-6 border border-gray"
         />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
@@ -159,7 +163,11 @@ const cloud1 = () => {
           <SideSectionHeading
             data={cloud1SideSectionHeading}
           ></SideSectionHeading>
-          <DescriptionWithIcon boxSize="w-2/5" boxBgColor="bg-light-blue" data={cloud1DescriptionWithIcon} />
+          <DescriptionWithIcon
+            boxSize="md:w-[43%]"
+            boxAdditionalClasses="space-y-4 bg-light-blue min-h-[max(140px,11.042vw)]"
+            data={cloud1DescriptionWithIcon}
+          />
         </div>
       </section>
       <WeHelp />

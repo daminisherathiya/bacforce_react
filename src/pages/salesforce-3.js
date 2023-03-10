@@ -143,7 +143,7 @@ const salesforce3 = () => {
             <span className="font-bold"> CRM Support Services</span>
           </SectionHeading>
           <SectionDescription>
-            <p className="mx-auto text-xl lg:w-4/5 2xl:w-3/4">
+            <p className="mx-auto text-xl lg:w-4/5 2xl:w-3/4 mb-16">
               Our certified Salesforce developers and administrators offer
               cutting-edge support and maintenance services for all your
               Salesforce products.
@@ -153,6 +153,8 @@ const salesforce3 = () => {
         <DescriptionWithIcon
           iconSize="w-[max(30px,2.500vw)] w-[max(30px,2.500vw)]"
           data={salesforce3DescriptionWithIcon}
+          boxSize = "sm:w-1/2 lg:w-1/3"
+          boxAdditionalClasses="space-y-6 border border-gray"
         />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"

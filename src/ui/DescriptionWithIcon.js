@@ -4,18 +4,22 @@ const DescriptionWithIcon = ({
   additionalClassesForHeading,
   data,
   iconSize,
-  boxSize = "sm:w-1/2 lg:w-1/3",
-  boxBgColor = "",
+  boxSize,
+  boxAdditionalClasses,
 }) => {
   return (
-    <div className="-mx-2 mt-16 flex flex-wrap sm:justify-center">
+    <div className="-mx-2 flex flex-wrap sm:justify-center">
       {data.map((item, index) => (
         <div key={index} className={`w-full p-2 ${boxSize}`}>
-          <div className={`group h-full cursor-pointer space-y-6 border border-gray p-8 text-left hover:bg-primary hover:shadow-blue ${boxBgColor}`}>
+          <div
+            className={`group h-full cursor-pointer p-8 text-left hover:bg-primary hover:shadow-blue${
+              boxAdditionalClasses ? " " + boxAdditionalClasses : ""
+            }`}
+          >
             <div className="flex items-center">
               <ImageSection
                 divClasses="pr-4"
-                imageAlt={item.title}
+                imageAlt={item.title ? item.title : item.description}
                 imageSrc={item.icon}
                 imageClasses={`${iconSize} group-hover:invert`}
               />

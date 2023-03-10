@@ -134,13 +134,15 @@ const salesforce2 = () => {
       <Success />
 
       <section id="TechnicalStack" className="scroll-mt-28">
-        <SectionHeading>
+        <SectionHeading additionalClasses="mb-16">
           <span className="font-bold">Proven Experience</span> With Salesforce
           Technologies
         </SectionHeading>
         <DescriptionWithIcon
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
           data={salesforce2DescriptionWithIcon}
+          boxSize = "sm:w-1/2 lg:w-1/3"
+          boxAdditionalClasses="space-y-6 border border-grayx"
         />
       </section>
 
