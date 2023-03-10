@@ -31,6 +31,11 @@ import mail from "../../public/images/icon/mail.svg";
 import sitemap from "../../public/images/icon/sitemap.svg";
 import speakerphone from "../../public/images/icon/speakerphone.svg";
 import brandGoogle from "../../public/images/icon/brand-google.svg";
+import briefcase from "../../public/images/icon/briefcase.svg";
+import userCheck from "../../public/images/icon/user-check.svg";
+import buildingSkyscraper from "../../public/images/icon/building-skyscraper.svg";
+import history from "../../public/images/icon/history.svg";
+import brandSketch from "../../public/images/icon/brand-sketch.svg";
 
 export const salesforce2DescriptionWithIcon = [
   { icon: code, title: "Apex Code" },
@@ -183,32 +188,32 @@ export const cloud2DescriptionWithIcon = {
 };
 export const cloud1DescriptionWithIcon = [
   {
-    icon: replace,
+    icon: briefcase,
     description:
       "11+ years of experience in CRM solutions",
   },
   {
-    icon: social,
+    icon: userCheck,
     description:
       "80+ certified Salesforce developers",
   },
   {
-    icon: tool,
+    icon: buildingSkyscraper,
     description:
       "Expertise in various Salesforce products & industry verticals",
   },
   {
-    icon: report,
+    icon: users,
     description:
       "A dedicated team of certified Salesforce consultants & developers",
   },
   {
-    icon: chartDonut3,
+    icon: history,
     description:
       "Finest services with On-time deliveries",
   },
   {
-    icon: cloud,
+    icon: brandSketch,
     description:
       "Perfection in integrating Offshore models",
   },
