@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner/Banner";
 import { BannerHeading } from "@/components/Banner/BannerHeading";
 import CaseStudy from "@/components/CaseStudy";
+import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 import Form from "@/components/Form/Form";
 import Header from "@/components/Header/PPC/Header";
@@ -15,6 +16,7 @@ import {
   cloud1DescriptionWithIcon,
   cloud2DescriptionWithIcon,
 } from "@/data/descriptionWithIcon";
+import { cloud1Faq } from "@/data/faq";
 import { cloud1Meta } from "@/data/meta";
 import { cloud1SideSectionHeading } from "@/data/sideSectionHeading";
 import BulletPointList from "@/ui/BulletPointList";
@@ -72,7 +74,7 @@ const cloud1 = () => {
           <span className="font-bold"> Our Marketing Cloud Developers</span>
         </SectionHeading>
         <SectionDescription>
-          <p className="mx-auto text-xl lg:w-4/5 2xl:w-3/4 mb-16">
+          <p className="mx-auto mb-16 text-xl lg:w-4/5 2xl:w-3/4">
             Hire SFMC developers with versatile skills aligning with your
             business requirements. Our Salesforce developers build secure,
             scalable, and dynamic enterprise-grade, cost-effective Salesforce
@@ -170,6 +172,7 @@ const cloud1 = () => {
           />
         </div>
       </section>
+      <Faq data={cloud1Faq} />
       <WeHelp />
       <Footer />
     </>
