@@ -16,7 +16,7 @@ const Contacts = ({ contacts }) => {
         <p>{contact.name}</p>
         <a
           href={contact.href}
-          onClick={!contact.onClick && ((e) => e.preventDefault())}
+          onClick={contact.notClickable && ((e) => e.preventDefault())}
           className="text-xl font-bold"
           dangerouslySetInnerHTML={{ __html: contact.connect }}
         ></a>

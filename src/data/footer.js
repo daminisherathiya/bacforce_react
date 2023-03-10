@@ -12,7 +12,7 @@ export const contacts = [
       "601 Brickell Key Drive, Suite 700,<br/> Miami, Florida, 33131, USA",
     bgColor: "dark",
     href: "#",
-    onClick: true,
+    notClickable: true,
   },
   {
     id: 2,
