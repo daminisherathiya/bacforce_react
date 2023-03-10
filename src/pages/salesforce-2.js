@@ -90,18 +90,18 @@ const salesforce2 = () => {
         </div>
       </section>
 
-      <section id="PlanandPricing" className="scroll-mt-28">
-        <SectionHeading additionalClasses="mb-6 text-6xl">
+      <section id="PlanandPricing" className="scroll-mt-28 bg-primary">
+        <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
           <span className="font-bold">Hire Salesforce Developer </span>
           as Per Your Need
         </SectionHeading>
         <div className="lg:grid lg:grid-cols-10">
           <div className="space-y-12 lg:col-span-8 lg:col-start-2">
-            <h4>
+            <h4 className="text-white">
               Simple &amp; Transparent Pricing | Fully Signed NDA | Code
               Security | Easy Exit Policy
             </h4>
-            <PricingBox theme="light-blue" />
+            <PricingBox theme="white" />
             <ButtonLink
               additionalClasses="bg-secondary hover:bg-secondary-hover"
               href="#Form"

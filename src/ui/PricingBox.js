@@ -8,12 +8,8 @@ const PricingBox = ({ theme }) => {
             <div
               key={index}
               className={`divide-y border py-8 ${
-                theme === "light-blue"
-                  ? `divide-light-blue border-light-blue`
-                  : ""
-              }${
                 theme === "white"
-                  ? `border-white divide-gray shadow-blue bg-white`
+                  ? `border-white divide-gray shadow bg-white`
                   : ""
               }`}
             >
