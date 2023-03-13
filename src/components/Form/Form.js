@@ -82,9 +82,9 @@ const Form = ({ additionalClasses, column, buttonWidth }) => {
 
   const submitHandler = (data) => {
     const contactInformation = {
-      contactName: data.name,
+      contactName: data.fullName,
       contactEmail: data.email,
-      contactPhone: data.phone,
+      contactPhone: data.phoneNumber,
       contactMessage: "", //todo
       contactBtn: "",
       type: "contactUs",
