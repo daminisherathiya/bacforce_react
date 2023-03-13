@@ -40,6 +40,7 @@ const cloud1 = () => {
           imageAlt="Hire Salesforce Marketing Cloud Developer"
           imageSrc={banner}
           imageClasses="w-[max(280px,31.250vw)] h-[max(280px,31.250vw)]"
+          priority={true}
         />
         <BannerHeading
           additionalClasses="md:col-span-7 xl:col-span-6 md:pl-16"
@@ -91,14 +92,14 @@ const cloud1 = () => {
         />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
-          href="#Form"
+          href="#PlanandPricing"
         >
           Plan & Pricing
         </ButtonLink>
       </section>
       <section id="PlanandPricing" className="scroll-mt-28 bg-primary">
         <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
-          <span className="font-bold">Hire Salesforce Developer </span>
+          <span className="font-bold">Hire SFMC Developer </span>
           as Per Your Need
         </SectionHeading>
         <div className="lg:grid lg:grid-cols-10">
@@ -141,7 +142,7 @@ const cloud1 = () => {
       <Success />
       <section id="TechnicalStack" className="scroll-mt-28">
         <SectionHeading additionalClasses="mb-16">
-          <span className="font-bold">Our Expertise</span>
+          <span className="font-bold">Our Expertise </span>
           With Marketing Cloud Products
         </SectionHeading>
         <DescriptionWithIcon
