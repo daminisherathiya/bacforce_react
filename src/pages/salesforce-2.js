@@ -142,7 +142,7 @@ const salesforce2 = () => {
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
           data={salesforce2DescriptionWithIcon}
           boxSize = "sm:w-1/2 lg:w-1/3"
-          boxAdditionalClasses="space-y-6 border border-grayx"
+          boxAdditionalClasses="space-y-6 border border-gray"
         />
       </section>
 
