@@ -1,3 +1,4 @@
+import { bacforceYears, certifiedDevelopers } from "@/data/constant";
 export const salesforce1Meta = {
   title: "Hire Salesforce Developer in 48 Hours",
   description:
@@ -6,8 +7,7 @@ export const salesforce1Meta = {
 };
 export const salesforce2Meta = {
   title: "Salesforce Development Company | Top CRM Services Provider",
-  description:
-    "As a best Salesforce Development Company with 11+ years in CRM development. We offer end-to-end salesforce Development services from planning to implementation",
+  description: `As a best Salesforce Development Company with ${bacforceYears} years in CRM development. We offer end-to-end salesforce Development services from planning to implementation`,
   ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-2.png",
 };
 export const salesforce3Meta = {
@@ -17,8 +17,7 @@ export const salesforce3Meta = {
   ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-3.png",
 };
 export const cloud1Meta = {
-  title: "Salesforce Marketing Cloud Developer | 80+ SFMC Developers",
-  description:
-    "Leverage our salesforce marketing cloud services to increase your business and brand value with our 11+ years of salesforce experts.",
+  title: `Salesforce Marketing Cloud Developer | ${certifiedDevelopers} SFMC Developers`,
+  description: `Leverage our salesforce marketing cloud services to increase your business and brand value with our ${bacforceYears} years of salesforce experts.`,
   ogImage: "https://bacforce.com/landing/images/OG-images/cloud-1.png",
 };

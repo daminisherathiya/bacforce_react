@@ -15,6 +15,11 @@ import {
   salesforce3Features,
   supportAndMaintenanceServices,
 } from "@/data/bulletPointList";
+import {
+  bacforceYears,
+  certifiedDevelopers,
+  projectDelivered,
+} from "@/data/constant";
 import { salesforce3DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce3Faq } from "@/data/faq";
 import { salesforce3Meta } from "@/data/meta";
@@ -44,17 +49,17 @@ const salesforce3 = () => {
           <div className="grid w-full gap-6 xs:grid-cols-2">
             <div className="space-y-6 xs:mb-20">
               <div className="space-y-3 border border-white p-10">
-                <h2 className="text-6xl font-bold">11+</h2>
+                <h2 className="text-6xl font-bold">{bacforceYears}</h2>
                 <h3>Years of CRM experience</h3>
               </div>
               <div className="space-y-3 border border-white p-10">
-                <h2 className="text-6xl font-bold">100+</h2>
+                <h2 className="text-6xl font-bold">{projectDelivered}</h2>
                 <h3>Salesforce Projects Delivered</h3>
               </div>
             </div>
             <div className="space-y-6 xs:mt-20">
               <div className="space-y-3 border border-white p-10">
-                <h2 className="text-6xl font-bold">80+</h2>
+                <h2 className="text-6xl font-bold">{certifiedDevelopers}</h2>
                 <h3>Salesforce Certified Developers</h3>
               </div>
               <div className="space-y-3 border border-white p-10">
@@ -143,7 +148,7 @@ const salesforce3 = () => {
             <span className="font-bold"> CRM Support Services</span>
           </SectionHeading>
           <SectionDescription>
-            <p className="mx-auto text-xl lg:w-4/5 2xl:w-3/4 mb-16">
+            <p className="mx-auto mb-16 text-xl lg:w-4/5 2xl:w-3/4">
               Our certified Salesforce developers and administrators offer
               cutting-edge support and maintenance services for all your
               Salesforce products.
@@ -153,7 +158,7 @@ const salesforce3 = () => {
         <DescriptionWithIcon
           iconSize="w-[max(30px,2.500vw)] w-[max(30px,2.500vw)]"
           data={salesforce3DescriptionWithIcon}
-          boxSize = "sm:w-1/2 lg:w-1/3"
+          boxSize="sm:w-1/2 lg:w-1/3"
           boxAdditionalClasses="space-y-6 border border-gray"
         />
         <ButtonLink

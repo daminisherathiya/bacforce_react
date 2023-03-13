@@ -1,3 +1,8 @@
+import {
+  rateAdvancedSupport,
+  rateBasicSupport,
+  rateIntermediateSupport,
+} from "@/data/constant";
 export const salesforce1Features = {
   banner: [
     "Flexible engagement models",
@@ -49,7 +54,7 @@ export const salesforce3Features = [
 export const supportAndMaintenanceServices = [
   {
     title: "Basic Support",
-    price: "$25",
+    price: { rateBasicSupport },
     services: [
       "Technical Support",
       "Performance Analysis and Tuning",
@@ -61,7 +66,7 @@ export const supportAndMaintenanceServices = [
   },
   {
     title: "Intermediate Support",
-    price: "$28 to $35",
+    price: { rateIntermediateSupport },
     servicesTitle: "Everything in basic, plus...",
     services: [
       "24x7 Developer Support",
@@ -73,7 +78,7 @@ export const supportAndMaintenanceServices = [
   },
   {
     title: "Advanced Support",
-    price: "$40",
+    price: { rateAdvancedSupport },
     servicesTitle: "Everything in intermediate, plus...",
     services: [
       "Salesforce Migration and Integration",

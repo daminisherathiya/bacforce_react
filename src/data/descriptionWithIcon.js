@@ -1,8 +1,14 @@
+import { bacforceYears, certifiedDevelopers } from "@/data/constant";
 import adjustmentsHorizontal from "../../public/images/icon/adjustments-horizontal.svg";
 import box from "../../public/images/icon/box.svg";
+import brandGoogle from "../../public/images/icon/brand-google.svg";
+import brandSketch from "../../public/images/icon/brand-sketch.svg";
+import briefcase from "../../public/images/icon/briefcase.svg";
+import buildingSkyscraper from "../../public/images/icon/building-skyscraper.svg";
 import bulb from "../../public/images/icon/bulb.svg";
 import chartBar from "../../public/images/icon/chart-bar.svg";
 import chartDonut3 from "../../public/images/icon/chart-donut-3.svg";
+import chartDonut4 from "../../public/images/icon/chart-donut-4.svg";
 import chartDots from "../../public/images/icon/chart-dots.svg";
 import chartPie from "../../public/images/icon/chart-pie.svg";
 import cloudFog from "../../public/images/icon/cloud-fog.svg";
@@ -12,30 +18,25 @@ import coin from "../../public/images/icon/coin.svg";
 import database from "../../public/images/icon/database.svg";
 import eye from "../../public/images/icon/eye.svg";
 import gauge from "../../public/images/icon/gauge.svg";
+import history from "../../public/images/icon/history.svg";
 import layoutGridAdd from "../../public/images/icon/layout-grid-add.svg";
+import mail from "../../public/images/icon/mail.svg";
 import messages from "../../public/images/icon/messages.svg";
 import recharging from "../../public/images/icon/recharging.svg";
 import replace from "../../public/images/icon/replace.svg";
 import report from "../../public/images/icon/report.svg";
 import rotateRectangle from "../../public/images/icon/rotate-rectangle.svg";
-import settings from "../../public/images/icon/settings.svg";
-import social from "../../public/images/icon/social.svg";
-import switchHorizontal from "../../public/images/icon/switch-horizontal.svg";
-import tool from "../../public/images/icon/tool.svg";
 import route from "../../public/images/icon/route.svg";
+import settings from "../../public/images/icon/settings.svg";
+import sitemap from "../../public/images/icon/sitemap.svg";
+import social from "../../public/images/icon/social.svg";
+import speakerphone from "../../public/images/icon/speakerphone.svg";
+import switchHorizontal from "../../public/images/icon/switch-horizontal.svg";
+import template from "../../public/images/icon/template.svg";
+import tool from "../../public/images/icon/tool.svg";
+import userCheck from "../../public/images/icon/user-check.svg";
 import userMinus from "../../public/images/icon/user-minus.svg";
 import users from "../../public/images/icon/users.svg";
-import template from "../../public/images/icon/template.svg";
-import chartDonut4 from "../../public/images/icon/chart-donut-4.svg";
-import mail from "../../public/images/icon/mail.svg";
-import sitemap from "../../public/images/icon/sitemap.svg";
-import speakerphone from "../../public/images/icon/speakerphone.svg";
-import brandGoogle from "../../public/images/icon/brand-google.svg";
-import briefcase from "../../public/images/icon/briefcase.svg";
-import userCheck from "../../public/images/icon/user-check.svg";
-import buildingSkyscraper from "../../public/images/icon/building-skyscraper.svg";
-import history from "../../public/images/icon/history.svg";
-import brandSketch from "../../public/images/icon/brand-sketch.svg";
 
 export const salesforce2DescriptionWithIcon = [
   { icon: code, title: "Apex Code" },
@@ -189,13 +190,11 @@ export const cloud2DescriptionWithIcon = {
 export const cloud1DescriptionWithIcon = [
   {
     icon: briefcase,
-    description:
-      "11+ years of experience in CRM solutions",
+    description: `${bacforceYears} years of experience in CRM solutions`,
   },
   {
     icon: userCheck,
-    description:
-      "80+ certified Salesforce developers",
+    description: `${certifiedDevelopers} certified Salesforce developers`,
   },
   {
     icon: buildingSkyscraper,
@@ -209,12 +208,10 @@ export const cloud1DescriptionWithIcon = [
   },
   {
     icon: history,
-    description:
-      "Finest services with On-time deliveries",
+    description: "Finest services with On-time deliveries",
   },
   {
     icon: brandSketch,
-    description:
-      "Perfection in integrating Offshore models",
+    description: "Perfection in integrating Offshore models",
   },
 ];

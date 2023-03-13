@@ -1,8 +1,8 @@
+import { ratePerHour } from "@/data/constant";
 export const salesforce1Faq = [
   {
     question: "How much does it cost to Hire Salesforce developer?",
-    answer:
-      "We have simple and transparent pricing. We let you hire certified Salesforce developers at a rate of $28 per hour with an average experience of 4 to 6 years. If you are looking to hire a team of Salesforce developers, then we have customized rates for you; please get in touch with us to know more in detail.",
+    answer: `We have simple and transparent pricing. We let you hire certified Salesforce developers at a rate of ${ratePerHour} per hour with an average experience of 4 to 6 years. If you are looking to hire a team of Salesforce developers, then we have customized rates for you; please get in touch with us to know more in detail.`,
   },
   {
     question: "What are the hiring engagement options available at Bacforce?",

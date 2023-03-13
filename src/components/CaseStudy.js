@@ -1,3 +1,4 @@
+import { bacforceYears } from "@/data/constant";
 import ButtonLink from "@/ui/ButtonLink";
 import ImageSection from "@/ui/ImageSection";
 import SectionDescription from "@/ui/SectionDescription";
@@ -49,9 +50,9 @@ const CaseStudy = () => {
       </SectionHeading>
       <SectionDescription>
         <p className="mx-auto mb-16 lg:w-3/4">
-          Over the past 11+ years, our dedicated Salesforce Developers have
-          helped numbers of clients to get the customization done right to
-          improve their sales process and streamline production.
+          Over the past {bacforceYears} years, our dedicated Salesforce
+          Developers have helped numbers of clients to get the customization
+          done right to improve their sales process and streamline production.
         </p>
       </SectionDescription>
       <div className="grid grid-flow-dense gap-5 text-left md:grid-cols-3">
