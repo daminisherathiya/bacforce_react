@@ -81,12 +81,11 @@ const Form = ({ additionalClasses, column, buttonWidth }) => {
   };
 
   const submitHandler = (data) => {
-    console.log(data);
     const contactInformation = {
       contactName: data.fullName,
       contactEmail: data.email,
       contactPhone: data.phoneNumber,
-      contactMessage: "", //todo
+      contactMessage: data.message,
       contactBtn: "",
       type: "contactUs",
       page: window.location.href,
