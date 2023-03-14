@@ -81,6 +81,7 @@ const Form = ({ additionalClasses, column, buttonWidth }) => {
   };
 
   const submitHandler = (data) => {
+    console.log(data);
     const contactInformation = {
       contactName: data.fullName,
       contactEmail: data.email,
@@ -270,7 +271,12 @@ const Form = ({ additionalClasses, column, buttonWidth }) => {
             </div>
           </>
         )}
-        <Textarea placeholder="Your Message" />
+        <Textarea
+          registerProps={register("message", {
+            required: false,
+          })}
+          placeholder="Your Message"
+        />
         <Button
           additionalClasses={`bg-secondary hover:bg-secondary-hover ${
             buttonWidth ? buttonWidth : ""
