@@ -103,7 +103,7 @@ export const salesforce3DescriptionWithIcon = [
       "Designing scalable and future-proof solutions is the primary goal of our Salesforce support. By identifying and correcting performance issues, we ensure the performance of your Salesforce environment is never compromised.",
   },
 ];
-export const cloud2DescriptionWithIcon = {
+export const cloud1DescriptionWithIcon = {
   challanges: [
     { icon: messages, title: "Marketing Cloud Consulting" },
     { icon: settings, title: "Marketing Cloud Implementation" },
@@ -186,32 +186,32 @@ export const cloud2DescriptionWithIcon = {
         "You may learn new strategies for generating more sensible engagement with Google and Salesforce thanks to a significant relationship between Analytics 360 and Marketing Cloud.",
     },
   ],
+  chooseBacForce: [
+    {
+      icon: briefcase,
+      description: `${bacforceYears} years of experience in CRM solutions`,
+    },
+    {
+      icon: userCheck,
+      description: `${certifiedDevelopers} certified Salesforce developers`,
+    },
+    {
+      icon: buildingSkyscraper,
+      description:
+        "Expertise in various Salesforce products & industry verticals",
+    },
+    {
+      icon: users,
+      description:
+        "A dedicated team of certified Salesforce consultants & developers",
+    },
+    {
+      icon: history,
+      description: "Finest services with On-time deliveries",
+    },
+    {
+      icon: brandSketch,
+      description: "Perfection in integrating Offshore models",
+    },
+  ],
 };
-export const cloud1DescriptionWithIcon = [
-  {
-    icon: briefcase,
-    description: `${bacforceYears} years of experience in CRM solutions`,
-  },
-  {
-    icon: userCheck,
-    description: `${certifiedDevelopers} certified Salesforce developers`,
-  },
-  {
-    icon: buildingSkyscraper,
-    description:
-      "Expertise in various Salesforce products & industry verticals",
-  },
-  {
-    icon: users,
-    description:
-      "A dedicated team of certified Salesforce consultants & developers",
-  },
-  {
-    icon: history,
-    description: "Finest services with On-time deliveries",
-  },
-  {
-    icon: brandSketch,
-    description: "Perfection in integrating Offshore models",
-  },
-];

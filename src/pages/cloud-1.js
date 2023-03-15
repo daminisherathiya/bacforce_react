@@ -12,10 +12,7 @@ import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
 import { cloud1BannerHeading } from "@/data/bannerHeading";
 import { cloud1Features } from "@/data/bulletPointList";
-import {
-  cloud1DescriptionWithIcon,
-  cloud2DescriptionWithIcon,
-} from "@/data/descriptionWithIcon";
+import { cloud1DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { cloud1Faq } from "@/data/faq";
 import { cloud1Meta } from "@/data/meta";
 import { cloud1SideSectionHeading } from "@/data/sideSectionHeading";
@@ -69,7 +66,7 @@ const cloud1 = () => {
           />
         </div>
       </section>
-      <section id="TechnicalStack" className="scroll-mt-28 bg-light-blue">
+      <section className="scroll-mt-28 bg-light-blue">
         <SectionHeading additionalClasses="mb-8">
           Services Offered By
           <span className="font-bold"> Our Marketing Cloud Developers</span>
@@ -86,7 +83,7 @@ const cloud1 = () => {
         <DescriptionWithIcon
           additionalClassesForHeading="text-lg"
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
-          data={cloud2DescriptionWithIcon.challanges}
+          data={cloud1DescriptionWithIcon.challanges}
           boxSize="sm:w-1/2 lg:w-1/3"
           boxAdditionalClasses="space-y-6 bg-white"
         />
@@ -148,7 +145,7 @@ const cloud1 = () => {
         <DescriptionWithIcon
           additionalClassesForHeading="text-lg"
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
-          data={cloud2DescriptionWithIcon.ourExpertise}
+          data={cloud1DescriptionWithIcon.ourExpertise}
           boxSize="sm:w-1/2 lg:w-1/3"
           boxAdditionalClasses="space-y-6 border border-gray"
         />
@@ -170,7 +167,7 @@ const cloud1 = () => {
             boxSize="md:w-[43%]"
             iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
             boxAdditionalClasses="space-y-4 bg-light-blue min-h-[max(100px,11.042vw)]"
-            data={cloud1DescriptionWithIcon}
+            data={cloud1DescriptionWithIcon.chooseBacForce}
           />
         </div>
       </section>
