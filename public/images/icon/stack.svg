@@ -1,0 +1,6 @@
+<svg id="stack" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_3476" data-name="Path 3476" d="M0,0H48V48H0Z" fill="none"/>
+  <path id="Path_3477" data-name="Path 3477" d="M20,4,4,12l16,8,16-8L20,4" transform="translate(4 4)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3478" data-name="Path 3478" d="M4,12l16,8,16-8" transform="translate(4 12)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3479" data-name="Path 3479" d="M4,16l16,8,16-8" transform="translate(4 16)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg id="git-branch" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_2206" data-name="Path 2206" d="M0,0H48V48H0Z" fill="none"/>
+  <ellipse id="Ellipse_329" data-name="Ellipse 329" cx="3.724" cy="3.725" rx="3.724" ry="3.725" transform="translate(10.139 31.941)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle id="Ellipse_330" data-name="Ellipse 330" cx="3.724" cy="3.724" r="3.724" transform="translate(10.139 8.357)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <circle id="Ellipse_331" data-name="Ellipse 331" cx="3.724" cy="3.724" r="3.724" transform="translate(29.999 8.357)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1149" data-name="Line 1149" y2="16.137" transform="translate(13.862 15.805)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_2207" data-name="Path 2207" d="M9,25H21a4,4,0,0,0,4-4V11" transform="translate(9 11)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_2208" data-name="Path 2208" d="M14,17l6-6,6,6" transform="translate(14 11)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

@@ -5,6 +5,7 @@ import brandGoogle from "../../public/images/icon/brand-google.svg";
 import brandSketch from "../../public/images/icon/brand-sketch.svg";
 import briefcase from "../../public/images/icon/briefcase.svg";
 import buildingSkyscraper from "../../public/images/icon/building-skyscraper.svg";
+import buildingWarehouse from "../../public/images/icon/building-warehouse.svg";
 import bulb from "../../public/images/icon/bulb.svg";
 import chartBar from "../../public/images/icon/chart-bar.svg";
 import chartDonut3 from "../../public/images/icon/chart-donut-3.svg";
@@ -18,6 +19,8 @@ import coin from "../../public/images/icon/coin.svg";
 import database from "../../public/images/icon/database.svg";
 import eye from "../../public/images/icon/eye.svg";
 import gauge from "../../public/images/icon/gauge.svg";
+import gitBranch from "../../public/images/icon/git-branch.svg";
+import gitCompare from "../../public/images/icon/git-compare.svg";
 import history from "../../public/images/icon/history.svg";
 import layoutGridAdd from "../../public/images/icon/layout-grid-add.svg";
 import mail from "../../public/images/icon/mail.svg";
@@ -31,9 +34,12 @@ import settings from "../../public/images/icon/settings.svg";
 import sitemap from "../../public/images/icon/sitemap.svg";
 import social from "../../public/images/icon/social.svg";
 import speakerphone from "../../public/images/icon/speakerphone.svg";
+import stack from "../../public/images/icon/stack.svg";
+import stepOut from "../../public/images/icon/step-out.svg";
 import switchHorizontal from "../../public/images/icon/switch-horizontal.svg";
 import template from "../../public/images/icon/template.svg";
 import tool from "../../public/images/icon/tool.svg";
+import tools from "../../public/images/icon/tools.svg";
 import userCheck from "../../public/images/icon/user-check.svg";
 import userMinus from "../../public/images/icon/user-minus.svg";
 import users from "../../public/images/icon/users.svg";
@@ -103,6 +109,7 @@ export const salesforce3DescriptionWithIcon = [
       "Designing scalable and future-proof solutions is the primary goal of our Salesforce support. By identifying and correcting performance issues, we ensure the performance of your Salesforce environment is never compromised.",
   },
 ];
+
 export const cloud1DescriptionWithIcon = {
   challanges: [
     { icon: messages, title: "Marketing Cloud Consulting" },
@@ -214,4 +221,66 @@ export const cloud1DescriptionWithIcon = {
       description: "Perfection in integrating Offshore models",
     },
   ],
+};
+
+export const landingCloud2DescriptionWithIcon = {
+  challanges: [
+    { icon: messages, title: "Commerce Cloud Consulting" },
+    { icon: settings, title: "Commerce Cloud Integration" },
+    { icon: box, title: "Commerce Cloud Implementation" },
+    { icon: buildingWarehouse, title: "Salesforce B2B Commerce Cloud" },
+    { icon: buildingSkyscraper, title: "Salesforce B2C Commerce Cloud" },
+    { icon: replace, title: "Commerce Cloud Migration" },
+    { icon: adjustmentsHorizontal, title: "Commerce Cloud Customization" },
+    { icon: tools, title: "Customized UI/UX" },
+    {
+      icon: tool,
+      title: "Support & Maintenance",
+    },
+  ],
+  ourExpertise: [
+    {
+      icon: gitBranch,
+      title: "B2C Commerce",
+      description:
+        "Our Salesforce Commerce Cloud consultants are experts at developing customized B2C commerce cloud solutions for optimizing and streamlining the purchasing, shipping, and service experience of your customers.",
+    },
+    {
+      icon: gitCompare,
+      title: "B2B Commerce",
+      description:
+        "To streamline your everyday B2B activities and enable your sales department, our committed Salesforce commerce cloud developers will provide you with a specifically designed framework and Salesforce Commerce Cloud solutions.",
+    },
+    {
+      icon: stack,
+      title: "Order Management",
+      description:
+        "Handle your transactions with absolute clarity, reduce costs, and amp up growth with our bespoke order management solutions. Manage your orders in an agile way even during high sales, high traffic, and high demand.",
+    },
+    {
+      icon: stepOut,
+      title: "Direct to Consumer",
+      description:
+        "We offer you a unified B2C commerce platform and Salesforce Commerce Cloud solutions specific to your needs, you can sell straight to the customer, reinforce relationships, and build an incredible brand experience.",
+    },
+    {
+      icon: template,
+      title: "Content Management",
+      description:
+        "By enabling the content management features, we empower your content team to quickly create, adapt, and deliver content at any stage of the e-Commerce process. You can use this content to monitor products, and coordinate between departments.",
+    },
+    {
+      icon: chartDonut4,
+      title: "Headless Commerce",
+      description:
+        "Our Salesforce Commerce Cloud specialists are proficient in rapidly designing and constructing a headless commerce platform that has a fresh front-end interface and is on top of the most current competitive landscapes.",
+    },
+    {
+      icon: social,
+      title: "AI for Commerce",
+      description:
+        "We will integrate Einstein AI into your eCommerce store. With AI-generated relevant keywords that cover questions based on the categories and product pages, we help you increase the conversion rates for your corporation.",
+    },
+  ],
+  chooseBacForce: cloud1DescriptionWithIcon.chooseBacForce,
 };

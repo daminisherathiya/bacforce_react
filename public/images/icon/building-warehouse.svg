@@ -1,0 +1,6 @@
+<svg id="building-warehouse" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Path_1163" data-name="Path 1163" d="M0,0H40V40H0Z" fill="none"/>
+  <path id="Path_1164" data-name="Path 1164" d="M3,32.333V10.667L18,4l15,6.667V32.333" transform="translate(2 2.666)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1165" data-name="Path 1165" d="M17,13h6.667V26.333H7v-10H17" transform="translate(4.667 8.666)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1166" data-name="Path 1166" d="M15.667,27.667v-15A1.667,1.667,0,0,0,14,11H10.667A1.667,1.667,0,0,0,9,12.667v5" transform="translate(6 7.334)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

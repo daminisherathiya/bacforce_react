@@ -5,7 +5,9 @@ export const salesforce1SideSectionHeading = {
     "We offer a comprehensive range of Salesforce development services at pocket-friendly prices.",
   button: "Book A Free Consultation",
 };
+
 export const salesforce2SideSectionHeading = salesforce1SideSectionHeading;
+
 export const salesforce3SideSectionHeading = {
   title:
     'How Can <span class="font-bold">Bacancy Help You</span> With Salesforce Support?',
@@ -13,10 +15,19 @@ export const salesforce3SideSectionHeading = {
     "Keep your CRM updated, efficient, and error-free with our tailored Salesforce support services. Leverage Salesforce to your benefit and leave the security, compliance, ranking, and performance to us.",
   button: "Talk to Our Salesforce Experts",
 };
+
 export const cloud1SideSectionHeading = {
   title:
     'Why <span class="font-bold">Choose BacForce</span> As Your Salesforce Marketing Cloud Partner?',
   description:
     "We have a bucket of reasons that explains why we are the most reliable and the best Salesforce Marketing Cloud Partner for your business.",
+  button: "Talk to Our Experts",
+};
+
+export const landingCloud2SideSectionHeading = {
+  title:
+    'Why <span class="font-bold">Choose BacForce</span> As Your Salesforce Commerce Cloud Partner?',
+  description:
+    "We have a bucket of reasons that explains why we are the most reliable and the best Salesforce Commerce Cloud Partner for your business.",
   button: "Talk to Our Experts",
 };

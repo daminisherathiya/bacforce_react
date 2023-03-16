@@ -1,0 +1,9 @@
+<svg id="step-out" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="step-out-2" data-name="step-out" transform="translate(48) rotate(90)">
+    <path id="Path_3500" data-name="Path 3500" d="M0,0H48V48H0Z" fill="none"/>
+    <line id="Line_1585" data-name="Line 1585" y2="24.205" transform="translate(23.954 6.059)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_1586" data-name="Line 1586" x1="7.448" y1="8.068" transform="translate(23.954 6.059)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_1587" data-name="Line 1587" y1="8.068" x2="7.448" transform="translate(16.507 6.059)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <circle id="Ellipse_524" data-name="Ellipse 524" cx="1.862" cy="1.862" r="1.862" transform="translate(22.092 35.85)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

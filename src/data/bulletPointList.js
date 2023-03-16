@@ -3,6 +3,7 @@ import {
   rateBasicSupport,
   rateIntermediateSupport,
 } from "@/data/constant";
+
 export const salesforce1Features = {
   banner: [
     "Flexible engagement models",
@@ -23,6 +24,7 @@ export const salesforce1Features = {
     "Poor customer service due to huge query volume and long case resolution process.",
   ],
 };
+
 export const salesforce2Features = [
   {
     title: "Custom Apps for Internal Needs",
@@ -39,6 +41,7 @@ export const salesforce2Features = [
     ],
   },
 ];
+
 export const salesforce3Features = [
   "Dedicated Developers",
   "160 Working Hours/Month with Flexible Hiring Models",
@@ -51,6 +54,7 @@ export const salesforce3Features = [
   "Large Technical Pool with wider Technology Stack",
   "Client Satisfaction is Our Highest Priority",
 ];
+
 export const supportAndMaintenanceServices = [
   {
     title: "Basic Support",
@@ -89,6 +93,7 @@ export const supportAndMaintenanceServices = [
     button: "Choose Advance Support",
   },
 ];
+
 export const cloud1Features = {
   challenges_re_solved: [
     "Inefficient prediction of consumer's behavior",
@@ -98,5 +103,15 @@ export const cloud1Features = {
     "Deficient alignment between sales, marketing, and support teams.",
     "Complexity in delivering effective communication",
     "Insufficient customer insights",
+  ],
+};
+
+export const landingCloud2Features = {
+  challenges_re_solved: [
+    "By performing best-applied practices like eradicating unnecessary abandoned carts, optimizing checkout flows, payment accelerators, you can optimize, and the sales funnel and conversion rate",
+    "With the help of Salesforce B2C commerce cloud, you can build and launch marketing campaigns with an expeditious rate based on consumers' demographics, Psychographics, and behavior",
+    "We can help you boost up business conversions to a great extent with the help of AI-generated keyword suggestions that cover common queries related to the product and category pages",
+    "We can help you manage all your business websites on a single framework",
+    "Reduce the cost and time of website development with commerce cloud potent infrastructure",
   ],
 };

@@ -21,3 +21,8 @@ export const cloud1Meta = {
   description: `Leverage our salesforce marketing cloud services to increase your business and brand value with our ${bacforceYears} years of salesforce experts.`,
   ogImage: "https://bacforce.com/landing/images/OG-images/cloud-1.png",
 };
+export const landingCloud2Meta = {
+  title: `Salesforce Commerce Cloud Developer | ${certifiedDevelopers} SFCC Developers`,
+  description: `Leverage our salesforce commerce cloud services to increase your business and brand value with our ${bacforceYears} years of salesforce experts.`,
+  ogImage: "https://bacforce.com/landing/images/OG-images/landing-cloud-2.png",
+};

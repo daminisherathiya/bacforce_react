@@ -1,4 +1,5 @@
 import { bacforceYears } from "@/data/constant";
+
 export const salesforce1BannerHeading = {
   heading:
     "Hire Certified <span class='font-bold xl:block'>Salesforce Developers</span>",
@@ -6,6 +7,7 @@ export const salesforce1BannerHeading = {
     description: `Our certified Salesforce consultants are backed by ${bacforceYears} years of experience in SFDC consulting, integration, customization, and support.`,
   },
 };
+
 export const salesforce2BannerHeading = {
   heading:
     "Salesforce <span class='font-bold xl:block'>Development Company</span>",
@@ -15,6 +17,7 @@ export const salesforce2BannerHeading = {
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
 };
+
 export const salesforce3BannerHeading = {
   heading:
     "Salesforce <span class='font-bold xl:block'>Support Services</span>",
@@ -27,6 +30,7 @@ export const salesforce3BannerHeading = {
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
 };
+
 export const cloud1BannerHeading = {
   heading:
     "Hire Salesforce <span class='font-bold xl:block'>Marketing Cloud Developer</span>",
@@ -36,6 +40,20 @@ export const cloud1BannerHeading = {
   },
   description: [
     "Our SFMC developers are expert in building and managing personalised customer journeys with Marketing Cloud. We offer you marketing cloud services to help you overcome your integration challenges.",
+  ],
+  buttonName: "Talk to Our Salesforce Experts",
+  buttonHref: "#Form",
+};
+
+export const landingCloud2BannerHeading = {
+  heading:
+    "Hire Salesforce <span class='font-bold xl:block'>Commerce Cloud Developer</span>",
+  subHeading: {
+    description: `${bacforceYears} Years of CRM Experience`,
+    additionalClasses: "font-semibold text-light-blue",
+  },
+  description: [
+    "Our skilled SFCC developers are highly experienced in helping businesses grow with salesforce commerce cloud services. Grow your eCommerce business faster with our customer-centric Salesforce Commerce Cloud solutions",
   ],
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
