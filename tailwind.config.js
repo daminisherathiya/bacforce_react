@@ -30,7 +30,7 @@ module.exports = {
       xl: ["max(16px,1.042vw)", { lineHeight: "max(24px,1.667vw)" }], // 20px/32px
       "3xl": ["max(18px,1.458vw)", { lineHeight: "max(28px,1.875vw)" }], // 28px/36px
       "4xl": ["max(20px,1.875vw)", { lineHeight: "max(32px,2.292vw)" }], // 36px/44px
-      "6xl": ["max(26px,3.333vw)", { lineHeight: "max(36px,3.958vw)" }], // 64px/76px
+      "6xl": ["max(25px,3.333vw)", { lineHeight: "max(36px,3.958vw)" }], // 64px/76px
     },
     fontWeight: {
       light: "300",

@@ -101,8 +101,10 @@ const cloud2 = () => {
         <div className="lg:grid lg:grid-cols-10">
           <div className="space-y-12 lg:col-span-8 lg:col-start-2">
             <h4 className="text-white">
-              Simple &amp; Transparent Pricing | Fully Signed NDA | Code
-              Security | Easy Exit Policy
+              Simple &amp; Transparent Pricing{" "}
+              <span className="opacity-30">|</span> Fully Signed NDA{" "}
+              <span className="opacity-30">|</span> Code Security{" "}
+              <span className="opacity-30">|</span> Easy Exit Policy
             </h4>
             <PricingBox theme="white" />
             <ButtonLink
