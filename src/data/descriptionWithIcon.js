@@ -223,7 +223,7 @@ export const cloud1DescriptionWithIcon = {
   ],
 };
 
-export const landingCloud2DescriptionWithIcon = {
+export const cloud2DescriptionWithIcon = {
   challanges: [
     { icon: messages, title: "Commerce Cloud Consulting" },
     { icon: settings, title: "Commerce Cloud Integration" },

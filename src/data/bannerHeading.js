@@ -45,7 +45,7 @@ export const cloud1BannerHeading = {
   buttonHref: "#Form",
 };
 
-export const landingCloud2BannerHeading = {
+export const cloud2BannerHeading = {
   heading:
     "Hire Salesforce <span class='font-bold xl:block'>Commerce Cloud Developer</span>",
   subHeading: {

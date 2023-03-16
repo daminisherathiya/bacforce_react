@@ -10,12 +10,12 @@ import Meta from "@/components/Meta";
 import SideSectionHeading from "@/components/SideSectionHeading";
 import Success from "@/components/Success";
 import WeHelp from "@/components/WeHelp";
-import { landingCloud2BannerHeading } from "@/data/bannerHeading";
-import { landingCloud2Features } from "@/data/bulletPointList";
-import { landingCloud2DescriptionWithIcon } from "@/data/descriptionWithIcon";
-import { landingCloud2Faq } from "@/data/faq";
-import { landingCloud2Meta } from "@/data/meta";
-import { landingCloud2SideSectionHeading } from "@/data/sideSectionHeading";
+import { cloud2BannerHeading } from "@/data/bannerHeading";
+import { cloud2Features } from "@/data/bulletPointList";
+import { cloud2DescriptionWithIcon } from "@/data/descriptionWithIcon";
+import { cloud2Faq } from "@/data/faq";
+import { cloud2Meta } from "@/data/meta";
+import { cloud2SideSectionHeading } from "@/data/sideSectionHeading";
 import BulletPointList from "@/ui/BulletPointList";
 import ButtonLink from "@/ui/ButtonLink";
 import DescriptionWithIcon from "@/ui/DescriptionWithIcon";
@@ -23,12 +23,12 @@ import ImageSection from "@/ui/ImageSection";
 import PricingBox from "@/ui/PricingBox";
 import SectionDescription from "@/ui/SectionDescription";
 import SectionHeading from "@/ui/SectionHeading";
-import banner from "../../public/images/landing-cloud-2/banner.png";
-import challanges from "../../public/images/landing-cloud-2/challanges.jpg";
-const landingCloud2 = () => {
+import banner from "../../public/images/cloud-2/banner.png";
+import challanges from "../../public/images/cloud-2/challanges.jpg";
+const cloud2 = () => {
   return (
     <>
-      <Meta data={landingCloud2Meta} />
+      <Meta data={cloud2Meta} />
       <Header />
       <Banner>
         <ImageSection
@@ -40,7 +40,7 @@ const landingCloud2 = () => {
         />
         <BannerHeading
           additionalClasses="md:col-span-7 xl:col-span-6 md:pl-16"
-          data={landingCloud2BannerHeading}
+          data={cloud2BannerHeading}
         ></BannerHeading>
       </Banner>
 
@@ -61,7 +61,7 @@ const landingCloud2 = () => {
           />
           <BulletPointList
             additionalClasses="after:top-3"
-            data={landingCloud2Features.challenges_re_solved}
+            data={cloud2Features.challenges_re_solved}
           />
         </div>
       </section>
@@ -82,7 +82,7 @@ const landingCloud2 = () => {
         <DescriptionWithIcon
           additionalClassesForHeading="text-lg"
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
-          data={landingCloud2DescriptionWithIcon.challanges}
+          data={cloud2DescriptionWithIcon.challanges}
           boxSize="sm:w-1/2 lg:w-1/3"
           boxAdditionalClasses="space-y-6 bg-white"
         />
@@ -144,7 +144,7 @@ const landingCloud2 = () => {
         <DescriptionWithIcon
           additionalClassesForHeading="text-lg"
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
-          data={landingCloud2DescriptionWithIcon.ourExpertise}
+          data={cloud2DescriptionWithIcon.ourExpertise}
           boxSize="sm:w-1/2 lg:w-1/3"
           boxAdditionalClasses="space-y-6 border border-gray"
         />
@@ -161,21 +161,21 @@ const landingCloud2 = () => {
       <section>
         <div className="grid gap-16 md:grid-cols-2 md:gap-20">
           <SideSectionHeading
-            data={landingCloud2SideSectionHeading}
+            data={cloud2SideSectionHeading}
           ></SideSectionHeading>
           <DescriptionWithIcon
             boxSize="md:w-[43%]"
             iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
             boxAdditionalClasses="space-y-4 bg-light-blue min-h-[max(100px,11.042vw)]"
-            data={landingCloud2DescriptionWithIcon.chooseBacForce}
+            data={cloud2DescriptionWithIcon.chooseBacForce}
           />
         </div>
       </section>
-      <Faq data={landingCloud2Faq} />
+      <Faq data={cloud2Faq} />
       <WeHelp />
       <Footer />
     </>
   );
 };
 
-export default landingCloud2;
+export default cloud2;

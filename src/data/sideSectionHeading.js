@@ -24,7 +24,7 @@ export const cloud1SideSectionHeading = {
   button: "Talk to Our Experts",
 };
 
-export const landingCloud2SideSectionHeading = {
+export const cloud2SideSectionHeading = {
   title:
     'Why <span class="font-bold">Choose BacForce</span> As Your Salesforce Commerce Cloud Partner?',
   description:

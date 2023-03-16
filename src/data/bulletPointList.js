@@ -106,7 +106,7 @@ export const cloud1Features = {
   ],
 };
 
-export const landingCloud2Features = {
+export const cloud2Features = {
   challenges_re_solved: [
     "By performing best-applied practices like eradicating unnecessary abandoned carts, optimizing checkout flows, payment accelerators, you can optimize, and the sales funnel and conversion rate",
     "With the help of Salesforce B2C commerce cloud, you can build and launch marketing campaigns with an expeditious rate based on consumers' demographics, Psychographics, and behavior",
