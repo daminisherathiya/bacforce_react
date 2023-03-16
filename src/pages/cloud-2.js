@@ -68,11 +68,11 @@ const cloud2 = () => {
       <section className="scroll-mt-28 bg-light-blue">
         <SectionHeading additionalClasses="mb-8">
           Services Offered By
-          <span className="font-bold"> Our Marketing Cloud Developers</span>
+          <span className="font-bold"> Our Commerce Cloud Developers</span>
         </SectionHeading>
         <SectionDescription>
           <p className="mx-auto mb-16 text-xl lg:w-4/5 2xl:w-3/4">
-            Hire SFMC developers with versatile skills aligning with your
+            Hire SFCC developers with versatile skills aligning with your
             business requirements. Our Salesforce developers build secure,
             scalable, and dynamic enterprise-grade, cost-effective Salesforce
             Solutions. We have pre-vetted Salesforce developers who excelled in
@@ -95,7 +95,7 @@ const cloud2 = () => {
       </section>
       <section id="PlanandPricing" className="scroll-mt-28 bg-primary">
         <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
-          <span className="font-bold">Hire SFMC Developer </span>
+          <span className="font-bold">Hire SFCC Developer </span>
           as Per Your Need
         </SectionHeading>
         <div className="lg:grid lg:grid-cols-10">
@@ -117,7 +117,7 @@ const cloud2 = () => {
       <HireSalesforceDeveloper id="Form">
         <SectionHeading additionalClasses="mb-6 text-6xl !text-white">
           <span className="font-bold">Get a Strategic Guidance from Our</span>
-          <br className="hidden lg:block" /> Salesforce Marketing Cloud
+          <br className="hidden lg:block" /> Salesforce Commerce Cloud
           Consultant
         </SectionHeading>
         <div className="grid md:grid-cols-10">
