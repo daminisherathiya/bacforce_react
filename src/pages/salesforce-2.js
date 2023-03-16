@@ -82,7 +82,7 @@ const salesforce2 = () => {
       </section>
 
       <section className="bg-light-blue">
-        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+        <div className="grid gap-20 md:grid-cols-2">
           <SideSectionHeading data={salesforce2SideSectionHeading}>
             <WeOfferAdditionlComponent />
           </SideSectionHeading>
@@ -141,7 +141,7 @@ const salesforce2 = () => {
         <DescriptionWithIcon
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
           data={salesforce2DescriptionWithIcon}
-          boxSize = "sm:w-1/2 lg:w-1/3"
+          boxSize="sm:w-1/2 lg:w-1/3"
           boxAdditionalClasses="space-y-6 border border-gray"
         />
       </section>

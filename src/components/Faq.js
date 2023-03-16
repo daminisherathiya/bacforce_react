@@ -6,7 +6,7 @@ import SectionHeading from "@/ui/SectionHeading";
 const Faq = ({ data }) => {
   return (
     <section className="bg-light-blue">
-      <div className="grid gap-16 md:grid-cols-11 md:gap-20">
+      <div className="grid gap-20 md:grid-cols-11">
         <Accordion
           accordionItemsData={data}
           additionalClasses="md:col-span-8"

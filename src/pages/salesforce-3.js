@@ -133,7 +133,7 @@ const salesforce3 = () => {
         </div>
       </section>
       <section className="bg-light-blue">
-        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+        <div className="grid gap-20 md:grid-cols-2">
           <SideSectionHeading
             data={salesforce3SideSectionHeading}
           ></SideSectionHeading>
@@ -194,7 +194,7 @@ const salesforce3 = () => {
       <Success />
 
       <section>
-        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+        <div className="grid gap-20 md:grid-cols-2">
           <ImageSection
             divClasses="mx-auto"
             imageAlt="Benefits With BacForce"

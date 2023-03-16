@@ -53,7 +53,7 @@ const cloud1 = () => {
             Our Salesforce Marketing Cloud Developer
           </span>
         </SectionHeading>
-        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+        <div className="grid gap-20 md:grid-cols-2">
           <ImageSection
             divClasses="mx-auto"
             imageAlt="Challenges Re-Solved By Our Salesforce Marketing Cloud Developer"
@@ -159,7 +159,7 @@ const cloud1 = () => {
       <CaseStudy />
 
       <section>
-        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+        <div className="grid gap-20 md:grid-cols-2">
           <SideSectionHeading
             data={cloud1SideSectionHeading}
           ></SideSectionHeading>

@@ -59,7 +59,7 @@ const salesforce1 = () => {
             Our Professional Salesforce Developer
           </span>
         </SectionHeading>
-        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+        <div className="grid gap-20 md:grid-cols-2">
           <ImageSection
             divClasses="mx-auto"
             imageAlt="Challenges Re-Solved by Our Professional Salesforce Developer"
@@ -74,7 +74,7 @@ const salesforce1 = () => {
       </section>
 
       <section className="bg-light-blue">
-        <div className="grid gap-16 md:grid-cols-2 md:gap-20">
+        <div className="grid gap-20 md:grid-cols-2">
           <SideSectionHeading data={salesforce1SideSectionHeading}>
             <WeOfferAdditionlComponent />
           </SideSectionHeading>
