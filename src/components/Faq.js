@@ -7,7 +7,7 @@ const Faq = ({ data }) => {
   return (
     <section className="bg-light-blue">
       <div className="grid gap-20 grid-flow-dense md:grid-cols-11">
-        <div className="col-start-1 col-end-13 md:col-start-9 md:col-end-12 md:text-left">
+        <div className="md:col-start-9 md:col-end-12 md:text-left">
           <div className="sticky top-48 space-y-6">
             <SectionHeading additionalClasses="text-6xl">
               Frequently Asked
@@ -26,7 +26,7 @@ const Faq = ({ data }) => {
         </div>
         <Accordion
           accordionItemsData={data}
-          additionalClasses="col-start-1 col-end-13 md:col-start-1 md:col-end-9"
+          additionalClasses="md:col-start-1 md:col-end-9"
         />
       </div>
     </section>

@@ -26,3 +26,9 @@ export const cloud2Meta = {
   description: `Leverage our salesforce commerce cloud services to increase your business and brand value with our ${bacforceYears} years of salesforce experts.`,
   ogImage: "https://bacforce.com/landing/images/OG-images/cloud-2.png",
 };
+export const salesforce4Meta = {
+  title: "Salesforce Consulting Services | Hire Salesforce Consultant",
+  description:
+    "Leverage our Salesforce consulting services to get the most out of your Salesforce CRM. Our certified Salesforce consultant holds 11+ years of experience",
+  ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-4.png",
+};

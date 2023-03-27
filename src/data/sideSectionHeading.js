@@ -31,3 +31,11 @@ export const cloud2SideSectionHeading = {
     "We have a bucket of reasons that explains why we are the most reliable and the best Salesforce Commerce Cloud Partner for your business.",
   button: "Talk to Our Experts",
 };
+
+export const salesforce4SideSectionHeading = {
+  title:
+    'Our Salesforce <span class="font-bold">Consulting Services</span>',
+  description:
+    "Leverage our top-notch Salesforce consulting services to unlock the power of Salesforce.com to elevate your business growth to the next level.",
+  button: "Talk to Our Salesforce Experts",
+};

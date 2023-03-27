@@ -14,7 +14,7 @@ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args
 */
 // const MAIL_API_URL = "http://localhost:3000/mindforce/mail.php";
 
-const Form = ({ additionalClasses, column, buttonWidth }) => {
+const Form = ({ additionalClasses, column, buttonWidth, border }) => {
   const allClasses = additionalClasses ? " " + additionalClasses : "";
 
   // Todo: Background color of inputs changes when auto filledconst [success, setsuccess] = useState(false);
@@ -229,6 +229,7 @@ const Form = ({ additionalClasses, column, buttonWidth }) => {
                   })}
                   errorMessage={errors.fullName?.message}
                   placeholder="Your Name"
+                  additionalClasses={border === "none" ? "border-0 shadow-blue": ""}
                 />
               </div>
               <div className="w-full text-left">
@@ -243,6 +244,7 @@ const Form = ({ additionalClasses, column, buttonWidth }) => {
                   })}
                   errorMessage={errors.email?.message}
                   placeholder="Email Address"
+                  additionalClasses={border === "none" ? "border-0 shadow-blue": ""}
                 />
               </div>
               <div className="w-full text-left">
@@ -265,6 +267,7 @@ const Form = ({ additionalClasses, column, buttonWidth }) => {
                   })}
                   errorMessage={errors.phoneNumber?.message}
                   placeholder="Phone Number"
+                  additionalClasses={border === "none" ? "border-0 shadow-blue": ""}
                 />
               </div>
             </div>
@@ -275,6 +278,7 @@ const Form = ({ additionalClasses, column, buttonWidth }) => {
             required: false,
           })}
           placeholder="Your Message"
+          additionalClasses={border === "none" ? "border-0 shadow-blue": ""}
         />
         <Button
           additionalClasses={`bg-secondary hover:bg-secondary-hover ${

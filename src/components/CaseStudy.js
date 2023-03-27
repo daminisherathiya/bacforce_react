@@ -41,9 +41,12 @@ const CaseStudyDescription = ({ data }) => {
   );
 };
 
-const CaseStudy = () => {
+const CaseStudy = ({ theme }) => {
   return (
-    <section id="CaseStudy" className="scroll-mt-28 bg-light-blue">
+    <section
+      id="CaseStudy"
+      className={`scroll-mt-28 ${theme === "white" ? "" : "bg-light-blue"}`}
+    >
       <SectionHeading additionalClasses="mb-8">
         Our Salesforce
         <span className="font-bold"> Success Stories</span>
@@ -55,10 +58,14 @@ const CaseStudy = () => {
           done right to improve their sales process and streamline production.
         </p>
       </SectionDescription>
-      <div className="grid grid-flow-dense gap-5 text-left md:grid-cols-3">
+      <div className="grid grid-flow-dense gap-7 text-left md:grid-cols-3">
         <div className="md:col-span-2">
           <div className="grid h-full sm:grid-cols-12">
-            <div className="bg-white p-12 text-base sm:col-span-8">
+            <div
+              className={`${
+                theme === "white" ? "bg-light-blue" : "bg-white"
+              } p-12 text-base sm:col-span-8`}
+            >
               <CaseStudyDescription data={caseStudies.healthcareSolution} />
             </div>
             <ImageSection
@@ -71,7 +78,11 @@ const CaseStudy = () => {
         </div>
         <div className="md:col-span-2">
           <div className="grid h-full grid-flow-dense sm:grid-cols-12">
-            <div className="col-start-1 col-end-13 bg-white p-12 text-base sm:col-start-5 sm:col-end-13">
+            <div
+              className={`col-start-1 col-end-13 ${
+                theme === "white" ? "bg-light-blue" : "bg-white"
+              } p-12 text-base sm:col-start-5 sm:col-end-13`}
+            >
               <CaseStudyDescription data={caseStudies.salesforceLighting} />
             </div>
             <ImageSection
@@ -84,7 +95,7 @@ const CaseStudy = () => {
         </div>
         <div className="row-span-2 flex flex-col justify-between bg-white">
           <div className="grid h-full sm:grid-cols-12">
-            <div className="bg-white p-12 text-base sm:col-span-8 md:col-span-12">
+            <div className={`${theme === "white" ? "bg-light-blue" : "bg-white"} p-12 text-base sm:col-span-8 md:col-span-12`}>
               <CaseStudyDescription data={caseStudies.realEstateSolution} />
             </div>
             <ImageSection

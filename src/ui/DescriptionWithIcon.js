@@ -17,12 +17,14 @@ const DescriptionWithIcon = ({
             }`}
           >
             <div className="flex items-center">
-              <ImageSection
-                divClasses="pr-4"
-                imageAlt={item.title ? item.title : item.description}
-                imageSrc={item.icon}
-                imageClasses={`${iconSize} group-hover:invert`}
-              />
+              {item.icon && (
+                <ImageSection
+                  divClasses="pr-4"
+                  imageAlt={item.title ? item.title : item.description}
+                  imageSrc={item.icon}
+                  imageClasses={`${iconSize} group-hover:invert`}
+                />
+              )}
               {item.title && (
                 <h4
                   className={`font-semibold group-hover:text-white${

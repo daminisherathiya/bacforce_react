@@ -1,0 +1,10 @@
+<svg id="chart-arrows-vertical" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_1284" data-name="Path 1284" d="M0,0H48V48H0Z" fill="none"/>
+  <path id="Path_1285" data-name="Path 1285" d="M18,35V7" transform="translate(18 7)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1286" data-name="Path 1286" d="M9,18l6-6,6,6" transform="translate(9 12)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1287" data-name="Path 1287" d="M15,13l6-6,6,6" transform="translate(15 7)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_887" data-name="Line 887" x2="35.998" transform="translate(6.039 42.119)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_888" data-name="Line 888" y1="17.999" transform="translate(23.417 24.121)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1288" data-name="Path 1288" d="M3,9,9,3l6,6" transform="translate(3 3)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1289" data-name="Path 1289" d="M6,39V3" transform="translate(6 3)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

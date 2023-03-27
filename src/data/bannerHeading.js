@@ -58,3 +58,17 @@ export const cloud2BannerHeading = {
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
 };
+
+export const salesforce4BannerHeading = {
+  heading:
+    "Salesforce <span class='font-bold xl:block'>Consulting Company</span>",
+  subHeading: {
+    description: `${bacforceYears} Years of CRM Experience`,
+    additionalClasses: "font-semibold text-light-blue",
+  },
+  description: [
+    "Our certified Salesforce consultants are backed by a combined 11+ years of experience in SFDC consulting, integration, customization, and support. Our Salesforce CRM consultants are well-versed in advancing your CRM capabilities to help you achieve your business goals.",
+  ],
+  buttonName: "Talk to Our Salesforce Experts",
+  buttonHref: "#Form",
+};

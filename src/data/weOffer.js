@@ -78,3 +78,31 @@ export const salesforce3WeOffer = [
       "Our work keeps on even after successful Salesforce integration and implementation services. We keep an eye on your solution and offer you support services like security management, making the solution bugs-free, demo and etc.",
   },
 ];
+
+export const salesforce4WeOffer = [
+  {
+    question: "Advisory & consultancy",
+    answer:
+      "Adopting a new CRM is a complicated and risky task; our certified Salesforce Consultant is always available for strategic advice to start with the right approach and on the right foot. We help you review the system, understand business challenges, create a roadmap, and opt for the right Salesforce Solution.",
+  },
+  {
+    question: "Integrated implementation",
+    answer:
+      "Executing a strategic implementation is the backbone of our Salesforce consulting services. We help you with stepwise Salesforce implementation for various cloud and tools, optimize the Salesforce environment, and provide technical and strategic guidance to enhance your business and achieve maximum ROI.",
+  },
+  {
+    question: "Building User Adoption Strategy",
+    answer:
+      "To help your users to master the new system, we create a user adoption strategy, which comprises iterative user training, timely user support by the Salesforce admin, release notes, and rewards for advanced Salesforce users.",
+  },
+  {
+    question: "Salesforce CRM Training",
+    answer:
+      "Our seasoned Salesforce Consultant leads your employees' in-house and onsite Salesforce CRM training sessions. The training sessions are designed to ramp up teams for better Salesforce adoption and enhanced productivity. We train your staff to become Salesforce enablers by teaching them to work smartly and innovatively.",
+  },
+  {
+    question: "Salesforce Support",
+    answer:
+      "Providing support and maintenance is one of the most vital points of our Salesforce Consulting Services. We help you maintain a productive Salesforce environment with tailored support services matching your requirements. Our 24/7 reliable and effective continuous administration, monitoring, bug fixing, and resolution services ensure optimum growth for your business.",
+  },
+];

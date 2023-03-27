@@ -1,4 +1,5 @@
 import { bacforceYears, certifiedDevelopers } from "@/data/constant";
+import accessible from "../../public/images/icon/accessible.svg";
 import adjustmentsHorizontal from "../../public/images/icon/adjustments-horizontal.svg";
 import box from "../../public/images/icon/box.svg";
 import brandGoogle from "../../public/images/icon/brand-google.svg";
@@ -7,17 +8,22 @@ import briefcase from "../../public/images/icon/briefcase.svg";
 import buildingSkyscraper from "../../public/images/icon/building-skyscraper.svg";
 import buildingWarehouse from "../../public/images/icon/building-warehouse.svg";
 import bulb from "../../public/images/icon/bulb.svg";
+import cash from "../../public/images/icon/cash.svg";
+import chartArrowsVertical from "../../public/images/icon/chart-arrows-vertical.svg";
 import chartBar from "../../public/images/icon/chart-bar.svg";
 import chartDonut3 from "../../public/images/icon/chart-donut-3.svg";
 import chartDonut4 from "../../public/images/icon/chart-donut-4.svg";
 import chartDots from "../../public/images/icon/chart-dots.svg";
+import chartPie4 from "../../public/images/icon/chart-pie-4.svg";
 import chartPie from "../../public/images/icon/chart-pie.svg";
 import cloudFog from "../../public/images/icon/cloud-fog.svg";
 import cloud from "../../public/images/icon/cloud.svg";
 import code from "../../public/images/icon/code.svg";
 import coin from "../../public/images/icon/coin.svg";
 import database from "../../public/images/icon/database.svg";
+import deviceMobile from "../../public/images/icon/device-mobile.svg";
 import eye from "../../public/images/icon/eye.svg";
+import friends from "../../public/images/icon/friends.svg";
 import gauge from "../../public/images/icon/gauge.svg";
 import gitBranch from "../../public/images/icon/git-branch.svg";
 import gitCompare from "../../public/images/icon/git-compare.svg";
@@ -25,6 +31,7 @@ import history from "../../public/images/icon/history.svg";
 import layoutGridAdd from "../../public/images/icon/layout-grid-add.svg";
 import mail from "../../public/images/icon/mail.svg";
 import messages from "../../public/images/icon/messages.svg";
+import puzzle from "../../public/images/icon/puzzle.svg";
 import recharging from "../../public/images/icon/recharging.svg";
 import replace from "../../public/images/icon/replace.svg";
 import report from "../../public/images/icon/report.svg";
@@ -283,4 +290,68 @@ export const cloud2DescriptionWithIcon = {
     },
   ],
   chooseBacForce: cloud1DescriptionWithIcon.chooseBacForce,
+};
+
+export const salesforce4DescriptionWithIcon = {
+  ourExpertise: [
+    { icon: chartBar, title: "Sales Cloud" },
+    { icon: chartDots, title: "Marketing Cloud" },
+    { icon: settings, title: "Service Cloud" },
+    { icon: friends, title: "Community Cloud" },
+    { icon: cash, title: "Financial Service Cloud" },
+    { icon: chartPie4, title: "Field Service Cloud" },
+    { icon: coin, title: "Commerce Cloud" },
+    { icon: deviceMobile, title: "App Cloud" },
+    { icon: accessible, title: "Health Cloud" },
+    { icon: cloudFog, title: "CPQ" },
+    { icon: chartDots, title: "Einstein Analytics" },
+    { icon: box, title: "Pardot" },
+  ],
+  ChooseBestService: [
+    {
+      icon: puzzle,
+      title: "Salesforce Implementation Consulting",
+      description:
+        "Our Salesforce experts analyze your business goals and provide the most ideal solution to help you meet your business goals automating Salesforce capabilities.",
+    },
+    {
+      icon: chartArrowsVertical,
+      title: "Salesforce Improvement Consulting",
+      description:
+        "After assessing your existing Salesforce solution, our experts suggest a comprehensive integration and customization plan to get the most out of your Salesforce CRM.",
+    },
+    {
+      icon: replace,
+      title: "Salesforce Migration Consulting",
+      description:
+        "To move your data in a structured way, our consultants empower you with an effective migration strategy to ensure your business's continuity.",
+    },
+  ],
+  SalesforceCertifiedConsultants: [
+    {
+      title: "Implementation Aligned to Your Business Goals",
+      description:
+        "We support your Salesforce solution on a daily basis. You can send any requests to our administrators and they will implement your tasks instantly in a sandbox, such as custom reports or workflows, then our QA checks the implementation in the sandbox and deploys changes to the production environment.",
+    },
+    {
+      title: "Through Evaluation Solution",
+      description:
+        "With a thorough analysis of your business needs, our certified Salesforce experts design sales, marketing, and support journey processes in the sales cloud.",
+    },
+    {
+      title: "Flawless Delivery",
+      description:
+        "Flawless delivery makes us the leading Salesforce Development Company in the USA. Be it CRM deployment or data migration; our Salesforce consulting experts ensure to help you throughout the process.",
+    },
+    {
+      title: "Top Tech Expertise",
+      description:
+        "Our in-depth tech stack expertise helps in the successful Salesforce implementation. Our top Salesforce consultants will guide you on integrating full technology stacks with right integration solution for your business.",
+    },
+    {
+      title: "Post-Deployment Support",
+      description:
+        "Being a Salesforce consulting services provider, we are renowned for providing technical support at pocket-friendly prices with flexible conditions, after the project is completed.",
+    },
+  ],
 };
