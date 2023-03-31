@@ -32,3 +32,9 @@ export const salesforce4Meta = {
     "Leverage our Salesforce consulting services to get the most out of your Salesforce CRM. Our certified Salesforce consultant holds 11+ years of experience",
   ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-4.png",
 };
+export const salesforce5Meta = {
+  title: "Salesforce Integration Services | Hire Salesforce Consultant",
+  description:
+    "Get our Salesforce Integration Services with enterprise applications such as ERP, legacy applications, custom websites to extend the functionality of Salesforce",
+  ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-5.png",
+};

@@ -12,7 +12,10 @@ export const salesforce2BannerHeading = {
   heading:
     "Salesforce <span class='font-bold xl:block'>Development Company</span>",
   description: [
-    "We have years of experience in Salesforce CRM development and can help you bring revolutionary outcomes by launching or relaunching your Salesforce. We offer a wide range of Salesforce development services that includes consulting, configuration, customization and migration.",
+    {
+      paragraph:
+        "We have years of experience in Salesforce CRM development and can help you bring revolutionary outcomes by launching or relaunching your Salesforce. We offer a wide range of Salesforce development services that includes consulting, configuration, customization and migration.",
+    },
   ],
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
@@ -25,7 +28,10 @@ export const salesforce3BannerHeading = {
     description: "Specialized and Technical Expertise You Need",
   },
   description: [
-    "We connect your internal team with our Salesforce specialists based on the areas you need optimized the most. Whether it’s marketing, technical architects, integration experts, CPQ, data, or security, we can partner with your team to get it done.",
+    {
+      paragraph:
+        "We connect your internal team with our Salesforce specialists based on the areas you need optimized the most. Whether it’s marketing, technical architects, integration experts, CPQ, data, or security, we can partner with your team to get it done.",
+    },
   ],
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
@@ -39,7 +45,10 @@ export const cloud1BannerHeading = {
     additionalClasses: "font-semibold text-light-blue",
   },
   description: [
-    "Our SFMC developers are expert in building and managing personalised customer journeys with Marketing Cloud. We offer you marketing cloud services to help you overcome your integration challenges.",
+    {
+      paragraph:
+        "Our SFMC developers are expert in building and managing personalised customer journeys with Marketing Cloud. We offer you marketing cloud services to help you overcome your integration challenges.",
+    },
   ],
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
@@ -53,7 +62,10 @@ export const cloud2BannerHeading = {
     additionalClasses: "font-semibold text-light-blue",
   },
   description: [
-    "Our skilled SFCC developers are highly experienced in helping businesses grow with salesforce commerce cloud services. Grow your eCommerce business faster with our customer-centric Salesforce Commerce Cloud solutions",
+    {
+      paragraph:
+        "Our skilled SFCC developers are highly experienced in helping businesses grow with salesforce commerce cloud services. Grow your eCommerce business faster with our customer-centric Salesforce Commerce Cloud solutions",
+    },
   ],
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
@@ -67,7 +79,31 @@ export const salesforce4BannerHeading = {
     additionalClasses: "font-semibold text-light-blue",
   },
   description: [
-    "Our certified Salesforce consultants are backed by a combined 11+ years of experience in SFDC consulting, integration, customization, and support. Our Salesforce CRM consultants are well-versed in advancing your CRM capabilities to help you achieve your business goals.",
+    {
+      paragraph:
+        "Our certified Salesforce consultants are backed by a combined 11+ years of experience in SFDC consulting, integration, customization, and support. Our Salesforce CRM consultants are well-versed in advancing your CRM capabilities to help you achieve your business goals.",
+    },
+  ],
+  buttonName: "Talk to Our Salesforce Experts",
+  buttonHref: "#Form",
+};
+
+export const salesforce5BannerHeading = {
+  heading:
+    "Salesforce <span class='font-bold xl:block'>Integration Services</span>",
+  subHeading: {
+    description: `${bacforceYears} Years of CRM Experience`,
+    additionalClasses: "font-semibold text-light-blue",
+  },
+  description: [
+    {
+      paragraph:
+        "Our Salesforce integration developers are skilled at custom integration modules with any third-party and can also lend a helping hand to fine-tune integration apps from AppExchange. We integrate Salesforce with other complex systems without major chunk of the complexities.",
+    },
+    {
+      paragraph: "Save up to 40% on Development/Maintenance/Support Cost",
+      additionalClasses: "font-semibold",
+    },
   ],
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",

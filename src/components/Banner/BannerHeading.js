@@ -16,9 +16,19 @@ export const BannerHeading = ({
           className={headingColor}
           dangerouslySetInnerHTML={{ __html: data.heading }}
         ></h1>
-        {data.subHeading && <h4 className={data.subHeading.additionalClasses}>{data.subHeading.description}</h4>}
-        {data.description && <p>{data.description}</p>}
-        
+        {data.subHeading && (
+          <h4 className={data.subHeading.additionalClasses}>
+            {data.subHeading.description}
+          </h4>
+        )}
+        {data.description.map((item, index) => (
+          <p
+            key={index}
+            className={item.additionalClasses && item.additionalClasses}
+          >
+            {item.paragraph}
+          </p>
+        ))}
       </div>
       {children}
       {data.buttonName && (
