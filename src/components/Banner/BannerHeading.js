@@ -21,7 +21,7 @@ export const BannerHeading = ({
             {data.subHeading.description}
           </h4>
         )}
-        {data.description.map((item, index) => (
+        {data.description && data.description.map((item, index) => (
           <p
             key={index}
             className={item.additionalClasses && item.additionalClasses}

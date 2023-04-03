@@ -4,7 +4,6 @@ const TabPanel = ({ item, index, openIndex }) => {
   return (
     <>
       <div
-        key={index}
         className={`p-3.5 md:pl-11 text-left ${
           index === openIndex ? "" : "hidden"
         }`}

@@ -1,0 +1,8 @@
+<svg id="presentation" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path id="Path_3018" data-name="Path 3018" d="M0,0H48V48H0Z" fill="none"/>
+  <line id="Line_1467" data-name="Line 1467" x2="35.998" transform="translate(6.001 7.957)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3019" data-name="Path 3019" d="M4,4V24a4,4,0,0,0,4,4H32a4,4,0,0,0,4-4V4" transform="translate(4 4)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1468" data-name="Line 1468" y2="7.448" transform="translate(23.954 32.043)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_1469" data-name="Line 1469" x2="11.172" transform="translate(18.369 39.491)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_3020" data-name="Path 3020" d="M8,16l6-6,4,4,6-6" transform="translate(8 8)" fill="none" stroke="#161616" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

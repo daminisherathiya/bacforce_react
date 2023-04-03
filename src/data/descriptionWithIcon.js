@@ -21,16 +21,19 @@ import cloud from "../../public/images/icon/cloud.svg";
 import code from "../../public/images/icon/code.svg";
 import coin from "../../public/images/icon/coin.svg";
 import database from "../../public/images/icon/database.svg";
+import deviceDesktopAnalytics from "../../public/images/icon/device-desktop-analytics.svg";
 import deviceMobile from "../../public/images/icon/device-mobile.svg";
 import eye from "../../public/images/icon/eye.svg";
 import friends from "../../public/images/icon/friends.svg";
 import gauge from "../../public/images/icon/gauge.svg";
 import gitBranch from "../../public/images/icon/git-branch.svg";
 import gitCompare from "../../public/images/icon/git-compare.svg";
+import headset from "../../public/images/icon/headset.svg";
 import history from "../../public/images/icon/history.svg";
 import layoutGridAdd from "../../public/images/icon/layout-grid-add.svg";
 import mail from "../../public/images/icon/mail.svg";
 import messages from "../../public/images/icon/messages.svg";
+import presentation from "../../public/images/icon/presentation.svg";
 import puzzle from "../../public/images/icon/puzzle.svg";
 import recharging from "../../public/images/icon/recharging.svg";
 import replace from "../../public/images/icon/replace.svg";
@@ -50,7 +53,6 @@ import tools from "../../public/images/icon/tools.svg";
 import userCheck from "../../public/images/icon/user-check.svg";
 import userMinus from "../../public/images/icon/user-minus.svg";
 import users from "../../public/images/icon/users.svg";
-import deviceDesktopAnalytics from "../../public/images/icon/device-desktop-analytics.svg";
 
 export const salesforce2DescriptionWithIcon = [
   { icon: code, title: "Apex Code" },
@@ -366,7 +368,10 @@ export const salesforce5DescriptionWithIcon = {
     { icon: database, title: "Data Integration" },
     { icon: buildingWarehouse, title: "Hub-and-spoke integration" },
     { icon: briefcase, title: "Business Logic Integration" },
-    { icon: buildingSkyscraper, title: "Enterprise Service Bus integration (ESB)" },
+    {
+      icon: buildingSkyscraper,
+      title: "Enterprise Service Bus integration (ESB)",
+    },
     { icon: cloud, title: "Salesforce API Integration" },
     { icon: box, title: "Salesforce integration with third-party apps" },
     {
@@ -374,5 +379,30 @@ export const salesforce5DescriptionWithIcon = {
       title: "User Interface Integration",
     },
   ],
-  chooseBacForce: cloud1DescriptionWithIcon.chooseBacForce,
+  chooseBacForce: [
+    {
+      icon: briefcase,
+      description: `${bacforceYears} years of experience in CRM solutions`,
+    },
+    {
+      icon: userCheck,
+      description: `${certifiedDevelopers} certified Salesforce developers`,
+    },
+    {
+      icon: users,
+      description: "Dedicated Salesforce Integration Consultant",
+    },
+    {
+      icon: route,
+      description: "Integration Roadmap Design",
+    },
+    {
+      icon: headset,
+      description: "Post-delivery support and maintenance",
+    },
+    {
+      icon: presentation,
+      description: "Customer-centric strategy and technical guidance",
+    },
+  ],
 };

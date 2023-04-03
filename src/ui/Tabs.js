@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import Tab from "./Tab";
 import TabPanel from "./TabPanel";
 
@@ -13,9 +13,8 @@ const Tabs = ({ data }) => {
       <div className="md:col-span-2">
         <ul className="text-left">
           {data.map((item, index) => (
-            <>
+            <Fragment key={index}>
               <Tab
-                key={index}
                 item={item}
                 index={index}
                 openIndex={openIndex}
@@ -23,20 +22,19 @@ const Tabs = ({ data }) => {
               />
               <div className="md:hidden">
                 <TabPanel
-                  key={index}
                   item={item}
                   index={index}
                   openIndex={openIndex}
                 />
               </div>
-            </>
+            </Fragment>
           ))}
         </ul>
       </div>
       <div className="hidden md:col-span-5 md:block">
         {data.map((item, index) => (
           <TabPanel
-            key={index}
+            key= {index}
             item={item}
             index={index}
             openIndex={openIndex}
