@@ -90,7 +90,7 @@ const cloud2 = () => {
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#PlanandPricing"
         >
-          Plan & Pricing
+          Plan &amp; Pricing
         </ButtonLink>
       </section>
       <section id="PlanandPricing" className="scroll-mt-28 bg-primary">
