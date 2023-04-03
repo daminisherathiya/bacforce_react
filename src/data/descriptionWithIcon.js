@@ -50,6 +50,7 @@ import tools from "../../public/images/icon/tools.svg";
 import userCheck from "../../public/images/icon/user-check.svg";
 import userMinus from "../../public/images/icon/user-minus.svg";
 import users from "../../public/images/icon/users.svg";
+import deviceDesktopAnalytics from "../../public/images/icon/device-desktop-analytics.svg";
 
 export const salesforce2DescriptionWithIcon = [
   { icon: code, title: "Apex Code" },
@@ -358,18 +359,18 @@ export const salesforce4DescriptionWithIcon = {
 export const salesforce5DescriptionWithIcon = {
   challanges: [
     {
-      icon: messages,
+      icon: deviceDesktopAnalytics,
       title: "Salesforce integration with ERP and CMS Systems",
     },
-    { icon: settings, title: "Point-to-point integration" },
-    { icon: box, title: "Data Integration" },
+    { icon: replace, title: "Point-to-point integration" },
+    { icon: database, title: "Data Integration" },
     { icon: buildingWarehouse, title: "Hub-and-spoke integration" },
-    { icon: buildingSkyscraper, title: "Business Logic Integration" },
-    { icon: replace, title: "Enterprise Service Bus integration (ESB)" },
-    { icon: adjustmentsHorizontal, title: "Salesforce API Integration" },
-    { icon: tools, title: "Salesforce integration with third-party apps" },
+    { icon: briefcase, title: "Business Logic Integration" },
+    { icon: buildingSkyscraper, title: "Enterprise Service Bus integration (ESB)" },
+    { icon: cloud, title: "Salesforce API Integration" },
+    { icon: box, title: "Salesforce integration with third-party apps" },
     {
-      icon: tool,
+      icon: tools,
       title: "User Interface Integration",
     },
   ],

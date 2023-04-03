@@ -42,10 +42,10 @@ export const salesforce4SideSectionHeading = {
 export const salesforce5SideSectionHeading = {
   weOffer: {
     title:
-      'Why <span class="font-bold">Choose BacForce</span> As Your Salesforce Integration Partner?',
+      'Salesforce Integration <span class="font-bold">Patterns We Follow</span>',
     description:
-      "Since 9 Years Bacancy has successfully helped all sizes of companies across the world to set-up their IT development team with our top IT talent. Having 1050+ highly skilled developers, we can help you choose the perfect fit for your product/business success.",
-    button: "Talk to Our Experts",
+      "We follow Salesforce integration patterns based on your requirements. We identify the pattern that suits your needs and follow industry best practices to fulfill your Salesforce integration requirements.",
+    button: "Talk to Our Salesforce Experts",
   },
   chooseBacForce: {
     title:

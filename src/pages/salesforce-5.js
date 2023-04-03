@@ -89,15 +89,15 @@ const salesforce2 = () => {
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#PlanandPricing"
         >
-          Plan & Pricing
+          Talk to Our Salesforce Experts
         </ButtonLink>
       </section>
 
       <section id="PlanandPricing" className="scroll-mt-28">
         <div className="relative -mb-80 bg-light-blue py-24">
           <SectionHeading additionalClasses="mb-6 text-6xl px-14">
-            <span className="font-bold">Hire SFCC Developer </span>
-            as Per Your Need
+            <span className="font-bold">Hire Salesforce Developer </span>
+            As Per Your Need
           </SectionHeading>
           <div className="lg:grid lg:grid-cols-10">
             <div className="space-y-12 lg:col-span-8 lg:col-start-2">
@@ -114,9 +114,8 @@ const salesforce2 = () => {
       </section>
       <HireSalesforceDeveloper id="Form">
         <SectionHeading additionalClasses="mb-6 text-6xl !text-white pt-52">
-          <span className="font-bold">Get a Strategic Guidance from Our</span>
-          <br className="hidden lg:block" /> Salesforce Commerce Cloud
-          Consultant
+          <span className="font-bold">Get a Strategic Guidance from Our </span>
+          <br className="hidden lg:block" /> Salesforce Consultant
         </SectionHeading>
         <div className="grid md:grid-cols-10">
           <div className="space-y-12 md:col-span-8 md:col-start-2">
