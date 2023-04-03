@@ -115,3 +115,15 @@ export const cloud2Features = {
     "Reduce the cost and time of website development with commerce cloud potent infrastructure",
   ],
 };
+
+export const salesforce5Features = {
+  challenges_re_solved: [
+    "Integration with multiple systems across the organization provided by different vendors",
+    "Integration with complex custom solutions",
+    "Integration of cloud-based Salesforce to on-premises systems",
+    "Complex data integrations without any interfaces",
+    "Obtain a 360-degree customer view integrating Salesforce with CRM solutions and other ERP systems",
+    "Full visibility of information between integrated apps to enhance the process execution efficiency",
+    "We will also help you connect your sales, marketing and support teams with MRP, SRP, ERP and other back offices and legacy systems",
+  ],
+};

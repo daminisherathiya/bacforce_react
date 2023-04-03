@@ -8,16 +8,37 @@ const PricingBox = ({ theme, heightSmall }) => {
             <div
               key={index}
               className={`divide-y border py-8 ${
+                !theme ? "divide-white border-white" : ""
+              }${
                 theme === "white"
                   ? "divide-gray border-white bg-white shadow"
-                  : "divide-white border-white"
+                  : ""
               } ${heightSmall && item.heightSmall ? "mt-14" : ""} ${
                 heightSmall && item.heightBig ? "flex flex-col justify-end" : ""
+              } ${
+                heightSmall && item.heightBig && theme === "white-blue"
+                  ? "border-white bg-primary text-white"
+                  : ""
+              }
+              ${
+                heightSmall && item.heightSmall && theme === "white-blue"
+                  ? "divide-gray border-white bg-white shadow"
+                  : ""
               }`}
             >
               <h4
-                className={`px-9 font-bold m-auto ${
-                  theme ? "text-light-blue" : "text-white"
+                className={`m-auto px-9 font-bold ${
+                  !theme ? "text-white" : ""
+                }${theme === "white" ? "text-light-blue" : ""}
+                ${
+                  heightSmall && item.heightBig && theme === "white-blue"
+                    ? "text-white"
+                    : ""
+                }
+                ${
+                  heightSmall && item.heightSmall && theme === "white-blue"
+                    ? "text-light-blue"
+                    : ""
                 }`}
                 dangerouslySetInnerHTML={{ __html: item.price }}
               ></h4>

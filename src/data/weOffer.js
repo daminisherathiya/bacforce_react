@@ -106,3 +106,35 @@ export const salesforce4WeOffer = [
       "Providing support and maintenance is one of the most vital points of our Salesforce Consulting Services. We help you maintain a productive Salesforce environment with tailored support services matching your requirements. Our 24/7 reliable and effective continuous administration, monitoring, bug fixing, and resolution services ensure optimum growth for your business.",
   },
 ];
+export const salesforce5WeOffer = [
+  {
+    question: "Remote Call-In",
+    answer:
+      "We use remote-call in a pattern when you have a remote system that performs updates in the Salesforce org. Simply put, the remote system can create, retrieve, update, or delete the data you store in the Lightning platform.",
+  },
+  {
+    question: "Request and Reply",
+    answer:
+      "When you want to send the data to an external system and bring it back to Salesforce for updation, we go with the Request and Reply pattern. We ensure that the Salesforce API does the first call out in this pattern.",
+  },
+  {
+    question: "Fire and Forget",
+    answer:
+      "We prefer this pattern when it is optional for a sent request to wait for a response. This particular Salesforce integration pattern has multiple solutions to resolve the issue. Due to the queue and retry mechanism, it guarantees message delivery.",
+  },
+  {
+    question: "Batch Data Synchronization",
+    answer:
+      "If you have data that needs to be synchronized between two systems, we prefer to use the Batch synchronization pattern. It allows seamless data extraction and retrieval without hampering daily operations.",
+  },
+  {
+    question: "UI Update Based on Data Changes",
+    answer:
+      "We prefer UI Update based on data changes when the user needs to be informed that data has arrived, ensuring he receives updates occurring in another system and has the updated data in the Salesforce system.",
+  },
+  {
+    question: "Data Virtualization",
+    answer:
+      "When you have an external system performing operations that are not handled by or do not contain Salesforce data, we prefer a Data Virtualization pattern for Salesforce integration.",
+  },
+];

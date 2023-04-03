@@ -355,3 +355,23 @@ export const salesforce4DescriptionWithIcon = {
     },
   ],
 };
+export const salesforce5DescriptionWithIcon = {
+  challanges: [
+    {
+      icon: messages,
+      title: "Salesforce integration with ERP and CMS Systems",
+    },
+    { icon: settings, title: "Point-to-point integration" },
+    { icon: box, title: "Data Integration" },
+    { icon: buildingWarehouse, title: "Hub-and-spoke integration" },
+    { icon: buildingSkyscraper, title: "Business Logic Integration" },
+    { icon: replace, title: "Enterprise Service Bus integration (ESB)" },
+    { icon: adjustmentsHorizontal, title: "Salesforce API Integration" },
+    { icon: tools, title: "Salesforce integration with third-party apps" },
+    {
+      icon: tool,
+      title: "User Interface Integration",
+    },
+  ],
+  chooseBacForce: cloud1DescriptionWithIcon.chooseBacForce,
+};

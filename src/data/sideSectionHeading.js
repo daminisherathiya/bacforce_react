@@ -33,9 +33,25 @@ export const cloud2SideSectionHeading = {
 };
 
 export const salesforce4SideSectionHeading = {
-  title:
-    'Our Salesforce <span class="font-bold">Consulting Services</span>',
+  title: 'Our Salesforce <span class="font-bold">Consulting Services</span>',
   description:
     "Leverage our top-notch Salesforce consulting services to unlock the power of Salesforce.com to elevate your business growth to the next level.",
   button: "Talk to Our Salesforce Experts",
+};
+
+export const salesforce5SideSectionHeading = {
+  weOffer: {
+    title:
+      'Why <span class="font-bold">Choose BacForce</span> As Your Salesforce Integration Partner?',
+    description:
+      "Since 9 Years Bacancy has successfully helped all sizes of companies across the world to set-up their IT development team with our top IT talent. Having 1050+ highly skilled developers, we can help you choose the perfect fit for your product/business success.",
+    button: "Talk to Our Experts",
+  },
+  chooseBacForce: {
+    title:
+      'Why <span class="font-bold">Choose BacForce</span> As Your Salesforce Integration Partner?',
+    description:
+      "Since 9 Years Bacancy has successfully helped all sizes of companies across the world to set-up their IT development team with our top IT talent. Having 1050+ highly skilled developers, we can help you choose the perfect fit for your product/business success.",
+    button: "Talk to Our Experts",
+  },
 };

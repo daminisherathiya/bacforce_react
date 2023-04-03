@@ -95,12 +95,12 @@ module.exports = {
       40: "max(60px,8.333vw)", // 160px
       44: "max(100px,9.167vw)", // 176px
       48: "max(100px,10vw)", // 192px
-      52: "max(192px,10.833vw)", // 208px
+      52: "max(152px,10.833vw)", // 208px
       56: "max(208px,11.667vw)", // 224px
       60: "max(104px,12.5vw)", // 240px
       64: "max(100px,13.333vw)", // 256px
       72: "max(256px,15vw)", // 288px
-      80: "max(288px,16.667vw)", // 320px
+      80: "max(192px,16.667vw)", // 320px
       96: "max(320px,20vw)", // 384px
     },
     extend: {
