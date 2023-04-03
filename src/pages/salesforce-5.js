@@ -16,6 +16,7 @@ import { salesforce5DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce4Faq } from "@/data/faq";
 import { salesforce5Meta } from "@/data/meta";
 import { salesforce5SideSectionHeading } from "@/data/sideSectionHeading";
+import { salesforce5Tab } from "@/data/Tab";
 import { salesforce5WeOffer } from "@/data/weOffer";
 import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
@@ -25,6 +26,7 @@ import ImageSection from "@/ui/ImageSection";
 import PricingBox from "@/ui/PricingBox";
 import SectionDescription from "@/ui/SectionDescription";
 import SectionHeading from "@/ui/SectionHeading";
+import Tabs from "@/ui/Tabs";
 import banner from "../../public/images/salesforce-5/banner.png";
 import challanges from "../../public/images/salesforce-5/challanges.jpg";
 
@@ -145,12 +147,7 @@ const salesforce2 = () => {
             proficient in every integration scenario.
           </p>
         </SectionDescription>
-        <div className="grid grid-cols-11">
-          <div className="col-span-4">
-            
-          </div>
-          <div className="col-span-7"></div>
-        </div>
+        <Tabs data={salesforce5Tab} />
       </section>
       <section className="bg-light-blue">
         <div className="grid gap-20 md:grid-cols-2">
