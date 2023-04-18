@@ -238,10 +238,11 @@ const salesforce3 = () => {
         <SectionHeading>
           Our <span className="font-bold">Process</span>
         </SectionHeading>
-        <NumberBackgroundBox
-          additionalClasses="gap-8 md:grid-cols-2 lg:grid-cols-3"
-          data={salesforce3NumberBackground}
-        />
+        <div className="mt-16 grid gap-8 text-left [counter-reset:my-counter] md:grid-cols-2 lg:grid-cols-3">
+          {salesforce3NumberBackground.map((item, index) => (
+            <NumberBackgroundBox key={index} data={item} />
+          ))}
+        </div>
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#Form"

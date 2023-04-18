@@ -137,10 +137,14 @@ const salesforce1 = () => {
             </p>
           </SectionDescription>
         </div>
-        <NumberBackgroundBox
-          additionalClasses="gap-4 md:grid-cols-2"
-          data={salesforce1NumberBackground}
-        />
+        <div className="[counter-reset:my-counter] grid text-left mt-16 gap-4 md:grid-cols-2">
+          {salesforce1NumberBackground.map((item, index) => (
+            <NumberBackgroundBox
+              key={index}
+              data={item}
+            />
+          ))}
+        </div>
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
           href="#Form"

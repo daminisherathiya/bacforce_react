@@ -87,7 +87,7 @@ const salesforce2 = () => {
         />
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
-          href="#PlanandPricing"
+          href="#Form"
         >
           Talk to Our Salesforce Experts
         </ButtonLink>
@@ -134,7 +134,7 @@ const salesforce2 = () => {
       </HireSalesforceDeveloper>
 
       <Success />
-      <section>
+      <section id="TechnicalStack" className="scroll-mt-28">
         <SectionHeading additionalClasses="mb-8">
           Explore Our Horizon of
           <span className="font-bold"> Salesforce Integration Services</span>

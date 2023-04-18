@@ -51,3 +51,4 @@ export const salesforce3Faq = salesforce1Faq;
 export const cloud1Faq = salesforce1Faq;
 export const cloud2Faq = salesforce1Faq;
 export const salesforce4Faq = salesforce1Faq;
+export const salesforce6Faq = salesforce1Faq;

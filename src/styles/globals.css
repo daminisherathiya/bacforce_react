@@ -115,6 +115,9 @@
   border-radius: max(6px, 0.313vw) !important;
   opacity: 0.5 !important;
 }
+.paginationColorBlue .swiper-pagination-bullet {
+  background-color: #2063F0 !important;
+}
 .swiper-pagination-bullet-active {
   width: max(40px, 2.083vw) !important;
   opacity: 1 !important;

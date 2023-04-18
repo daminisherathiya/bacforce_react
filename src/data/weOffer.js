@@ -138,3 +138,85 @@ export const salesforce5WeOffer = [
       "When you have an external system performing operations that are not handled by or do not contain Salesforce data, we prefer a Data Virtualization pattern for Salesforce integration.",
   },
 ];
+export const salesforce6WeOffer = [
+  {
+    question: "Salesforce Sales Cloud",
+    answer:
+      "We will be your reliable Salesforce Implementation Partner to get the most out of your Salesforce investment. We will help you implement Salesforce Sales Cloud to empower you to make informed decisions and improve customer acquisition, lead conversions, revenue, and productivity.",
+  },
+  {
+    question: "Salesforce Service Cloud",
+    answer:
+      "If you are planning to deliver a better customer experience, we will help you achieve excellence with our Salesforce Service Cloud implementation expertise. Our Salesforce implementation experience will help you stay on top of your customer journey and make your organization genuinely customer-centric.",
+  },
+  {
+    question: "Salesforce Marketing Cloud",
+    answer:
+      "Choose us as your reliable Salesforce Implementation partner and start delivering an exceptional shopping experience. We will help you empower your marketing activities and personalize campaigns to show value and stay in touch with your customers at every stage of their journey.",
+  },
+  {
+    question: "Salesforce Community Cloud",
+    answer:
+      "Connect with your customers, employees, and partners and build long-lasting relationships leveraging our Salesforce Implementation services. We will customize and implement the Community cloud in your Salesforce environment to hand over control to users, offer customization as per need, and create an exceptional brand experience.",
+  },
+  {
+    question: "Salesforce Commerce Cloud",
+    answer:
+      "Bacforce helps you precisely implement a trusted, flexible, and speedy commerce solution - Salesforce Commerce cloud. Enjoy digitized orders, automated orders, targeted marketing campaigns, predictive analytics, and full-fledged social media extensions for enhanced reach and increased revenue.",
+  },
+  {
+    question: "Salesforce Financial Services Cloud",
+    answer:
+      "Bacforce helps banks, financial institutions, and insurance companies offer a unified customer experience with our unique Salesforce Financial Services Cloud implementation expertise. Track everything from customer information, deposits, debts, leads, referrals, and everything from a single window.",
+  },
+  {
+    question: "Salesforce Non-Profit Cloud",
+    answer:
+      "Effectively manages and quantifies your programs like fundraising, grants, workforce, and more as we optimize our Salesforce implementation services to meet your nonprofit goals. Enjoy automated donor profiles, manage volunteers, enhance relationships, and achieve growth.",
+  },
+  {
+    question: "Salesforce Health Cloud",
+    answer:
+      "When you have the right Salesforce Implementation Partner with you, it becomes easier for you to meet the changing demands of the healthcare industry. Quickly get a 360-degree view of patient data, experience intelligent care collaboration, and personalize the end-to-end customer experience.",
+  },
+  {
+    question: "Salesforce Vaccine Cloud",
+    answer:
+      "We treat every business equally, so if you want to implement Salesforce Vaccine Cloud in your Salesforce ecosystem. We will help you integrate ethics into the vaccine management process so that you can seamlessly manage inventory, enhance patient engagement, and distribute vaccines effectively.",
+  },
+  {
+    question: "Salesforce CPQ",
+    answer:
+      "Allow us to implement Salesforce CPQ in your CRM so that you can enjoy the automated process of configuring, pricing, and quote creation. We will assist you in streamlining the quote creation per your KPIs with a vision to offer personalized and accurate quotes that lead to increased sales.",
+  },
+  {
+    question: "Salesforce Chatter",
+    answer:
+      "Leverage the best enterprise social network available by leveraging our bespoke Salesforce implementation services. Organizations can use it to work securely at the workplace to share files, develop networks, declutter email, keep teams connected, and update status.",
+  },
+  {
+    question: "Einstein Analytics",
+    answer:
+      "Learn the secret of turning data into insights and insights into profit by choosing us as your reliable Salesforce Implementation Partner. We will help you unravel the power of AI to streamline your customer service, sales, marketing, branding, and other business activities leading to an increase in your ROI.",
+  },
+  {
+    question: "Salesforce IT",
+    answer:
+      "Get a competitive advantage by leveraging our Salesforce Implementation Services to monetize your IoT investment. We will implement Salesforce IoT so that the large amounts of data processed by computers, sensors, and apps can be converted into meaningful insights and overcome petty business issues.",
+  },
+  {
+    question: "Salesforce Pardot",
+    answer:
+      "Are you interested in implementing a B-2-B marketing automation platform in your Salesforce environment? Bacforce will be your reliable Salesforce implementation partner to ensure easy reporting ROI, get valuable sales insights, create emails to close more leads, drive more revenue, and achieve growth.",
+  },
+  {
+    question: "Salesforce Field Service Lightning",
+    answer:
+      "We will enable your field service teams to do better and increase their productivity, by implementing Salesforce Field Service in your CR environment. We will customize your CRM environment so that your field services will be automated, productive, optimized, real-time, and per the company's needs. ",
+  },
+  {
+    question: "Salesforce Quip",
+    answer:
+      "We will help you implement Salesforce Quip to take advantage of the world's NO 1 CRM and collaborative productivity suite. Our Salesforce professionals will help you streamline exporting and importing live data to enhance collaboration and visibility by enabling a virtual work-from-anywhere environment.",
+  },
+];

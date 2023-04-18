@@ -38,3 +38,8 @@ export const salesforce5Meta = {
     "Get our Salesforce Integration Services with enterprise applications such as ERP, legacy applications, custom websites to extend the functionality of Salesforce",
   ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-5.png",
 };
+export const salesforce6Meta = {
+  title: "Salesforce Implementation Services and Consulting",
+  description: `We will help you to set up salesforce implementation services to support and promote your business growth efforts. Make your Implementation successful with us.`,
+  ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-6.png",
+};

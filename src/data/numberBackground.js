@@ -37,3 +37,40 @@ export const salesforce3NumberBackground = [
       "We suggest improving your business processes and provide proposals for possible improvements",
   },
 ];
+export const salesforce6NumberBackground = [
+  {
+    title: "1. Salesforce Consulting",
+    description:
+      "Our experts understand the core idea before analyzing your business requirements and defining the business targets that Salesforce supports. Our team suggests possible ways that help in attaining business objectives with the Salesforce plan and functionality and plan the implementation process comprehensively, keeping in mind necessary customization.",
+  },
+  {
+    title: "2. Setup and Configuration",
+    description:
+      "In the next step, Our top salesforce professionals help you pick the right salesforce edition as per your business needs. We customize and configure it based on its costs, complexity and level of platform's modifications. We can tailor it based on the code and large scale changes depending upon the business goals.",
+  },
+  {
+    title: "3. Integration",
+    description:
+      "To make your salesforce solution working seamlessly with third-party systems like ERP, eCommerce platforms, we perform integration processes and ensure that it improves the visibility of data flows with all the integrated applications.",
+  },
+  {
+    title: "4. Legacy Data Migration",
+    description:
+      "Our Salesforce experts adhere to migrating your existing system's legacy data into the advanced Salesforce solution with complete data security and system downtime.",
+  },
+  {
+    title: "5. User training",
+    description:
+      "To unleash the full features of custom and default salesforce, our experts provide training to boost user adoption. This training helps understand how it works, allows employees to leverage its unlimited potential, and enhances the productivity manifold.",
+  },
+  {
+    title: "6. Deploy and Launch",
+    description:
+      "After the creation, we deploy the salesforce solution to the user acceptance testing environment, in which the customer's test its functionality. After receiving a positive response from the customer, our experts launch the latest Salesforce solution to the production environment.",
+  },
+  {
+    title: "7. After-Launch Support",
+    description:
+      "We are here to assist you with post-launch support services. Our expert team is available to respond to your salesforce-related queries 24/7/365. Feel free to get in touch with us anytime, any day.",
+  },
+];

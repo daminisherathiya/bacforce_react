@@ -55,3 +55,9 @@ export const salesforce5SideSectionHeading = {
     button: "Talk to Our Experts",
   },
 };
+export const salesforce6SideSectionHeading = {
+  title: 'Salesforce Products <span class="font-bold">We Can Implement</span>',
+  description:
+    "Bacforce has a team of experienced Salesforce professionals possessing proven experience in offering Salesforce Implementation Services. Let us add value to your Salesforce ecosystem and get the most out of us for better efficiency and ROI.",
+  button: "Talk to Our Salesforce Experts",
+};

@@ -108,3 +108,15 @@ export const salesforce5BannerHeading = {
   buttonName: "Talk to Our Salesforce Experts",
   buttonHref: "#Form",
 };
+export const salesforce6BannerHeading = {
+  heading:
+    "Salesforce <span class='font-bold xl:block xl:whitespace-nowrap'>Implementation Services</span>",
+  description: [
+    {
+      paragraph:
+        "Accelerate your business sales and uplift your ROI by leveraging our Salesforce implementation Services. We have years of experience in Salesforce CRM development and can help you bring revolutionary outcomes by launching or relaunching your Salesforce.",
+    },
+  ],
+  buttonName: "Get A Free Consultation",
+  buttonHref: "#Form",
+};

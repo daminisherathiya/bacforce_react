@@ -406,3 +406,19 @@ export const salesforce5DescriptionWithIcon = {
     },
   ],
 };
+export const salesforce6DescriptionWithIcon = [
+  {
+    icon: briefcase,
+    description: `${bacforceYears} years of Salesforce experience makes us capable of getting the most out of your Salesforce`,
+  },
+  {
+    icon: buildingSkyscraper,
+    description:
+      "Our diverse industry experience and knowledge of their needs and expectations help us align seamlessly with your goals.",
+  },
+  {
+    icon: eye,
+    description:
+      "Our vision is simple - Simple methodology, focus on quality, value addition, and best business practices.",
+  },
+];
