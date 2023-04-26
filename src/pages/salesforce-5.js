@@ -35,7 +35,7 @@ const salesforce2 = () => {
     <>
       <Meta data={salesforce5Meta} />
 
-      <Header />
+      <Header hiddenLinkIds={[4]} />
 
       <Banner>
         <ImageSection

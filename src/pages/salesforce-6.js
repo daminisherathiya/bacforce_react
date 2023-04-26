@@ -31,7 +31,7 @@ const salesforce2 = () => {
     <>
       <Meta data={salesforce6Meta} />
 
-      <Header />
+      <Header hiddenLinkIds={[3]} />
 
       <Banner>
         <ImageSection
@@ -136,7 +136,7 @@ const salesforce2 = () => {
       </HireSalesforceDeveloper>
       <Success />
 
-      <section className="mt-28 bg-light-blue">
+      <section id="TechnicalStack" className="mt-28 bg-light-blue scroll-mt-28">
         <div className="grid gap-20 md:grid-cols-2">
           <SideSectionHeading
             data={salesforce6SideSectionHeading}

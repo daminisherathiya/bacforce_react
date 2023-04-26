@@ -5,7 +5,7 @@ import SectionHeading from "@/ui/SectionHeading";
 
 const Faq = ({ data }) => {
   return (
-    <section className="bg-light-blue">
+    <section id="FAQ" className="bg-light-blue scroll-mt-28">
       <div className="grid gap-20 grid-flow-dense md:grid-cols-11">
         <div className="md:col-start-9 md:col-end-12 md:text-left">
           <div className="sticky top-48 space-y-6">

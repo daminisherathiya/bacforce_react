@@ -17,7 +17,6 @@ module.exports = {
       secondary: "#09BC8A",
       "secondary-hover": "#07966e",
       "secondary-click": "#3ac9a1",
-      light: "#F1F5FE",
       dark: "#103278",
       "light-blue": "#F1F5FE",
     },

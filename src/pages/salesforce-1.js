@@ -36,7 +36,7 @@ const salesforce1 = () => {
     <>
       <Meta data={salesforce1Meta} />
 
-      <Header></Header>
+      <Header hiddenLinkIds={[4]}></Header>
 
       <Banner id="Form">
         <BannerHeading

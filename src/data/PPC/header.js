@@ -14,4 +14,9 @@ export const services = [
     title: "Plan and Pricing",
     href: "#PlanandPricing",
   },
+  {
+    id: 4,
+    title: "FAQ",
+    href: "#FAQ",
+  },
 ];
