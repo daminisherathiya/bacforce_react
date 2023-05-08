@@ -220,3 +220,35 @@ export const salesforce6WeOffer = [
       "We will help you implement Salesforce Quip to take advantage of the world's NO 1 CRM and collaborative productivity suite. Our Salesforce professionals will help you streamline exporting and importing live data to enhance collaboration and visibility by enabling a virtual work-from-anywhere environment.",
   },
 ];
+export const salesforce7WeOffer = [
+  {
+    question: "Add, Manage and Modify Custom Objects",
+    answer:
+      "Get rid of standard fields and objects to revamp your Salesforce app with custom Salesforce objects and custom fields for extended functionality to improve your business’s ROI.",
+  },
+  {
+    question: "Salesforce Workflow Automation",
+    answer:
+      "Being a certified Salesforce partner, we will help you customize your existing CRM with the help of workflow rules, process builder, and apex code to simplify daily CRM tasks.",
+  },
+  {
+    question: "Configure The Data Loader to Use the Bulk API",
+    answer:
+      "We can help you provide a custom Salesforce solution with operations like a collective update of records, deleting records, weekly leads evaluation, and other tasks using bulk API to streamline your business processes.",
+  },
+  {
+    question: "Customize Reports and Dashboards",
+    answer:
+      "Leverage our Salesforce support services, to create customized reports and dashboards. These reports will help you identify the best/worst performing sales territories, profitable customer segments, and truthful value of your Salesforce pipeline.",
+  },
+  {
+    question: "Custom Email Templates",
+    answer:
+      "Salesforce email template will help you increase your business productivity, ensuring consistent messaging. Create/modify email templates, custom style sheets, and email attachments at your convenience.",
+  },
+  {
+    question: "Salesforce CRM Integration with Third-Party Systems",
+    answer:
+      "Our Salesforce developers are skilled at performing Salesforce CRM integration with third-party platforms. We use REST/SOAP API web services for effective integration and seamless data flow.",
+  },
+];

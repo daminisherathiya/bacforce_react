@@ -55,6 +55,29 @@ export const salesforce3Features = [
   "Client Satisfaction is Our Highest Priority",
 ];
 
+export const salesforce7Features = [
+  {
+    title: "Salesforce Configuration",
+    description: [
+      "Setting up business-specific values with the modification of UI, business logic, and data model of your Salesforce solution",
+      "Installation of AppExchange application with default Salesforce tools to increase sales and marketing impacts",
+      "Add custom fields, objects, and records to your Salesforce with default Salesforce tools",
+      "Possible Salesforce configuration includes report creation and validating of workflows as well as apps using lighting platform",
+      "Access to persona-based tools and modules",
+    ],
+  },
+  {
+    title: "Salesforce Customization",
+    description: [
+      "Modifying your Salesforce solution with default Salesforce functionality and customization based on your business model",
+      "We will help you scale your Salesforce solution with the integration of external systems",
+      "Setting up workflows and processes for efficient resource optimization",
+      "Tailoring dashboards and email templates to improve customer responsiveness",
+      "Resort to Salesforce customizations for automated bulk operations to shorten time-to-value",
+    ],
+  },
+];
+
 export const supportAndMaintenanceServices = [
   {
     title: "Basic Support",

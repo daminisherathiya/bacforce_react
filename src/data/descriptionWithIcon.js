@@ -53,6 +53,7 @@ import tools from "../../public/images/icon/tools.svg";
 import userCheck from "../../public/images/icon/user-check.svg";
 import userMinus from "../../public/images/icon/user-minus.svg";
 import users from "../../public/images/icon/users.svg";
+import chartInfographic from "../../public/images/icon/chart-infographic.svg";
 
 export const salesforce2DescriptionWithIcon = [
   { icon: code, title: "Apex Code" },
@@ -422,3 +423,16 @@ export const salesforce6DescriptionWithIcon = [
       "Our vision is simple - Simple methodology, focus on quality, value addition, and best business practices.",
   },
 ];
+export const salesforce7DescriptionWithIcon = [
+  { icon: chartBar, title: "Salesforce Sales cloud" },
+  { icon: chartDots, title: "Salesforce Marketing cloud" },
+  { icon: settings, title: "Salesforce Service cloud" },
+  { icon: cash, title: "Salesforce Financial Services Cloud" },
+  { icon: cloudFog, title: "Salesforce CPQ" },
+  { icon: friends, title: "Salesforce Community cloud" },
+  { icon: box, title: "Salesforce Pardot" },
+  { icon: chartPie4, title: "Salesforce Field Service Cloud" },
+  { icon: deviceMobile, title: "Salesforce App cloud" },
+  { icon: accessible, title: "Salesforce Health cloud" },
+  { icon: chartInfographic, title: "Salesforce Einstein AI analytics" },
+]

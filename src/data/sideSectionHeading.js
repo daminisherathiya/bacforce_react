@@ -61,3 +61,7 @@ export const salesforce6SideSectionHeading = {
     "Bacforce has a team of experienced Salesforce professionals possessing proven experience in offering Salesforce Implementation Services. Let us add value to your Salesforce ecosystem and get the most out of us for better efficiency and ROI.",
   button: "Talk to Our Salesforce Experts",
 };
+export const salesforce7SideSectionHeading = {
+  title: 'Upgrade Your Business Standards with <span class="font-bold">Our Salesforce Customization Services</span>',
+  button: "Talk to Our Salesforce Experts",
+};

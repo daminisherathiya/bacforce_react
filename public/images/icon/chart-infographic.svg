@@ -1,0 +1,9 @@
+<svg id="chart-infographic" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Path_1313" data-name="Path 1313" d="M0,0H40V40H0Z" fill="none"/>
+  <circle id="Ellipse_217" data-name="Ellipse 217" cx="6.724" cy="6.724" r="6.724" transform="translate(4.933 5.103)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Path_1314" data-name="Path 1314" d="M7,3V9.464h6.667" transform="translate(4.667 2.203)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_901" data-name="Line 901" y2="6.724" transform="translate(14.76 28.377)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_902" data-name="Line 902" y2="11.896" transform="translate(28.207 23.205)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_903" data-name="Line 903" y2="13.447" transform="translate(21.483 21.652)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Line_904" data-name="Line 904" y2="14.999" transform="translate(34.931 20.102)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

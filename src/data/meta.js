@@ -40,6 +40,11 @@ export const salesforce5Meta = {
 };
 export const salesforce6Meta = {
   title: "Salesforce Implementation Services and Consulting",
-  description: `We will help you to set up salesforce implementation services to support and promote your business growth efforts. Make your Implementation successful with us.`,
+  description: "We will help you to set up salesforce implementation services to support and promote your business growth efforts. Make your Implementation successful with us.",
   ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-6.png",
+};
+export const salesforce7Meta = {
+  title: "Salesforce Customization and Configuration Services",
+  description: `Maximize your ROI with our Salesforce customization service that fits your business needs with ${bacforceYears} years of experienced salesforce expert. Book Free Consultation`,
+  ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-7.png",
 };

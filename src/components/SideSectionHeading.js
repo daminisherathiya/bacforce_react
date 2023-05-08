@@ -7,7 +7,7 @@ const SideSectionHeading = ({ data, children }) => {
           className="text-dark"
           dangerouslySetInnerHTML={{ __html: data.title }}
         />
-        <p className="text-xl">{data.description}</p>
+        {data.description && <p className="text-xl">{data.description}</p>}
         {children}
         <ButtonLink
           additionalClasses="bg-secondary hover:bg-secondary-hover"

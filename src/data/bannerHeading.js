@@ -120,3 +120,19 @@ export const salesforce6BannerHeading = {
   buttonName: "Get A Free Consultation",
   buttonHref: "#Form",
 };
+export const salesforce7BannerHeading = {
+  heading:
+    "Salesforce <span class='font-bold xl:block xl:whitespace-nowrap'>Customization Company</span>",
+  subHeading: {
+    description: `${bacforceYears} Years of CRM Experience`,
+    additionalClasses: "font-semibold text-light-blue",
+  },
+  description: [
+    {
+      paragraph:
+        "We will help you customize and configure Salesforce, its functions, and features, re-engineer processes, and craft personalized apps, ensuring your CRM meets your unique business needs as top salesforce customization company.",
+    },
+  ],
+  buttonName: "Get A Free Consultation",
+  buttonHref: "#Form",
+};
