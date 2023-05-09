@@ -6,3 +6,6 @@ export const rateBasicSupport = "$25";
 export const rateIntermediateSupport = "$28 to $35";
 export const rateAdvancedSupport = "$40";
 export const certifiedDevelopers = "80+";
+export const agileDevelopers = "1050+";
+export const agileCoaches = "05";
+export const certifiedScrumMaster = "14";

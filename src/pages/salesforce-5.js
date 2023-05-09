@@ -146,7 +146,30 @@ const salesforce2 = () => {
             proficient in every integration scenario.
           </p>
         </SectionDescription>
-        <Tabs data={salesforce5Tab} />
+        <Tabs
+          data={salesforce5Tab.map((item) => ({
+            title: item.tabName,
+            description: (
+              <>
+                <h3 className="mb-7 font-bold">{item.description.heading}</h3>
+                <p className="mb-10 text-xl text-secondary">
+                  {item.description.paragraph}
+                </p>
+                <div className="flex flex-wrap items-center space-x-10">
+                  {item.description.images.map((image, index) => (
+                    <ImageSection
+                      divClasses="py-2"
+                      key={index}
+                      imageAlt={image.alt}
+                      imageSrc={image.logoImg}
+                      imageClasses={image.size}
+                    />
+                  ))}
+                </div>
+              </>
+            ),
+          }))}
+        />
       </section>
       <section className="bg-light-blue">
         <div className="grid gap-20 md:grid-cols-2">

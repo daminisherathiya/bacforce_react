@@ -2,7 +2,7 @@ import { Fragment, useState } from "react";
 import Tab from "./Tab";
 import TabPanel from "./TabPanel";
 
-const Tabs = ({ data }) => {
+const Tabs = ({ data, theme }) => {
   const [openIndex, setopenIndex] = useState(0);
   const openHandler = (index) => {
     return setopenIndex(index);
@@ -15,17 +15,17 @@ const Tabs = ({ data }) => {
           {data.map((item, index) => (
             <Fragment key={index}>
               <Tab
-                item={item}
+                theme={theme}
                 index={index}
                 openIndex={openIndex}
                 openHandler={openHandler}
-              />
+              >
+                {item.title}
+              </Tab>
               <div className="md:hidden">
-                <TabPanel
-                  item={item}
-                  index={index}
-                  openIndex={openIndex}
-                />
+                <TabPanel index={index} openIndex={openIndex}>
+                  {item.description}
+                </TabPanel>
               </div>
             </Fragment>
           ))}
@@ -33,12 +33,9 @@ const Tabs = ({ data }) => {
       </div>
       <div className="hidden md:col-span-5 md:block">
         {data.map((item, index) => (
-          <TabPanel
-            key= {index}
-            item={item}
-            index={index}
-            openIndex={openIndex}
-          />
+          <TabPanel key={index} item={item} index={index} openIndex={openIndex}>
+            {item.description}
+          </TabPanel>
         ))}
       </div>
     </div>

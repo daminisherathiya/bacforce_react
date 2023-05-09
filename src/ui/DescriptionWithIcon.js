@@ -6,9 +6,14 @@ const DescriptionWithIcon = ({
   iconSize,
   boxSize,
   boxAdditionalClasses,
+  additionalClassesForDescription,
+  mainDivClasses,
+  imgDivClasses
 }) => {
   return (
-    <div className="-mx-2 flex flex-wrap sm:justify-center">
+    <div className={`-mx-2 flex flex-wrap sm:justify-center${
+      mainDivClasses ? " " + mainDivClasses : ""
+    }`}>
       {data.map((item, index) => (
         <div key={index} className={`w-full p-2 ${boxSize}`}>
           <div
@@ -19,7 +24,9 @@ const DescriptionWithIcon = ({
             <div className="flex items-center">
               {item.icon && (
                 <ImageSection
-                  divClasses="pr-4"
+                  divClasses={`pr-4${
+                    imgDivClasses ? " " + imgDivClasses : ""
+                  }`}
                   imageAlt={item.title ? item.title : item.description}
                   imageSrc={item.icon}
                   imageClasses={`${iconSize} group-hover:invert`}
@@ -38,7 +45,13 @@ const DescriptionWithIcon = ({
               )}
             </div>
             {item.description && (
-              <p className="text-secondary group-hover:text-white">
+              <p
+                className={`text-secondary group-hover:text-white${
+                  additionalClassesForDescription
+                    ? " " + additionalClassesForDescription
+                    : ""
+                }`}
+              >
                 {item.description}
               </p>
             )}

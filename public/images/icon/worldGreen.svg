@@ -1,0 +1,8 @@
+<svg id="world" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <path id="Path_3915" data-name="Path 3915" d="M0,0H40V40H0Z" fill="none"/>
+  <circle id="Ellipse_578" data-name="Ellipse 578" cx="14.999" cy="14.999" r="14.999" transform="translate(5.42 4.91)" fill="none" stroke="#09bc8a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <line id="Line_1729" data-name="Line 1729" x2="27.565" transform="translate(6.434 15)" fill="none" stroke="#09bc8a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <line id="Line_1730" data-name="Line 1730" x2="27.565" transform="translate(6.434 25)" fill="none" stroke="#09bc8a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <path id="Path_3916" data-name="Path 3916" d="M13.219,3a28.333,28.333,0,0,0,0,30" transform="translate(5.948 2)" fill="none" stroke="#09bc8a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  <path id="Path_3917" data-name="Path 3917" d="M12.5,3a28.333,28.333,0,0,1,0,30" transform="translate(8.333 2)" fill="none" stroke="#09bc8a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+</svg>

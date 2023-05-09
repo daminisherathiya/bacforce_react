@@ -1,10 +1,17 @@
-import { bacforceYears, certifiedDevelopers } from "@/data/constant";
+import {
+  agileCoaches,
+  agileDevelopers,
+  bacforceYears,
+  certifiedDevelopers,
+  certifiedScrumMaster,
+} from "@/data/constant";
 import accessible from "../../public/images/icon/accessible.svg";
 import adjustmentsHorizontal from "../../public/images/icon/adjustments-horizontal.svg";
 import box from "../../public/images/icon/box.svg";
 import brandGoogle from "../../public/images/icon/brand-google.svg";
 import brandSketch from "../../public/images/icon/brand-sketch.svg";
 import briefcase from "../../public/images/icon/briefcase.svg";
+import briefcaseGreen from "../../public/images/icon/briefcaseGreen.svg";
 import buildingSkyscraper from "../../public/images/icon/building-skyscraper.svg";
 import buildingWarehouse from "../../public/images/icon/building-warehouse.svg";
 import bulb from "../../public/images/icon/bulb.svg";
@@ -14,6 +21,7 @@ import chartBar from "../../public/images/icon/chart-bar.svg";
 import chartDonut3 from "../../public/images/icon/chart-donut-3.svg";
 import chartDonut4 from "../../public/images/icon/chart-donut-4.svg";
 import chartDots from "../../public/images/icon/chart-dots.svg";
+import chartInfographic from "../../public/images/icon/chart-infographic.svg";
 import chartPie4 from "../../public/images/icon/chart-pie-4.svg";
 import chartPie from "../../public/images/icon/chart-pie.svg";
 import cloudFog from "../../public/images/icon/cloud-fog.svg";
@@ -30,9 +38,11 @@ import gitBranch from "../../public/images/icon/git-branch.svg";
 import gitCompare from "../../public/images/icon/git-compare.svg";
 import headset from "../../public/images/icon/headset.svg";
 import history from "../../public/images/icon/history.svg";
+import historyGreen from "../../public/images/icon/historyGreen.svg";
 import layoutGridAdd from "../../public/images/icon/layout-grid-add.svg";
 import mail from "../../public/images/icon/mail.svg";
 import messages from "../../public/images/icon/messages.svg";
+import messagesGreen from "../../public/images/icon/messagesGreen.svg";
 import presentation from "../../public/images/icon/presentation.svg";
 import puzzle from "../../public/images/icon/puzzle.svg";
 import recharging from "../../public/images/icon/recharging.svg";
@@ -45,6 +55,7 @@ import sitemap from "../../public/images/icon/sitemap.svg";
 import social from "../../public/images/icon/social.svg";
 import speakerphone from "../../public/images/icon/speakerphone.svg";
 import stack from "../../public/images/icon/stack.svg";
+import starsGreen from "../../public/images/icon/starsGreen.svg";
 import stepOut from "../../public/images/icon/step-out.svg";
 import switchHorizontal from "../../public/images/icon/switch-horizontal.svg";
 import template from "../../public/images/icon/template.svg";
@@ -53,7 +64,7 @@ import tools from "../../public/images/icon/tools.svg";
 import userCheck from "../../public/images/icon/user-check.svg";
 import userMinus from "../../public/images/icon/user-minus.svg";
 import users from "../../public/images/icon/users.svg";
-import chartInfographic from "../../public/images/icon/chart-infographic.svg";
+import worldGreen from "../../public/images/icon/worldGreen.svg";
 
 export const salesforce2DescriptionWithIcon = [
   { icon: code, title: "Apex Code" },
@@ -423,16 +434,58 @@ export const salesforce6DescriptionWithIcon = [
       "Our vision is simple - Simple methodology, focus on quality, value addition, and best business practices.",
   },
 ];
-export const salesforce7DescriptionWithIcon = [
-  { icon: chartBar, title: "Salesforce Sales cloud" },
-  { icon: chartDots, title: "Salesforce Marketing cloud" },
-  { icon: settings, title: "Salesforce Service cloud" },
-  { icon: cash, title: "Salesforce Financial Services Cloud" },
-  { icon: cloudFog, title: "Salesforce CPQ" },
-  { icon: friends, title: "Salesforce Community cloud" },
-  { icon: box, title: "Salesforce Pardot" },
-  { icon: chartPie4, title: "Salesforce Field Service Cloud" },
-  { icon: deviceMobile, title: "Salesforce App cloud" },
-  { icon: accessible, title: "Salesforce Health cloud" },
-  { icon: chartInfographic, title: "Salesforce Einstein AI analytics" },
-]
+export const salesforce7DescriptionWithIcon = {
+  challanges: [
+    { icon: chartBar, title: "Salesforce Sales cloud" },
+    { icon: chartDots, title: "Salesforce Marketing cloud" },
+    { icon: settings, title: "Salesforce Service cloud" },
+    { icon: cash, title: "Salesforce Financial Services Cloud" },
+    { icon: cloudFog, title: "Salesforce CPQ" },
+    { icon: friends, title: "Salesforce Community cloud" },
+    { icon: box, title: "Salesforce Pardot" },
+    { icon: chartPie4, title: "Salesforce Field Service Cloud" },
+    { icon: deviceMobile, title: "Salesforce App cloud" },
+    { icon: accessible, title: "Salesforce Health cloud" },
+    { icon: chartInfographic, title: "Salesforce Einstein AI analytics" },
+  ],
+  chooseBacForce: [
+    {
+      title: agileDevelopers,
+      description: "Agile Developers",
+    },
+    {
+      title: certifiedDevelopers,
+      description: "Salesforce Developers",
+    },
+    {
+      title: agileCoaches,
+      description: "Agile Coaches",
+    },
+    {
+      title: certifiedScrumMaster,
+      description: "Certified Scrum Master",
+    },
+  ],
+  features: [
+    {
+      icon: worldGreen,
+      description: "Work at Your Time Zone",
+    },
+    {
+      icon: messagesGreen,
+      description: "Easy Communication",
+    },
+    {
+      icon: historyGreen,
+      description: "Hire in 48 Hours",
+    },
+    {
+      icon: briefcaseGreen,
+      description: "In Business Since 2011",
+    },
+    {
+      icon: starsGreen,
+      description: "5/5 Pro User Rating",
+    },
+  ],
+};

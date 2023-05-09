@@ -1,44 +1,47 @@
 import acumatica from "../../public/images/salesforce-5/integration-services-logo/acumatica.jpg";
-import microsoft from "../../public/images/salesforce-5/integration-services-logo/microsoft.jpg";
-import netsuite from "../../public/images/salesforce-5/integration-services-logo/netsuite.jpg";
-import oracle from "../../public/images/salesforce-5/integration-services-logo/oracle.jpg";
-import quickbooks from "../../public/images/salesforce-5/integration-services-logo/quickbooks.jpg";
-import xero from "../../public/images/salesforce-5/integration-services-logo/xero.jpg";
-import zoho from "../../public/images/salesforce-5/integration-services-logo/zoho.jpg";
-import marketo from "../../public/images/salesforce-5/integration-services-logo/marketo.jpg";
-import hubspot from "../../public/images/salesforce-5/integration-services-logo/hubspot.jpg";
-import mailChimp from "../../public/images/salesforce-5/integration-services-logo/mailchimp.jpg";
+import avaya from "../../public/images/salesforce-5/integration-services-logo/avaya.jpg";
+import bmcRemed from "../../public/images/salesforce-5/integration-services-logo/bmc-remedy.jpg";
 import constantContact from "../../public/images/salesforce-5/integration-services-logo/constant-contact.jpg";
 import eloqua from "../../public/images/salesforce-5/integration-services-logo/eloqua.jpg";
-import zuora from "../../public/images/salesforce-5/integration-services-logo/zuora.jpg";
-import shopify from "../../public/images/salesforce-5/integration-services-logo/shopify.jpg";
-import magento from "../../public/images/salesforce-5/integration-services-logo/magento.jpg";
-import woocommerce from "../../public/images/salesforce-5/integration-services-logo/woocommerce.jpg";
-import ibm from "../../public/images/salesforce-5/integration-services-logo/ibm.jpg";
-import mariadb from "../../public/images/salesforce-5/integration-services-logo/mariadb.jpg";
-import mySql from "../../public/images/salesforce-5/integration-services-logo/mySql.jpg";
-import sqlServer from "../../public/images/salesforce-5/integration-services-logo/sql-server.jpg";
-import postgresql from "../../public/images/salesforce-5/integration-services-logo/postgresql.jpg";
-import ringcentral from "../../public/images/salesforce-5/integration-services-logo/ringcentral.jpg";
-import avaya from "../../public/images/salesforce-5/integration-services-logo/avaya.jpg";
-import shoreTel from "../../public/images/salesforce-5/integration-services-logo/shoreTel.jpg";
-import facebook from "../../public/images/salesforce-5/integration-services-logo/facebook.jpg";
-import twitter from "../../public/images/salesforce-5/integration-services-logo/twitter.jpg";
-import linkedin from "../../public/images/salesforce-5/integration-services-logo/linkedin.jpg";
-import otrs from "../../public/images/salesforce-5/integration-services-logo/otrs.jpg";
-import bmcRemed from "../../public/images/salesforce-5/integration-services-logo/bmc-remedy.jpg";
-import jira from "../../public/images/salesforce-5/integration-services-logo/jira.jpg";
-import servicenow from "../../public/images/salesforce-5/integration-services-logo/servicenow.jpg";
-import ibmConnection from "../../public/images/salesforce-5/integration-services-logo/ibm-connection.jpg";
-import office365 from "../../public/images/salesforce-5/integration-services-logo/office-365.jpg";
-import sharepoint from "../../public/images/salesforce-5/integration-services-logo/sharepoint.jpg";
-import jive from "../../public/images/salesforce-5/integration-services-logo/jive.jpg";
-import slack from "../../public/images/salesforce-5/integration-services-logo/slack.jpg";
-import outlook from "../../public/images/salesforce-5/integration-services-logo/outlook.jpg";
-import microsoftExchange from "../../public/images/salesforce-5/integration-services-logo/microsoft-exchange.jpg";
 import email from "../../public/images/salesforce-5/integration-services-logo/email.jpg";
+import facebook from "../../public/images/salesforce-5/integration-services-logo/facebook.jpg";
+import hubspot from "../../public/images/salesforce-5/integration-services-logo/hubspot.jpg";
+import ibmConnection from "../../public/images/salesforce-5/integration-services-logo/ibm-connection.jpg";
+import ibm from "../../public/images/salesforce-5/integration-services-logo/ibm.jpg";
+import jira from "../../public/images/salesforce-5/integration-services-logo/jira.jpg";
+import jive from "../../public/images/salesforce-5/integration-services-logo/jive.jpg";
+import linkedin from "../../public/images/salesforce-5/integration-services-logo/linkedin.jpg";
+import magento from "../../public/images/salesforce-5/integration-services-logo/magento.jpg";
+import mailChimp from "../../public/images/salesforce-5/integration-services-logo/mailchimp.jpg";
+import mariadb from "../../public/images/salesforce-5/integration-services-logo/mariadb.jpg";
+import marketo from "../../public/images/salesforce-5/integration-services-logo/marketo.jpg";
+import microsoftExchange from "../../public/images/salesforce-5/integration-services-logo/microsoft-exchange.jpg";
+import microsoft from "../../public/images/salesforce-5/integration-services-logo/microsoft.jpg";
+import mySql from "../../public/images/salesforce-5/integration-services-logo/mySql.jpg";
+import netsuite from "../../public/images/salesforce-5/integration-services-logo/netsuite.jpg";
+import office365 from "../../public/images/salesforce-5/integration-services-logo/office-365.jpg";
+import oracle from "../../public/images/salesforce-5/integration-services-logo/oracle.jpg";
+import otrs from "../../public/images/salesforce-5/integration-services-logo/otrs.jpg";
+import outlook from "../../public/images/salesforce-5/integration-services-logo/outlook.jpg";
+import postgresql from "../../public/images/salesforce-5/integration-services-logo/postgresql.jpg";
+import quickbooks from "../../public/images/salesforce-5/integration-services-logo/quickbooks.jpg";
+import ringcentral from "../../public/images/salesforce-5/integration-services-logo/ringcentral.jpg";
 import sage from "../../public/images/salesforce-5/integration-services-logo/sage.jpg";
 import sap from "../../public/images/salesforce-5/integration-services-logo/sap.jpg";
+import servicenow from "../../public/images/salesforce-5/integration-services-logo/servicenow.jpg";
+import sharepoint from "../../public/images/salesforce-5/integration-services-logo/sharepoint.jpg";
+import shopify from "../../public/images/salesforce-5/integration-services-logo/shopify.jpg";
+import shoreTel from "../../public/images/salesforce-5/integration-services-logo/shoreTel.jpg";
+import slack from "../../public/images/salesforce-5/integration-services-logo/slack.jpg";
+import sqlServer from "../../public/images/salesforce-5/integration-services-logo/sql-server.jpg";
+import twitter from "../../public/images/salesforce-5/integration-services-logo/twitter.jpg";
+import woocommerce from "../../public/images/salesforce-5/integration-services-logo/woocommerce.jpg";
+import xero from "../../public/images/salesforce-5/integration-services-logo/xero.jpg";
+import zoho from "../../public/images/salesforce-5/integration-services-logo/zoho.jpg";
+import zuora from "../../public/images/salesforce-5/integration-services-logo/zuora.jpg";
+import user5 from "../../public/images/userImage/user-5.png";
+import user6 from "../../public/images/userImage/user-6.png";
+import user7 from "../../public/images/userImage/user-7.png";
 
 export const salesforce5Tab = [
   {
@@ -345,5 +348,34 @@ export const salesforce5Tab = [
         },
       ],
     },
+  },
+];
+export const salesforce7Tab = [
+  {
+    tabName: {
+      userImg: user7,
+      userName: "John Burke",
+      userRole: "CEO Of UBIX",
+    },
+    description:
+      "We’ve partnered with Bacancy to upgrade our existing Salesforce process. They helped us with customization and configuration with the enhancements of the existing Salesforce console. I was impressed by the team's receptiveness to code reviews and progressive feedback during the process to meet project expectations and requirements.",
+  },
+  {
+    tabName: {
+      userImg: user5,
+      userName: "Laura Odorczyk",
+      userRole: "CEO of Dopple",
+    },
+    description:
+      "Bacancy has been doing an excellent job with Salesforce and helping clients to maximize their investments. Their Salesforce Consultants have helped us to overcome the challenges like low user adoption of Salesforce, ineffectual reporting, poor visibility into the sales pipeline, KPIs, and lead conversion ratio. Moreover, their Project Manager took complete Ownership of the Project and delivered it within the Defined time frame.",
+  },
+  {
+    tabName: {
+      userImg: user6,
+      userName: "David Carta",
+      userRole: "CEO/President at Telaeris, Inc.",
+    },
+    description:
+      "I was looking to build a Personalized and Customized User Dashboard in Salesforce, and I found Bacancy, as they kind of check all those needed boxes. Moreover, they helped us with various modifications, integrations with this centralized system, and third-party tools per our requirements. Bacancy has been able to do everything I've asked them to do, and they have been doing a fantastic job since our collaboration.",
   },
 ];

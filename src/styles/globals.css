@@ -116,7 +116,7 @@
   opacity: 0.5 !important;
 }
 .paginationColorBlue .swiper-pagination-bullet {
-  background-color: #2063F0 !important;
+  background-color: #2063f0 !important;
 }
 .swiper-pagination-bullet-active {
   width: max(40px, 2.083vw) !important;

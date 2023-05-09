@@ -16,7 +16,7 @@ import { salesforce7DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce4Faq } from "@/data/faq";
 import { salesforce7Meta } from "@/data/meta";
 import { salesforce7SideSectionHeading } from "@/data/sideSectionHeading";
-import { salesforce5Tab } from "@/data/Tab";
+import { salesforce7Tab } from "@/data/Tab";
 import { salesforce7WeOffer } from "@/data/weOffer";
 import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
@@ -29,6 +29,7 @@ import SectionHeading from "@/ui/SectionHeading";
 import Tabs from "@/ui/Tabs";
 import banner from "../../public/images/salesforce-7/banner.png";
 import bg_img from "../../public/images/salesforce-7/bg-img.jpg";
+import sideImg from "../../public/images/salesforce-7/side-img.jpg";
 
 const salesforce2 = () => {
   return (
@@ -70,10 +71,9 @@ const salesforce2 = () => {
         </div>
       </section>
       <ImageSection
-        divClasses=""
         imageAlt="Salesforce Development Company"
         imageSrc={bg_img}
-        imageClasses=""
+        imageClasses="w-full"
       />
       <section className="relative z-0 -mt-72">
         <div className="bg-white p-12 shadow">
@@ -156,7 +156,7 @@ const salesforce2 = () => {
           <span className="font-bold">We Can Help You Customize</span>
         </SectionHeading>
         <SectionDescription>
-          <p className="mx-auto lg:w-7/12 mb-16">
+          <p className="mx-auto mb-16 lg:w-7/12">
             Our Salesforce experts can help you solve complex business
             challenges by improving your Salesforce platform with these
             customized Salesforce products.
@@ -165,7 +165,7 @@ const salesforce2 = () => {
         <DescriptionWithIcon
           additionalClassesForHeading="text-lg"
           iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
-          data={salesforce7DescriptionWithIcon}
+          data={salesforce7DescriptionWithIcon.challanges}
           boxSize="sm:w-1/2 lg:w-1/3"
           boxAdditionalClasses="space-y-6 bg-white flex"
         />
@@ -176,38 +176,100 @@ const salesforce2 = () => {
           Talk to Our Salesforce Experts
         </ButtonLink>
       </section>
-      
+
       <CaseStudy theme="white" />
 
-      <section id="TechnicalStack" className="scroll-mt-28">
-        <SectionHeading additionalClasses="mb-8">
-          Explore Our Horizon of
-          <span className="font-bold"> Salesforce Integration Services</span>
+      <section id="TechnicalStack" className="scroll-mt-28 bg-light-blue">
+        <SectionHeading additionalClasses="mb-16">
+          What Our Amazing
+          <span className="font-bold"> Clients Say About Us</span>
         </SectionHeading>
-        <SectionDescription>
-          <p className="mx-auto mb-16 lg:w-3/4">
-            Access our exemplary Salesforce integration services backed by a
-            team of Salesforce integration developers highly skilled and
-            proficient in every integration scenario.
-          </p>
-        </SectionDescription>
-        <Tabs data={salesforce5Tab} />
+        <Tabs
+          theme="blue"
+          data={salesforce7Tab.map((item) => ({
+            title: (
+              <div className="flex items-center">
+                <ImageSection
+                  divClasses="rounded-full"
+                  imageAlt={item.tabName.userName}
+                  imageSrc={item.tabName.userImg}
+                  imageClasses="w-20 mr-8"
+                />
+                <div>
+                  <h3 className="font-bold hover:text-light-blue">
+                    {item.tabName.userName}
+                  </h3>
+                  <p className="text-base font-normal text-gray">
+                    {item.tabName.userRole}
+                  </p>
+                </div>
+              </div>
+            ),
+            description: (
+              <>
+                <p className="before:content[''] after:content[''] relative p-10 text-3xl font-semibold italic leading-[max(26px,2.500vw)] before:absolute before:top-0 before:left-0 before:h-[max(100px,6.638vw)] before:w-[max(100px,9.531vw)] before:bg-[url('../../public/images/salesforce-7/quote-1.svg')] before:bg-contain before:bg-no-repeat after:absolute after:bottom-0 after:right-0 after:h-[max(100px,6.638vw)] after:w-[max(100px,9.531vw)] after:bg-[url('../../public/images/salesforce-7/quote-2.svg')] after:bg-contain after:bg-no-repeat">
+                  {item.description}
+                </p>
+              </>
+            ),
+          }))}
+        />
+        <ButtonLink
+          additionalClasses="bg-secondary hover:bg-secondary-hover mt-12"
+          href="#Form"
+        >
+          Book A Free Consultation
+        </ButtonLink>
       </section>
 
-      
-
       <section>
-        <div className="grid gap-20 md:grid-cols-2">
-          <SideSectionHeading
-            data={salesforce7SideSectionHeading}
-          ></SideSectionHeading>
-          <DescriptionWithIcon
-            boxSize="md:w-[43%]"
-            iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
-            boxAdditionalClasses="space-y-4 bg-light-blue min-h-[max(100px,11.042vw)]"
-            data={salesforce7DescriptionWithIcon}
+        <SectionHeading additionalClasses="mb-8">
+          Bacforce -
+          <span className="font-bold">
+            {" "}
+            Your Trusted Salesforce Development Company
+          </span>
+        </SectionHeading>
+        <SectionDescription>
+          <p className="mx-auto mb-16 w-9/12 text-xl">
+            By establishing a Salesforce development center, we offer our
+            tailored engagement models cater to the unique needs by providing
+            <span className="font-bold"> B2B</span> and{" "}
+            <span className="font-bold">B2C</span> Dedicated development
+            support.
+          </p>
+        </SectionDescription>
+        <div className="mb-16 grid gap-16 md:grid-cols-10 md:gap-0">
+          <ImageSection
+            divClasses="md:col-span-5 mx-auto md:mx-0"
+            imageAlt="Salesforce Development Company"
+            imageSrc={sideImg}
+            imageClasses="w-[max(280px,37.708vw)]"
           />
+          <div className="flex flex-col justify-center md:col-span-5 md:pl-16">
+            <h3 className="mb-8 font-bold md:text-left">
+              Our Development Center Strength
+            </h3>
+            <DescriptionWithIcon
+              boxSize="sm:w-[50%]"
+              iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)]"
+              boxAdditionalClasses="space-y-4 bg-light-blue"
+              data={salesforce7DescriptionWithIcon.chooseBacForce}
+              additionalClassesForHeading="text-light-blue !font-bold text-4xl"
+              additionalClassesForDescription="text-xl"
+            />
+          </div>
         </div>
+        <DescriptionWithIcon
+          mainDivClasses="sm:divide-x sm:divide-y-0 divide-gray divide-y"
+          imageClasses="mx-auto"
+          boxSize="sm:w-[33.33%] md:w-[20%]"
+          iconSize="w-[max(30px,2.083vw)] h-[max(30px,2.083vw)] group-hover:!invert-0"
+          boxAdditionalClasses="space-y-4 !p-5 hover:!bg-white hover:!shadow-none"
+          data={salesforce7DescriptionWithIcon.features}
+          additionalClassesForDescription="text-xl group-hover:!text-primary text-center"
+          imgDivClasses="pr-0 mx-auto"
+        />
       </section>
 
       <Faq data={salesforce4Faq} />

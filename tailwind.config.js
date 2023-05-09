@@ -64,6 +64,7 @@ module.exports = {
     boxShadow: {
       DEFAULT: "0px max(16px,0.833vw) max(32px,1.667vw) #1616161A",
       blue: "0px max(16px,0.833vw) max(32px,1.667vw) #2063F01A",
+      none: "0 0 #0000",
     },
     spacing: {
       px: "1px", // 1px
@@ -98,7 +99,7 @@ module.exports = {
       56: "max(208px,11.667vw)", // 224px
       60: "max(104px,12.5vw)", // 240px
       64: "max(100px,13.333vw)", // 256px
-      72: "max(256px,15vw)", // 288px
+      72: "max(56px,15vw)", // 288px
       80: "max(192px,16.667vw)", // 320px
       96: "max(320px,20vw)", // 384px
     },

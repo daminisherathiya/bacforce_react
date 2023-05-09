@@ -1,28 +1,12 @@
-import ImageSection from "@/ui/ImageSection";
-
-const TabPanel = ({ item, index, openIndex }) => {
+const TabPanel = ({ index, openIndex, children }) => {
   return (
     <>
       <div
-        className={`p-3.5 md:pl-11 text-left ${
+        className={`p-3.5 text-left md:pl-11 ${
           index === openIndex ? "" : "hidden"
         }`}
       >
-        <h3 className="mb-7 font-bold">{item.description.heading}</h3>
-        <p className="mb-10 text-xl text-secondary">
-          {item.description.paragraph}
-        </p>
-        <div className="flex flex-wrap items-center space-x-10">
-          {item.description.images.map((image, index) => (
-            <ImageSection
-              divClasses="py-2"
-              key={index}
-              imageAlt={image.alt}
-              imageSrc={image.logoImg}
-              imageClasses={image.size}
-            />
-          ))}
-        </div>
+        {children}
       </div>
     </>
   );
