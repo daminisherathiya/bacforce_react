@@ -36,7 +36,7 @@ const salesforce2 = () => {
     <>
       <Meta data={salesforce7Meta} />
 
-      <Header hiddenLinkIds={[4]} />
+      <Header />
 
       <Banner>
         <ImageSection
@@ -61,7 +61,7 @@ const salesforce2 = () => {
             </span>
           </SectionHeading>
           <SectionDescription>
-            <p className="mx-auto w-11/12 text-xl">
+            <p className="mx-auto lg:w-11/12 text-xl">
               Our advanced Salesforce customization services comprehensively
               cover the entire Salesforce platform. Get fully customized
               Salesforce CRM architectures and interfaces to maintain excellent
@@ -127,7 +127,7 @@ const salesforce2 = () => {
           </div>
         </div>
       </section>
-      <HireSalesforceDeveloper id="Form">
+      <HireSalesforceDeveloper additionalClasses="-scroll-mt-28" id="Form">
         <SectionHeading additionalClasses="mb-6 text-6xl !text-white pt-52">
           <span className="font-bold">Get a Strategic Guidance from Our </span>
           <br className="hidden lg:block" /> Salesforce Consultant
@@ -150,7 +150,7 @@ const salesforce2 = () => {
 
       <Success />
 
-      <section className="mt-28 scroll-mt-28 bg-light-blue">
+      <section id="TechnicalStack" className="mt-28 scroll-mt-28 bg-light-blue">
         <SectionHeading additionalClasses="mb-8">
           Salesforce Products{" "}
           <span className="font-bold">We Can Help You Customize</span>
@@ -179,7 +179,7 @@ const salesforce2 = () => {
 
       <CaseStudy theme="white" />
 
-      <section id="TechnicalStack" className="scroll-mt-28 bg-light-blue">
+      <section className="scroll-mt-28 bg-light-blue">
         <SectionHeading additionalClasses="mb-16">
           What Our Amazing
           <span className="font-bold"> Clients Say About Us</span>

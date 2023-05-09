@@ -36,7 +36,7 @@ const salesforce1 = () => {
     <>
       <Meta data={salesforce1Meta} />
 
-      <Header hiddenLinkIds={[4]}></Header>
+      <Header />
 
       <Banner id="Form">
         <BannerHeading
@@ -137,12 +137,9 @@ const salesforce1 = () => {
             </p>
           </SectionDescription>
         </div>
-        <div className="[counter-reset:my-counter] grid text-left mt-16 gap-4 md:grid-cols-2">
+        <div className="mt-16 grid gap-4 text-left [counter-reset:my-counter] md:grid-cols-2">
           {salesforce1NumberBackground.map((item, index) => (
-            <NumberBackgroundBox
-              key={index}
-              data={item}
-            />
+            <NumberBackgroundBox key={index} data={item} />
           ))}
         </div>
         <ButtonLink

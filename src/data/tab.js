@@ -358,7 +358,7 @@ export const salesforce7Tab = [
       userRole: "CEO Of UBIX",
     },
     description:
-      "We’ve partnered with Bacancy to upgrade our existing Salesforce process. They helped us with customization and configuration with the enhancements of the existing Salesforce console. I was impressed by the team's receptiveness to code reviews and progressive feedback during the process to meet project expectations and requirements.",
+      "We’ve partnered with Bacforce to upgrade our existing Salesforce process. They helped us with customization and configuration with the enhancements of the existing Salesforce console. I was impressed by the team's receptiveness to code reviews and progressive feedback during the process to meet project expectations and requirements.",
   },
   {
     tabName: {
@@ -367,7 +367,7 @@ export const salesforce7Tab = [
       userRole: "CEO of Dopple",
     },
     description:
-      "Bacancy has been doing an excellent job with Salesforce and helping clients to maximize their investments. Their Salesforce Consultants have helped us to overcome the challenges like low user adoption of Salesforce, ineffectual reporting, poor visibility into the sales pipeline, KPIs, and lead conversion ratio. Moreover, their Project Manager took complete Ownership of the Project and delivered it within the Defined time frame.",
+      "Bacforce has been doing an excellent job with Salesforce and helping clients to maximize their investments. Their Salesforce Consultants have helped us to overcome the challenges like low user adoption of Salesforce, ineffectual reporting, poor visibility into the sales pipeline, KPIs, and lead conversion ratio. Moreover, their Project Manager took complete Ownership of the Project and delivered it within the Defined time frame.",
   },
   {
     tabName: {
@@ -376,6 +376,6 @@ export const salesforce7Tab = [
       userRole: "CEO/President at Telaeris, Inc.",
     },
     description:
-      "I was looking to build a Personalized and Customized User Dashboard in Salesforce, and I found Bacancy, as they kind of check all those needed boxes. Moreover, they helped us with various modifications, integrations with this centralized system, and third-party tools per our requirements. Bacancy has been able to do everything I've asked them to do, and they have been doing a fantastic job since our collaboration.",
+      "I was looking to build a Personalized and Customized User Dashboard in Salesforce, and I found Bacforce, as they kind of check all those needed boxes. Moreover, they helped us with various modifications, integrations with this centralized system, and third-party tools per our requirements. Bacforce has been able to do everything I've asked them to do, and they have been doing a fantastic job since our collaboration.",
   },
 ];
