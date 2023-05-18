@@ -150,3 +150,15 @@ export const salesforce5Features = {
     "We will also help you connect your sales, marketing and support teams with MRP, SRP, ERP and other back offices and legacy systems",
   ],
 };
+
+export const cloud3Features = {
+  challenges_re_solved: [
+    "Deficient alignment between sales, marketing, and support teams",
+    "Ineffective sales representative assessment and coaching",
+    "Long customer decision time frames",
+    "Disjointed sales processes",
+    "Communication gap between sales and marketing",
+    "Difficulty & errors in maintaining the calculations of prices, sales quotas, commissions",
+    "Inefficient sales processes, low sales productivity",
+  ],
+};

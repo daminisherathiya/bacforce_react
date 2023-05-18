@@ -29,6 +29,7 @@ import cloud from "../../public/images/icon/cloud.svg";
 import code from "../../public/images/icon/code.svg";
 import coin from "../../public/images/icon/coin.svg";
 import database from "../../public/images/icon/database.svg";
+import deviceAnalytics from "../../public/images/icon/device-analytics.svg";
 import deviceDesktopAnalytics from "../../public/images/icon/device-desktop-analytics.svg";
 import deviceMobile from "../../public/images/icon/device-mobile.svg";
 import eye from "../../public/images/icon/eye.svg";
@@ -47,6 +48,7 @@ import presentation from "../../public/images/icon/presentation.svg";
 import puzzle from "../../public/images/icon/puzzle.svg";
 import recharging from "../../public/images/icon/recharging.svg";
 import replace from "../../public/images/icon/replace.svg";
+import reportAnalytics from "../../public/images/icon/report-analytics.svg";
 import report from "../../public/images/icon/report.svg";
 import rotateRectangle from "../../public/images/icon/rotate-rectangle.svg";
 import route from "../../public/images/icon/route.svg";
@@ -65,6 +67,8 @@ import userCheck from "../../public/images/icon/user-check.svg";
 import userMinus from "../../public/images/icon/user-minus.svg";
 import users from "../../public/images/icon/users.svg";
 import worldGreen from "../../public/images/icon/worldGreen.svg";
+import exchange from "../../public/images/icon/exchange.svg";
+
 
 export const salesforce2DescriptionWithIcon = [
   { icon: code, title: "Apex Code" },
@@ -488,4 +492,15 @@ export const salesforce7DescriptionWithIcon = {
       description: "5/5 Pro User Rating",
     },
   ],
+};
+export const cloud3DescriptionWithIcon = {
+  challanges: [
+    { icon: deviceAnalytics, title: "Contact Management Software" },
+    { icon: chartDonut4, title: "Opportunity Management" },
+    { icon: reportAnalytics, title: "Reports and Dashboards" },
+    { icon: users, title: "Lead Management" },
+    { icon: recharging, title: "Activity Management" },
+    { icon: exchange, title: "Process Automation" },
+  ],
+  chooseBacForce: cloud1DescriptionWithIcon.chooseBacForce,
 };

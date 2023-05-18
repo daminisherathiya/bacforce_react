@@ -252,3 +252,35 @@ export const salesforce7WeOffer = [
       "Our Salesforce developers are skilled at performing Salesforce CRM integration with third-party platforms. We use REST/SOAP API web services for effective integration and seamless data flow.",
   },
 ];
+export const cloud3WeOffer = [
+  {
+    question: "Sales Cloud Consultation",
+    answer:
+      "The highly experienced staff at Bacforce will work in partnership with your team to understand your fundamental need or issue statement in a better way. Our skilled team of Salesforce-certified experts will find possibilities for automation in your Sales Cloud and assist you in devising a successful path to CRM implementation and usage.",
+  },
+  {
+    question: "Sales Cloud Implementation",
+    answer:
+      "We have a team of Salesforce professionals experienced to handle everything related to Salesforce and Salesforce Cloud. By leveraging our Salesforce Sales Cloud services, you can increase your sales and ROI. With our expertise and skills, we will develop Salesforce Sales Cloud solutions specific to your needs.",
+  },
+  {
+    question: "Sales Cloud Integration",
+    answer:
+      "Increase your sales, automate your sales process, and minimize your sale cycle by taking advantage of our Salesforce Sales cloud services. Our Salesforce experts will utilize different Salesforce features like Pardot, Lightning Dialer, Revenue intelligence, Einstein AI, Salesforce CPQ, and more to carry out effective Salesforce Cloud Integration.",
+  },
+  {
+    question: "Sales Cloud Migration",
+    answer:
+      "By deploying CRM migration options that offer exact data mapping while reducing security and information problems, we assist businesses in moving from their current CRM to Salesforce Sales Cloud. We ensure optimum data security and also offer post-data migration assistance to keep you afloat.",
+  },
+  {
+    question: "Sales Cloud Customization",
+    answer:
+      "Every organization faces distinctive problems that require specific answers. You may take advantage of cutting-edge Salesforce technologies that are tailored to your particular company's demands by working with Bacforce. We will develop customized Salesforce Sales Cloud Solutions to take your sales to the next level.",
+  },
+  {
+    question: "Sales Cloud Support",
+    answer:
+      "Our workforce at Bacforce provides smooth and individualized support to help you overcome obstacles when implementing or overseeing Salesforce Sales Cloud. Our customer support professionals will look into your issue and provide the finest solutions.",
+  },
+];

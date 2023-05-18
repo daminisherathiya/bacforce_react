@@ -65,3 +65,10 @@ export const salesforce7SideSectionHeading = {
   title: 'Upgrade Your Business Standards with <span class="font-bold">Our Salesforce Customization Services</span>',
   button: "Talk to Our Salesforce Experts",
 };
+export const cloud3SideSectionHeading = {
+  title:
+    'Services Offered by <span class="font-bold">Our Sales Cloud Developers</span>',
+  description:
+    "Hire SFCC developers with versatile skills aligning with your business requirements. Our Salesforce developers build secure, scalable, and dynamic enterprise-grade, cost-effective Salesforce Solutions. We have the pre-vetted Salesforce developers excelled in all the products of Salesforce CRM.",
+  button: "Book A Free Consultation",
+};

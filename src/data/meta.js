@@ -48,3 +48,8 @@ export const salesforce7Meta = {
   description: `Maximize your ROI with our Salesforce customization service that fits your business needs with ${bacforceYears} years of experienced salesforce expert. Book Free Consultation`,
   ogImage: "https://bacforce.com/landing/images/OG-images/salesforce-7.png",
 };
+export const cloud3Meta = {
+  title: `Salesforce Sales Cloud Developer | ${certifiedDevelopers} SFSC Developers`,
+  description: `We help you to grow your sales faster with our salesforce cloud services. Get better sales performance and more close leads with our salesforce cloud solutions`,
+  ogImage: "https://bacforce.com/landing/images/OG-images/cloud-3.png",
+};

@@ -136,3 +136,19 @@ export const salesforce7BannerHeading = {
   buttonName: "Get A Free Consultation",
   buttonHref: "#Form",
 };
+export const cloud3BannerHeading = {
+  heading:
+    "Hire Salesforce <span class='font-bold xl:block'>Sales Cloud Developer</span>",
+  subHeading: {
+    description: `${bacforceYears} Years of CRM Experience`,
+    additionalClasses: "font-semibold text-light-blue",
+  },
+  description: [
+    {
+      paragraph:
+        "Our SFSC developers help you manage your customer database in a seamless, automated, and efficient manner. Leverage our salesforce sales cloud services to accelerate your business growth more efficiently.",
+    },
+  ],
+  buttonName: "Talk to Our Salesforce Experts",
+  buttonHref: "#Form",
+};
