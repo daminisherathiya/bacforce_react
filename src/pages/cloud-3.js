@@ -15,10 +15,7 @@ import { cloud3Features } from "@/data/bulletPointList";
 import { cloud3DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { cloud2Faq } from "@/data/faq";
 import { cloud3Meta } from "@/data/meta";
-import {
-  cloud2SideSectionHeading,
-  cloud3SideSectionHeading,
-} from "@/data/sideSectionHeading";
+import { cloud3SideSectionHeading } from "@/data/sideSectionHeading";
 import { cloud3WeOffer } from "@/data/weOffer";
 import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
@@ -73,7 +70,7 @@ const cloud2 = () => {
       <section className="bg-light-blue">
         <div className="grid gap-20 md:grid-cols-2">
           <SideSectionHeading
-            data={cloud3SideSectionHeading}
+            data={cloud3SideSectionHeading.weOffer}
           ></SideSectionHeading>
           <Accordion accordionItemsData={cloud3WeOffer} />
         </div>
@@ -149,9 +146,9 @@ const cloud2 = () => {
       <CaseStudy />
 
       <section>
-        <div className="grid gap-20 md:grid-cols-2">
+        <div className="grid gap-20 md:grid-cols-2 ">
           <SideSectionHeading
-            data={cloud2SideSectionHeading}
+            data={cloud3SideSectionHeading.chooseBacForce}
           ></SideSectionHeading>
           <DescriptionWithIcon
             boxSize="md:w-[43%]"
