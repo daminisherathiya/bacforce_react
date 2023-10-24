@@ -12,7 +12,7 @@ import jira from "../../public/images/salesforce-5/integration-services-logo/jir
 import jive from "../../public/images/salesforce-5/integration-services-logo/jive.jpg";
 import linkedin from "../../public/images/salesforce-5/integration-services-logo/linkedin.jpg";
 import magento from "../../public/images/salesforce-5/integration-services-logo/magento.jpg";
-import mailChimp from "../../public/images/salesforce-5/integration-services-logo/mailchimp.jpg";
+import mailChimp from "../../public/images/salesforce-5/integration-services-logo/mailChimp.jpg";
 import mariadb from "../../public/images/salesforce-5/integration-services-logo/mariadb.jpg";
 import marketo from "../../public/images/salesforce-5/integration-services-logo/marketo.jpg";
 import microsoftExchange from "../../public/images/salesforce-5/integration-services-logo/microsoft-exchange.jpg";

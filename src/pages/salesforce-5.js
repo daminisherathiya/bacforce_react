@@ -16,7 +16,7 @@ import { salesforce5DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce4Faq } from "@/data/faq";
 import { salesforce5Meta } from "@/data/meta";
 import { salesforce5SideSectionHeading } from "@/data/sideSectionHeading";
-import { salesforce5Tab } from "@/data/Tab";
+import { salesforce5Tab } from "@/data/tab";
 import { salesforce5WeOffer } from "@/data/weOffer";
 import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";

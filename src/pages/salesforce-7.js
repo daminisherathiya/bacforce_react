@@ -16,7 +16,7 @@ import { salesforce7DescriptionWithIcon } from "@/data/descriptionWithIcon";
 import { salesforce4Faq } from "@/data/faq";
 import { salesforce7Meta } from "@/data/meta";
 import { salesforce7SideSectionHeading } from "@/data/sideSectionHeading";
-import { salesforce7Tab } from "@/data/Tab";
+import { salesforce7Tab } from "@/data/tab";
 import { salesforce7WeOffer } from "@/data/weOffer";
 import Accordion from "@/ui/Accordion";
 import BulletPointList from "@/ui/BulletPointList";
